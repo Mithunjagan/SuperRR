@@ -688,6 +688,7 @@ export function DataAppTopbar({
   const noun = surface === "report" ? "report" : "dashboard";
   const label = noun[0].toUpperCase() + noun.slice(1);
   const showTabs = surface !== "report" && tabs.length > 1;
+  const vercelViewer = globalThis.location?.hostname.endsWith(".vercel.app") ?? false;
   const [chromeColors, setChromeColors] = useState({});
   const [chromeLayout, setChromeLayout] = useState({});
   const topbar = useRef(null);
@@ -893,7 +894,7 @@ export function DataAppTopbar({
           )}
         </div>
 
-        <div className="dashboard-topbar-mode-controls" ref={modeControls}>
+        {!vercelViewer && <div className="dashboard-topbar-mode-controls" ref={modeControls}>
         {canEdit && mode === "edit" && <div className="dashboard-topbar-edit-controls">
           {(saving || saveStatus === "error") && (
             <span
@@ -979,7 +980,7 @@ export function DataAppTopbar({
             open={publishOpen} onOpenChange={setPublishOpen} />}
 
         </div>
-        </div>
+        </div>}
       </div>
       <div
         className={`dashboard-tabs-collapse${showTabs ? " is-open" : ""}`}
