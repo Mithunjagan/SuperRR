@@ -11,6 +11,8 @@ Interactive companion to the 17 November 2026 Round 1 scouting dossier. The two 
 
 The Gemini endpoint is server-side. The browser sends only the entered question. The function passes the question and aggregate evidence to Gemini. The package contains aggregate findings and no raw delivery data. The endpoint has per-instance request limits. Those limits do not act as a project-wide usage cap.
 
+Projects whose Vercel Root Directory is `supeRR-dashboard` use `supeRR-dashboard/api/analyst.mjs`, which loads a self-contained server bundle under `src/content/server/`. After changing this folder's canonical analyst or its evidence, run `node supeRR-vercel/sync-analyst.mjs` from the repository root and commit both bundles. The regression suite checks they stay synchronized. Configure `GEMINI_API_KEY` on the Vercel project that owns the dashboard URL, regardless of which root it uses.
+
 Vercel references
 - https://vercel.com/docs/cli/deploy
 - https://vercel.com/docs/environment-variables
