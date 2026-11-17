@@ -1,0 +1,295 @@
+import React, { useEffect, useRef, useState } from "react";
+import { DataComponent, useDataApp } from "../../data-app-public.jsx";
+import "./pressure.css";
+import Analyst from "./Analyst.jsx";
+
+const number = new Intl.NumberFormat("en-IN");
+const fmt = n => Number(n).toFixed(2);
+const signed = n => (n >= 0 ? "+" : "−") + fmt(Math.abs(n));
+const pct = n => (n * 100).toFixed(1) + "%";
+const roles = ["Batters", "Bowlers"];
+const metrics = [
+  ["score", "Final rating", "Adjusted runs / 100 balls"],
+  ["boot_q0.25", "Bootstrap Q25", "Adjusted runs / 100 balls"],
+  ["ipl_balls", "IPL balls", "Qualifying IPL balls"]
+];
+const nav = [["top","Overview"],["rankings","Rankings"],["comparison","Bowler duel"],["auction","Auction room"],["methods","Methodology"],["analyst","Ask the Analyst"]];
+const windows = [
+  ["Early collapse","First innings","0–59","legal balls already bowled","At least 3 wickets lost"],
+  ["Mid-chase","Second innings","31–60","legal balls remaining","9.5–16 required runs per over"],
+  ["Late chase","Second innings","1–30","legal balls remaining","8–16 required runs per over"]
+];
+
+function Mark({ className = "" }) {
+  return <span className={"rr-mark " + className} aria-hidden="true"><i/><i/><i/></span>;
+}
+
+function Evidence({ id, query, title, rows, children, className = "" }) {
+  return <DataComponent id={id} queryId={query} title={title} kind="custom" variant="plain" showHeading={false} sourceRows={rows}
+    className={className}><div data-reviewed-rows>{children}</div></DataComponent>;
+}
+
+function Heading({ index, title, detail }) {
+  return <header className="rr-heading"><div className="rr-kicker"><span/> {index}</div>
+    <h2>{title}</h2>{detail && <p>{detail}</p>}</header>;
+}
+
+function Choices({ options, value, onChange, label }) {
+  return <div className="rr-choices" role="group" aria-label={label}>
+    {options.map(([id, text]) => <button type="button" key={id} aria-pressed={value === id} onClick={() => onChange(id)}>{text}</button>)}
+  </div>;
+}
+
+function Split({ label, left, right, total, labels }) {
+  return <div className="rr-split"><strong>{label}</strong>
+    <div className="rr-split-track" aria-hidden="true"><span style={{ width: left / total * 100 + "%" }} /></div>
+    <div className="rr-split-label"><span><i/> {labels[0]} · {left}</span><span><i/> {labels[1]} · {right}</span></div>
+  </div>;
+}
+
+function PlayerCard({ player }) {
+  return <article className="rr-player">
+    <div className="rr-player-head">
+      <div><div className="rr-kicker">PLAYER FILE <b> / </b> #{String(player.final_rank).padStart(2,"0")}</div>
+        <h3>{player.name}</h3><p>{player.fit}</p></div>
+      <span className="rr-monogram" aria-hidden="true">{player.name.split(" ").map(word => word[0]).slice(0,2).join("")}</span>
+    </div>
+    <div className="rr-tiles">
+      <div><small>Final rating</small><strong>{fmt(player.score)}</strong></div>
+      <div><small>Pressure balls</small><strong>{player.balls}</strong></div>
+      <div><small>Positive matches</small><strong>{player.positive_matches}<em>/{player.matches}</em></strong></div>
+      <div><small>Own-baseline lift / 100</small><strong>{signed(player.lift_per100)}</strong></div>
+    </div>
+    <div className="rr-player-body">
+      <Split label="Format exposure" left={player.ipl_balls} right={player.t20i_balls} total={player.balls} labels={["IPL","T20I"]}/>
+      <Split label="Pressure exposure" left={player.chase_balls} right={player.collapse_balls} total={player.balls} labels={["Chase","Collapse"]}/>
+      <div className="rr-player-meta"><span>Chase-only rank <strong>{player.chase_rank == null ? "Ineligible" : "#" + player.chase_rank}</strong></span>
+        <span>Bootstrap Q25 <strong>{fmt(player["boot_q0.25"])}</strong></span></div>
+      <p className="rr-deployment"><b>RR deployment</b>{player.deployment}</p>
+    </div>
+  </article>;
+}
+
+function RankExplorer({ rows }) {
+  const [role, setRole] = useState(roles[0]);
+  const [rank, setRank] = useState(1);
+  const [metric, setMetric] = useState("score");
+  const group = rows.filter(p => p.role === role);
+  const player = group.find(p => p.final_rank === rank);
+  const [,,unit] = metrics.find(([id]) => id === metric);
+  const values = group.map(p => p[metric]);
+  const min = Math.min(0, ...values);
+  const max = Math.max(1, ...values);
+  const position = n => 100 * (n - min) / (max - min);
+  const zero = position(0);
+  return <section id="rankings" className="rr-section" data-reveal>
+    <div className="rr-section-top"><Heading index="THE SHORTLIST" title="Pressure rankings" detail="Select a player to inspect their sample, consistency and RR role."/>
+      <Choices options={roles.map(r => [r,r])} value={role} onChange={r => {setRole(r); setRank(1);}} label="Player category"/>
+    </div>
+    <div className="rr-rank-grid">
+      <Evidence id="official-rankings" query="shortlist" title="Official submission order" rows={group} className="rr-panel">
+        <div className="rr-rank-header"><div><h3>Official order</h3><small>{unit}</small></div>
+          <Choices options={metrics} value={metric} onChange={setMetric} label="Displayed ranking metric"/></div>
+        <ol className="rr-rank-list" aria-label={role + " official order"}>
+          {group.map(p => {
+            const end = position(p[metric]);
+            return <li key={p.name}><button type="button" aria-pressed={rank === p.final_rank} onClick={() => setRank(p.final_rank)}>
+              <span className="rr-rank-no">{String(p.final_rank).padStart(2,"0")}</span>
+              <span className="rr-rank-name">{p.name}</span>
+              <span className="rr-row-bar" aria-hidden="true">{min < 0 && <b style={{left:zero+"%"}}/>}
+                <i style={{left:Math.min(zero,end)+"%",width:Math.abs(end-zero)+"%"}}/></span>
+              <strong>{metric === "ipl_balls" ? p[metric] : fmt(p[metric])}</strong>
+            </button></li>;
+          })}
+        </ol>
+        <p className="rr-small rr-rank-foot">Final rating sets the submission order for every metric view.</p>
+      </Evidence>
+      <Evidence id="selected-player" query="shortlist" title="Selected player evidence" rows={[player]}>
+        <div aria-live="polite"><PlayerCard player={player}/></div>
+      </Evidence>
+    </div>
+  </section>;
+}
+
+const duelModes = [
+  ["score","Final rating","Adjusted runs per 100 balls","Hosein leads the official ranking by 0.44 points."],
+  ["boot_q0.25","Bootstrap Q25","Adjusted runs per 100 balls","Bumrah leads at the 25th percentile of the match bootstrap."],
+  ["ipl_balls","IPL exposure","Qualifying IPL balls","Bumrah has 89 more qualifying IPL balls in this sample."]
+];
+
+function Duel({ bowlers, totals }) {
+  const [mode, setMode] = useState("score");
+  const [,,unit,summary] = duelModes.find(([id]) => id === mode);
+  const pair = bowlers.slice(0,2);
+  const max = Math.max(...pair.map(p => p[mode])) * 1.06;
+  return <section id="comparison" className="rr-section rr-duel" data-reveal>
+    <div className="rr-duel-inner">
+      <Heading index="THE CLOSEST CALL" title="Hosein vs Bumrah" detail="The official rating, the IPL evidence and the auction role point to different strengths."/>
+      <Choices options={duelModes} value={mode} onChange={setMode} label="Bowler comparison metric"/>
+      <Evidence id="bowler-duel" query="shortlist" title="Leading bowler comparison" rows={pair}>
+        <div className="rr-duel-chart" aria-label={unit}>
+          {pair.map((p,i) => <div className={"rr-duel-line rr-duel-"+i} key={p.name}>
+            <b>{p.name}</b><div aria-hidden="true"><span style={{width:p[mode]/max*100+"%"}}/></div>
+            <strong>{mode === "ipl_balls" ? p[mode] : fmt(p[mode])}</strong>
+          </div>)}
+        </div>
+        <p className="rr-duel-caption" aria-live="polite"><span>{unit}</span>{summary}</p>
+        <div className="rr-duel-facts">
+          <span>Chase-only rank <b>Hosein #2 · Bumrah #1</b></span>
+          <span>Positive matches <b>Hosein 15/19 · Bumrah 16/24</b></span>
+          <span>Own-baseline lift / 100 <b>Hosein +41.56 · Bumrah +5.57</b></span>
+        </div>
+      </Evidence>
+      <Evidence id="joint-bootstrap" query="screening" title="Joint fixture bootstrap" rows={[totals]}>
+        <p className="rr-joint"><b>{pct(totals.bumrahAhead)}</b><span>Bumrah led in {pct(totals.bumrahAhead)} of {number.format(totals.draws)} draws across {totals.fixtures} fixtures. The middle 95% of the rating gap ran from {signed(totals.jointLow)} to {signed(totals.jointHigh)}, leaving the order uncertain.</span></p>
+      </Evidence>
+      <div className="rr-leverage"><strong>Win-probability cross-check</strong><p>Bumrah +0.70 (+0.08 to +1.24), Hosein +0.07 (−0.32 to +0.47) percentage points per ball. The interval for the gap includes zero.</p></div>
+    </div>
+  </section>;
+}
+
+const callOptions = [["finish","Finishing slot opens"],["pace","Archer leaves"],["spin","Overseas spin role opens"]];
+const calls = {
+  finish: ["Heinrich Klaasen","First bid for finishing","If he enters the official pool and RR has an overseas finishing slot, add right-handed boundary hitting behind Jurel and Parag.","37.14","Final rating","5.85","Hetmyer rating"],
+  pace: ["Jasprit Bumrah","First bid for pace","If he enters the official pool, prioritise the death overs alongside Shami and use Bumrah with the new ball when needed.","113","Qualifying IPL balls","#1","Chase-only bowling rank"],
+  spin: ["Akeal Hosein","Conditional new-ball spin bid","Consider him if he enters the official pool and RR has a distinct overseas new-ball spin role alongside Siddharth.","22.10","Final rating","15/19","Positive matches"]
+};
+
+function Auction({ comparators, scenario, setScenario }) {
+  const [player, label, decision, one, oneLabel, two, twoLabel] = calls[scenario];
+  return <section id="auction" className="rr-section" data-reveal>
+    <Heading index="RR SQUAD FIT" title="Auction room" detail="Test the bid against the vacancy it would fill."/>
+    <Choices options={callOptions} value={scenario} onChange={setScenario} label="Auction scenario"/>
+    <div className="rr-call" aria-live="polite">
+      <div><div className="rr-kicker">{label}</div><h3>{player}</h3><p>{decision}</p></div>
+      <div><strong>{one}</strong><span>{oneLabel}</span></div>
+      <div><strong>{two}</strong><span>{twoLabel}</span></div>
+    </div>
+    <p className="rr-availability"><span/> <b>17 Nov 2026 snapshot</b> · Official auction-pool confirmation pending for the eligible shortlist.</p>
+    <Evidence id="auction-comparators" query="auction" title="Historical RR role comparisons" rows={comparators} className="rr-panel">
+      <div className="rr-table-header"><h3>Candidate vs RR comparator</h3><small>Final rating · adjusted runs / 100 balls</small></div>
+      <div className="rr-table-wrap"><table>
+        <thead><tr><th scope="col">Role</th><th scope="col">Candidate</th><th scope="col">RR comparator</th><th scope="col">Gap</th></tr></thead>
+        <tbody>{comparators.map(row => <tr key={row.label}><th scope="row">{row.label}</th><td>{row.target} <b>{fmt(row.targetScore)}</b></td><td>{row.incumbent} <b>{fmt(row.incumbentScore)}</b></td><td className={row.gap < 0 ? "rr-negative" : "rr-positive"}><b>{signed(row.gap)}</b></td></tr>)}</tbody>
+      </table></div>
+      <p className="rr-small rr-table-note">Hazlewood is the pace fallback. Ferreira fell short of the final-rating eligibility rules.</p>
+    </Evidence>
+  </section>;
+}
+
+function Methodology({ robustness }) {
+  const [window, setWindow] = useState(0);
+  const [name, innings, balls, ballLabel, condition] = windows[window];
+  return <section id="methods" className="rr-section" data-reveal>
+    <Heading index="MODEL & VALIDATION" title="What counts as pressure?" detail="We read the score before each delivery and apply the same situations to both roles."/>
+    <Choices options={windows.map(([label],i) => [i,label])} value={window} onChange={setWindow} label="Pressure window"/>
+    <div className="rr-rule" aria-live="polite">
+      <div><span className="rr-kicker">{innings}</span><h3>{name}</h3><p>{condition}{window > 0 && " · At least 2 wickets in hand"}</p></div>
+      <div><strong>{balls}</strong><span>{ballLabel}</span></div>
+    </div>
+    <div className="rr-method-grid">
+      <article className="rr-panel rr-method"><h3>From ball to rating</h3><ol>
+        <li><b>Value each ball.</b> Bat runs minus dismissal cost for batters. Credited wicket value minus charged runs for bowlers.</li>
+        <li><b>Adjust for context.</b> Use earlier-date IPL or T20I expectations by innings, phase and match state, then adjust for the opponent.</li>
+        <li><b>Check usual performance.</b> Compare with each player’s earlier ordinary adjusted rate after 120 ordinary balls. Report this lift alongside the final rating.</li>
+        <li><b>Remove one match at a time.</b> Calculate 100 × remaining adjusted value ÷ (remaining balls + 60). Use the minimum. Each removal must leave 60 balls and eight qualifying matches.</li>
+      </ol></article>
+      <Evidence id="ranking-overlap" query="robustness" title="Final top-ten membership retained" rows={robustness} className="rr-panel">
+        <div className="rr-table-header"><h3>How much of the top ten survives?</h3><small>Players retained from each final list</small></div>
+        <div className="rr-table-wrap"><table><thead><tr><th scope="col">Sensitivity check</th>{robustness.map(r => <th key={r.role} scope="col">{r.role}</th>)}</tr></thead>
+          <tbody>{[["chase","Chase-only"],["q25","Match bootstrap Q25"],["equal8","Equal-eight-match Q25"],["leverage","Win-probability leverage"]].map(([id,label]) =>
+            <tr key={id}><th scope="row">{label}</th>{robustness.map(r => <td key={r.role}><b>{r[id]} / 10</b></td>)}</tr>)}</tbody></table></div>
+      </Evidence>
+    </div>
+    <Evidence id="forecast-test" query="robustness" title="2026 forward test" rows={robustness} className="rr-panel rr-forecast">
+      <div className="rr-table-header"><h3>Can the rating predict 2026?</h3><small>Forecast RMSE · lower is better</small></div>
+      <div className="rr-table-wrap"><table><thead><tr><th scope="col">2026 cohort</th><th scope="col">Players</th><th scope="col">Zero baseline</th><th scope="col">Final rating</th><th scope="col">Bootstrap Q25</th><th scope="col">Final-rating Spearman</th></tr></thead>
+        <tbody>{robustness.map(r => <tr key={r.role}><th scope="row">{r.role}</th><td>{r.players}</td><td><b>{fmt(r.zero)}</b></td><td>{fmt(r.deletion)}</td><td>{fmt(r.forecastQ25)}</td><td>{r.spearman.toFixed(3)}</td></tr>)}</tbody></table></div>
+      <p className="rr-small rr-table-note">Zero predicts performance in line with context and opponent expectations. It had lower error in both roles. We repeatedly inspected 2026, and no parameter, rank or adjudication was preregistered. Use these ratings as a historical shortlist.</p>
+    </Evidence>
+  </section>;
+}
+
+export function DashboardContent() {
+  const { reviewedRows } = useDataApp();
+  const root = useRef(null);
+  const [active, setActive] = useState("top");
+  const [scenario, setScenario] = useState("finish");
+  const rows = reviewedRows("shortlist");
+  const totals = reviewedRows("screening")[0];
+  const comparators = reviewedRows("auction");
+  const robustness = reviewedRows("robustness");
+
+  useEffect(() => {
+    const page = root.current;
+    const reveal = new IntersectionObserver(entries => {
+      for (const entry of entries) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("rr-visible");
+          reveal.unobserve(entry.target);
+        }
+      }
+    }, {threshold:0.07});
+    page.querySelectorAll("[data-reveal]").forEach(section => reveal.observe(section));
+    const sections = nav.map(([id]) => page.querySelector("#"+id));
+    let frame = 0;
+    function update() {
+      frame = 0;
+      const rect = page.getBoundingClientRect();
+      const viewport = window.innerHeight;
+      const traveled = Math.max(0, -rect.top);
+      const total = Math.max(1, rect.height - viewport);
+      page.style.setProperty("--rr-progress", Math.min(1,traveled/total));
+      page.style.setProperty("--rr-parallax", Math.min(43, traveled * .13) + "px");
+      const pointer = sections.reduce((current, section) => section.getBoundingClientRect().top <= viewport * .35 ? section.id : current, "top");
+      setActive(pointer);
+    }
+    function schedule() { if (!frame) frame = requestAnimationFrame(update); }
+    document.addEventListener("scroll", schedule, {passive:true,capture:true});
+    window.addEventListener("resize", schedule);
+    update();
+    return () => {
+      reveal.disconnect();
+      cancelAnimationFrame(frame);
+      document.removeEventListener("scroll", schedule, true);
+      window.removeEventListener("resize", schedule);
+    };
+  }, []);
+
+  return <div ref={root} className="rr-page">
+    <nav className="rr-nav" aria-label="Scouting dashboard">
+      <a className="rr-brand" href="#top"><Mark/> Supe<span>RR</span></a>
+      <div className="rr-nav-links">{nav.map(([id, name]) => <a key={id} href={"#"+id} aria-current={active === id ? "location" : undefined}>{name}</a>)}</div>
+      <span className="rr-round">ROUND 1 <b>•</b> IPL 2027</span>
+    </nav>
+    <section id="top" className="rr-hero">
+      <div className="rr-hero-art" aria-hidden="true"/><div className="rr-hero-orbit" aria-hidden="true"/>
+      <div className="rr-hero-content">
+        <div className="rr-kicker"><span/> RAJASTHAN ROYALS SCOUTING ANALYSIS</div>
+        <h1>Under<br/><em>Pressure.</em></h1>
+        <p>Who delivers when the innings turns?<br/>Explore the SupeRR Selector Round 1 evidence.</p>
+        <div className="rr-hero-actions"><a className="rr-primary" href="#rankings">Explore rankings <span>↘</span></a><a className="rr-secondary" href="#auction">Auction calls <span>↗</span></a></div>
+      </div>
+      <span className="rr-hero-tag">IPL + T20I <b> / </b> 17 NOV 2026</span>
+    </section>
+    <Evidence id="opening-scouting-calls" query="shortlist" title="Opening scouting calls" rows={rows.filter(p => ["Heinrich Klaasen","Akeal Hosein","Jasprit Bumrah"].includes(p.name))}>
+      <div className="rr-leaders">
+        <a href="#rankings"><small>01 / TOP BATTER</small><div><strong>Heinrich Klaasen</strong><b>37.14</b></div><p>First bid if he is in the pool and an overseas slot opens.</p></a>
+        <a href="#comparison"><small>01 / TOP BOWLER</small><div><strong>Akeal Hosein</strong><b>22.10</b></div><p>Leads the official bowling shortlist.</p></a>
+        <a href="#auction" onClick={() => setScenario("pace")}><small>RR / PACE CALL</small><div><strong>Jasprit Bumrah</strong><b>113 <em>balls</em></b></div><p>Conditional first pace bid if Archer leaves.</p></a>
+      </div>
+    </Evidence>
+    <Evidence id="analysis-coverage" query="screening" title="Screened match coverage" rows={[totals]}>
+      <div className="rr-coverage">{[[totals.matches,"screened matches"],[totals.events,"regulation events"],[totals.pressure,"events in the pressure window"]].map(([n,label]) => <span key={label}><b>{number.format(n)}</b> {label}</span>)}</div>
+    </Evidence>
+    <RankExplorer rows={rows}/>
+    <Duel bowlers={rows.filter(p => p.role === "Bowlers")} totals={totals}/>
+    <Auction comparators={comparators} scenario={scenario} setScenario={setScenario}/>
+    <Methodology robustness={robustness}/>
+    <Analyst/>
+    <footer className="rr-footer"><a className="rr-brand" href="#top"><Mark/> Supe<span>RR</span></a><p>Round 1 scouting dossier and final recheck · 17 November 2026</p><a href="#top">Back to top ↑</a></footer>
+  </div>;
+}
+
+
+

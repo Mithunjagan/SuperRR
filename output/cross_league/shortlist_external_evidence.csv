@@ -1,0 +1,21 @@
+role,rank,player,model_a,cricsheet_id,public_qualifies,public_2026_qualifies,public_leagues,public_balls,public_matches,public_positive_matches,public_per100,public_lift_per100,public_2026_balls,public_2026_matches,public_2026_positive_matches,public_2026_per100,public_2026_lift_per100,public_per100_ci_low,public_per100_ci_high
+Batters,1,Dewald Brevis,34.427866,844e79d1,True,True,SA20,74.0,9.0,8.0,43.174111,29.529441,50.0,5.0,5.0,42.593378,25.300245,14.389145,82.838692
+Batters,2,Iftikhar Ahmed,32.610428,29e253dd,True,False,"CPL, PSL",58.0,8.0,4.0,-5.389524,-12.721508,6.0,1.0,1.0,115.226448,105.632141,-83.369621,89.915418
+Batters,3,Heinrich Klaasen,30.47972,235c2bb6,True,False,SA20,96.0,12.0,9.0,30.285579,-6.316506,8.0,2.0,1.0,-54.460241,-88.693933,-8.078001,60.796625
+Batters,4,Shreyas Iyer,29.666024,85ec8e33,False,False,,0.0,0.0,,,,0.0,0.0,,,,,
+Batters,5,Rinku Singh,25.286797,0a509d6b,False,False,,0.0,0.0,,,,0.0,0.0,,,,,
+Batters,6,Namboori Tilak Varma,25.232313,b0482a1d,False,False,,0.0,0.0,,,,0.0,0.0,,,,,
+Batters,7,Mark Chapman,24.867626,7fa12533,False,False,PSL,6.0,1.0,0.0,-3.60469,-15.992345,6.0,1.0,0.0,-3.60469,-15.992345,,
+Batters,8,Nicholas Pooran,24.779413,3241e3fd,True,False,"CPL, SA20",51.0,7.0,3.0,16.239009,-5.776276,0.0,0.0,,,,-92.404637,102.197551
+Batters,9,Kamindu Mendis,22.720231,08548b13,False,False,,0.0,0.0,,,,0.0,0.0,,,,,
+Batters,10,Tim David,20.500547,f1f99156,True,False,"BBL, CPL, PSL, SA20",129.0,16.0,5.0,-29.043198,-69.133943,0.0,0.0,,,,-71.934586,2.898813
+Bowlers,1,Rashid Khan,33.984574,5f547c8b,True,False,"BBL, CPL, PSL, SA20",83.0,13.0,8.0,-8.272113,-25.375776,1.0,1.0,1.0,28.378989,6.068104,-89.676085,61.405834
+Bowlers,2,Josh Hazlewood,30.973535,03806cf8,False,False,,0.0,0.0,,,,0.0,0.0,,,,,
+Bowlers,3,Varun Chakravarthy,29.188358,5b7ab5a9,False,False,,0.0,0.0,,,,0.0,0.0,,,,,
+Bowlers,4,Wanindu Hasaranga,26.995184,a97c8ec2,False,False,,0.0,0.0,,,,0.0,0.0,,,,,
+Bowlers,5,Jason Holder,23.759251,0f721006,True,False,"CPL, PSL",72.0,11.0,7.0,3.942641,7.549784,6.0,1.0,1.0,1.950195,0.93338,-32.428496,42.288916
+Bowlers,6,Naveen ul Haq,22.473342,c0c411cb,True,False,"CPL, PSL, SA20",69.0,10.0,6.0,-19.73954,-17.895668,0.0,0.0,,,,-67.044398,29.597417
+Bowlers,7,Shaheen Afridi,21.531826,45a7e761,True,False,PSL,98.0,12.0,5.0,3.997408,-21.086165,11.0,2.0,1.0,13.759607,-10.72218,-47.446466,49.547515
+Bowlers,8,Hardik Pandya,20.77969,dbe50b21,False,False,,0.0,0.0,,,,0.0,0.0,,,,,
+Bowlers,9,Sunil Narine,18.302577,9d430b40,True,False,"CPL, SA20",64.0,11.0,9.0,68.680698,34.1932,6.0,1.0,1.0,167.074047,134.419764,30.050099,102.811821
+Bowlers,10,Jofra Archer,15.165073,5574750c,False,False,,0.0,0.0,,,,0.0,0.0,,,,,

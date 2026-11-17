@@ -1,0 +1,618 @@
+{
+  "development_years": [
+    2024,
+    2025
+  ],
+  "evaluation_year": 2026,
+  "adoption_rule": "95% paired match-bootstrap RMSE improvement interval above zero and no loss in holdout Spearman.",
+  "Batters": {
+    "players_by_year": {
+      "2024": 7,
+      "2025": 11,
+      "2026": 14
+    },
+    "selected_ordinary_challenger": "ordinary_prior_match_cap",
+    "adopt": false,
+    "metrics": {
+      "current": {
+        "settings": [
+          "zero",
+          60,
+          null
+        ],
+        "dev_rmse": 34.675,
+        "holdout_rmse": 51.048,
+        "holdout_spearman": 0.398,
+        "rmse_improvement_95_interval": [
+          0.0,
+          0.0
+        ],
+        "top10_after_best_match_removed": 9,
+        "rank_correlation_after_best_match_removed": 0.886
+      },
+      "ordinary_only": {
+        "settings": [
+          "ordinary_only",
+          null,
+          null
+        ],
+        "dev_rmse": 27.141,
+        "holdout_rmse": 50.443,
+        "holdout_spearman": 0.323,
+        "rmse_improvement_95_interval": [
+          -6.196,
+          4.398
+        ],
+        "top10_after_best_match_removed": 10,
+        "rank_correlation_after_best_match_removed": 1.0
+      },
+      "zero_prior_tuned": {
+        "settings": [
+          "zero",
+          60,
+          null
+        ],
+        "dev_rmse": 34.675,
+        "holdout_rmse": 51.048,
+        "holdout_spearman": 0.398,
+        "rmse_improvement_95_interval": [
+          0.0,
+          0.0
+        ],
+        "top10_after_best_match_removed": 9,
+        "rank_correlation_after_best_match_removed": 0.886
+      },
+      "ordinary_prior": {
+        "settings": [
+          "ordinary",
+          240,
+          null
+        ],
+        "dev_rmse": 28.239,
+        "holdout_rmse": 50.097,
+        "holdout_spearman": 0.455,
+        "rmse_improvement_95_interval": [
+          -4.226,
+          3.671
+        ],
+        "top10_after_best_match_removed": 10,
+        "rank_correlation_after_best_match_removed": 0.969
+      },
+      "robust_match_value": {
+        "settings": [
+          "clip",
+          60,
+          200
+        ],
+        "dev_rmse": 34.432,
+        "holdout_rmse": 50.878,
+        "holdout_spearman": 0.415,
+        "rmse_improvement_95_interval": [
+          -0.971,
+          1.167
+        ],
+        "top10_after_best_match_removed": 10,
+        "rank_correlation_after_best_match_removed": 0.829,
+        "adopt": false
+      },
+      "ordinary_prior_match_cap": {
+        "settings": [
+          "ordinary",
+          240,
+          6
+        ],
+        "dev_rmse": 28.172,
+        "holdout_rmse": 49.643,
+        "holdout_spearman": 0.323,
+        "rmse_improvement_95_interval": [
+          -4.292,
+          3.97
+        ],
+        "top10_after_best_match_removed": 10,
+        "rank_correlation_after_best_match_removed": 0.996
+      }
+    },
+    "holdout_players": [
+      {
+        "player": 1077,
+        "name": "David Miller",
+        "balls": 46,
+        "matches": 5,
+        "observed": 23.536,
+        "ordinary_prior": 16.7934,
+        "current": 18.0371,
+        "ordinary_only": 11.5742,
+        "zero_prior_tuned": 18.0371,
+        "robust_match_value": 21.9821,
+        "ordinary_prior_match_cap": 8.5366
+      },
+      {
+        "player": 1699,
+        "name": "Suryakumar Yadav",
+        "balls": 13,
+        "matches": 4,
+        "observed": -7.3339,
+        "ordinary_prior": 23.9065,
+        "current": -3.1179,
+        "ordinary_only": 41.4637,
+        "zero_prior_tuned": -3.1179,
+        "robust_match_value": 3.1588,
+        "ordinary_prior_match_cap": 25.7652
+      },
+      {
+        "player": 2436,
+        "name": "Dasun Shanaka",
+        "balls": 25,
+        "matches": 4,
+        "observed": 71.7604,
+        "ordinary_prior": 9.5268,
+        "current": 6.4342,
+        "ordinary_only": 8.8718,
+        "zero_prior_tuned": 6.4342,
+        "robust_match_value": 11.7719,
+        "ordinary_prior_match_cap": 4.959
+      },
+      {
+        "player": 2876,
+        "name": "Axar Patel",
+        "balls": 26,
+        "matches": 5,
+        "observed": -54.1999,
+        "ordinary_prior": 5.4901,
+        "current": 4.7075,
+        "ordinary_only": 4.7697,
+        "zero_prior_tuned": 4.7075,
+        "robust_match_value": 4.8173,
+        "ordinary_prior_match_cap": 2.7108
+      },
+      {
+        "player": 3330,
+        "name": "Hardik Pandya",
+        "balls": 14,
+        "matches": 3,
+        "observed": -19.2152,
+        "ordinary_prior": 9.5351,
+        "current": 10.7588,
+        "ordinary_only": 6.0041,
+        "zero_prior_tuned": 10.7588,
+        "robust_match_value": 14.5354,
+        "ordinary_prior_match_cap": 5.1185
+      },
+      {
+        "player": 3647,
+        "name": "Shreyas Iyer",
+        "balls": 43,
+        "matches": 6,
+        "observed": 62.1724,
+        "ordinary_prior": 24.8585,
+        "current": 20.5105,
+        "ordinary_only": 21.2709,
+        "zero_prior_tuned": 20.5105,
+        "robust_match_value": 20.4376,
+        "ordinary_prior_match_cap": 23.2198
+      },
+      {
+        "player": 3916,
+        "name": "Jitesh Sharma",
+        "balls": 13,
+        "matches": 3,
+        "observed": -121.578,
+        "ordinary_prior": 16.6001,
+        "current": 15.5605,
+        "ordinary_only": 13.2385,
+        "zero_prior_tuned": 15.5605,
+        "robust_match_value": 17.4923,
+        "ordinary_prior_match_cap": 11.1555
+      },
+      {
+        "player": 4260,
+        "name": "Heinrich Klaasen",
+        "balls": 49,
+        "matches": 6,
+        "observed": 56.515,
+        "ordinary_prior": 36.782,
+        "current": 24.679,
+        "ordinary_only": 37.9244,
+        "zero_prior_tuned": 24.679,
+        "robust_match_value": 27.0579,
+        "ordinary_prior_match_cap": 35.5226
+      },
+      {
+        "player": 4755,
+        "name": "Shivam Dube",
+        "balls": 38,
+        "matches": 7,
+        "observed": -32.9554,
+        "ordinary_prior": 11.3433,
+        "current": -2.8825,
+        "ordinary_only": 17.8729,
+        "zero_prior_tuned": -2.8825,
+        "robust_match_value": -2.5033,
+        "ordinary_prior_match_cap": 11.5982
+      },
+      {
+        "player": 4895,
+        "name": "Charith Asalanka",
+        "balls": 21,
+        "matches": 3,
+        "observed": 19.7533,
+        "ordinary_prior": -11.7305,
+        "current": -23.0862,
+        "ordinary_only": -1.6059,
+        "zero_prior_tuned": -23.0862,
+        "robust_match_value": -19.0486,
+        "ordinary_prior_match_cap": -16.6987
+      },
+      {
+        "player": 4986,
+        "name": "Rovman Powell",
+        "balls": 37,
+        "matches": 4,
+        "observed": 17.8773,
+        "ordinary_prior": 17.1156,
+        "current": 9.6546,
+        "ordinary_only": 21.0126,
+        "zero_prior_tuned": 9.6546,
+        "robust_match_value": 9.0245,
+        "ordinary_prior_match_cap": 14.757
+      },
+      {
+        "player": 6396,
+        "name": "Tim David",
+        "balls": 27,
+        "matches": 5,
+        "observed": 66.3298,
+        "ordinary_prior": 34.8514,
+        "current": 13.0845,
+        "ordinary_only": 41.6474,
+        "zero_prior_tuned": 13.0845,
+        "robust_match_value": 13.0845,
+        "ordinary_prior_match_cap": 36.8474
+      },
+      {
+        "player": 7897,
+        "name": "Namboori Tilak Varma",
+        "balls": 90,
+        "matches": 8,
+        "observed": 39.2209,
+        "ordinary_prior": 24.0402,
+        "current": 20.4852,
+        "ordinary_only": 22.0443,
+        "zero_prior_tuned": 20.4852,
+        "robust_match_value": 19.8886,
+        "ordinary_prior_match_cap": 25.5396
+      },
+      {
+        "player": 20702,
+        "name": "Tristan Stubbs",
+        "balls": 46,
+        "matches": 8,
+        "observed": -7.2013,
+        "ordinary_prior": 21.1054,
+        "current": 8.5695,
+        "ordinary_only": 22.5148,
+        "zero_prior_tuned": 8.5695,
+        "robust_match_value": 8.1582,
+        "ordinary_prior_match_cap": 23.3196
+      }
+    ]
+  },
+  "Bowlers": {
+    "players_by_year": {
+      "2024": 5,
+      "2025": 11,
+      "2026": 16
+    },
+    "selected_ordinary_challenger": "ordinary_prior_match_cap",
+    "adopt": false,
+    "metrics": {
+      "current": {
+        "settings": [
+          "zero",
+          60,
+          null
+        ],
+        "dev_rmse": 41.326,
+        "holdout_rmse": 59.034,
+        "holdout_spearman": 0.218,
+        "rmse_improvement_95_interval": [
+          0.0,
+          0.0
+        ],
+        "top10_after_best_match_removed": 10,
+        "rank_correlation_after_best_match_removed": 0.932
+      },
+      "ordinary_only": {
+        "settings": [
+          "ordinary_only",
+          null,
+          null
+        ],
+        "dev_rmse": 33.955,
+        "holdout_rmse": 56.696,
+        "holdout_spearman": 0.109,
+        "rmse_improvement_95_interval": [
+          -4.245,
+          7.558
+        ],
+        "top10_after_best_match_removed": 10,
+        "rank_correlation_after_best_match_removed": 1.0
+      },
+      "zero_prior_tuned": {
+        "settings": [
+          "zero",
+          240,
+          null
+        ],
+        "dev_rmse": 39.832,
+        "holdout_rmse": 58.095,
+        "holdout_spearman": 0.185,
+        "rmse_improvement_95_interval": [
+          -1.493,
+          2.471
+        ],
+        "top10_after_best_match_removed": 10,
+        "rank_correlation_after_best_match_removed": 0.944
+      },
+      "ordinary_prior": {
+        "settings": [
+          "ordinary",
+          240,
+          null
+        ],
+        "dev_rmse": 35.987,
+        "holdout_rmse": 56.888,
+        "holdout_spearman": 0.082,
+        "rmse_improvement_95_interval": [
+          -2.548,
+          5.53
+        ],
+        "top10_after_best_match_removed": 9,
+        "rank_correlation_after_best_match_removed": 0.979
+      },
+      "robust_match_value": {
+        "settings": [
+          "clip",
+          120,
+          100
+        ],
+        "dev_rmse": 39.521,
+        "holdout_rmse": 57.546,
+        "holdout_spearman": 0.218,
+        "rmse_improvement_95_interval": [
+          -1.818,
+          3.054
+        ],
+        "top10_after_best_match_removed": 10,
+        "rank_correlation_after_best_match_removed": 0.971,
+        "adopt": false
+      },
+      "ordinary_prior_match_cap": {
+        "settings": [
+          "ordinary",
+          240,
+          6
+        ],
+        "dev_rmse": 35.285,
+        "holdout_rmse": 56.961,
+        "holdout_spearman": 0.053,
+        "rmse_improvement_95_interval": [
+          -2.958,
+          5.563
+        ],
+        "top10_after_best_match_removed": 10,
+        "rank_correlation_after_best_match_removed": 0.991
+      }
+    },
+    "holdout_players": [
+      {
+        "player": 360,
+        "name": "Bhuvneshwar Kumar",
+        "balls": 36,
+        "matches": 4,
+        "observed": 68.861,
+        "ordinary_prior": 4.2916,
+        "current": -10.6799,
+        "ordinary_only": 13.8235,
+        "zero_prior_tuned": -5.1874,
+        "robust_match_value": -1.2124,
+        "ordinary_prior_match_cap": 4.9721
+      },
+      {
+        "player": 479,
+        "name": "Adil Rashid",
+        "balls": 14,
+        "matches": 3,
+        "observed": -56.7959,
+        "ordinary_prior": 5.7549,
+        "current": 14.2533,
+        "ordinary_only": -0.8536,
+        "zero_prior_tuned": 6.3834,
+        "robust_match_value": 3.9971,
+        "ordinary_prior_match_cap": 5.1496
+      },
+      {
+        "player": 781,
+        "name": "Sunil Narine",
+        "balls": 25,
+        "matches": 4,
+        "observed": 66.5747,
+        "ordinary_prior": 23.689,
+        "current": 10.0402,
+        "ordinary_only": 25.6147,
+        "zero_prior_tuned": 4.3571,
+        "robust_match_value": 4.888,
+        "ordinary_prior_match_cap": 25.8467
+      },
+      {
+        "player": 830,
+        "name": "Josh Hazlewood",
+        "balls": 29,
+        "matches": 4,
+        "observed": 118.5858,
+        "ordinary_prior": 22.9233,
+        "current": 14.6303,
+        "ordinary_only": 22.7557,
+        "zero_prior_tuned": 6.9075,
+        "robust_match_value": 3.892,
+        "ordinary_prior_match_cap": 19.7918
+      },
+      {
+        "player": 2633,
+        "name": "Jason Holder",
+        "balls": 47,
+        "matches": 7,
+        "observed": 54.528,
+        "ordinary_prior": -0.1641,
+        "current": 14.2125,
+        "ordinary_only": -9.1684,
+        "zero_prior_tuned": 6.4836,
+        "robust_match_value": 8.7852,
+        "ordinary_prior_match_cap": -2.1915
+      },
+      {
+        "player": 2636,
+        "name": "Adam Zampa",
+        "balls": 43,
+        "matches": 5,
+        "observed": 22.6204,
+        "ordinary_prior": -5.4361,
+        "current": 1.2241,
+        "ordinary_only": -8.9612,
+        "zero_prior_tuned": 0.6052,
+        "robust_match_value": -3.4759,
+        "ordinary_prior_match_cap": -1.4167
+      },
+      {
+        "player": 2876,
+        "name": "Axar Patel",
+        "balls": 46,
+        "matches": 7,
+        "observed": 21.8531,
+        "ordinary_prior": 14.96,
+        "current": 12.2011,
+        "ordinary_only": 13.3582,
+        "zero_prior_tuned": 6.2005,
+        "robust_match_value": 6.8642,
+        "ordinary_prior_match_cap": 14.4927
+      },
+      {
+        "player": 2933,
+        "name": "Jasprit Bumrah",
+        "balls": 19,
+        "matches": 4,
+        "observed": 16.7589,
+        "ordinary_prior": 31.5821,
+        "current": 5.9543,
+        "ordinary_only": 38.2089,
+        "zero_prior_tuned": 2.5626,
+        "robust_match_value": 1.1106,
+        "ordinary_prior_match_cap": 33.4908
+      },
+      {
+        "player": 3644,
+        "name": "Kuldeep Yadav",
+        "balls": 55,
+        "matches": 7,
+        "observed": -101.5903,
+        "ordinary_prior": 28.5611,
+        "current": 26.3427,
+        "ordinary_only": 23.4359,
+        "zero_prior_tuned": 14.4289,
+        "robust_match_value": 12.3291,
+        "ordinary_prior_match_cap": 27.1244
+      },
+      {
+        "player": 4101,
+        "name": "Mitchell Santner",
+        "balls": 24,
+        "matches": 4,
+        "observed": -76.1936,
+        "ordinary_prior": 10.836,
+        "current": 0.3557,
+        "ordinary_only": 15.1139,
+        "zero_prior_tuned": 0.1674,
+        "robust_match_value": -0.4576,
+        "ordinary_prior_match_cap": 11.5812
+      },
+      {
+        "player": 4722,
+        "name": "Rashid Khan",
+        "balls": 67,
+        "matches": 9,
+        "observed": 38.0968,
+        "ordinary_prior": 29.5563,
+        "current": 32.8043,
+        "ordinary_only": 18.5132,
+        "zero_prior_tuned": 19.6826,
+        "robust_match_value": 14.6819,
+        "ordinary_prior_match_cap": 31.112
+      },
+      {
+        "player": 6256,
+        "name": "Varun Chakravarthy",
+        "balls": 30,
+        "matches": 4,
+        "observed": 41.3558,
+        "ordinary_prior": 28.174,
+        "current": 26.6766,
+        "ordinary_only": 22.2724,
+        "zero_prior_tuned": 13.4485,
+        "robust_match_value": 19.535,
+        "ordinary_prior_match_cap": 25.6824
+      },
+      {
+        "player": 6464,
+        "name": "Arshdeep Singh",
+        "balls": 29,
+        "matches": 6,
+        "observed": 4.3936,
+        "ordinary_prior": 3.8229,
+        "current": 3.9895,
+        "ordinary_only": 2.7165,
+        "zero_prior_tuned": 2.1806,
+        "robust_match_value": 2.6696,
+        "ordinary_prior_match_cap": 1.0637
+      },
+      {
+        "player": 7503,
+        "name": "Ravi Bishnoi",
+        "balls": 52,
+        "matches": 8,
+        "observed": -60.1853,
+        "ordinary_prior": 1.4319,
+        "current": -1.3428,
+        "ordinary_only": 3.0278,
+        "zero_prior_tuned": -0.6502,
+        "robust_match_value": -2.5011,
+        "ordinary_prior_match_cap": 1.4319
+      },
+      {
+        "player": 7967,
+        "name": "Noor Ahmad",
+        "balls": 18,
+        "matches": 3,
+        "observed": 15.731,
+        "ordinary_prior": 9.0999,
+        "current": -24.7297,
+        "ordinary_only": 26.136,
+        "zero_prior_tuned": -10.6876,
+        "robust_match_value": -11.0663,
+        "ordinary_prior_match_cap": 9.3959
+      },
+      {
+        "player": 19316,
+        "name": "Maheesh Theekshana",
+        "balls": 24,
+        "matches": 3,
+        "observed": 11.9817,
+        "ordinary_prior": 4.2114,
+        "current": -10.8241,
+        "ordinary_only": 12.6183,
+        "zero_prior_tuned": -4.9379,
+        "robust_match_value": -7.7462,
+        "ordinary_prior_match_cap": 6.3438
+      }
+    ]
+  }
+}

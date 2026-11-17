@@ -1,0 +1,377 @@
+{
+  "policy": {
+    "status": "Retrospective scouting policy, not a forecast or a validated auction price model.",
+    "eligibility": "120 prior ordinary balls per event, 60 eligible pressure balls and 8 matches per player.",
+    "robustness": "Apply the same candidate-only best-match removal to every target; high-confidence designation requires remaining eligible and top 10. Report all negative format and qualified external rates.",
+    "comparison": "Show incumbent A score; check the target advantage under A, B, and removal versions of A and B. Missing incumbent scores remain missing.",
+    "priority": "First secure an existing uncovered role; then pursue positive incumbent margins with stable evidence. Domestic status breaks equivalent role-fit choices; do not compare scores between batting and bowling.",
+    "availability": "Tiers are acquisition priorities, not assertions that a player will enter the auction.",
+    "budget": "No calibrated rupee valuation exists. Allocate by priority tier and stop when an acquisition would leave another required role unfunded.",
+    "comparisons": [
+      {
+        "role": "Batters",
+        "target": "Heinrich Klaasen",
+        "incumbent": "Shimron Hetmyer",
+        "A": 31.94984106319669,
+        "B": 32.54287793041128,
+        "drop_A": 27.99627954168335,
+        "drop_B": 30.52733572965693,
+        "positive_in_all_four": true,
+        "min_margin": 27.99627954168335,
+        "A_margin_conditional_95": [
+          -1.2716466918573448,
+          66.09971852482191
+        ]
+      },
+      {
+        "role": "Batters",
+        "target": "Dewald Brevis",
+        "incumbent": "Shimron Hetmyer",
+        "A": 35.897986850730064,
+        "B": 19.74359885072692,
+        "drop_A": 19.575841134514892,
+        "drop_B": 11.804887584275251,
+        "positive_in_all_four": true,
+        "min_margin": 11.804887584275251,
+        "A_margin_conditional_95": [
+          -15.45141285479763,
+          85.40826791789463
+        ]
+      },
+      {
+        "role": "Batters",
+        "target": "Rinku Singh",
+        "incumbent": "Shimron Hetmyer",
+        "A": 26.756917543258552,
+        "B": 20.220287978684706,
+        "drop_A": 20.771903061228215,
+        "drop_B": 16.944153861896975,
+        "positive_in_all_four": true,
+        "min_margin": 16.944153861896975,
+        "A_margin_conditional_95": [
+          -9.030363123863086,
+          61.31225948739438
+        ]
+      },
+      {
+        "role": "Batters",
+        "target": "Namboori Tilak Varma",
+        "incumbent": "Riyan Parag",
+        "A": 29.566356859566017,
+        "B": 19.84424246426128,
+        "drop_A": 24.02444295755955,
+        "drop_B": 16.230646762976626,
+        "positive_in_all_four": true,
+        "min_margin": 16.230646762976626,
+        "A_margin_conditional_95": [
+          1.6702605662458987,
+          56.8798310966279
+        ]
+      },
+      {
+        "role": "Batters",
+        "target": "Shreyas Iyer",
+        "incumbent": "Riyan Parag",
+        "A": 34.00006775404833,
+        "B": 25.163022358847556,
+        "drop_A": 23.202245866754257,
+        "drop_B": 19.840182241732283,
+        "positive_in_all_four": true,
+        "min_margin": 19.840182241732283,
+        "A_margin_conditional_95": [
+          -0.36584502476653524,
+          71.09547570818911
+        ]
+      },
+      {
+        "role": "Bowlers",
+        "target": "Josh Hazlewood",
+        "incumbent": "Jofra Archer",
+        "A": 15.808462217884994,
+        "B": 14.707295848670597,
+        "drop_A": 4.838561322861366,
+        "drop_B": 9.102197366173044,
+        "positive_in_all_four": true,
+        "min_margin": 4.838561322861366,
+        "A_margin_conditional_95": [
+          -24.63373807994884,
+          53.77356906345056
+        ]
+      },
+      {
+        "role": "Bowlers",
+        "target": "Varun Chakravarthy",
+        "incumbent": "Ravi Bishnoi",
+        "A": 44.318149096316716,
+        "B": 32.56172438920285,
+        "drop_A": 37.62842841373881,
+        "drop_B": 28.93342719418802,
+        "positive_in_all_four": true,
+        "min_margin": 28.93342719418802,
+        "A_margin_conditional_95": [
+          3.5071374767739396,
+          81.24711541513925
+        ]
+      },
+      {
+        "role": "Bowlers",
+        "target": "Rashid Khan",
+        "incumbent": "Ravi Bishnoi",
+        "A": 49.114365292925,
+        "B": 36.67900900641726,
+        "drop_A": 44.328747082308894,
+        "drop_B": 33.534296585972555,
+        "positive_in_all_four": true,
+        "min_margin": 33.534296585972555,
+        "A_margin_conditional_95": [
+          12.79507049124353,
+          87.99474678362282
+        ]
+      },
+      {
+        "role": "Bowlers",
+        "target": "Wanindu Hasaranga",
+        "incumbent": "Ravi Bishnoi",
+        "A": 42.12497512471356,
+        "B": 30.62888433992506,
+        "drop_A": 37.69995018776992,
+        "drop_B": 27.97484045417883,
+        "positive_in_all_four": true,
+        "min_margin": 27.97484045417883,
+        "A_margin_conditional_95": [
+          3.6615032984914606,
+          79.90650172843141
+        ]
+      },
+      {
+        "role": "Bowlers",
+        "target": "Jason Holder",
+        "incumbent": "Sandeep Sharma",
+        "A": 18.43876976647778,
+        "B": 9.811406811328649,
+        "drop_A": 10.6923770095136,
+        "drop_B": 5.402938189069016,
+        "positive_in_all_four": true,
+        "min_margin": 5.402938189069016,
+        "A_margin_conditional_95": [
+          -18.333127528833828,
+          59.18291469184912
+        ]
+      }
+    ]
+  },
+  "forecast": {
+    "status": "Retrospective diagnostics; 2026 has been inspected repeatedly.",
+    "future_switch_rule": "Freeze candidate and settings before new data; require a paired 95% RMSE improvement interval above zero against A and zero. Report rank uncertainty; do not veto on an insignificant point-estimate decline.",
+    "resamples": 4000,
+    "seed": 151126,
+    "Batters": {
+      "folds": {
+        "2024": {
+          "players": 7,
+          "metrics": {
+            "zero": {
+              "rmse": 36.90090888420792,
+              "spearman": null
+            },
+            "ordinary_only": {
+              "rmse": 28.931360649607317,
+              "spearman": 0.75
+            },
+            "A": {
+              "rmse": 37.766813046809204,
+              "spearman": -0.286
+            },
+            "B": {
+              "rmse": 31.44558613855249,
+              "spearman": 0.357
+            }
+          }
+        },
+        "2025": {
+          "players": 11,
+          "metrics": {
+            "zero": {
+              "rmse": 36.4585910685541,
+              "spearman": null
+            },
+            "ordinary_only": {
+              "rmse": 25.22313355138533,
+              "spearman": 0.518
+            },
+            "A": {
+              "rmse": 31.2799639628526,
+              "spearman": 0.327
+            },
+            "B": {
+              "rmse": 24.617731916064177,
+              "spearman": 0.673
+            }
+          }
+        },
+        "2026": {
+          "players": 14,
+          "metrics": {
+            "zero": {
+              "rmse": 52.5699146973575,
+              "spearman": null
+            },
+            "ordinary_only": {
+              "rmse": 50.44346622826095,
+              "spearman": 0.323
+            },
+            "A": {
+              "rmse": 51.04780467299643,
+              "spearman": 0.398
+            },
+            "B": {
+              "rmse": 50.096798222918125,
+              "spearman": 0.455
+            }
+          },
+          "rmse_improvement_95": {
+            "zero_minus_A": [
+              -4.077131064055348,
+              6.793891787024077
+            ],
+            "A_minus_B": [
+              -4.244789499243072,
+              3.703663076965595
+            ],
+            "zero_minus_B": [
+              -6.884293500522727,
+              9.337560657612558
+            ],
+            "A_minus_ordinary_only": [
+              -6.324960488053773,
+              4.377693429612945
+            ]
+          },
+          "A_rank_test": {
+            "spearman": 0.3978021978021978,
+            "two_sided_permutation_p": 0.15579221038948052
+          },
+          "A_spearman_match_bootstrap_95": [
+            0.0021428571428571616,
+            0.6263736263736264
+          ]
+        }
+      },
+      "development_rmse": {
+        "zero": 36.68041670418064,
+        "ordinary_only": 27.140653042886303,
+        "A": 34.6754114123394,
+        "B": 28.238781952204747
+      },
+      "B_settings": [
+        "ordinary",
+        240,
+        null
+      ]
+    },
+    "Bowlers": {
+      "folds": {
+        "2024": {
+          "players": 5,
+          "metrics": {
+            "zero": {
+              "rmse": 47.97761188127602,
+              "spearman": null
+            },
+            "ordinary_only": {
+              "rmse": 36.8327741295633,
+              "spearman": 0.7
+            },
+            "A": {
+              "rmse": 48.45446606423036,
+              "spearman": -0.1
+            },
+            "B": {
+              "rmse": 40.30650592175547,
+              "spearman": 0.2
+            }
+          }
+        },
+        "2025": {
+          "players": 11,
+          "metrics": {
+            "zero": {
+              "rmse": 32.08128145775977,
+              "spearman": null
+            },
+            "ordinary_only": {
+              "rmse": 30.809224331968917,
+              "spearman": 0.073
+            },
+            "A": {
+              "rmse": 32.677680605483474,
+              "spearman": 0.127
+            },
+            "B": {
+              "rmse": 31.07191325528958,
+              "spearman": 0.009
+            }
+          }
+        },
+        "2026": {
+          "players": 16,
+          "metrics": {
+            "zero": {
+              "rmse": 58.10879846328653,
+              "spearman": null
+            },
+            "ordinary_only": {
+              "rmse": 56.69565942560002,
+              "spearman": 0.109
+            },
+            "A": {
+              "rmse": 59.03420620554275,
+              "spearman": 0.218
+            },
+            "B": {
+              "rmse": 56.88780536156767,
+              "spearman": 0.082
+            }
+          },
+          "rmse_improvement_95": {
+            "zero_minus_A": [
+              -4.02432933764874,
+              3.6078822388337897
+            ],
+            "A_minus_B": [
+              -2.487427685471242,
+              5.555439121819181
+            ],
+            "zero_minus_B": [
+              -3.2292534688384675,
+              5.12834758679548
+            ],
+            "A_minus_ordinary_only": [
+              -4.409087901822308,
+              7.558755726743306
+            ]
+          },
+          "A_rank_test": {
+            "spearman": 0.21764705882352942,
+            "two_sided_permutation_p": 0.4152792360381981
+          },
+          "A_spearman_match_bootstrap_95": [
+            -0.13242647058823528,
+            0.4471323529411768
+          ]
+        }
+      },
+      "development_rmse": {
+        "zero": 40.810904558722775,
+        "ordinary_only": 33.95483436873911,
+        "A": 41.32593671850429,
+        "B": 35.98665178204795
+      },
+      "B_settings": [
+        "ordinary",
+        240,
+        null
+      ]
+    }
+  }
+}

@@ -1,0 +1,422 @@
+role,player_id,player,is_rr_incumbent,eligible,pressure_balls,pressure_matches,rating_a,rating_b,rank_a,rank_b,ordinary_rating,lift_per100,best_match_share,positive_match_share,drop_best_eligible,drop_best_rating_a,drop_best_rating_b,drop_best_rank_a,stable_top10,IPL_balls,IPL_per100,T20I_balls,T20I_per100,external_qualifies,external_per100,flags
+Batters,8,Mahendra Singh Dhoni,False,False,33,6,,,,,11.376614,9.826562,0.779508,0.500000,False,,,,False,33,23.280095,0,,False,,Insufficient pressure sample
+Batters,47,Virat Kohli,False,False,49,9,,,,,15.987767,49.318745,0.312988,0.666667,False,,,,False,35,88.172838,14,-16.787650,False,,Insufficient pressure sample; Negative T20I rate (14 balls)
+Batters,88,Faf du Plessis,False,False,14,3,,,,,14.469757,2.467868,1.000000,0.333333,False,,,,False,14,11.083199,0,,False,,Insufficient pressure sample
+Batters,126,Rohit Sharma,False,False,24,3,,,,,5.978183,-2.689312,1.000000,0.333333,False,,,,False,5,-108.516881,19,26.990622,False,,Insufficient pressure sample; Negative IPL rate (5 balls)
+Batters,142,Shikhar Dhawan,False,False,34,3,,,,,5.610615,-6.838879,0.989792,0.666667,False,,,,False,34,1.587979,0,,False,,Insufficient pressure sample
+Batters,143,Dinesh Karthik,False,False,48,7,,,,,19.087162,7.026304,0.662225,0.428571,False,,,,False,40,44.290561,8,-86.341118,False,,Insufficient pressure sample; Negative T20I rate (8 balls)
+Batters,152,Ravindra Jadeja,True,True,94,13,-5.057014,-2.228091,38.000000,40.000000,0.144157,-2.764389,0.582421,0.384615,True,-9.561649,-4.192553,39.000000,False,71,-9.366637,23,-4.945602,False,,Not stable in top 10 after best-match removal; Negative IPL rate (71 balls); Negative T20I rate (23 balls)
+Batters,167,Ajinkya Rahane,False,False,8,2,,,,,-3.935179,19.060453,0.950203,1.000000,False,,,,False,8,20.337186,0,,False,,Insufficient pressure sample
+Batters,198,Manish Pandey,False,False,38,5,,,,,-9.275958,23.288723,0.387961,0.800000,False,,,,False,38,4.340248,0,,False,,Insufficient pressure sample
+Batters,220,David Warner,False,False,14,3,,,,,23.118238,-16.818898,0.523117,0.666667,False,,,,False,7,55.104300,7,-19.773594,False,,Insufficient pressure sample; Negative T20I rate (7 balls)
+Batters,305,Ravichandran Ashwin,False,False,36,8,,,,,-14.494478,-4.079688,0.566826,0.500000,False,,,,False,36,-11.018710,0,,False,,Insufficient pressure sample; Negative IPL rate (36 balls)
+Batters,360,Bhuvneshwar Kumar,False,False,1,1,,,,,-41.799673,2.572996,,0.000000,False,,,,False,1,-41.159580,0,,False,,Insufficient pressure sample; Negative IPL rate (1 balls)
+Batters,443,Paul Stirling,False,False,12,2,,,,,4.704287,-66.919768,,0.000000,False,,,,False,0,,12,-63.372132,False,,Insufficient pressure sample; Negative T20I rate (12 balls)
+Batters,494,Kieron Pollard,False,False,11,2,,,,,-19.734849,-70.750548,,0.000000,False,,,,False,11,-82.165398,0,,False,,Insufficient pressure sample; Negative IPL rate (11 balls)
+Batters,499,Shakib Al Hasan,False,False,5,1,,,,,-1.395041,-145.588946,,0.000000,False,,,,False,0,,5,-143.095535,False,,Insufficient pressure sample; Negative T20I rate (5 balls)
+Batters,507,Mohammad Mahmudullah,False,False,23,3,,,,,-0.739694,40.818987,1.000000,0.333333,False,,,,False,0,,23,45.681197,False,,Insufficient pressure sample
+Batters,535,Ambati Rayudu,False,False,34,5,,,,,-12.684020,-7.285073,0.927618,0.600000,False,,,,False,34,-11.930690,0,,False,,Insufficient pressure sample; Negative IPL rate (34 balls)
+Batters,728,Dawid Malan,False,False,7,1,,,,,11.319256,59.703235,1.000000,1.000000,False,,,,False,0,,7,77.045240,False,,Insufficient pressure sample
+Batters,768,Reeza Hendricks,False,False,32,6,,,,,22.029123,15.675157,0.679346,0.666667,False,,,,False,0,,32,40.220925,False,,Insufficient pressure sample
+Batters,772,Rilee Rossouw,False,False,1,1,,,,,17.692855,-692.723103,,0.000000,False,,,,False,1,-673.954576,0,,False,,Insufficient pressure sample; Negative IPL rate (1 balls)
+Batters,781,Sunil Narine,False,False,3,1,,,,,10.729020,-167.033048,,0.000000,False,,,,False,3,-152.404977,0,,True,68.680698,Insufficient pressure sample; Negative IPL rate (3 balls)
+Batters,796,Matthew Wade,False,False,61,7,,,,,-1.422226,54.306669,0.602430,0.714286,False,,,,False,0,,61,51.199135,False,,Insufficient pressure sample
+Batters,813,Jos Buttler,False,False,57,9,,,,,25.043564,10.829465,0.697979,0.555556,False,,,,False,36,72.828554,21,-29.471903,False,,Insufficient pressure sample; Negative T20I rate (21 balls)
+Batters,818,Mitchell Marsh,False,False,31,4,,,,,23.939131,-7.064318,0.825769,0.500000,False,,,,False,12,-13.420297,19,24.160240,False,,Insufficient pressure sample; Negative IPL rate (12 balls)
+Batters,838,Glenn Maxwell,False,True,80,9,17.078527,18.788850,14.000000,11.000000,15.089325,13.490825,0.268311,0.555556,True,7.934996,15.102116,23.000000,False,25,-32.742039,55,58.355360,False,,Not stable in top 10 after best-match removal; Negative IPL rate (25 balls)
+Batters,953,Lokesh Rahul,False,False,43,9,,,,,15.386259,-56.069333,0.906981,0.222222,False,,,,False,43,-47.065950,0,,False,,Insufficient pressure sample; Negative IPL rate (43 balls)
+Batters,992,Mayank Agarwal,False,False,7,2,,,,,-8.937491,-34.684518,,0.000000,False,,,,False,7,-45.147493,0,,False,,Insufficient pressure sample; Negative IPL rate (7 balls)
+Batters,1077,David Miller,False,True,183,24,18.794179,17.130181,12.000000,13.000000,11.162838,11.863770,0.382960,0.500000,True,3.740757,8.755119,26.000000,False,149,9.075853,34,94.549512,False,,Not stable in top 10 after best-match removal
+Batters,1101,George Dockrell,False,False,12,5,,,,,12.798496,-75.992647,0.938406,0.400000,False,,,,False,0,,12,-57.365311,False,,Insufficient pressure sample; Negative T20I rate (12 balls)
+Batters,1107,Mohammad Nabi,False,True,95,9,19.215714,8.160153,11.000000,24.000000,-1.019934,39.429659,0.411157,0.666667,True,11.693371,4.138416,19.000000,False,17,16.191412,78,34.656175,False,,Not stable in top 10 after best-match removal
+Batters,1116,Craig Ervine,False,False,7,2,,,,,-20.033315,-0.046557,1.000000,0.500000,False,,,,False,0,,7,-17.447368,False,,Insufficient pressure sample; Negative T20I rate (7 balls)
+Batters,1187,Jason Roy,False,False,11,1,,,,,2.164361,47.238762,1.000000,1.000000,False,,,,False,11,34.322008,0,,False,,Insufficient pressure sample
+Batters,1205,Jonny Bairstow,False,False,4,1,,,,,21.248329,-47.547285,,0.000000,False,,,,False,4,-32.997387,0,,False,,Insufficient pressure sample; Negative IPL rate (4 balls)
+Batters,1318,Andre Russell,False,False,45,10,,,,,30.912898,-4.524285,0.575206,0.500000,False,,,,False,25,17.474754,20,30.095405,False,,Insufficient pressure sample
+Batters,1440,Rahul Tripathi,False,False,33,4,,,,,10.515494,-13.067964,0.988047,0.500000,False,,,,False,33,2.634644,0,,False,,Insufficient pressure sample
+Batters,1481,Kusal Perera,False,False,7,3,,,,,5.426140,-113.841791,1.000000,0.333333,False,,,,False,0,,7,-107.706277,False,,Insufficient pressure sample; Negative T20I rate (7 balls)
+Batters,1487,Adam Milne,True,False,0,0,,,,,-26.468616,,,,False,,,,False,0,,0,,False,,Insufficient pressure sample
+Batters,1568,Kane Williamson,False,False,4,1,,,,,-10.618068,-6.158593,,0.000000,False,,,,False,0,,4,-29.474419,False,,Insufficient pressure sample; Negative T20I rate (4 balls)
+Batters,1596,Moeen Ali,False,True,65,9,3.342020,5.917965,28.000000,31.000000,5.780112,-5.680379,0.714478,0.333333,False,,,,False,22,-31.089492,43,25.621426,False,,Not stable in top 10 after best-match removal; Negative IPL rate (22 balls)
+Batters,1699,Suryakumar Yadav,False,True,162,28,-3.890265,22.025232,35.000000,10.000000,40.490759,-52.814573,0.195938,0.392857,True,-7.962387,20.125804,38.000000,False,121,-20.826632,41,40.399601,False,,Not stable in top 10 after best-match removal; Negative IPL rate (121 balls)
+Batters,1924,Sam Billings,False,False,2,1,,,,,-2.063182,-283.752881,,0.000000,False,,,,False,2,-293.838280,0,,False,,Insufficient pressure sample; Negative IPL rate (2 balls)
+Batters,1941,Devon Conway,False,False,1,1,,,,,6.204221,-74.887089,,0.000000,False,,,,False,1,-64.980206,0,,False,,Insufficient pressure sample; Negative IPL rate (1 balls)
+Batters,2003,Bhanuka Rajapaksa,False,False,61,6,,,,,-4.906739,62.905107,0.464672,0.833333,False,,,,False,4,17.987456,57,70.595945,False,,Insufficient pressure sample
+Batters,2101,Quinton de Kock,False,False,15,2,,,,,14.692457,-1.164401,1.000000,0.500000,False,,,,False,15,19.135806,0,,False,,Insufficient pressure sample
+Batters,2213,Soumya Sarkar,False,False,14,2,,,,,-6.212913,-1.367766,1.000000,0.500000,False,,,,False,0,,14,-10.156639,False,,Insufficient pressure sample; Negative T20I rate (14 balls)
+Batters,2214,Gulbadin Naib,False,False,7,3,,,,,-5.263385,-121.303060,1.000000,0.333333,False,,,,False,0,,7,-122.863988,False,,Insufficient pressure sample; Negative T20I rate (7 balls)
+Batters,2258,Sanju Samson,False,False,58,10,,,,,17.801927,7.826260,0.382971,0.500000,False,,,,False,17,16.556926,41,29.309091,False,,Insufficient pressure sample
+Batters,2367,Travis Head,False,False,25,2,,,,,29.756115,-67.268319,1.000000,0.500000,False,,,,False,25,-15.581961,0,,False,,Insufficient pressure sample; Negative IPL rate (25 balls)
+Batters,2379,Ben Duckett,False,False,10,2,,,,,18.571679,-90.155432,,0.000000,False,,,,False,0,,10,-61.863983,False,,Insufficient pressure sample; Negative T20I rate (10 balls)
+Batters,2407,Dhananjaya de Silva,False,False,1,1,,,,,-1.706231,-680.766230,,0.000000,False,,,,False,0,,1,-684.191814,False,,Insufficient pressure sample; Negative T20I rate (1 balls)
+Batters,2417,Akeal Hosein,False,False,16,3,,,,,-6.342553,54.068129,0.604825,1.000000,False,,,,False,0,,16,43.948126,False,,Insufficient pressure sample
+Batters,2436,Dasun Shanaka,True,True,99,16,16.205434,11.600872,15.000000,19.000000,5.650132,17.817769,0.269829,0.437500,True,6.911820,7.256140,23.000000,False,19,44.052199,80,21.745902,False,,Not stable in top 10 after best-match removal
+Batters,2463,Ryan Burl,False,True,85,10,-1.958455,-0.958082,32.000000,39.000000,-0.114169,1.999173,0.440832,0.400000,True,-7.218426,-3.218690,38.000000,False,0,,85,-3.340893,False,,Not stable in top 10 after best-match removal; Negative T20I rate (85 balls)
+Batters,2485,Babar Azam,False,False,22,7,,,,,8.918935,5.972899,0.659370,0.571429,False,,,,False,0,,22,15.923277,False,,Insufficient pressure sample
+Batters,2490,Mohammad Nawaz,False,False,27,5,,,,,4.783080,16.151634,0.529137,0.600000,False,,,,False,0,,27,19.457337,False,,Insufficient pressure sample
+Batters,2523,Will Young,False,False,9,1,,,,,-19.644143,27.786174,1.000000,1.000000,False,,,,False,0,,9,4.331047,False,,Insufficient pressure sample
+Batters,2533,Najibullah Zadran,False,False,16,2,,,,,-3.702567,26.888295,1.000000,0.500000,False,,,,False,0,,16,29.563196,False,,Insufficient pressure sample
+Batters,2633,Jason Holder,False,False,35,8,,,,,-11.486357,33.255511,0.699722,0.500000,False,,,,False,3,-190.141318,32,46.421830,True,3.942641,Insufficient pressure sample; Negative IPL rate (3 balls)
+Batters,2639,Marcus Stoinis,False,True,101,16,3.491221,13.218435,27.000000,16.000000,16.439166,-8.623506,0.309885,0.500000,True,-5.088299,9.823645,38.000000,False,59,18.493636,42,-12.596140,False,,Not stable in top 10 after best-match removal; Negative T20I rate (42 balls)
+Batters,2671,Liton Das,False,False,19,2,,,,,-0.442663,40.217389,0.684897,1.000000,False,,,,False,0,,19,43.341360,False,,Insufficient pressure sample
+Batters,2680,Nurul Hasan,False,False,24,4,,,,,-11.681145,40.019684,0.544652,0.500000,False,,,,False,0,,24,36.500283,False,,Insufficient pressure sample
+Batters,2687,Roston Chase,False,True,68,8,14.855641,-8.677487,17.000000,41.000000,-19.059117,41.906398,0.506673,0.625000,False,,,,False,0,,68,27.963560,False,,Not stable in top 10 after best-match removal
+Batters,2756,Shashank Singh,False,False,55,11,,,,,22.801122,27.578646,0.513567,0.545455,False,,,,False,55,49.942842,0,,False,,Insufficient pressure sample
+Batters,2847,Shardul Thakur,False,False,6,2,,,,,-8.169595,-69.387518,,0.000000,False,,,,False,6,-71.483802,0,,False,,Insufficient pressure sample; Negative IPL rate (6 balls)
+Batters,2876,Axar Patel,False,True,166,23,-2.226990,-0.800876,33.000000,38.000000,0.742268,-9.704575,0.281927,0.391304,True,-7.317992,-3.453953,38.000000,False,98,-8.778953,68,5.250552,False,,Not stable in top 10 after best-match removal; Negative IPL rate (98 balls)
+Batters,2877,Vijay Shankar,False,False,12,3,,,,,-4.322007,137.647657,0.947337,1.000000,False,,,,False,12,133.236737,0,,False,,Insufficient pressure sample
+Batters,2921,Fakhar Zaman,False,False,53,6,,,,,6.229758,-0.400083,0.460205,0.500000,False,,,,False,0,,53,2.925542,False,,Insufficient pressure sample
+Batters,2930,Rassie van der Dussen,False,False,35,5,,,,,-10.382819,11.265256,0.594359,0.600000,False,,,,False,0,,35,-15.743422,False,,Insufficient pressure sample; Negative T20I rate (35 balls)
+Batters,2984,Sikandar Raza,False,True,82,12,7.968306,11.196087,22.000000,20.000000,10.306835,-1.933362,0.384968,0.583333,True,-0.641824,7.577759,30.000000,False,6,47.591932,76,11.130893,False,,Not stable in top 10 after best-match removal
+Batters,3024,Mohammad Rizwan,False,False,44,6,,,,,16.596096,17.007116,0.719342,0.500000,False,,,,False,0,,44,34.685647,False,,Insufficient pressure sample
+Batters,3056,Iftikhar Ahmed,False,True,62,9,32.610428,8.094429,2.000000,26.000000,-6.391478,68.910687,0.440490,0.666667,False,,,,False,0,,62,64.168907,True,-5.389524,Not stable in top 10 after best-match removal; Negative qualified external rate
+Batters,3091,Sahibzada Farhan,False,False,4,2,,,,,10.058476,10.307613,0.529583,1.000000,False,,,,False,0,,4,6.618549,False,,Insufficient pressure sample
+Batters,3125,Nicholas Pooran,False,True,167,26,24.779413,26.563046,8.000000,5.000000,21.609303,12.652908,0.249586,0.500000,True,15.024476,21.260222,16.000000,False,96,40.248291,71,24.804097,True,16.239009,Not stable in top 10 after best-match removal
+Batters,3276,Gudakesh Motie,False,False,1,1,,,,,5.457842,-4.836282,,0.000000,False,,,,False,0,,1,-0.498805,False,,Insufficient pressure sample; Negative T20I rate (1 balls)
+Batters,3280,Nazmul Hossain Shanto,False,False,25,2,,,,,-10.620948,76.177847,0.842146,1.000000,False,,,,False,0,,25,65.689645,False,,Insufficient pressure sample
+Batters,3282,Mehidy Hasan Miraz,False,False,12,2,,,,,-11.886563,-48.349454,1.000000,0.500000,False,,,,False,0,,12,-56.058613,False,,Insufficient pressure sample; Negative T20I rate (12 balls)
+Batters,3297,Shimron Hetmyer,True,True,144,23,-1.470121,3.191007,31.000000,32.000000,6.355214,-9.788944,0.236961,0.478261,True,-8.643687,-0.405412,38.000000,False,114,7.691483,30,-39.224455,False,,Not stable in top 10 after best-match removal; Negative T20I rate (30 balls)
+Batters,3298,Jofra Archer,True,False,0,0,,,,,-12.149451,,,,False,,,,False,0,,0,,False,,Insufficient pressure sample
+Batters,3323,Jimmy Neesham,False,False,50,8,,,,,4.862812,-38.353926,0.550114,0.375000,False,,,,False,0,,50,-26.020787,False,,Insufficient pressure sample; Negative T20I rate (50 balls)
+Batters,3330,Hardik Pandya,False,True,179,24,9.082571,8.109578,21.000000,25.000000,5.113244,6.975239,0.171542,0.583333,True,5.012195,5.810680,25.000000,False,86,-10.893515,93,33.414803,False,,Not stable in top 10 after best-match removal; Negative IPL rate (86 balls)
+Batters,3374,Mark Chapman,False,True,93,9,24.867626,23.894844,7.000000,7.000000,17.300984,22.196565,0.454577,0.777778,True,14.317975,19.302154,17.000000,False,0,,93,40.911256,False,,Not stable in top 10 after best-match removal
+Batters,3489,Salman Agha,False,False,67,7,,,,,-6.961119,28.204278,0.462467,0.571429,False,,,,False,0,,67,15.377495,False,,Insufficient pressure sample
+Batters,3605,Aiden Markram,False,True,108,12,17.524965,12.311571,13.000000,18.000000,5.584303,15.516734,0.262573,0.666667,True,11.522751,9.376954,19.000000,False,38,30.103372,70,25.718084,False,,Not stable in top 10 after best-match removal
+Batters,3639,Brandon King,False,False,6,2,,,,,5.589933,-47.894761,1.000000,0.500000,False,,,,False,0,,6,-40.978123,False,,Insufficient pressure sample; Negative T20I rate (6 balls)
+Batters,3644,Kuldeep Yadav,False,False,11,4,,,,,-43.071215,-63.205420,,0.000000,False,,,,False,11,-97.146912,0,,False,,Insufficient pressure sample; Negative IPL rate (11 balls)
+Batters,3647,Shreyas Iyer,False,True,128,17,29.666024,31.309577,4.000000,3.000000,24.769633,23.562560,0.280865,0.588235,True,18.868202,25.986737,11.000000,False,96,66.897788,32,-26.405473,False,,Not stable in top 10 after best-match removal; Negative T20I rate (32 balls)
+Batters,3648,Deepak Hooda,False,False,18,4,,,,,-4.083083,-66.214862,0.727995,0.500000,False,,,,False,15,-16.818000,3,-250.739660,False,,Insufficient pressure sample; Negative IPL rate (15 balls); Negative T20I rate (3 balls)
+Batters,3669,Sadeera Samarawickrama,False,False,2,1,,,,,-2.162315,-33.621317,,0.000000,False,,,,False,0,,2,-29.995187,False,,Insufficient pressure sample; Negative T20I rate (2 balls)
+Batters,3672,Kusal Mendis,False,False,16,2,,,,,7.407109,18.594550,1.000000,0.500000,False,,,,False,0,,16,24.271612,False,,Insufficient pressure sample
+Batters,3700,Tim Seifert,False,False,11,1,,,,,20.261927,67.469079,1.000000,1.000000,False,,,,False,0,,11,92.534643,False,,Insufficient pressure sample
+Batters,3727,Matthew Short,False,False,19,4,,,,,7.234483,-137.120400,,0.000000,False,,,,False,8,-207.334294,11,-71.048293,False,,Insufficient pressure sample; Negative IPL rate (8 balls); Negative T20I rate (11 balls)
+Batters,3782,M Shahrukh Khan,False,False,29,5,,,,,-5.037963,48.769213,0.618174,0.600000,False,,,,False,29,41.716806,0,,False,,Insufficient pressure sample
+Batters,3916,Jitesh Sharma,False,True,135,19,6.513067,9.010964,25.000000,22.000000,8.787764,-0.107340,0.246471,0.578947,True,-0.382693,5.650404,30.000000,False,131,8.644408,4,34.407673,False,,Not stable in top 10 after best-match removal
+Batters,3926,Rahul Tewatia,False,False,54,10,,,,,-5.982480,9.550958,0.398416,0.500000,False,,,,False,54,-0.700632,0,,False,,Insufficient pressure sample; Negative IPL rate (54 balls)
+Batters,3954,Andrew Balbirnie,False,False,16,2,,,,,4.544058,-27.183124,1.000000,0.500000,False,,,,False,0,,16,-28.981933,False,,Insufficient pressure sample; Negative T20I rate (16 balls)
+Batters,4007,Ryan Rickelton,False,False,7,1,,,,,11.429458,-52.451630,,0.000000,False,,,,False,0,,7,-55.526119,False,,Insufficient pressure sample; Negative T20I rate (7 balls)
+Batters,4101,Mitchell Santner,False,False,37,7,,,,,4.951180,-35.554968,0.559285,0.428571,False,,,,False,1,24.070101,36,-38.642233,False,,Insufficient pressure sample; Negative T20I rate (36 balls)
+Batters,4106,Daryl Mitchell,False,True,105,12,0.041753,12.683445,30.000000,17.000000,18.203746,-11.352442,0.342822,0.416667,True,-8.549140,9.684639,38.000000,False,4,-132.312462,101,5.308308,False,,Not stable in top 10 after best-match removal; Negative IPL rate (4 balls)
+Batters,4117,Ishan Kishan,False,False,63,7,,,,,15.991741,35.352181,0.470728,0.714286,False,,,,False,56,38.182051,7,106.960590,False,,Insufficient pressure sample
+Batters,4219,Krunal Pandya,False,False,56,8,,,,,-10.252353,2.757549,0.589648,0.375000,False,,,,False,56,-14.852102,0,,False,,Insufficient pressure sample; Negative IPL rate (56 balls)
+Batters,4246,Nitish Rana,False,False,57,7,,,,,8.496114,-24.627827,0.776079,0.428571,False,,,,False,57,-13.606867,0,,False,,Insufficient pressure sample; Negative IPL rate (57 balls)
+Batters,4260,Heinrich Klaasen,False,True,194,23,30.479720,35.733885,3.000000,2.000000,32.361071,2.523986,0.155647,0.782609,True,26.526159,33.718343,4.000000,True,177,44.249636,17,-5.313918,True,30.285579,Negative T20I rate (17 balls)
+Batters,4369,Shai Hope,False,False,34,4,,,,,7.550171,33.161813,0.525332,0.750000,False,,,,False,0,,34,36.251590,False,,Insufficient pressure sample
+Batters,4391,Liam Livingstone,False,True,84,15,-18.915700,7.768680,42.000000,28.000000,21.837138,-57.262073,0.526310,0.200000,True,-24.633508,5.695472,43.000000,False,59,-27.735120,25,-43.499549,False,,Not stable in top 10 after best-match removal; Negative IPL rate (59 balls); Negative T20I rate (25 balls)
+Batters,4409,Sam Curran,False,True,93,11,12.661899,0.592262,19.000000,35.000000,-7.250197,38.074013,0.342300,0.727273,True,5.895617,-2.803943,25.000000,False,62,13.172668,31,36.147264,False,,Not stable in top 10 after best-match removal
+Batters,4494,Abhinav Manohar,False,False,16,2,,,,,-14.950302,-62.533041,,0.000000,False,,,,False,16,-69.258716,0,,False,,Insufficient pressure sample; Negative IPL rate (16 balls)
+Batters,4703,Rishabh Pant,False,True,68,10,15.113911,7.923971,16.000000,27.000000,2.108343,16.756120,0.395135,0.600000,False,,,,False,63,37.179954,5,-81.551298,False,,Not stable in top 10 after best-match removal; Negative T20I rate (5 balls)
+Batters,4708,Rinku Singh,False,True,162,18,25.286797,23.411295,5.000000,8.000000,15.823632,15.731047,0.218743,0.722222,True,19.301782,20.135161,10.000000,True,90,19.663976,72,53.387654,False,,
+Batters,4722,Rashid Khan,False,False,51,7,,,,,-0.538975,57.340699,0.380633,0.714286,False,,,,False,35,92.407463,16,-28.637863,True,-8.272113,Insufficient pressure sample; Negative T20I rate (16 balls); Negative qualified external rate
+Batters,4736,Josh Inglis,False,False,23,4,,,,,27.310570,-86.806446,0.941815,0.500000,False,,,,False,17,-21.980853,6,-169.238062,False,,Insufficient pressure sample; Negative IPL rate (17 balls); Negative T20I rate (6 balls)
+Batters,4755,Shivam Dube,False,True,136,24,-9.054232,8.375684,39.000000,23.000000,20.516195,-34.635819,0.327862,0.375000,True,-14.368980,6.095061,40.000000,False,83,-8.545913,53,-20.100355,False,,Not stable in top 10 after best-match removal; Negative IPL rate (83 balls); Negative T20I rate (53 balls)
+Batters,4773,Jaker Ali Anik,False,False,37,5,,,,,8.955496,-27.063236,0.682931,0.600000,False,,,,False,0,,37,-11.203320,False,,Insufficient pressure sample; Negative T20I rate (37 balls)
+Batters,4812,Harry Tector,False,False,35,4,,,,,-4.470066,36.203943,1.000000,0.250000,False,,,,False,0,,35,22.027195,False,,Insufficient pressure sample
+Batters,4814,Lorcan Tucker,False,False,55,5,,,,,0.899018,27.062822,0.545151,0.600000,False,,,,False,0,,55,25.158954,False,,Insufficient pressure sample
+Batters,4821,Mahipal Lomror,False,False,16,2,,,,,-18.549369,206.632429,0.639660,1.000000,False,,,,False,16,192.570516,0,,False,,Insufficient pressure sample
+Batters,4823,Washington Sundar,False,False,19,3,,,,,0.317157,34.173206,0.865869,0.666667,False,,,,False,19,34.781809,0,,False,,Insufficient pressure sample
+Batters,4853,Glenn Phillips,False,True,72,10,7.965617,18.235893,23.000000,12.000000,19.325572,2.822927,0.224637,0.600000,True,4.854155,17.402119,25.000000,False,2,-152.687117,70,19.383366,False,,Not stable in top 10 after best-match removal; Negative IPL rate (2 balls)
+Batters,4854,Rachin Ravindra,False,False,1,1,,,,,-4.903692,13.315678,1.000000,1.000000,False,,,,False,0,,1,6.123227,False,,Insufficient pressure sample
+Batters,4867,Wesley Madhevere,False,False,40,6,,,,,-26.474813,14.747271,0.827072,0.500000,False,,,,False,0,,40,-11.157442,False,,Insufficient pressure sample; Negative T20I rate (40 balls)
+Batters,4895,Charith Asalanka,False,True,113,15,-17.884318,-10.933456,41.000000,43.000000,-3.189679,-21.205029,0.335977,0.266667,True,-26.144164,-14.416704,43.000000,False,0,,113,-27.380417,False,,Not stable in top 10 after best-match removal; Negative T20I rate (113 balls)
+Batters,4900,Wanindu Hasaranga,False,False,34,10,,,,,-20.973624,29.365584,0.665545,0.300000,False,,,,False,10,-99.928260,24,63.929867,False,,Insufficient pressure sample; Negative IPL rate (10 balls)
+Batters,4904,Kamindu Mendis,False,True,100,12,22.720231,6.575872,9.000000,29.000000,-5.831002,44.850480,0.340609,0.750000,True,11.819285,1.227958,19.000000,False,2,135.230292,98,34.334453,False,,Not stable in top 10 after best-match removal
+Batters,4926,Shadab Khan,False,False,7,2,,,,,0.341967,-277.580762,,0.000000,False,,,,False,0,,7,-279.977055,False,,Insufficient pressure sample; Negative T20I rate (7 balls)
+Batters,4986,Rovman Powell,False,True,240,33,11.185686,15.775770,20.000000,14.000000,17.569433,-10.427131,0.136607,0.484848,True,7.243981,13.415056,23.000000,False,84,6.863529,156,17.815188,False,,Not stable in top 10 after best-match removal
+Batters,5039,Rajat Patidar,False,False,34,6,,,,,30.116074,-31.277632,0.581554,0.333333,False,,,,False,34,-4.051083,0,,False,,Insufficient pressure sample; Negative IPL rate (34 balls)
+Batters,5189,Faheem Ashraf,False,False,5,1,,,,,-6.371728,45.698869,1.000000,1.000000,False,,,,False,0,,5,41.542566,False,,Insufficient pressure sample
+Batters,5553,Phil Salt,False,False,20,2,,,,,38.823593,-45.617968,,0.000000,False,,,,False,17,-7.607778,3,-45.156650,False,,Insufficient pressure sample; Negative IPL rate (17 balls); Negative T20I rate (3 balls)
+Batters,5808,Karim Janat,False,False,3,1,,,,,-16.066720,-151.988708,,0.000000,False,,,,False,0,,3,-165.111163,False,,Insufficient pressure sample; Negative T20I rate (3 balls)
+Batters,5837,Mahedi Hasan,False,False,16,4,,,,,-20.327617,44.094403,0.562678,0.750000,False,,,,False,0,,16,19.740161,False,,Insufficient pressure sample
+Batters,5882,Afif Hossain,False,False,39,4,,,,,-3.587261,42.071476,0.578948,1.000000,False,,,,False,0,,39,47.471629,False,,Insufficient pressure sample
+Batters,5939,Cameron Green,False,False,64,7,,,,,25.539126,3.111157,0.359070,0.857143,False,,,,False,55,30.300170,9,46.026030,False,,Insufficient pressure sample
+Batters,6059,Ruturaj Gaikwad,False,False,41,5,,,,,10.981503,-7.570746,0.855392,0.400000,False,,,,False,35,-4.847344,6,39.484470,False,,Insufficient pressure sample; Negative IPL rate (35 balls)
+Batters,6272,William Jacks,False,False,14,3,,,,,-0.518107,38.328363,0.931797,0.666667,False,,,,False,10,92.528758,4,-107.316354,False,,Insufficient pressure sample; Negative T20I rate (4 balls)
+Batters,6280,Harry Brook,False,False,16,6,,,,,31.105260,-135.038229,1.000000,0.166667,False,,,,False,2,-371.770366,14,-86.484625,False,,Insufficient pressure sample; Negative IPL rate (2 balls); Negative T20I rate (14 balls)
+Batters,6281,Abhishek Sharma,False,False,30,4,,,,,47.797145,7.961845,0.661437,0.750000,False,,,,False,2,127.622706,28,34.623572,False,,Insufficient pressure sample
+Batters,6288,Shubman Gill,False,False,40,7,,,,,18.407933,77.795154,0.300370,1.000000,False,,,,False,26,121.820963,14,51.364445,False,,Insufficient pressure sample
+Batters,6314,Devdutt Padikkal,False,False,27,4,,,,,-6.925478,21.448138,0.718390,0.500000,False,,,,False,27,10.715322,0,,False,,Insufficient pressure sample
+Batters,6396,Tim David,False,True,138,21,20.500547,35.775200,10.000000,1.000000,39.432989,-2.242666,0.293738,0.619048,True,12.433032,32.176124,19.000000,False,94,9.833973,44,71.243519,True,-29.043198,Not stable in top 10 after best-match removal; Negative qualified external rate
+Batters,6423,Riyan Parag,True,True,96,13,-4.334044,6.146555,36.000000,30.000000,11.422306,-8.006284,0.393825,0.384615,True,-9.716358,4.099943,39.000000,False,81,-19.359769,15,59.468699,False,,Not stable in top 10 after best-match removal; Negative IPL rate (81 balls)
+Batters,6433,Darwish Rasooli,False,False,12,3,,,,,-4.762431,-96.855970,1.000000,0.333333,False,,,,False,0,,12,-100.058683,False,,Insufficient pressure sample; Negative T20I rate (12 balls)
+Batters,6448,Ibrahim Zadran,False,False,35,4,,,,,0.187694,12.442774,0.441218,0.750000,False,,,,False,0,,35,11.237233,False,,Insufficient pressure sample
+Batters,6460,Ayush Badoni,False,False,46,9,,,,,-3.993517,-0.640451,0.371899,0.666667,False,,,,False,46,-10.273810,0,,False,,Insufficient pressure sample; Negative IPL rate (46 balls)
+Batters,6467,Anuj Rawat,False,False,3,1,,,,,-8.464448,-200.790554,,0.000000,False,,,,False,3,-206.278744,0,,False,,Insufficient pressure sample; Negative IPL rate (3 balls)
+Batters,6512,Michael Bracewell,False,False,25,5,,,,,5.175001,-28.965380,1.000000,0.200000,False,,,,False,0,,25,-44.904001,False,,Insufficient pressure sample; Negative T20I rate (25 balls)
+Batters,6651,Towhid Hridoy,False,False,41,8,,,,,2.372834,39.160418,0.299450,0.750000,False,,,,False,0,,41,38.024747,False,,Insufficient pressure sample
+Batters,6671,Lalit Yadav,False,False,5,1,,,,,-15.795480,-113.783599,,0.000000,False,,,,False,5,-118.661591,0,,False,,Insufficient pressure sample; Negative IPL rate (5 balls)
+Batters,6674,Rahmanullah Gurbaz,False,False,49,5,,,,,-4.887785,19.861015,0.572395,0.400000,False,,,,False,16,69.373169,33,-3.274612,False,,Insufficient pressure sample; Negative T20I rate (33 balls)
+Batters,6676,Azmatullah Omarzai,False,True,86,11,6.629587,3.160089,24.000000,33.000000,0.259455,35.693256,0.291754,0.545455,True,1.647935,0.891938,29.000000,False,6,-108.424773,80,20.230854,False,,Not stable in top 10 after best-match removal; Negative IPL rate (6 balls)
+Batters,6725,Sherfane Rutherford,False,True,79,15,-2.359498,1.891591,34.000000,34.000000,3.880783,-1.196161,0.266294,0.533333,True,-10.324623,-1.207564,39.000000,False,28,-44.957593,51,18.251811,False,,Not stable in top 10 after best-match removal; Negative IPL rate (28 balls)
+Batters,6726,Romario Shepherd,False,True,63,13,13.659741,26.920974,18.000000,4.000000,26.987112,1.544884,0.376217,0.615385,False,,,,False,12,-159.123787,51,70.384972,False,,Not stable in top 10 after best-match removal; Negative IPL rate (12 balls)
+Batters,6806,Tushar Deshpande,True,False,0,0,,,,,-4.988474,,,,False,,,,False,0,,0,,False,,Insufficient pressure sample
+Batters,6819,Yashasvi Jaiswal,True,False,3,1,,,,,21.181166,-134.799929,,0.000000,False,,,,False,3,-110.003255,0,,False,,Insufficient pressure sample; Negative IPL rate (3 balls)
+Batters,6881,Scott Edwards,False,False,10,2,,,,,-0.560845,-52.289659,,0.000000,False,,,,False,0,,10,-49.902714,False,,Insufficient pressure sample; Negative T20I rate (10 balls)
+Batters,6931,Pathum Nissanka,False,False,41,4,,,,,14.905882,-9.264663,0.966017,0.500000,False,,,,False,0,,41,0.848343,False,,Insufficient pressure sample
+Batters,6985,Bas de Leede,False,False,4,1,,,,,6.998125,-22.144375,,0.000000,False,,,,False,0,,4,-15.383105,False,,Insufficient pressure sample; Negative T20I rate (4 balls)
+Batters,7049,Kamil Mishara,False,False,19,2,,,,,2.447125,-35.520131,1.000000,0.500000,False,,,,False,0,,19,-23.477584,False,,Insufficient pressure sample; Negative T20I rate (19 balls)
+Batters,7059,Nehal Wadhera,False,True,100,14,-12.731742,0.578735,40.000000,36.000000,9.307702,-36.055050,0.886031,0.214286,True,-29.033364,-5.793944,43.000000,False,100,-20.370787,0,,False,,Not stable in top 10 after best-match removal; Negative IPL rate (100 balls)
+Batters,7094,Curtis Campher,False,True,75,8,-4.987575,-9.520255,37.000000,42.000000,-9.689824,4.461209,0.599559,0.250000,False,,,,False,0,,75,-8.977635,False,,Not stable in top 10 after best-match removal; Negative T20I rate (75 balls)
+Batters,7152,Hazratullah Zazai,False,False,3,1,,,,,4.782854,-270.480139,,0.000000,False,,,,False,0,,3,-269.628539,False,,Insufficient pressure sample; Negative T20I rate (3 balls)
+Batters,7216,Prabhsimran Singh,False,False,18,2,,,,,14.741820,-37.566552,,0.000000,False,,,,False,18,-32.110824,0,,False,,Insufficient pressure sample; Negative IPL rate (18 balls)
+Batters,7260,Dhruv Jurel,True,False,55,8,,,,,6.753051,9.612836,0.533997,0.500000,False,,,,False,55,12.189815,0,,False,,Insufficient pressure sample
+Batters,7269,Sushant Mishra,True,False,0,0,,,,,-3.901796,,,,False,,,,False,0,,0,,False,,Insufficient pressure sample
+Batters,7312,Nandre Burger,True,False,0,0,,,,,-18.873997,,,,False,,,,False,0,,0,,False,,Insufficient pressure sample
+Batters,7446,Abdul Samad,False,False,10,4,,,,,1.827371,-41.018020,,0.000000,False,,,,False,10,-38.029004,0,,False,,Insufficient pressure sample; Negative IPL rate (10 balls)
+Batters,7472,Shahbaz Ahmed,False,False,8,5,,,,,-3.260694,-237.621475,1.000000,0.200000,False,,,,False,8,-243.814440,0,,False,,Insufficient pressure sample; Negative IPL rate (8 balls)
+Batters,7503,Ravi Bishnoi,True,False,0,0,,,,,-54.491552,,,,False,,,,False,0,,0,,False,,Insufficient pressure sample
+Batters,7544,Venkatesh Iyer,False,True,63,9,-23.198179,0.299799,43.000000,37.000000,12.267564,-47.762837,0.695753,0.222222,False,,,,False,63,-45.291683,0,,False,,Not stable in top 10 after best-match removal; Negative IPL rate (63 balls)
+Batters,7690,Saim Ayub,False,False,8,1,,,,,2.898056,32.881313,1.000000,1.000000,False,,,,False,0,,8,38.566677,False,,Insufficient pressure sample
+Batters,7741,Gareth Delany,False,False,7,1,,,,,-7.993813,42.271183,1.000000,1.000000,False,,,,False,0,,7,31.192691,False,,Insufficient pressure sample
+Batters,7808,Marco Jansen,False,False,5,2,,,,,-2.355884,128.137603,1.000000,0.500000,False,,,,False,1,-12.425088,4,164.307696,False,,Insufficient pressure sample; Negative IPL rate (1 balls)
+Batters,7897,Namboori Tilak Varma,False,True,301,29,25.232313,25.990798,6.000000,6.000000,20.633985,9.696676,0.186647,0.689655,True,19.690399,22.377202,10.000000,True,227,31.173774,74,27.465113,False,,
+Batters,7900,Tanzid Hasan,False,False,19,2,,,,,5.647068,14.450004,1.000000,0.500000,False,,,,False,0,,19,18.884294,False,,Insufficient pressure sample
+Batters,7901,Parvez Emon,False,False,15,2,,,,,-1.717990,-61.957707,1.000000,0.500000,False,,,,False,0,,15,-53.760546,False,,Insufficient pressure sample; Negative T20I rate (15 balls)
+Batters,7903,Shamim Hossain,False,False,27,7,,,,,6.128712,-84.625337,0.891087,0.285714,False,,,,False,0,,27,-76.733288,False,,Insufficient pressure sample; Negative T20I rate (27 balls)
+Batters,8101,Ashutosh Sharma,False,False,24,4,,,,,11.287217,64.205431,0.653622,0.750000,False,,,,False,24,74.364340,0,,False,,Insufficient pressure sample
+Batters,8182,Donovan Ferreira,True,False,11,1,,,,,21.271249,21.227356,1.000000,1.000000,False,,,,False,11,28.575788,0,,False,,Insufficient pressure sample
+Batters,8221,Nitish Reddy,False,True,73,13,2.489229,9.489192,29.000000,21.000000,10.996040,-2.696186,0.553920,0.307692,False,,,,False,46,-60.858136,27,115.945991,False,,Not stable in top 10 after best-match removal; Negative IPL rate (46 balls)
+Batters,8301,Asif Khan,False,False,21,2,,,,,11.788262,30.409900,0.969411,1.000000,False,,,,False,0,,21,59.176295,False,,Insufficient pressure sample
+Batters,8600,Tadiwanashe Marumani,False,False,4,3,,,,,-33.045519,9.246402,0.835842,0.666667,False,,,,False,0,,4,-21.215461,False,,Insufficient pressure sample; Negative T20I rate (4 balls)
+Batters,8647,Sediqullah Atal,False,False,29,2,,,,,-15.858177,37.425905,1.000000,0.500000,False,,,,False,0,,29,25.145144,False,,Insufficient pressure sample
+Batters,8741,Mohammad Haris,False,False,22,2,,,,,-15.223897,5.503456,1.000000,0.500000,False,,,,False,0,,22,-11.058507,False,,Insufficient pressure sample; Negative T20I rate (22 balls)
+Batters,19714,Abishek Porel,False,False,32,3,,,,,7.659446,-15.842065,0.619369,0.666667,False,,,,False,32,-7.742637,0,,False,,Insufficient pressure sample; Negative IPL rate (32 balls)
+Batters,20327,Usman Khan,False,False,22,3,,,,,2.831107,-25.090731,,0.000000,False,,,,False,0,,22,-24.794253,False,,Insufficient pressure sample; Negative T20I rate (22 balls)
+Batters,20702,Tristan Stubbs,False,True,114,17,4.702202,14.465392,26.000000,15.000000,17.927356,-17.506512,0.222919,0.588235,True,0.393179,12.803130,29.000000,False,67,14.811330,47,-3.705870,False,,Not stable in top 10 after best-match removal; Negative T20I rate (47 balls)
+Batters,21781,Clive Madande,False,False,17,5,,,,,-20.808691,-115.825621,,0.000000,False,,,,False,0,,17,-129.707898,False,,Insufficient pressure sample; Negative T20I rate (17 balls)
+Batters,22565,Muhammad Waseem,False,False,2,1,,,,,21.304345,-389.325920,,0.000000,False,,,,False,0,,2,-356.946090,False,,Insufficient pressure sample; Negative T20I rate (2 balls)
+Batters,23311,Jacob Bethell,False,False,11,2,,,,,6.166352,256.494380,0.658456,1.000000,False,,,,False,0,,11,263.400811,False,,Insufficient pressure sample
+Batters,23450,Sai Sudharsan,False,False,8,3,,,,,15.484624,81.775850,0.628148,0.666667,False,,,,False,8,95.669764,0,,False,,Insufficient pressure sample
+Batters,24017,Brian Bennett,False,False,3,1,,,,,3.862135,-19.365752,,0.000000,False,,,,False,0,,3,-12.974172,False,,Insufficient pressure sample; Negative T20I rate (3 balls)
+Batters,25139,Shubham Dubey,True,False,0,0,,,,,-6.454737,,,,False,,,,False,0,,0,,False,,Insufficient pressure sample
+Batters,25213,Dewald Brevis,False,True,106,12,34.427866,22.934606,1.000000,9.000000,9.251450,41.874903,0.357760,0.666667,True,18.105721,14.995895,12.000000,False,67,13.263322,39,123.753416,True,43.174111,Not stable in top 10 after best-match removal
+Batters,26906,Angkrish Raghuvanshi,False,False,18,2,,,,,6.432362,26.278048,1.000000,0.500000,False,,,,False,18,33.120571,0,,False,,Insufficient pressure sample
+Batters,28967,Tim Robinson,False,False,29,1,,,,,0.930523,86.315016,1.000000,1.000000,False,,,,False,0,,29,86.767061,False,,Insufficient pressure sample
+Batters,37052,Naman Dhir,False,False,58,6,,,,,12.634166,58.527261,0.488907,1.000000,False,,,,False,46,45.113407,12,168.199669,False,,Insufficient pressure sample
+Batters,43798,Lhuan Pretorius,True,False,0,0,,,,,-21.913412,,,,False,,,,False,0,,0,,False,,Insufficient pressure sample
+Batters,46137,Kartik Sharma,False,False,10,1,,,,,-3.279144,-22.340718,,0.000000,False,,,,False,10,-34.433004,0,,False,,Insufficient pressure sample; Negative IPL rate (10 balls)
+Batters,47370,Aniket Verma,False,False,3,1,,,,,11.707606,-40.110267,,0.000000,False,,,,False,3,-19.674310,0,,False,,Insufficient pressure sample; Negative IPL rate (3 balls)
+Batters,49003,Hasan Nawaz,False,False,24,4,,,,,4.108050,13.136375,0.516621,1.000000,False,,,,False,0,,24,37.325196,False,,Insufficient pressure sample
+Batters,49027,Bevon Jacobs,False,False,5,1,,,,,-0.301777,-10.313848,,0.000000,False,,,,False,0,,5,-6.969045,False,,Insufficient pressure sample; Negative T20I rate (5 balls)
+Batters,50284,Vaibhav Sooryavanshi,True,False,0,0,,,,,63.502306,,,,False,,,,False,0,,0,,False,,Insufficient pressure sample
+Batters,60700,Ravi Singh,True,False,0,0,,,,,-5.592768,,,,False,,,,False,0,,0,,False,,Insufficient pressure sample
+Batters,67036,Brijesh Sharma,True,False,0,0,,,,,-3.239916,,,,False,,,,False,0,,0,,False,,Insufficient pressure sample
+Bowlers,23,Piyush Chawla,False,False,26,3,,,,,8.091147,29.418085,0.745334,0.666667,False,,,,False,26,39.161904,0,,False,,Insufficient pressure sample
+Bowlers,28,Ishant Sharma,False,False,17,2,,,,,-10.271269,22.778621,1.000000,0.500000,False,,,,False,17,20.384597,0,,False,,Insufficient pressure sample
+Bowlers,152,Ravindra Jadeja,True,True,95,12,1.110593,4.331263,28.000000,26.000000,5.328464,-3.304330,0.383816,0.333333,True,-6.641365,1.018936,36.000000,False,95,1.812019,0,,False,,Not stable in top 10 after best-match removal
+Bowlers,278,Tim Southee,False,False,18,5,,,,,10.810655,-3.201213,0.717791,0.600000,False,,,,False,6,38.844299,12,1.115810,False,,Insufficient pressure sample
+Bowlers,295,Wayne Parnell,False,False,0,1,,,,,-4.427118,,,0.000000,False,,,,False,0,,0,,False,,Insufficient pressure sample
+Bowlers,305,Ravichandran Ashwin,False,True,111,15,-9.115599,-2.051606,40.000000,36.000000,3.494390,-18.719262,0.287671,0.400000,True,-14.253521,-4.442894,42.000000,False,93,-19.731785,18,15.349369,False,,Not stable in top 10 after best-match removal; Negative IPL rate (93 balls)
+Bowlers,360,Bhuvneshwar Kumar,False,True,146,21,3.418618,12.172917,25.000000,13.000000,16.643795,-12.843536,0.394551,0.428571,True,-10.407954,5.281732,41.000000,False,100,23.596904,46,-35.988152,False,,Not stable in top 10 after best-match removal; Negative T20I rate (46 balls)
+Bowlers,395,Karn Sharma,False,False,24,3,,,,,-18.647973,-4.197608,1.000000,0.333333,False,,,,False,24,-23.655182,0,,False,,Insufficient pressure sample; Negative IPL rate (24 balls)
+Bowlers,403,Umesh Yadav,False,False,2,1,,,,,-2.935688,137.068720,1.000000,1.000000,False,,,,False,2,136.813607,0,,False,,Insufficient pressure sample
+Bowlers,479,Adil Rashid,False,True,100,13,8.161163,3.034307,17.000000,30.000000,-1.142175,13.271465,0.410579,0.384615,True,-1.984524,-1.731193,31.000000,False,0,,100,13.057861,False,,Not stable in top 10 after best-match removal
+Bowlers,494,Kieron Pollard,False,False,11,2,,,,,-11.905524,35.564714,1.000000,0.500000,False,,,,False,11,25.923068,0,,False,,Insufficient pressure sample
+Bowlers,499,Shakib Al Hasan,False,False,21,3,,,,,8.667833,56.801444,0.490570,1.000000,False,,,,False,0,,21,60.491578,False,,Insufficient pressure sample
+Bowlers,781,Sunil Narine,False,True,103,14,18.302577,28.602444,9.000000,2.000000,28.447159,2.351242,0.205703,0.642857,True,13.128017,26.375124,12.000000,False,103,28.964273,0,,True,68.680698,Not stable in top 10 after best-match removal
+Bowlers,786,Chris Jordan,False,False,30,5,,,,,-23.822183,-38.296071,0.520168,0.400000,False,,,,False,9,-205.493645,21,-5.418397,False,,Insufficient pressure sample; Negative IPL rate (9 balls); Negative T20I rate (21 balls)
+Bowlers,818,Mitchell Marsh,False,False,12,3,,,,,1.138208,6.946256,1.000000,0.333333,False,,,,False,12,13.435864,0,,False,,Insufficient pressure sample
+Bowlers,829,Mitchell Starc,False,False,49,10,,,,,-4.867809,47.850646,0.294033,0.700000,False,,,,False,49,40.089757,0,,False,,Insufficient pressure sample
+Bowlers,830,Josh Hazlewood,False,True,130,19,30.973535,26.474961,2.000000,3.000000,16.294849,23.773452,0.255838,0.631579,True,20.003635,20.869862,8.000000,True,82,78.806095,48,-12.023501,False,,Negative T20I rate (48 balls)
+Bowlers,838,Glenn Maxwell,False,False,20,4,,,,,-4.867510,-6.357134,0.739816,0.500000,False,,,,False,13,-23.175510,7,14.125029,False,,Insufficient pressure sample; Negative IPL rate (13 balls)
+Bowlers,1071,Jaydev Unadkat,False,False,11,3,,,,,-13.239039,98.313138,0.530916,0.666667,False,,,,False,11,86.697976,0,,False,,Insufficient pressure sample
+Bowlers,1101,George Dockrell,False,False,6,1,,,,,19.532075,81.378609,1.000000,1.000000,False,,,,False,0,,6,97.920853,False,,Insufficient pressure sample
+Bowlers,1107,Mohammad Nabi,False,False,27,6,,,,,-11.303686,-25.612602,0.663120,0.500000,False,,,,False,0,,27,-31.023207,False,,Insufficient pressure sample; Negative T20I rate (27 balls)
+Bowlers,1171,Chris Woakes,False,False,1,1,,,,,-1.095387,-172.235775,,0.000000,False,,,,False,0,,1,-174.544291,False,,Insufficient pressure sample; Negative T20I rate (1 balls)
+Bowlers,1219,David Willey,False,False,16,3,,,,,8.126434,-66.502677,,0.000000,False,,,,False,11,-45.921887,5,-92.036824,False,,Insufficient pressure sample; Negative IPL rate (11 balls); Negative T20I rate (5 balls)
+Bowlers,1318,Andre Russell,False,True,66,11,-15.956441,-16.024361,44.000000,48.000000,-12.053929,-27.635201,0.651521,0.272727,False,,,,False,45,-0.264860,21,-95.171086,False,,Not stable in top 10 after best-match removal; Negative IPL rate (45 balls); Negative T20I rate (21 balls)
+Bowlers,1389,Sean Abbott,False,False,34,4,,,,,-8.681306,-53.144275,1.000000,0.250000,False,,,,False,0,,34,-55.840440,False,,Insufficient pressure sample; Negative T20I rate (34 balls)
+Bowlers,1487,Adam Milne,True,False,23,4,,,,,-8.187291,-24.954509,0.562126,0.750000,False,,,,False,6,16.829596,17,-37.480949,False,,Insufficient pressure sample; Negative T20I rate (17 balls)
+Bowlers,1541,Sean Williams,False,False,6,1,,,,,1.569756,-0.896637,,0.000000,False,,,,False,0,,6,-0.924710,False,,Insufficient pressure sample; Negative T20I rate (6 balls)
+Bowlers,1566,Mohammed Shami,False,False,49,8,,,,,3.125020,50.297464,0.624648,0.500000,False,,,,False,49,53.578287,0,,False,,Insufficient pressure sample
+Bowlers,1596,Moeen Ali,False,False,33,6,,,,,-0.055091,2.851694,0.530870,0.500000,False,,,,False,15,-2.123243,18,13.090779,False,,Insufficient pressure sample; Negative IPL rate (15 balls)
+Bowlers,1612,Yuzvendra Chahal,False,True,153,23,4.860251,4.413834,22.000000,25.000000,2.914179,-2.408392,0.307494,0.478261,True,-6.436395,-1.635480,35.000000,False,133,8.558228,20,-5.150538,False,,Not stable in top 10 after best-match removal; Negative T20I rate (20 balls)
+Bowlers,1758,Patrick Cummins,False,False,48,9,,,,,-3.383369,35.779341,0.735751,0.555556,False,,,,False,34,32.487112,14,9.407658,False,,Insufficient pressure sample
+Bowlers,1772,Sheldon Cottrell,False,False,3,1,,,,,-21.019275,-101.124721,,0.000000,False,,,,False,0,,3,-109.826124,False,,Insufficient pressure sample; Negative T20I rate (3 balls)
+Bowlers,1813,Deepak Chahar,False,False,46,7,,,,,1.081814,44.206808,0.419988,0.714286,False,,,,False,40,37.696000,6,111.068910,False,,Insufficient pressure sample
+Bowlers,1944,Keshav Maharaj,False,False,50,6,,,,,-2.179170,-2.975478,0.590240,0.333333,False,,,,False,6,156.273134,44,-25.655528,False,,Insufficient pressure sample; Negative T20I rate (44 balls)
+Bowlers,2054,Jason Behrendorff,False,False,12,2,,,,,1.426779,-18.953960,1.000000,0.500000,False,,,,False,0,,12,-21.148229,False,,Insufficient pressure sample; Negative T20I rate (12 balls)
+Bowlers,2261,Harshal Patel,False,True,183,26,-3.084944,-2.792925,33.000000,38.000000,-1.799025,-14.669419,0.196505,0.576923,True,-8.202859,-5.660892,38.000000,False,127,29.274459,56,-79.776745,False,,Not stable in top 10 after best-match removal; Negative T20I rate (56 balls)
+Bowlers,2304,Tymal Mills,False,False,6,1,,,,,-37.908211,-69.263446,,0.000000,False,,,,False,0,,6,-102.153809,False,,Insufficient pressure sample; Negative T20I rate (6 balls)
+Bowlers,2315,Reece Topley,False,False,29,5,,,,,-3.825494,-33.247467,0.592491,0.400000,False,,,,False,0,,29,-30.557659,False,,Insufficient pressure sample; Negative T20I rate (29 balls)
+Bowlers,2320,Trent Boult,False,True,63,11,10.107225,10.177442,14.000000,16.000000,7.669068,10.965944,0.231549,0.636364,False,,,,False,59,18.370082,4,39.838447,False,,Not stable in top 10 after best-match removal
+Bowlers,2334,Dwaine Pretorius,False,False,10,1,,,,,-17.187977,109.300602,1.000000,1.000000,False,,,,False,0,,10,95.378564,False,,Insufficient pressure sample
+Bowlers,2382,Jamie Overton,False,False,21,4,,,,,5.096970,114.556024,0.381671,1.000000,False,,,,False,12,114.660308,9,96.809614,False,,Insufficient pressure sample
+Bowlers,2399,Dushmantha Chameera,False,True,60,10,-25.345220,-11.721616,48.000000,43.000000,-1.979410,-40.940740,0.686582,0.400000,False,,,,False,15,-27.282312,45,-58.493149,False,,Not stable in top 10 after best-match removal; Negative IPL rate (15 balls); Negative T20I rate (45 balls)
+Bowlers,2411,Sandeep Sharma,True,True,64,13,5.320482,-0.441361,21.000000,34.000000,-3.307972,10.884338,0.308849,0.615385,False,,,,False,64,10.308433,0,,False,,Not stable in top 10 after best-match removal
+Bowlers,2417,Akeal Hosein,False,False,50,7,,,,,3.167597,44.507098,0.304469,0.714286,False,,,,False,6,25.048886,44,46.352307,False,,Insufficient pressure sample
+Bowlers,2436,Dasun Shanaka,True,False,33,5,,,,,-15.777116,3.020470,0.751094,0.400000,False,,,,False,0,,33,-13.755713,False,,Insufficient pressure sample; Negative T20I rate (33 balls)
+Bowlers,2463,Ryan Burl,False,False,6,1,,,,,3.191611,-82.548810,,0.000000,False,,,,False,0,,6,-60.530610,False,,Insufficient pressure sample; Negative T20I rate (6 balls)
+Bowlers,2490,Mohammad Nawaz,False,False,57,8,,,,,18.022670,-15.245945,0.553076,0.500000,False,,,,False,0,,57,0.325608,False,,Insufficient pressure sample
+Bowlers,2526,Ish Sodhi,False,False,60,7,,,,,-5.139680,-37.563625,0.509277,0.428571,False,,,,False,0,,60,-39.472031,False,,Insufficient pressure sample; Negative T20I rate (60 balls)
+Bowlers,2633,Jason Holder,False,True,138,21,23.759251,9.370046,5.000000,18.000000,-4.843560,42.275611,0.260790,0.714286,True,16.012859,4.961578,9.000000,True,63,43.720445,75,25.999250,True,3.942641,
+Bowlers,2636,Adam Zampa,False,True,159,23,5.795435,0.582943,20.000000,33.000000,-4.319192,17.471368,0.210257,0.434783,True,-0.365414,-2.835723,30.000000,False,9,13.348498,150,7.660425,False,,Not stable in top 10 after best-match removal
+Bowlers,2639,Marcus Stoinis,False,False,54,11,,,,,-9.854925,-50.794179,0.688891,0.272727,False,,,,False,15,-103.523840,39,-29.583285,False,,Insufficient pressure sample; Negative IPL rate (15 balls); Negative T20I rate (39 balls)
+Bowlers,2681,Taskin Ahmed,False,False,56,10,,,,,1.940838,59.785357,0.502349,0.700000,False,,,,False,0,,56,59.287983,False,,Insufficient pressure sample
+Bowlers,2687,Roston Chase,False,True,67,10,9.583404,8.840478,15.000000,21.000000,6.237227,11.078195,0.458821,0.600000,True,1.713689,5.662095,26.000000,False,0,,67,18.165558,False,,Not stable in top 10 after best-match removal
+Bowlers,2847,Shardul Thakur,False,False,52,9,,,,,-15.347649,-44.683398,0.426081,0.444444,False,,,,False,52,-61.783697,0,,False,,Insufficient pressure sample; Negative IPL rate (52 balls)
+Bowlers,2876,Axar Patel,False,True,172,24,14.398242,12.299451,11.000000,12.000000,7.195756,9.869442,0.174330,0.583333,True,9.796732,9.705657,14.000000,False,87,7.125333,85,32.005742,False,,Not stable in top 10 after best-match removal
+Bowlers,2878,Mohit Sharma,False,False,51,7,,,,,0.744513,-10.052783,0.518804,0.428571,False,,,,False,51,5.688743,0,,False,,Insufficient pressure sample
+Bowlers,2933,Jasprit Bumrah,False,True,95,18,7.549469,23.154325,18.000000,6.000000,27.443881,-16.671511,0.195853,0.555556,True,2.686194,21.124310,26.000000,False,72,14.340000,23,5.986420,False,,Not stable in top 10 after best-match removal
+Bowlers,2972,Yasim Murtaza,False,False,1,1,,,,,-1.754802,-177.593317,,0.000000,False,,,,False,0,,1,-180.357952,False,,Insufficient pressure sample; Negative T20I rate (1 balls)
+Bowlers,2984,Sikandar Raza,False,True,96,10,-6.824727,4.825039,37.000000,24.000000,11.191127,-20.200595,0.492153,0.400000,True,-13.737472,1.894696,41.000000,False,0,,96,-11.090181,False,,Not stable in top 10 after best-match removal; Negative T20I rate (96 balls)
+Bowlers,2985,Mark Wood,False,False,12,2,,,,,30.715208,-130.243889,,0.000000,False,,,,False,8,-72.019486,4,-128.983818,False,,Insufficient pressure sample; Negative IPL rate (8 balls); Negative T20I rate (4 balls)
+Bowlers,3056,Iftikhar Ahmed,False,False,6,1,,,,,14.265793,-41.440762,,0.000000,False,,,,False,0,,6,-26.063107,True,-5.389524,Insufficient pressure sample; Negative T20I rate (6 balls); Negative qualified external rate
+Bowlers,3174,Matt Henry,False,False,9,3,,,,,-15.749348,116.468172,0.728053,0.666667,False,,,,False,2,175.641614,7,95.993304,False,,Insufficient pressure sample
+Bowlers,3275,Alzarri Joseph,False,True,81,14,-13.915361,-17.529031,42.000000,50.000000,-15.269805,-28.894275,0.245375,0.428571,True,-19.467946,-19.977542,44.000000,False,44,-32.213073,37,-14.721369,False,,Not stable in top 10 after best-match removal; Negative IPL rate (44 balls); Negative T20I rate (37 balls)
+Bowlers,3276,Gudakesh Motie,False,False,32,5,,,,,-0.792132,-59.550451,0.850759,0.600000,False,,,,False,0,,32,-49.986703,False,,Insufficient pressure sample; Negative T20I rate (32 balls)
+Bowlers,3298,Jofra Archer,True,True,88,13,15.165073,11.767665,10.000000,14.000000,6.730680,23.690438,0.264452,0.615385,True,9.537593,9.222675,15.000000,False,49,35.013036,39,13.558771,False,,Not stable in top 10 after best-match removal
+Bowlers,3323,Jimmy Neesham,False,False,40,6,,,,,-7.636462,-104.219630,1.000000,0.166667,False,,,,False,0,,40,-113.599908,False,,Insufficient pressure sample; Negative T20I rate (40 balls)
+Bowlers,3330,Hardik Pandya,False,True,75,11,20.779690,-1.464497,8.000000,35.000000,-13.610729,41.578052,0.293533,0.636364,True,13.372251,-4.988850,12.000000,False,34,65.582147,41,14.035736,False,,Not stable in top 10 after best-match removal
+Bowlers,3605,Aiden Markram,False,False,19,4,,,,,-28.824109,30.238404,0.894137,0.500000,False,,,,False,7,-80.140151,12,45.990655,False,,Insufficient pressure sample; Negative IPL rate (7 balls)
+Bowlers,3622,Hayden Walsh,False,False,3,1,,,,,-10.224823,27.523789,1.000000,1.000000,False,,,,False,0,,3,18.300161,False,,Insufficient pressure sample
+Bowlers,3628,Kagiso Rabada,False,False,50,13,,,,,0.602344,-54.213470,0.345063,0.307692,False,,,,False,44,-31.887208,6,-221.027065,False,,Insufficient pressure sample; Negative IPL rate (44 balls); Negative T20I rate (6 balls)
+Bowlers,3629,Corbin Bosch,False,False,13,3,,,,,24.782741,39.679294,0.667954,0.666667,False,,,,False,7,31.422261,6,109.754139,False,,Insufficient pressure sample
+Bowlers,3641,Ben Dwarshuis,False,False,14,2,,,,,10.027879,-113.568600,,0.000000,False,,,,False,6,-80.070134,8,-112.173274,False,,Insufficient pressure sample; Negative IPL rate (6 balls); Negative T20I rate (8 balls)
+Bowlers,3644,Kuldeep Yadav,False,True,213,31,0.419676,10.098209,29.000000,17.000000,18.582987,-20.779241,0.181668,0.580645,True,-5.778634,6.608913,35.000000,False,129,1.016101,84,-0.196492,False,,Not stable in top 10 after best-match removal; Negative T20I rate (84 balls)
+Bowlers,3653,Avesh Khan,False,True,164,25,-4.688891,-7.296109,35.000000,42.000000,-7.905485,-0.416649,0.337040,0.480000,True,-13.145159,-11.936880,41.000000,False,126,3.002793,38,-37.596410,False,,Not stable in top 10 after best-match removal; Negative T20I rate (38 balls)
+Bowlers,3664,Binura Fernando,False,False,5,1,,,,,-24.143488,35.478346,1.000000,1.000000,False,,,,False,0,,5,15.548954,False,,Insufficient pressure sample
+Bowlers,3697,Kyle Jamieson,False,False,17,3,,,,,-20.017343,-0.313415,1.000000,0.333333,False,,,,False,0,,17,-4.997926,False,,Insufficient pressure sample; Negative T20I rate (17 balls)
+Bowlers,3720,Craig Young,False,False,28,3,,,,,3.958792,84.354817,0.491655,1.000000,False,,,,False,0,,28,89.540614,False,,Insufficient pressure sample
+Bowlers,4101,Mitchell Santner,False,True,124,20,-9.081275,6.309428,39.000000,22.000000,16.531611,-28.194991,0.243037,0.400000,True,-14.860851,3.693729,42.000000,False,38,-19.587346,86,-10.774832,False,,Not stable in top 10 after best-match removal; Negative IPL rate (38 balls); Negative T20I rate (86 balls)
+Bowlers,4201,Fareed Malik,False,False,28,5,,,,,-25.855804,11.155246,0.795869,0.400000,False,,,,False,0,,28,-1.134451,False,,Insufficient pressure sample; Negative T20I rate (28 balls)
+Bowlers,4219,Krunal Pandya,False,False,49,9,,,,,11.193194,-27.317536,0.378875,0.444444,False,,,,False,49,-18.123507,0,,False,,Insufficient pressure sample; Negative IPL rate (49 balls)
+Bowlers,4229,George Linde,False,False,12,2,,,,,5.229081,-142.682689,,0.000000,False,,,,False,6,-169.781129,6,-106.005270,False,,Insufficient pressure sample; Negative IPL rate (6 balls); Negative T20I rate (6 balls)
+Bowlers,4237,Tabraiz Shamsi,False,False,12,1,,,,,-22.668634,-7.779045,,0.000000,False,,,,False,0,,12,-31.471502,False,,Insufficient pressure sample; Negative T20I rate (12 balls)
+Bowlers,4265,T Natarajan,False,True,81,13,-25.551320,-12.834196,49.000000,44.000000,-2.154337,-52.659927,0.407982,0.384615,True,-32.977295,-15.774526,51.000000,False,81,-44.478223,0,,False,,Not stable in top 10 after best-match removal; Negative IPL rate (81 balls)
+Bowlers,4373,Mustafizur Rahman,False,True,123,20,11.543839,16.879215,13.000000,9.000000,16.727635,12.238808,0.295972,0.550000,True,4.839095,13.769764,22.000000,False,20,-47.539777,103,29.740952,False,,Not stable in top 10 after best-match removal; Negative IPL rate (20 balls)
+Bowlers,4391,Liam Livingstone,False,False,12,2,,,,,-13.333024,-139.080409,,0.000000,False,,,,False,0,,12,-156.744207,False,,Insufficient pressure sample; Negative T20I rate (12 balls)
+Bowlers,4409,Sam Curran,False,True,95,15,-4.058395,-14.267732,34.000000,46.000000,-17.294329,4.287221,0.467401,0.400000,True,-11.561998,-17.852209,41.000000,False,54,-29.193474,41,23.107228,False,,Not stable in top 10 after best-match removal; Negative IPL rate (54 balls)
+Bowlers,4487,Vyshak Kumar,False,False,20,3,,,,,-17.842184,-54.729501,,0.000000,False,,,,False,20,-75.411931,0,,False,,Insufficient pressure sample; Negative IPL rate (20 balls)
+Bowlers,4489,Prasidh Krishna,False,True,91,16,-9.836138,-2.118561,41.000000,37.000000,3.266721,-21.776631,0.283182,0.500000,True,-17.525137,-5.406559,44.000000,False,78,2.040821,13,-126.495447,False,,Not stable in top 10 after best-match removal; Negative T20I rate (13 balls)
+Bowlers,4499,Saqib Mahmood,False,False,12,1,,,,,15.112002,-82.662673,,0.000000,False,,,,False,0,,12,-77.741338,False,,Insufficient pressure sample; Negative T20I rate (12 balls)
+Bowlers,4636,Bjorn Fortuin,False,False,8,1,,,,,-27.665324,-40.444748,,0.000000,False,,,,False,0,,8,-68.524349,False,,Insufficient pressure sample; Negative T20I rate (8 balls)
+Bowlers,4639,Wellington Masakadza,False,True,62,8,0.303169,-5.423885,30.000000,40.000000,-6.979166,-3.796296,0.593286,0.375000,False,,,,False,0,,62,0.596558,False,,Not stable in top 10 after best-match removal
+Bowlers,4641,Lungi Ngidi,False,False,35,6,,,,,6.974082,48.129290,0.442755,0.666667,False,,,,False,15,120.050911,20,-21.704000,False,,Insufficient pressure sample; Negative T20I rate (20 balls)
+Bowlers,4658,Nasum Ahmed,False,False,24,4,,,,,7.911238,19.075276,0.719849,1.000000,False,,,,False,0,,24,21.997523,False,,Insufficient pressure sample
+Bowlers,4692,Lockie Ferguson,False,False,35,8,,,,,1.480850,4.657703,0.434428,0.500000,False,,,,False,22,13.850681,13,-2.435420,False,,Insufficient pressure sample; Negative T20I rate (13 balls)
+Bowlers,4722,Rashid Khan,False,True,277,44,33.984574,30.166504,1.000000,1.000000,17.263672,20.367016,0.107085,0.704545,True,29.198956,27.021791,2.000000,True,151,25.299224,126,60.576338,True,-8.272113,Negative qualified external rate
+Bowlers,4755,Shivam Dube,False,False,24,3,,,,,-18.089071,13.105058,0.548210,0.666667,False,,,,False,0,,24,7.093601,False,,Insufficient pressure sample
+Bowlers,4807,Joshua Little,False,False,37,5,,,,,2.543228,34.856306,0.335239,1.000000,False,,,,False,19,10.400853,18,74.199287,False,,Insufficient pressure sample
+Bowlers,4815,Benjamin White,False,False,9,1,,,,,-17.447575,-14.962347,,0.000000,False,,,,False,0,,9,-23.587075,False,,Insufficient pressure sample; Negative T20I rate (9 balls)
+Bowlers,4816,Khaleel Ahmed,False,False,54,10,,,,,2.727073,4.366599,0.374488,0.500000,False,,,,False,50,2.767654,4,122.033620,False,,Insufficient pressure sample
+Bowlers,4823,Washington Sundar,False,False,27,4,,,,,3.144742,117.862603,0.421717,1.000000,False,,,,False,16,83.970403,11,167.351633,False,,Insufficient pressure sample
+Bowlers,4824,Zeeshan Ansari,False,False,12,1,,,,,-11.470056,-94.243763,,0.000000,False,,,,False,12,-103.947669,0,,False,,Insufficient pressure sample; Negative IPL rate (12 balls)
+Bowlers,4837,Obed McCoy,False,False,29,5,,,,,-8.490721,-14.667552,1.000000,0.200000,False,,,,False,6,-34.159890,23,-12.274227,False,,Insufficient pressure sample; Negative IPL rate (6 balls); Negative T20I rate (23 balls)
+Bowlers,4840,Odean Smith,False,False,11,2,,,,,-25.560760,54.588788,1.000000,0.500000,False,,,,False,0,,11,26.065471,False,,Insufficient pressure sample
+Bowlers,4842,Shamar Springer,False,False,6,1,,,,,-10.720321,96.963440,1.000000,1.000000,False,,,,False,0,,6,92.756088,False,,Insufficient pressure sample
+Bowlers,4856,Benjamin Sears,False,False,9,2,,,,,1.277742,-90.302775,,0.000000,False,,,,False,0,,9,-105.436751,False,,Insufficient pressure sample; Negative T20I rate (9 balls)
+Bowlers,4874,Richard Ngarava,False,False,36,5,,,,,3.365348,-29.422366,0.985318,0.400000,False,,,,False,0,,36,-22.067783,False,,Insufficient pressure sample; Negative T20I rate (36 balls)
+Bowlers,4895,Charith Asalanka,False,False,2,1,,,,,5.103150,46.495783,1.000000,1.000000,False,,,,False,0,,2,49.765794,False,,Insufficient pressure sample
+Bowlers,4900,Wanindu Hasaranga,False,True,206,28,26.995184,24.116379,4.000000,5.000000,14.896610,20.901864,0.117898,0.642857,True,22.570159,21.462335,5.000000,True,71,3.828959,135,51.176761,False,,
+Bowlers,4926,Shadab Khan,False,False,33,6,,,,,-1.425584,-0.702026,0.995643,0.333333,False,,,,False,0,,33,6.371773,False,,Insufficient pressure sample
+Bowlers,5041,Mukesh Kumar,False,False,55,10,,,,,-10.658035,8.263261,0.425130,0.600000,False,,,,False,36,-15.270960,19,17.609150,False,,Insufficient pressure sample; Negative IPL rate (36 balls)
+Bowlers,5189,Faheem Ashraf,False,False,17,2,,,,,-2.786979,47.514769,0.596725,1.000000,False,,,,False,0,,17,46.283394,False,,Insufficient pressure sample
+Bowlers,5379,Mark Adair,False,False,44,7,,,,,-1.648079,78.897280,0.312435,0.714286,False,,,,False,0,,44,74.016353,False,,Insufficient pressure sample
+Bowlers,5441,Barry McCarthy,False,False,40,7,,,,,-9.284614,-17.756526,0.532817,0.571429,False,,,,False,0,,40,-25.818337,False,,Insufficient pressure sample; Negative T20I rate (40 balls)
+Bowlers,5562,Richard Gleeson,False,False,9,2,,,,,-11.144840,19.193826,1.000000,0.500000,False,,,,False,9,12.673320,0,,False,,Insufficient pressure sample
+Bowlers,5577,Sai Kishore,False,False,6,1,,,,,14.761310,4.953203,1.000000,1.000000,False,,,,False,6,27.880630,0,,False,,Insufficient pressure sample
+Bowlers,5738,Xavier Bartlett,False,False,23,4,,,,,-8.376736,-52.385143,0.749897,0.500000,False,,,,False,11,-14.081229,12,-79.865481,False,,Insufficient pressure sample; Negative IPL rate (11 balls); Negative T20I rate (12 balls)
+Bowlers,5808,Karim Janat,False,False,3,1,,,,,-26.060965,-24.017671,,0.000000,False,,,,False,0,,3,-33.080063,False,,Insufficient pressure sample; Negative T20I rate (3 balls)
+Bowlers,5809,Naveen ul Haq,False,True,60,10,22.473342,15.837363,6.000000,10.000000,8.560033,30.591165,0.417527,0.800000,False,,,,False,42,49.945637,18,33.282459,True,-19.739540,Not stable in top 10 after best-match removal; Negative qualified external rate
+Bowlers,5837,Mahedi Hasan,False,True,61,9,-2.594549,9.291802,32.000000,19.000000,12.961553,-14.604992,0.498535,0.333333,False,,,,False,0,,61,-5.146565,False,,Not stable in top 10 after best-match removal; Negative T20I rate (61 balls)
+Bowlers,5892,Blair Tickner,False,False,2,1,,,,,10.988042,-129.087966,,0.000000,False,,,,False,0,,2,-114.019600,False,,Insufficient pressure sample; Negative T20I rate (2 balls)
+Bowlers,5939,Cameron Green,False,False,58,10,,,,,-15.630026,3.786090,0.451109,0.400000,False,,,,False,53,-19.968377,5,-54.762453,False,,Insufficient pressure sample; Negative IPL rate (53 balls); Negative T20I rate (5 balls)
+Bowlers,5940,Riley Meredith,False,False,6,1,,,,,-13.897986,62.186890,1.000000,1.000000,False,,,,False,6,59.782091,0,,False,,Insufficient pressure sample
+Bowlers,5944,Mohammed Siraj,False,True,63,11,3.916631,3.428038,24.000000,29.000000,2.320624,18.201792,0.555106,0.454545,False,,,,False,63,7.646755,0,,False,,Not stable in top 10 after best-match removal
+Bowlers,5979,Abrar Ahmed,False,False,29,5,,,,,27.507654,-11.237015,0.542232,0.600000,False,,,,False,0,,29,14.854959,False,,Insufficient pressure sample
+Bowlers,6160,Chamika Karunaratne,False,False,18,3,,,,,-11.684129,-74.426564,1.000000,0.333333,False,,,,False,0,,18,-81.368068,False,,Insufficient pressure sample; Negative T20I rate (18 balls)
+Bowlers,6161,Rahul Chahar,False,False,50,11,,,,,2.259853,-5.868013,0.418683,0.454545,False,,,,False,50,-1.093778,0,,False,,Insufficient pressure sample; Negative IPL rate (50 balls)
+Bowlers,6237,Manimaran Siddharth,False,False,6,1,,,,,-1.611244,163.213421,1.000000,1.000000,False,,,,False,6,166.633377,0,,False,,Insufficient pressure sample
+Bowlers,6256,Varun Chakravarthy,False,True,153,25,29.188358,26.049219,3.000000,4.000000,16.750929,27.035914,0.184815,0.760000,True,22.498637,22.420922,5.000000,True,69,44.343418,84,37.588385,False,,
+Bowlers,6272,William Jacks,False,False,8,1,,,,,6.990163,-1.351802,1.000000,1.000000,False,,,,False,0,,8,4.665471,False,,Insufficient pressure sample
+Bowlers,6281,Abhishek Sharma,False,False,15,3,,,,,-22.843877,-5.688173,1.000000,0.333333,False,,,,False,0,,15,-21.072387,False,,Insufficient pressure sample; Negative T20I rate (15 balls)
+Bowlers,6284,Anukul Roy,False,False,16,3,,,,,-2.441988,33.028749,0.793637,0.666667,False,,,,False,16,32.031746,0,,False,,Insufficient pressure sample
+Bowlers,6286,Shivam Mavi,False,False,6,1,,,,,-12.493001,196.943832,1.000000,1.000000,False,,,,False,0,,6,180.826151,False,,Insufficient pressure sample
+Bowlers,6287,Yash Thakur,False,False,25,5,,,,,-7.966734,-101.133768,,0.000000,False,,,,False,25,-97.553475,0,,False,,Insufficient pressure sample; Negative IPL rate (25 balls)
+Bowlers,6354,Spencer Johnson,False,False,12,2,,,,,-14.462716,167.619618,0.544697,1.000000,False,,,,False,0,,12,150.421952,False,,Insufficient pressure sample
+Bowlers,6355,Shaheen Afridi,False,True,66,11,21.531826,16.967007,7.000000,8.000000,10.328725,33.309924,0.219729,0.909091,False,,,,False,0,,66,41.106213,True,3.997408,Not stable in top 10 after best-match removal
+Bowlers,6398,Aaron Hardie,False,False,20,3,,,,,3.222274,-63.337155,1.000000,0.333333,False,,,,False,0,,20,-65.437437,False,,Insufficient pressure sample; Negative T20I rate (20 balls)
+Bowlers,6423,Riyan Parag,True,False,12,2,,,,,-6.511369,-82.682318,,0.000000,False,,,,False,12,-88.921175,0,,False,,Insufficient pressure sample; Negative IPL rate (12 balls)
+Bowlers,6450,Mujeeb Ur Rahman,False,True,68,11,13.907988,17.781134,12.000000,7.000000,15.401529,3.794265,0.317715,0.727273,False,,,,False,0,,68,26.179742,False,,Not stable in top 10 after best-match removal
+Bowlers,6464,Arshdeep Singh,False,True,186,28,4.238296,3.672820,23.000000,27.000000,2.175002,5.160846,0.178005,0.535714,True,-0.399096,1.038768,30.000000,False,96,-12.782711,90,25.219568,False,,Not stable in top 10 after best-match removal; Negative IPL rate (96 balls)
+Bowlers,6512,Michael Bracewell,False,False,42,6,,,,,10.749317,-48.284224,0.704615,0.333333,False,,,,False,17,-28.364223,25,7.003241,False,,Insufficient pressure sample; Negative IPL rate (17 balls)
+Bowlers,6515,Benjamin Lister,False,False,13,2,,,,,-7.865653,61.052880,0.793512,1.000000,False,,,,False,0,,13,51.059997,False,,Insufficient pressure sample
+Bowlers,6518,Daniel Sams,False,False,25,3,,,,,-5.398091,57.633919,0.663260,0.666667,False,,,,False,16,94.927733,9,-51.204982,False,,Insufficient pressure sample; Negative T20I rate (9 balls)
+Bowlers,6523,Blessing Muzarabani,False,False,33,9,,,,,20.217321,22.029934,0.445575,0.777778,False,,,,False,3,-73.082829,30,57.186757,False,,Insufficient pressure sample; Negative IPL rate (3 balls)
+Bowlers,6628,Gerald Coetzee,False,False,29,7,,,,,-13.832075,33.847879,0.706026,0.571429,False,,,,False,13,61.352672,16,-20.278983,False,,Insufficient pressure sample; Negative T20I rate (16 balls)
+Bowlers,6643,Hasan Mahmud,False,False,28,6,,,,,11.603782,-66.943536,0.872247,0.333333,False,,,,False,0,,28,-44.563757,False,,Insufficient pressure sample; Negative T20I rate (28 balls)
+Bowlers,6669,Mohsin Khan,False,False,26,5,,,,,10.269301,36.130633,0.396092,0.600000,False,,,,False,26,50.523155,0,,False,,Insufficient pressure sample
+Bowlers,6676,Azmatullah Omarzai,False,True,85,14,-6.617638,-4.223457,36.000000,39.000000,-1.721109,0.160263,0.408351,0.357143,True,-15.563487,-8.076460,43.000000,False,41,-5.563741,44,-16.623730,False,,Not stable in top 10 after best-match removal; Negative IPL rate (41 balls); Negative T20I rate (44 balls)
+Bowlers,6677,Mohammad Hasnain,False,False,7,1,,,,,-18.062723,-94.533720,,0.000000,False,,,,False,0,,7,-115.860165,False,,Insufficient pressure sample; Negative T20I rate (7 balls)
+Bowlers,6683,Mayank Markande,False,False,28,4,,,,,-16.717230,-14.686595,0.920786,0.500000,False,,,,False,28,-7.854486,0,,False,,Insufficient pressure sample; Negative IPL rate (28 balls)
+Bowlers,6726,Romario Shepherd,False,True,84,17,8.450404,-17.095514,16.000000,49.000000,-28.149185,40.463225,0.295013,0.470588,True,1.319742,-20.603011,26.000000,False,23,-53.729556,61,40.207179,False,,Not stable in top 10 after best-match removal; Negative IPL rate (23 balls)
+Bowlers,6806,Tushar Deshpande,True,False,55,11,,,,,-5.864093,-34.702439,0.594587,0.363636,False,,,,False,55,-44.164747,0,,False,,Insufficient pressure sample; Negative IPL rate (55 balls)
+Bowlers,7052,Dunith Wellalage,False,False,12,1,,,,,-2.472129,-76.230792,,0.000000,False,,,,False,0,,12,-74.990677,False,,Insufficient pressure sample; Negative T20I rate (12 balls)
+Bowlers,7094,Curtis Campher,False,False,26,5,,,,,-25.675587,-21.184208,1.000000,0.200000,False,,,,False,0,,26,-39.032179,False,,Insufficient pressure sample; Negative T20I rate (26 balls)
+Bowlers,7240,FazalHaq Farooqi,False,False,38,7,,,,,-1.835185,-0.430117,0.763074,0.285714,False,,,,False,6,-88.760455,32,20.787323,False,,Insufficient pressure sample; Negative IPL rate (6 balls)
+Bowlers,7250,Mukesh Choudhary,False,False,9,2,,,,,-4.883872,-39.818706,,0.000000,False,,,,False,9,-48.013050,0,,False,,Insufficient pressure sample; Negative IPL rate (9 balls)
+Bowlers,7269,Sushant Mishra,True,False,0,0,,,,,-5.144743,,,,False,,,,False,0,,0,,False,,Insufficient pressure sample
+Bowlers,7270,Anrich Nortje,False,False,50,7,,,,,-26.712615,7.795699,0.441108,0.571429,False,,,,False,35,-4.021351,15,-9.138522,False,,Insufficient pressure sample; Negative IPL rate (35 balls); Negative T20I rate (15 balls)
+Bowlers,7312,Nandre Burger,True,False,17,3,,,,,-11.152693,-15.812312,1.000000,0.333333,False,,,,False,17,-21.301129,0,,False,,Insufficient pressure sample; Negative IPL rate (17 balls)
+Bowlers,7322,Yash Dayal,False,False,40,6,,,,,-9.215318,36.912862,0.454698,0.666667,False,,,,False,40,28.318168,0,,False,,Insufficient pressure sample
+Bowlers,7325,Harpreet Brar,False,False,37,5,,,,,9.305764,-43.907420,1.000000,0.200000,False,,,,False,37,-39.953535,0,,False,,Insufficient pressure sample; Negative IPL rate (37 balls)
+Bowlers,7327,Rasikh Salam,False,False,36,4,,,,,5.088576,-44.229219,1.000000,0.250000,False,,,,False,36,-54.082610,0,,False,,Insufficient pressure sample; Negative IPL rate (36 balls)
+Bowlers,7344,Shoriful Islam,False,False,39,6,,,,,-5.363663,-24.185744,1.000000,0.166667,False,,,,False,0,,39,-34.160514,False,,Insufficient pressure sample; Negative T20I rate (39 balls)
+Bowlers,7364,Haris Rauf,False,True,81,13,-22.508988,1.926124,47.000000,31.000000,15.800221,-62.734975,0.708547,0.384615,True,-29.592804,-0.827006,49.000000,False,0,,81,-39.182313,False,,Not stable in top 10 after best-match removal; Negative T20I rate (81 balls)
+Bowlers,7472,Shahbaz Ahmed,False,False,17,3,,,,,-37.730919,20.126890,1.000000,0.333333,False,,,,False,17,-10.355712,0,,False,,Insufficient pressure sample; Negative IPL rate (17 balls)
+Bowlers,7473,Akash Deep,False,False,12,2,,,,,-46.426749,-38.188535,,0.000000,False,,,,False,12,-82.629441,0,,False,,Insufficient pressure sample; Negative IPL rate (12 balls)
+Bowlers,7503,Ravi Bishnoi,True,True,161,28,-15.129792,-6.512505,43.000000,41.000000,3.050706,-27.117401,0.174097,0.357143,True,-19.773883,-8.881832,45.000000,False,97,-12.818283,64,-32.817352,False,,Not stable in top 10 after best-match removal; Negative IPL rate (97 balls); Negative T20I rate (64 balls)
+Bowlers,7545,Kuldeep Sen,False,False,8,2,,,,,-7.517225,49.175361,0.983090,1.000000,False,,,,False,8,43.146129,0,,False,,Insufficient pressure sample
+Bowlers,7689,Dilshan Madushanka,False,False,22,3,,,,,-32.279875,64.722976,0.652027,1.000000,False,,,,False,0,,22,48.240711,False,,Insufficient pressure sample
+Bowlers,7690,Saim Ayub,False,False,8,2,,,,,10.807263,-34.413945,1.000000,0.500000,False,,,,False,0,,8,-29.762265,False,,Insufficient pressure sample; Negative T20I rate (8 balls)
+Bowlers,7699,Abbas Afridi,False,False,40,5,,,,,24.536916,-2.594058,0.548247,0.800000,False,,,,False,0,,40,29.178536,False,,Insufficient pressure sample
+Bowlers,7741,Gareth Delany,False,False,35,5,,,,,7.865100,17.767846,0.571430,0.800000,False,,,,False,0,,35,21.053065,False,,Insufficient pressure sample
+Bowlers,7808,Marco Jansen,False,True,63,10,-29.644810,-19.208276,50.000000,51.000000,-9.057483,-44.712833,1.000000,0.100000,False,,,,False,63,-57.877962,0,,False,,Not stable in top 10 after best-match removal; Negative IPL rate (63 balls)
+Bowlers,7896,Akash Singh,False,False,4,1,,,,,-0.604129,-136.280984,,0.000000,False,,,,False,4,-139.820880,0,,False,,Insufficient pressure sample; Negative IPL rate (4 balls)
+Bowlers,7905,Tanzim Sakib,False,True,60,9,-19.482845,-12.918728,45.000000,45.000000,-6.406988,-18.237877,0.826784,0.222222,False,,,,False,0,,60,-38.965689,False,,Not stable in top 10 after best-match removal; Negative T20I rate (60 balls)
+Bowlers,7920,Nathan Ellis,False,True,76,12,1.239852,12.780652,27.000000,11.000000,16.125276,-15.947288,0.305735,0.416667,True,-7.602962,9.295746,37.000000,False,32,11.530655,44,-4.553662,False,,Not stable in top 10 after best-match removal; Negative T20I rate (44 balls)
+Bowlers,7967,Noor Ahmad,False,True,95,19,-19.951899,5.265196,46.000000,23.000000,20.234937,-53.152419,0.348099,0.315789,True,-25.279980,3.312060,47.000000,False,56,-31.944627,39,-33.426801,False,,Not stable in top 10 after best-match removal; Negative IPL rate (56 balls); Negative T20I rate (39 balls)
+Bowlers,8009,Junaid Siddique,False,False,5,1,,,,,3.099151,129.600847,1.000000,1.000000,False,,,,False,0,,5,118.021148,False,,Insufficient pressure sample
+Bowlers,8049,Naseem Shah,False,False,37,5,,,,,-13.795924,-34.415706,,0.000000,False,,,,False,0,,37,-38.551307,False,,Insufficient pressure sample; Negative T20I rate (37 balls)
+Bowlers,8177,Akash Madhwal,False,False,12,2,,,,,3.822560,-168.736407,,0.000000,False,,,,False,12,-161.060486,0,,False,,Insufficient pressure sample; Negative IPL rate (12 balls)
+Bowlers,8182,Donovan Ferreira,True,False,0,0,,,,,-7.902512,,,,False,,,,False,0,,0,,False,,Insufficient pressure sample
+Bowlers,8221,Nitish Reddy,False,False,16,4,,,,,-21.363541,21.667527,0.785919,0.500000,False,,,,False,1,131.221412,15,-5.638745,False,,Insufficient pressure sample; Negative T20I rate (15 balls)
+Bowlers,8380,Mohammad Rishad Hossain,False,True,99,12,-30.291940,-15.779763,51.000000,47.000000,-2.220505,-40.387058,0.381538,0.333333,True,-39.149149,-19.228887,51.000000,False,0,,99,-48.650691,False,,Not stable in top 10 after best-match removal; Negative T20I rate (99 balls)
+Bowlers,8424,Tanveer Sangha,False,False,12,1,,,,,5.137015,52.346145,1.000000,1.000000,False,,,,False,0,,12,59.262015,False,,Insufficient pressure sample
+Bowlers,8530,Kartik Tyagi,False,False,21,3,,,,,-5.546063,-10.638131,1.000000,0.333333,False,,,,False,21,-28.168783,0,,False,,Insufficient pressure sample; Negative IPL rate (21 balls)
+Bowlers,8614,William ORourke,False,False,11,2,,,,,-7.875862,59.291313,1.000000,0.500000,False,,,,False,11,58.942632,0,,False,,Insufficient pressure sample
+Bowlers,8661,Matheesha Pathirana,False,True,94,14,-1.331543,8.995735,31.000000,20.000000,13.373471,-18.563198,0.185962,0.642857,True,-6.223093,6.977486,35.000000,False,42,17.762978,52,-18.290437,False,,Not stable in top 10 after best-match removal; Negative T20I rate (52 balls)
+Bowlers,8746,Vaibhav Arora,False,False,35,7,,,,,-3.924003,-74.270515,0.875434,0.285714,False,,,,False,35,-83.420001,0,,False,,Insufficient pressure sample; Negative IPL rate (35 balls)
+Bowlers,8805,Ottneil Baartman,False,False,15,2,,,,,3.926351,69.799342,0.641373,1.000000,False,,,,False,0,,15,71.789494,False,,Insufficient pressure sample
+Bowlers,19312,Nuwan Thushara,False,False,13,4,,,,,-4.276312,-3.057800,0.759720,0.500000,False,,,,False,0,,13,1.877382,False,,Insufficient pressure sample
+Bowlers,19316,Maheesh Theekshana,False,True,115,20,-7.820556,3.554041,38.000000,28.000000,10.959508,-29.599547,0.317462,0.450000,True,-13.271404,1.361642,41.000000,False,56,-14.579595,59,-9.358306,False,,Not stable in top 10 after best-match removal; Negative IPL rate (56 balls); Negative T20I rate (59 balls)
+Bowlers,20005,Arshad Khan,False,False,8,2,,,,,-35.080465,28.961309,1.000000,0.500000,False,,,,False,8,-6.022993,0,,False,,Insufficient pressure sample; Negative IPL rate (8 balls)
+Bowlers,21784,Brad Evans,False,False,27,5,,,,,5.630076,-65.527212,1.000000,0.200000,False,,,,False,0,,27,-54.229493,False,,Insufficient pressure sample; Negative T20I rate (27 balls)
+Bowlers,22134,Luke Jongwe,False,False,3,1,,,,,-5.682406,-75.383529,,0.000000,False,,,,False,0,,3,-85.381646,False,,Insufficient pressure sample; Negative T20I rate (3 balls)
+Bowlers,22471,Matthew Humphreys,False,False,12,2,,,,,18.470098,23.159350,1.000000,0.500000,False,,,,False,0,,12,50.442824,False,,Insufficient pressure sample
+Bowlers,22920,Jacob Duffy,False,True,82,12,3.276112,11.195756,26.000000,15.000000,13.082606,-6.124208,0.394961,0.583333,True,-4.644946,8.057660,34.000000,False,16,22.719849,66,1.540762,False,,Not stable in top 10 after best-match removal
+Bowlers,24475,Rehan Ahmed,False,False,18,2,,,,,-9.608682,-32.750846,1.000000,0.500000,False,,,,False,0,,18,-40.248839,False,,Insufficient pressure sample; Negative T20I rate (18 balls)
+Bowlers,25048,Umran Malik,False,False,21,5,,,,,-20.181729,52.266649,0.443272,0.800000,False,,,,False,14,31.607350,7,59.978836,False,,Insufficient pressure sample
+Bowlers,25128,Nqabayomzi Peter,False,False,6,1,,,,,-20.818658,38.111206,1.000000,1.000000,False,,,,False,0,,6,22.179988,False,,Insufficient pressure sample
+Bowlers,26663,Kwena Maphaka,False,False,24,3,,,,,-17.339813,2.381820,1.000000,0.333333,False,,,,False,6,-84.857579,18,5.121991,False,,Insufficient pressure sample; Negative IPL rate (6 balls)
+Bowlers,27466,Dhruv Parashar,False,False,6,1,,,,,-19.179892,-113.572873,,0.000000,False,,,,False,0,,6,-131.606493,False,,Insufficient pressure sample; Negative T20I rate (6 balls)
+Bowlers,27959,Hrithik Shokeen,False,False,6,1,,,,,-26.542908,-74.207793,,0.000000,False,,,,False,6,-98.088142,0,,False,,Insufficient pressure sample; Negative IPL rate (6 balls)
+Bowlers,27960,Mayank Yadav,False,False,34,5,,,,,-1.341285,-6.201471,0.449087,0.800000,False,,,,False,18,-57.197058,16,48.671409,False,,Insufficient pressure sample; Negative IPL rate (18 balls)
+Bowlers,27964,Anshul Kamboj,False,False,13,3,,,,,10.043594,-40.239859,1.000000,0.333333,False,,,,False,13,-24.469575,0,,False,,Insufficient pressure sample; Negative IPL rate (13 balls)
+Bowlers,28756,Haider Ali,False,False,9,1,,,,,17.458029,-107.621863,,0.000000,False,,,,False,0,,9,-93.354456,False,,Insufficient pressure sample; Negative T20I rate (9 balls)
+Bowlers,29066,Zakary Foulkes,False,False,12,1,,,,,-15.825532,18.157864,1.000000,1.000000,False,,,,False,0,,12,9.347466,False,,Insufficient pressure sample
+Bowlers,29888,Harshit Rana,False,True,140,16,6.740763,1.635213,19.000000,32.000000,-3.028216,6.210996,0.215205,0.562500,True,1.517397,-1.199731,26.000000,False,103,0.169384,37,35.965028,False,,Not stable in top 10 after best-match removal
+Bowlers,32862,Allah Ghazanfar,False,False,23,4,,,,,-5.672711,-97.936021,1.000000,0.250000,False,,,,False,23,-100.420228,0,,False,,Insufficient pressure sample; Negative IPL rate (23 balls)
+Bowlers,34485,Sufiyan Muqeem,False,False,10,2,,,,,21.792158,113.964973,0.534370,1.000000,False,,,,False,0,,10,154.600648,False,,Insufficient pressure sample
+Bowlers,36982,Suyash Sharma,False,False,54,9,,,,,-8.733768,27.619046,0.664455,0.444444,False,,,,False,54,26.487120,0,,False,,Insufficient pressure sample
+Bowlers,38855,Mohammad Saifuddin,False,False,17,3,,,,,-4.630075,-73.543409,1.000000,0.333333,False,,,,False,0,,17,-83.671406,False,,Insufficient pressure sample; Negative T20I rate (17 balls)
+Bowlers,39657,Eshan Malinga,False,False,39,5,,,,,3.421162,-29.228247,0.549040,0.400000,False,,,,False,15,-7.705567,24,-33.672091,False,,Insufficient pressure sample; Negative IPL rate (15 balls); Negative T20I rate (24 balls)
+Bowlers,41503,Yash Punja,True,False,6,2,,,,,-0.231240,128.286468,0.985745,1.000000,False,,,,False,6,144.959993,0,,False,,Insufficient pressure sample
+Bowlers,42548,Muhammad Jawadullah,False,False,6,1,,,,,7.550753,78.922605,1.000000,1.000000,False,,,,False,0,,6,93.221900,False,,Insufficient pressure sample
+Bowlers,46066,Vipraj Nigam,False,False,25,3,,,,,-7.882908,-26.190343,0.680176,0.666667,False,,,,False,25,-21.359750,0,,False,,Insufficient pressure sample; Negative IPL rate (25 balls)
+Bowlers,47050,Shamar Joseph,False,False,34,4,,,,,-10.666359,-7.828038,0.983539,0.500000,False,,,,False,0,,34,-22.259775,False,,Insufficient pressure sample; Negative T20I rate (34 balls)
+Bowlers,56685,Abdullah Ahmadzai,False,False,6,1,,,,,-5.018840,39.171670,1.000000,1.000000,False,,,,False,0,,6,36.956709,False,,Insufficient pressure sample
+Bowlers,58134,Digvesh Rathi,False,False,34,6,,,,,-3.160804,23.814242,0.584777,0.500000,False,,,,False,34,35.524599,0,,False,,Insufficient pressure sample
+Bowlers,58246,Prince Yadav,False,False,34,7,,,,,0.269965,36.989582,0.588637,0.857143,False,,,,False,21,57.450159,13,24.168801,False,,Insufficient pressure sample
+Bowlers,67036,Brijesh Sharma,True,False,5,1,,,,,-10.660602,70.413676,1.000000,1.000000,False,,,,False,5,58.164581,0,,False,,Insufficient pressure sample

@@ -1,0 +1,2339 @@
+player,name,events,balls,fixtures,rating_pp,ci_low,ci_high,analysis,rank
+4201,Fareed Malik,63,62,8,5.9785444,-1.1685073,10.327073,Primary,1
+3720,Craig Young,88,86,10,3.5388953,-0.78291964,8.2304423,Primary,2
+6643,Hasan Mahmud,63,62,8,2.7091593,-0.95279488,7.6797292,Primary,3
+28,Ishant Sharma,115,108,15,2.2357606,-0.73773559,5.2031342,Primary,4
+3323,Jimmy Neesham,93,88,12,2.0744023,-0.96603056,3.1992956,Primary,5
+5379,Mark Adair,178,168,18,1.9565086,-0.46050682,4.6785118,Primary,6
+4487,Vyshak Kumar,133,120,16,1.7561142,-0.70819581,6.2078851,Primary,7
+403,Umesh Yadav,82,80,9,1.6035729,-0.69873304,3.3305853,Primary,8
+829,Mitchell Starc,198,186,21,1.4756411,-1.4894893,4.0916743,Primary,9
+360,Bhuvneshwar Kumar,533,515,41,1.4672848,-0.23224567,4.2599761,Primary,10
+3629,Corbin Bosch,79,76,9,1.3903947,-1.5585502,2.4214652,Primary,11
+7905,Tanzim Sakib,196,188,21,1.3699872,-1.8521603,6.1780372,Primary,12
+2878,Mohit Sharma,126,124,18,1.307483,-1.0731859,4.3211182,Primary,13
+3697,Kyle Jamieson,189,177,21,1.1682354,-0.53295818,3.2273556,Primary,14
+29066,Zakary Foulkes,67,61,9,1.1530823,-1.1644981,2.6826217,Primary,15
+6256,Varun Chakravarthy,341,336,34,0.98156919,-1.1025282,3.2889492,Primary,16
+29888,Harshit Rana,286,273,25,0.92476765,-2.2323351,5.1121095,Primary,17
+6669,Mohsin Khan,175,170,16,0.91295903,-0.97243454,2.5002261,Primary,18
+2490,Mohammad Nawaz,114,111,11,0.88321097,0.17714645,1.899067,Primary,19
+34485,Sufiyan Muqeem,104,100,9,0.85318969,-0.059766128,1.6035688,Primary,20
+6628,Gerald Coetzee,97,92,12,0.84993692,0.13789808,1.4941406,Primary,21
+5979,Abrar Ahmed,137,134,14,0.83880849,-0.12666632,1.8474577,Primary,22
+479,Adil Rashid,73,69,10,0.83819735,0.20177576,1.8516997,Primary,23
+6726,Romario Shepherd,261,241,32,0.82021219,-1.0265134,2.9167782,Primary,24
+2636,Adam Zampa,130,129,12,0.80177554,0.1856721,1.6776421,Primary,25
+2876,Axar Patel,543,537,51,0.76752338,-0.35582326,2.2136324,Primary,26
+4722,Rashid Khan,336,336,35,0.71505236,0.0081142337,1.4035089,Primary,27
+2933,Jasprit Bumrah,318,306,32,0.69530814,0.08143732,1.2410779,Primary,28
+3276,Gudakesh Motie,115,114,11,0.68364553,-0.54801678,1.739235,Primary,29
+830,Josh Hazlewood,319,309,31,0.63939056,-0.25257149,1.5918855,Primary,30
+4816,Khaleel Ahmed,375,356,30,0.54392081,-0.11626528,1.1480858,Primary,31
+2681,Taskin Ahmed,202,191,20,0.53487699,0.10913009,0.98368697,Primary,32
+4658,Nasum Ahmed,160,159,16,0.5196437,-0.15217872,1.1661063,Primary,33
+4900,Wanindu Hasaranga,276,271,19,0.51126133,-0.15639237,1.273248,Primary,34
+1596,Moeen Ali,130,130,14,0.49355757,-0.33570035,1.2292562,Primary,35
+1758,Patrick Cummins,153,146,22,0.4852285,-0.30840871,1.3789768,Primary,36
+7690,Saim Ayub,177,175,15,0.45631276,-0.067601896,1.0165603,Primary,37
+781,Sunil Narine,271,268,25,0.45353351,-0.032431908,0.95548996,Primary,38
+6806,Tushar Deshpande,322,298,30,0.44252509,-0.91603186,1.8885528,Primary,39
+4373,Mustafizur Rahman,185,181,25,0.43604235,-0.7980025,1.502146,Primary,40
+2436,Dasun Shanaka,105,101,15,0.4121469,-4.2310627,5.477775,Primary,41
+6450,Mujeeb Ur Rahman,219,206,19,0.4046985,0.0085348154,0.7685873,Primary,42
+3664,Binura Fernando,86,83,11,0.35314385,-0.21206618,0.66548616,Primary,43
+7325,Harpreet Brar,162,159,15,0.34510502,-0.36377286,1.1154523,Primary,44
+4219,Krunal Pandya,252,248,25,0.33994523,-0.27040741,1.0443858,Primary,45
+6683,Mayank Markande,74,72,9,0.31724326,-1.0598903,2.0371919,Primary,46
+1612,Yuzvendra Chahal,330,320,27,0.3103439,-0.65106862,1.2225518,Primary,47
+39657,Eshan Malinga,159,153,17,0.30411426,-0.57362549,1.2861602,Primary,48
+8009,Junaid Siddique,106,101,10,0.29836499,-0.17485505,0.94163211,Primary,49
+1566,Mohammed Shami,392,371,34,0.29044193,-0.15840771,0.74386674,Primary,50
+4823,Washington Sundar,77,75,11,0.27433444,-1.2332035,1.2270451,Primary,51
+20704,Salman Mirza,114,112,13,0.273596,-0.39188801,0.9973353,Primary,52
+2984,Sikandar Raza,149,146,16,0.26839249,-0.528351,0.90159857,Primary,53
+6354,Spencer Johnson,127,120,14,0.2593003,-0.84070318,1.6076271,Primary,54
+2320,Trent Boult,327,316,32,0.25439607,-0.11008052,0.60445161,Primary,55
+27960,Mayank Yadav,92,86,11,0.23798819,-0.7520369,1.087783,Primary,56
+4856,Benjamin Sears,86,85,11,0.23533288,-0.67915531,1.1775325,Primary,57
+47050,Shamar Joseph,72,67,14,0.23366375,-0.78610756,1.0851032,Primary,58
+5944,Mohammed Siraj,558,530,46,0.23111048,-0.40066011,0.97666933,Primary,59
+7741,Gareth Delany,74,74,9,0.2248327,-0.91607394,1.1636397,Primary,60
+6512,Michael Bracewell,112,111,15,0.21913664,-0.76972058,1.1104495,Primary,61
+152,Ravindra Jadeja,268,264,19,0.21901673,-0.45745811,0.87139855,Primary,62
+3641,Ben Dwarshuis,69,68,10,0.21881751,-0.39250185,0.95167542,Primary,63
+4101,Mitchell Santner,216,206,22,0.17574297,-0.73747391,1.0569009,Primary,64
+4409,Sam Curran,243,234,29,0.17387895,-1.5872568,1.8219177,Primary,65
+22471,Matthew Humphreys,119,118,10,0.17237588,-0.23061796,0.51422888,Primary,66
+7240,FazalHaq Farooqi,270,259,27,0.16345848,-0.3892877,0.67892565,Primary,67
+2526,Ish Sodhi,140,136,18,0.1438784,-0.27236003,0.63944838,Primary,68
+58134,Digvesh Rathi,117,115,15,0.14051362,-0.52698861,0.92216207,Primary,69
+5189,Faheem Ashraf,77,74,13,0.12713952,-0.79070903,0.91187944,Primary,70
+3653,Avesh Khan,364,345,33,0.1141439,-4.6392451,4.2093949,Primary,71
+23,Piyush Chawla,158,153,11,0.093240273,-0.36186084,0.58473088,Primary,72
+3644,Kuldeep Yadav,355,345,30,0.084509921,-0.57407934,0.73253037,Primary,73
+4874,Richard Ngarava,218,208,21,0.077040812,-0.56587164,0.71475206,Primary,74
+2417,Akeal Hosein,527,512,47,0.073723961,-0.32245847,0.46507424,Primary,75
+8380,Mohammad Rishad Hossain,114,114,10,0.064939525,-0.89241695,0.93674351,Primary,76
+7344,Shoriful Islam,171,161,18,0.055340195,-0.31364914,0.46804344,Primary,77
+2261,Harshal Patel,244,229,26,0.031791082,-2.2862928,2.1341551,Primary,78
+5939,Cameron Green,228,215,27,0.031147144,-0.8485762,0.86230974,Primary,79
+3275,Alzarri Joseph,219,203,21,0.030194863,-1.4572707,1.4517391,Primary,80
+6284,Anukul Roy,109,99,11,0.029379827,-0.52273675,0.49953531,Primary,81
+305,Ravichandran Ashwin,202,194,17,0.014410549,-0.71082079,0.6258644,Primary,82
+4815,Benjamin White,75,71,8,-0.022302907,-0.70372404,0.64761121,Primary,83
+1107,Mohammad Nabi,111,109,14,-0.026356955,-0.82834038,0.68320275,Primary,84
+5837,Mahedi Hasan,171,170,21,-0.038398369,-0.73256555,0.72362747,Primary,85
+4807,Joshua Little,157,148,14,-0.04362284,-0.99135204,0.65909007,Primary,86
+4265,T Natarajan,165,157,21,-0.044006253,-0.7216174,0.61311995,Primary,87
+19316,Maheesh Theekshana,353,341,40,-0.044179833,-0.39449366,0.33815747,Primary,88
+4692,Lockie Ferguson,172,160,19,-0.058095063,-0.70855951,0.61750093,Primary,89
+32862,Allah Ghazanfar,92,92,8,-0.066150118,-0.95291921,1.1906226,Primary,90
+7503,Ravi Bishnoi,418,400,37,-0.077559803,-0.84653499,0.53262627,Primary,91
+7327,Rasikh Salam,110,107,14,-0.0893252,-0.52291416,0.43968111,Primary,92
+6287,Yash Thakur,109,98,14,-0.094200411,-1.1239545,0.88263839,Primary,93
+7920,Nathan Ellis,272,264,26,-0.11030287,-0.96151106,0.74911255,Primary,94
+3298,Jofra Archer,467,439,39,-0.13872529,-0.63720463,0.38820536,Primary,95
+6272,William Jacks,100,93,14,-0.14915539,-1.0347578,0.40603954,Primary,96
+6398,Aaron Hardie,85,80,9,-0.17165432,-0.77561296,0.91620557,Primary,97
+7250,Mukesh Choudhary,104,99,9,-0.18869755,-0.84915178,0.338333,Primary,98
+6515,Benjamin Lister,145,139,11,-0.19447975,-0.78743262,0.22220907,Primary,99
+6161,Rahul Chahar,174,173,13,-0.21626807,-1.4800323,0.66865746,Primary,100
+2399,Dushmantha Chameera,191,179,22,-0.21818242,-2.6279739,2.3930946,Primary,101
+19312,Nuwan Thushara,161,157,23,-0.22416946,-0.83573935,0.39875072,Primary,102
+2985,Mark Wood,87,78,8,-0.23408107,-1.365627,1.8120821,Primary,103
+20005,Arshad Khan,95,83,12,-0.25459918,-0.86497575,0.32205641,Primary,104
+3628,Kagiso Rabada,366,352,32,-0.25853619,-0.60996741,0.15251766,Primary,105
+7094,Curtis Campher,76,73,10,-0.27028417,-0.95162563,0.52033419,Primary,106
+27964,Anshul Kamboj,177,176,16,-0.29596018,-0.90618423,0.2551751,Primary,107
+1813,Deepak Chahar,299,284,26,-0.29760576,-0.81562052,0.1997033,Primary,108
+2054,Jason Behrendorff,207,201,17,-0.31578941,-1.146376,0.41864426,Primary,109
+22920,Jacob Duffy,277,262,26,-0.33508046,-1.0325296,0.4475928,Primary,110
+2633,Jason Holder,384,363,37,-0.33513052,-1.3919127,0.79924632,Primary,111
+5041,Mukesh Kumar,408,384,43,-0.34045142,-2.4269655,1.5211529,Primary,112
+3330,Hardik Pandya,434,409,43,-0.37733716,-0.79278914,0.038779016,Primary,113
+8746,Vaibhav Arora,264,253,25,-0.40099571,-3.426825,3.0490737,Primary,114
+36982,Suyash Sharma,173,171,13,-0.40259241,-1.3848188,0.51312022,Primary,115
+6464,Arshdeep Singh,994,932,87,-0.40644486,-2.4055918,1.1572604,Primary,116
+7312,Nandre Burger,150,144,16,-0.42077016,-1.1081972,0.23057772,Primary,117
+7808,Marco Jansen,336,313,37,-0.42570194,-1.1524088,0.47648568,Primary,118
+3174,Matt Henry,237,231,18,-0.44729406,-1.479018,0.46741287,Primary,119
+7967,Noor Ahmad,301,279,22,-0.44806995,-0.77805878,-0.0709769,Primary,120
+21784,Brad Evans,87,83,12,-0.50186104,-1.5059414,0.77187873,Primary,121
+295,Wayne Parnell,107,105,9,-0.53272532,-1.7999636,1.0289481,Primary,122
+1487,Adam Milne,169,162,15,-0.56879464,-1.7548442,0.66240308,Primary,123
+786,Chris Jordan,65,62,8,-0.59317511,-1.7602637,0.85321756,Primary,124
+5809,Naveen ul Haq,156,150,17,-0.59443488,-2.1578872,0.66444919,Primary,125
+2687,Roston Chase,136,131,16,-0.59768298,-1.2121026,-0.093673299,Primary,126
+7364,Haris Rauf,142,133,16,-0.60907208,-1.9750676,0.7190207,Primary,127
+8221,Nitish Reddy,111,104,14,-0.63373336,-1.6676922,0.062937739,Primary,128
+3605,Aiden Markram,65,62,11,-0.63564384,-1.6993518,0.427968,Primary,129
+58246,Prince Yadav,155,147,22,-0.65271695,-1.356414,0.22501338,Primary,130
+8295,Matthew Forde,147,137,14,-0.74494478,-1.3402754,-0.16743642,Primary,131
+1071,Jaydev Unadkat,95,90,15,-0.827938,-1.35983,-0.16163275,Primary,132
+2847,Shardul Thakur,183,163,20,-0.83871233,-1.8033655,0.25924234,Primary,133
+838,Glenn Maxwell,88,86,13,-0.90534924,-1.4246915,-0.187844,Primary,134
+67036,Brijesh Sharma,108,96,10,-0.91857715,-1.3902788,-0.36191379,Primary,135
+6676,Azmatullah Omarzai,308,296,34,-0.93253498,-1.9702323,0.066418157,Primary,136
+4391,Liam Livingstone,73,73,10,-1.0960361,-2.4348978,0.42250302,Primary,137
+5738,Xavier Bartlett,168,166,19,-1.1241562,-2.1103609,-0.23407389,Primary,138
+1389,Sean Abbott,123,111,14,-1.2293695,-2.4478109,0.12432148,Primary,139
+4837,Obed McCoy,68,64,9,-1.2706745,-2.1314216,0.088105335,Primary,140
+1318,Andre Russell,200,191,25,-1.4887927,-2.864863,-0.20120343,Primary,141
+6281,Abhishek Sharma,102,100,12,-1.5416834,-2.9174668,-0.16590167,Primary,142
+2639,Marcus Stoinis,139,126,21,-1.6444976,-2.6767647,-0.3545734,Primary,143
+4641,Lungi Ngidi,154,151,21,-1.6885085,-3.631416,0.27165603,Primary,144
+8530,Kartik Tyagi,127,122,16,-1.94891,-3.2105724,-0.063852697,Primary,145
+4489,Prasidh Krishna,137,132,17,-2.1163457,-13.355986,7.2015044,Primary,146
+8661,Matheesha Pathirana,213,188,22,-3.7836168,-12.091901,1.3130131,Primary,147
+6355,Shaheen Afridi,331,313,31,-3.8771314,-9.6194812,0.22636358,Primary,148
+6523,Blessing Muzarabani,178,176,22,-3.942954,-10.393478,0.54289257,Primary,149
+2411,Sandeep Sharma,248,236,27,-5.74554,-17.99167,2.8816388,Primary,150
+7322,Yash Dayal,184,180,21,-6.4485506,-22.659004,6.3812862,Primary,151
+5441,Barry McCarthy,138,131,13,-6.5153698,-14.289416,0.29766356,Primary,152
+7270,Anrich Nortje,123,113,20,-6.5644121,-14.513554,-1.0735314,Primary,153
+278,Tim Southee,110,105,10,-9.3854697,-22.547647,2.2530282,Primary,154
+3629,Corbin Bosch,79,76,9,0.82777383,,,Unweighted,1
+5979,Abrar Ahmed,137,134,14,0.79709327,,,Unweighted,2
+2490,Mohammad Nawaz,114,111,11,0.78417072,,,Unweighted,3
+479,Adil Rashid,73,69,10,0.74637084,,,Unweighted,4
+2636,Adam Zampa,130,129,12,0.68376051,,,Unweighted,5
+4722,Rashid Khan,336,336,35,0.65120765,,,Unweighted,6
+34485,Sufiyan Muqeem,104,100,9,0.62354288,,,Unweighted,7
+7325,Harpreet Brar,162,159,15,0.55355214,,,Unweighted,8
+6287,Yash Thakur,109,98,14,0.5451519,,,Unweighted,9
+6628,Gerald Coetzee,97,92,12,0.51385989,,,Unweighted,10
+3276,Gudakesh Motie,115,114,11,0.50181769,,,Unweighted,11
+7690,Saim Ayub,177,175,15,0.47789874,,,Unweighted,12
+1596,Moeen Ali,130,130,14,0.45888522,,,Unweighted,13
+4658,Nasum Ahmed,160,159,16,0.45096559,,,Unweighted,14
+6643,Hasan Mahmud,63,62,8,0.38104255,,,Unweighted,15
+2933,Jasprit Bumrah,318,306,32,0.36701214,,,Unweighted,16
+20704,Salman Mirza,114,112,13,0.35895249,,,Unweighted,17
+8009,Junaid Siddique,106,101,10,0.33311093,,,Unweighted,18
+4101,Mitchell Santner,216,206,22,0.33191555,,,Unweighted,19
+4823,Washington Sundar,77,75,11,0.32480002,,,Unweighted,20
+6450,Mujeeb Ur Rahman,219,206,19,0.32311619,,,Unweighted,21
+781,Sunil Narine,271,268,25,0.3150689,,,Unweighted,22
+4219,Krunal Pandya,252,248,25,0.30151346,,,Unweighted,23
+2436,Dasun Shanaka,105,101,15,0.29587824,,,Unweighted,24
+27960,Mayank Yadav,92,86,11,0.27528457,,,Unweighted,25
+39657,Eshan Malinga,159,153,17,0.2728876,,,Unweighted,26
+152,Ravindra Jadeja,268,264,19,0.27287662,,,Unweighted,27
+2984,Sikandar Raza,149,146,16,0.25825066,,,Unweighted,28
+830,Josh Hazlewood,319,309,31,0.25573346,,,Unweighted,29
+29066,Zakary Foulkes,67,61,9,0.24988928,,,Unweighted,30
+4900,Wanindu Hasaranga,276,271,19,0.24867333,,,Unweighted,31
+5944,Mohammed Siraj,558,530,46,0.24114152,,,Unweighted,32
+6512,Michael Bracewell,112,111,15,0.2227763,,,Unweighted,33
+4815,Benjamin White,75,71,8,0.20064037,,,Unweighted,34
+2985,Mark Wood,87,78,8,0.20038162,,,Unweighted,35
+3644,Kuldeep Yadav,355,345,30,0.19296758,,,Unweighted,36
+360,Bhuvneshwar Kumar,533,515,41,0.19258151,,,Unweighted,37
+2681,Taskin Ahmed,202,191,20,0.18736526,,,Unweighted,38
+4373,Mustafizur Rahman,185,181,25,0.16814015,,,Unweighted,39
+7741,Gareth Delany,74,74,9,0.16721806,,,Unweighted,40
+3641,Ben Dwarshuis,69,68,10,0.15983939,,,Unweighted,41
+3720,Craig Young,88,86,10,0.15674235,,,Unweighted,42
+1566,Mohammed Shami,392,371,34,0.15187857,,,Unweighted,43
+4816,Khaleel Ahmed,375,356,30,0.1453944,,,Unweighted,44
+58134,Digvesh Rathi,117,115,15,0.1358531,,,Unweighted,45
+4874,Richard Ngarava,218,208,21,0.1352676,,,Unweighted,46
+2878,Mohit Sharma,126,124,18,0.13420506,,,Unweighted,47
+23,Piyush Chawla,158,153,11,0.12989313,,,Unweighted,48
+1758,Patrick Cummins,153,146,22,0.1285614,,,Unweighted,49
+2876,Axar Patel,543,537,51,0.12520672,,,Unweighted,50
+47050,Shamar Joseph,72,67,14,0.12238778,,,Unweighted,51
+8380,Mohammad Rishad Hossain,114,114,10,0.11038707,,,Unweighted,52
+1612,Yuzvendra Chahal,330,320,27,0.10953712,,,Unweighted,53
+21784,Brad Evans,87,83,12,0.10344105,,,Unweighted,54
+2526,Ish Sodhi,140,136,18,0.10013424,,,Unweighted,55
+7344,Shoriful Islam,171,161,18,0.092692939,,,Unweighted,56
+29888,Harshit Rana,286,273,25,0.091005118,,,Unweighted,57
+1107,Mohammad Nabi,111,109,14,0.0887942,,,Unweighted,58
+6256,Varun Chakravarthy,341,336,34,0.070147028,,,Unweighted,59
+2320,Trent Boult,327,316,32,0.068507171,,,Unweighted,60
+22471,Matthew Humphreys,119,118,10,0.061353592,,,Unweighted,61
+2417,Akeal Hosein,527,512,47,0.052370588,,,Unweighted,62
+4856,Benjamin Sears,86,85,11,0.029038306,,,Unweighted,63
+2054,Jason Behrendorff,207,201,17,0.0037878216,,,Unweighted,64
+4487,Vyshak Kumar,133,120,16,-0.01057454,,,Unweighted,65
+22920,Jacob Duffy,277,262,26,-0.01474245,,,Unweighted,66
+5379,Mark Adair,178,168,18,-0.0167463,,,Unweighted,67
+6726,Romario Shepherd,261,241,32,-0.020321079,,,Unweighted,68
+5189,Faheem Ashraf,77,74,13,-0.02217368,,,Unweighted,69
+28,Ishant Sharma,115,108,15,-0.027123162,,,Unweighted,70
+3664,Binura Fernando,86,83,11,-0.043467705,,,Unweighted,71
+4807,Joshua Little,157,148,14,-0.046251551,,,Unweighted,72
+7905,Tanzim Sakib,196,188,21,-0.046787975,,,Unweighted,73
+305,Ravichandran Ashwin,202,194,17,-0.049705705,,,Unweighted,74
+7920,Nathan Ellis,272,264,26,-0.049941035,,,Unweighted,75
+19316,Maheesh Theekshana,353,341,40,-0.063959533,,,Unweighted,76
+32862,Allah Ghazanfar,92,92,8,-0.065521789,,,Unweighted,77
+7503,Ravi Bishnoi,418,400,37,-0.079902289,,,Unweighted,78
+6398,Aaron Hardie,85,80,9,-0.082254506,,,Unweighted,79
+7240,FazalHaq Farooqi,270,259,27,-0.08461941,,,Unweighted,80
+3298,Jofra Archer,467,439,39,-0.09009425,,,Unweighted,81
+19312,Nuwan Thushara,161,157,23,-0.092873652,,,Unweighted,82
+6284,Anukul Roy,109,99,11,-0.096858439,,,Unweighted,83
+5809,Naveen ul Haq,156,150,17,-0.10824558,,,Unweighted,84
+6683,Mayank Markande,74,72,9,-0.11608434,,,Unweighted,85
+4265,T Natarajan,165,157,21,-0.12434807,,,Unweighted,86
+3697,Kyle Jamieson,189,177,21,-0.12709676,,,Unweighted,87
+8661,Matheesha Pathirana,213,188,22,-0.13390635,,,Unweighted,88
+4201,Fareed Malik,63,62,8,-0.13421482,,,Unweighted,89
+5837,Mahedi Hasan,171,170,21,-0.14367612,,,Unweighted,90
+3275,Alzarri Joseph,219,203,21,-0.16073674,,,Unweighted,91
+6354,Spencer Johnson,127,120,14,-0.16196341,,,Unweighted,92
+20005,Arshad Khan,95,83,12,-0.1631872,,,Unweighted,93
+6272,William Jacks,100,93,14,-0.16605903,,,Unweighted,94
+7250,Mukesh Choudhary,104,99,9,-0.16807225,,,Unweighted,95
+6464,Arshdeep Singh,994,932,87,-0.1708142,,,Unweighted,96
+3628,Kagiso Rabada,366,352,32,-0.17712094,,,Unweighted,97
+6161,Rahul Chahar,174,173,13,-0.17790587,,,Unweighted,98
+4692,Lockie Ferguson,172,160,19,-0.18010827,,,Unweighted,99
+5939,Cameron Green,228,215,27,-0.19593066,,,Unweighted,100
+278,Tim Southee,110,105,10,-0.20585651,,,Unweighted,101
+27964,Anshul Kamboj,177,176,16,-0.21010746,,,Unweighted,102
+3323,Jimmy Neesham,93,88,12,-0.22708341,,,Unweighted,103
+6355,Shaheen Afridi,331,313,31,-0.23528267,,,Unweighted,104
+403,Umesh Yadav,82,80,9,-0.2394811,,,Unweighted,105
+1813,Deepak Chahar,299,284,26,-0.248989,,,Unweighted,106
+7364,Haris Rauf,142,133,16,-0.29268726,,,Unweighted,107
+6669,Mohsin Khan,175,170,16,-0.29521308,,,Unweighted,108
+6806,Tushar Deshpande,322,298,30,-0.33470903,,,Unweighted,109
+2633,Jason Holder,384,363,37,-0.35052781,,,Unweighted,110
+6515,Benjamin Lister,145,139,11,-0.35220658,,,Unweighted,111
+3174,Matt Henry,237,231,18,-0.36022147,,,Unweighted,112
+6676,Azmatullah Omarzai,308,296,34,-0.36535376,,,Unweighted,113
+3653,Avesh Khan,364,345,33,-0.36810155,,,Unweighted,114
+7327,Rasikh Salam,110,107,14,-0.37317344,,,Unweighted,115
+7312,Nandre Burger,150,144,16,-0.38286493,,,Unweighted,116
+7094,Curtis Campher,76,73,10,-0.38626456,,,Unweighted,117
+1487,Adam Milne,169,162,15,-0.40615662,,,Unweighted,118
+2261,Harshal Patel,244,229,26,-0.40922339,,,Unweighted,119
+7967,Noor Ahmad,301,279,22,-0.41948376,,,Unweighted,120
+7808,Marco Jansen,336,313,37,-0.41965076,,,Unweighted,121
+786,Chris Jordan,65,62,8,-0.42118839,,,Unweighted,122
+6523,Blessing Muzarabani,178,176,22,-0.43122333,,,Unweighted,123
+8221,Nitish Reddy,111,104,14,-0.43126791,,,Unweighted,124
+3330,Hardik Pandya,434,409,43,-0.44730571,,,Unweighted,125
+5041,Mukesh Kumar,408,384,43,-0.44865741,,,Unweighted,126
+295,Wayne Parnell,107,105,9,-0.44882009,,,Unweighted,127
+36982,Suyash Sharma,173,171,13,-0.49490156,,,Unweighted,128
+838,Glenn Maxwell,88,86,13,-0.4970111,,,Unweighted,129
+2687,Roston Chase,136,131,16,-0.57567444,,,Unweighted,130
+4489,Prasidh Krishna,137,132,17,-0.59109717,,,Unweighted,131
+58246,Prince Yadav,155,147,22,-0.59930042,,,Unweighted,132
+3605,Aiden Markram,65,62,11,-0.60808492,,,Unweighted,133
+8746,Vaibhav Arora,264,253,25,-0.62824405,,,Unweighted,134
+5441,Barry McCarthy,138,131,13,-0.63622608,,,Unweighted,135
+1389,Sean Abbott,123,111,14,-0.66940713,,,Unweighted,136
+1318,Andre Russell,200,191,25,-0.69426716,,,Unweighted,137
+7322,Yash Dayal,184,180,21,-0.69934865,,,Unweighted,138
+8295,Matthew Forde,147,137,14,-0.73153148,,,Unweighted,139
+67036,Brijesh Sharma,108,96,10,-0.73253444,,,Unweighted,140
+4641,Lungi Ngidi,154,151,21,-0.73331094,,,Unweighted,141
+5738,Xavier Bartlett,168,166,19,-0.7333302,,,Unweighted,142
+829,Mitchell Starc,198,186,21,-0.73826928,,,Unweighted,143
+2399,Dushmantha Chameera,191,179,22,-0.7585534,,,Unweighted,144
+4409,Sam Curran,243,234,29,-0.78417286,,,Unweighted,145
+4391,Liam Livingstone,73,73,10,-0.84850375,,,Unweighted,146
+2847,Shardul Thakur,183,163,20,-0.87850758,,,Unweighted,147
+1071,Jaydev Unadkat,95,90,15,-0.89458155,,,Unweighted,148
+2639,Marcus Stoinis,139,126,21,-0.91146867,,,Unweighted,149
+4837,Obed McCoy,68,64,9,-0.93601436,,,Unweighted,150
+6281,Abhishek Sharma,102,100,12,-1.0388305,,,Unweighted,151
+8530,Kartik Tyagi,127,122,16,-1.068393,,,Unweighted,152
+2411,Sandeep Sharma,248,236,27,-1.0693138,,,Unweighted,153
+7270,Anrich Nortje,123,113,20,-1.8754542,,,Unweighted,154
+4201,Fareed Malik,63,62,8,5.5917162,,,State-only expectation,1
+3720,Craig Young,88,86,10,3.6641517,,,State-only expectation,2
+6643,Hasan Mahmud,63,62,8,2.7526584,,,State-only expectation,3
+28,Ishant Sharma,115,108,15,2.1848193,,,State-only expectation,4
+3323,Jimmy Neesham,93,88,12,2.0661075,,,State-only expectation,5
+5379,Mark Adair,178,168,18,1.9389401,,,State-only expectation,6
+4487,Vyshak Kumar,133,120,16,1.7337949,,,State-only expectation,7
+403,Umesh Yadav,82,80,9,1.6168901,,,State-only expectation,8
+829,Mitchell Starc,198,186,21,1.4770506,,,State-only expectation,9
+360,Bhuvneshwar Kumar,533,515,41,1.4664662,,,State-only expectation,10
+3629,Corbin Bosch,79,76,9,1.3839716,,,State-only expectation,11
+7905,Tanzim Sakib,196,188,21,1.3696876,,,State-only expectation,12
+2878,Mohit Sharma,126,124,18,1.250584,,,State-only expectation,13
+3697,Kyle Jamieson,189,177,21,1.1357696,,,State-only expectation,14
+29066,Zakary Foulkes,67,61,9,1.0737162,,,State-only expectation,15
+6256,Varun Chakravarthy,341,336,34,0.95730281,,,State-only expectation,16
+34485,Sufiyan Muqeem,104,100,9,0.92381931,,,State-only expectation,17
+6669,Mohsin Khan,175,170,16,0.87992564,,,State-only expectation,18
+2490,Mohammad Nawaz,114,111,11,0.87759545,,,State-only expectation,19
+6628,Gerald Coetzee,97,92,12,0.85617616,,,State-only expectation,20
+6726,Romario Shepherd,261,241,32,0.82546544,,,State-only expectation,21
+2636,Adam Zampa,130,129,12,0.81434667,,,State-only expectation,22
+479,Adil Rashid,73,69,10,0.81178028,,,State-only expectation,23
+5979,Abrar Ahmed,137,134,14,0.78536184,,,State-only expectation,24
+2876,Axar Patel,543,537,51,0.75375516,,,State-only expectation,25
+3276,Gudakesh Motie,115,114,11,0.70072741,,,State-only expectation,26
+4722,Rashid Khan,336,336,35,0.69916777,,,State-only expectation,27
+2933,Jasprit Bumrah,318,306,32,0.68986459,,,State-only expectation,28
+29888,Harshit Rana,286,273,25,0.64716306,,,State-only expectation,29
+830,Josh Hazlewood,319,309,31,0.63784792,,,State-only expectation,30
+4816,Khaleel Ahmed,375,356,30,0.57384475,,,State-only expectation,31
+4658,Nasum Ahmed,160,159,16,0.52225788,,,State-only expectation,32
+2681,Taskin Ahmed,202,191,20,0.51690591,,,State-only expectation,33
+4900,Wanindu Hasaranga,276,271,19,0.51027436,,,State-only expectation,34
+1758,Patrick Cummins,153,146,22,0.47155483,,,State-only expectation,35
+781,Sunil Narine,271,268,25,0.46747429,,,State-only expectation,36
+7690,Saim Ayub,177,175,15,0.44911095,,,State-only expectation,37
+1596,Moeen Ali,130,130,14,0.4465806,,,State-only expectation,38
+6806,Tushar Deshpande,322,298,30,0.42226624,,,State-only expectation,39
+4373,Mustafizur Rahman,185,181,25,0.41877732,,,State-only expectation,40
+6450,Mujeeb Ur Rahman,219,206,19,0.40468499,,,State-only expectation,41
+3664,Binura Fernando,86,83,11,0.37360227,,,State-only expectation,42
+2436,Dasun Shanaka,105,101,15,0.36751186,,,State-only expectation,43
+8009,Junaid Siddique,106,101,10,0.34417729,,,State-only expectation,44
+7325,Harpreet Brar,162,159,15,0.33931571,,,State-only expectation,45
+4219,Krunal Pandya,252,248,25,0.33833762,,,State-only expectation,46
+39657,Eshan Malinga,159,153,17,0.32137009,,,State-only expectation,47
+6683,Mayank Markande,74,72,9,0.31378898,,,State-only expectation,48
+1612,Yuzvendra Chahal,330,320,27,0.29388807,,,State-only expectation,49
+1566,Mohammed Shami,392,371,34,0.29160483,,,State-only expectation,50
+27960,Mayank Yadav,92,86,11,0.28356415,,,State-only expectation,51
+6354,Spencer Johnson,127,120,14,0.27925243,,,State-only expectation,52
+4856,Benjamin Sears,86,85,11,0.27881067,,,State-only expectation,53
+7741,Gareth Delany,74,74,9,0.26937609,,,State-only expectation,54
+2984,Sikandar Raza,149,146,16,0.26750966,,,State-only expectation,55
+2320,Trent Boult,327,316,32,0.25131244,,,State-only expectation,56
+5944,Mohammed Siraj,558,530,46,0.24176931,,,State-only expectation,57
+47050,Shamar Joseph,72,67,14,0.23686589,,,State-only expectation,58
+4823,Washington Sundar,77,75,11,0.23241766,,,State-only expectation,59
+152,Ravindra Jadeja,268,264,19,0.22973283,,,State-only expectation,60
+20704,Salman Mirza,114,112,13,0.21089859,,,State-only expectation,61
+3641,Ben Dwarshuis,69,68,10,0.19084097,,,State-only expectation,62
+3653,Avesh Khan,364,345,33,0.18638794,,,State-only expectation,63
+2526,Ish Sodhi,140,136,18,0.1853593,,,State-only expectation,64
+7240,FazalHaq Farooqi,270,259,27,0.17241047,,,State-only expectation,65
+6512,Michael Bracewell,112,111,15,0.16753681,,,State-only expectation,66
+4409,Sam Curran,243,234,29,0.16689907,,,State-only expectation,67
+58134,Digvesh Rathi,117,115,15,0.13817994,,,State-only expectation,68
+4101,Mitchell Santner,216,206,22,0.13093852,,,State-only expectation,69
+5189,Faheem Ashraf,77,74,13,0.12292189,,,State-only expectation,70
+4874,Richard Ngarava,218,208,21,0.11844236,,,State-only expectation,71
+22471,Matthew Humphreys,119,118,10,0.11749186,,,State-only expectation,72
+23,Piyush Chawla,158,153,11,0.094958537,,,State-only expectation,73
+8380,Mohammad Rishad Hossain,114,114,10,0.085221977,,,State-only expectation,74
+3644,Kuldeep Yadav,355,345,30,0.079692814,,,State-only expectation,75
+7344,Shoriful Islam,171,161,18,0.078344007,,,State-only expectation,76
+2417,Akeal Hosein,527,512,47,0.062374925,,,State-only expectation,77
+5939,Cameron Green,228,215,27,0.052117211,,,State-only expectation,78
+6284,Anukul Roy,109,99,11,0.032811534,,,State-only expectation,79
+305,Ravichandran Ashwin,202,194,17,0.02110192,,,State-only expectation,80
+3275,Alzarri Joseph,219,203,21,0.014416102,,,State-only expectation,81
+2261,Harshal Patel,244,229,26,0.0096313214,,,State-only expectation,82
+4815,Benjamin White,75,71,8,-0.009490723,,,State-only expectation,83
+4807,Joshua Little,157,148,14,-0.012568967,,,State-only expectation,84
+5837,Mahedi Hasan,171,170,21,-0.027092141,,,State-only expectation,85
+19316,Maheesh Theekshana,353,341,40,-0.030839754,,,State-only expectation,86
+4692,Lockie Ferguson,172,160,19,-0.03786645,,,State-only expectation,87
+1107,Mohammad Nabi,111,109,14,-0.039377321,,,State-only expectation,88
+4265,T Natarajan,165,157,21,-0.057085407,,,State-only expectation,89
+7503,Ravi Bishnoi,418,400,37,-0.074977891,,,State-only expectation,90
+32862,Allah Ghazanfar,92,92,8,-0.07941954,,,State-only expectation,91
+7327,Rasikh Salam,110,107,14,-0.082426061,,,State-only expectation,92
+6287,Yash Thakur,109,98,14,-0.11392245,,,State-only expectation,93
+7920,Nathan Ellis,272,264,26,-0.11547057,,,State-only expectation,94
+7250,Mukesh Choudhary,104,99,9,-0.11972016,,,State-only expectation,95
+6515,Benjamin Lister,145,139,11,-0.15513526,,,State-only expectation,96
+6272,William Jacks,100,93,14,-0.16001097,,,State-only expectation,97
+19312,Nuwan Thushara,161,157,23,-0.17048111,,,State-only expectation,98
+3298,Jofra Archer,467,439,39,-0.17799327,,,State-only expectation,99
+7094,Curtis Campher,76,73,10,-0.18615493,,,State-only expectation,100
+2399,Dushmantha Chameera,191,179,22,-0.21272397,,,State-only expectation,101
+6398,Aaron Hardie,85,80,9,-0.22891567,,,State-only expectation,102
+6161,Rahul Chahar,174,173,13,-0.23701718,,,State-only expectation,103
+27964,Anshul Kamboj,177,176,16,-0.24778168,,,State-only expectation,104
+20005,Arshad Khan,95,83,12,-0.2507511,,,State-only expectation,105
+3628,Kagiso Rabada,366,352,32,-0.28786596,,,State-only expectation,106
+2985,Mark Wood,87,78,8,-0.29093762,,,State-only expectation,107
+1813,Deepak Chahar,299,284,26,-0.30976941,,,State-only expectation,108
+2054,Jason Behrendorff,207,201,17,-0.33825638,,,State-only expectation,109
+3330,Hardik Pandya,434,409,43,-0.34497118,,,State-only expectation,110
+2633,Jason Holder,384,363,37,-0.35468751,,,State-only expectation,111
+8746,Vaibhav Arora,264,253,25,-0.35590656,,,State-only expectation,112
+5041,Mukesh Kumar,408,384,43,-0.36697558,,,State-only expectation,113
+22920,Jacob Duffy,277,262,26,-0.39868997,,,State-only expectation,114
+6464,Arshdeep Singh,994,932,87,-0.40643549,,,State-only expectation,115
+36982,Suyash Sharma,173,171,13,-0.42016725,,,State-only expectation,116
+7808,Marco Jansen,336,313,37,-0.42347261,,,State-only expectation,117
+7967,Noor Ahmad,301,279,22,-0.43924689,,,State-only expectation,118
+7312,Nandre Burger,150,144,16,-0.46068773,,,State-only expectation,119
+21784,Brad Evans,87,83,12,-0.49697773,,,State-only expectation,120
+295,Wayne Parnell,107,105,9,-0.51982936,,,State-only expectation,121
+3174,Matt Henry,237,231,18,-0.52689165,,,State-only expectation,122
+786,Chris Jordan,65,62,8,-0.58978593,,,State-only expectation,123
+8221,Nitish Reddy,111,104,14,-0.59552386,,,State-only expectation,124
+2687,Roston Chase,136,131,16,-0.59872513,,,State-only expectation,125
+5809,Naveen ul Haq,156,150,17,-0.60539917,,,State-only expectation,126
+1487,Adam Milne,169,162,15,-0.61200584,,,State-only expectation,127
+7364,Haris Rauf,142,133,16,-0.66007935,,,State-only expectation,128
+3605,Aiden Markram,65,62,11,-0.69557903,,,State-only expectation,129
+58246,Prince Yadav,155,147,22,-0.71785982,,,State-only expectation,130
+8295,Matthew Forde,147,137,14,-0.76582738,,,State-only expectation,131
+1071,Jaydev Unadkat,95,90,15,-0.7930225,,,State-only expectation,132
+2847,Shardul Thakur,183,163,20,-0.83941774,,,State-only expectation,133
+67036,Brijesh Sharma,108,96,10,-0.90366388,,,State-only expectation,134
+838,Glenn Maxwell,88,86,13,-0.919684,,,State-only expectation,135
+6676,Azmatullah Omarzai,308,296,34,-0.92711622,,,State-only expectation,136
+4391,Liam Livingstone,73,73,10,-1.1006616,,,State-only expectation,137
+5738,Xavier Bartlett,168,166,19,-1.1386959,,,State-only expectation,138
+4837,Obed McCoy,68,64,9,-1.2246086,,,State-only expectation,139
+1389,Sean Abbott,123,111,14,-1.2420668,,,State-only expectation,140
+1318,Andre Russell,200,191,25,-1.4867424,,,State-only expectation,141
+6281,Abhishek Sharma,102,100,12,-1.5132877,,,State-only expectation,142
+2639,Marcus Stoinis,139,126,21,-1.5996859,,,State-only expectation,143
+4641,Lungi Ngidi,154,151,21,-1.6615903,,,State-only expectation,144
+8530,Kartik Tyagi,127,122,16,-1.8114142,,,State-only expectation,145
+4489,Prasidh Krishna,137,132,17,-2.0988177,,,State-only expectation,146
+8661,Matheesha Pathirana,213,188,22,-3.725272,,,State-only expectation,147
+6355,Shaheen Afridi,331,313,31,-3.8673069,,,State-only expectation,148
+6523,Blessing Muzarabani,178,176,22,-3.9216771,,,State-only expectation,149
+2411,Sandeep Sharma,248,236,27,-5.8831233,,,State-only expectation,150
+7322,Yash Dayal,184,180,21,-6.3271742,,,State-only expectation,151
+7270,Anrich Nortje,123,113,20,-6.559609,,,State-only expectation,152
+5441,Barry McCarthy,138,131,13,-6.5725413,,,State-only expectation,153
+278,Tim Southee,110,105,10,-9.3755422,,,State-only expectation,154
+4201,Fareed Malik,80,77,9,5.3028044,,,Top 30%,1
+3720,Craig Young,123,119,11,2.9687469,,,Top 30%,2
+6643,Hasan Mahmud,95,93,9,2.2817911,,,Top 30%,3
+28,Ishant Sharma,141,132,18,2.0552428,,,Top 30%,4
+3323,Jimmy Neesham,117,112,13,1.7862874,,,Top 30%,5
+5379,Mark Adair,216,203,19,1.7557504,,,Top 30%,6
+4487,Vyshak Kumar,160,146,16,1.5241786,,,Top 30%,7
+829,Mitchell Starc,214,202,21,1.4133786,,,Top 30%,8
+360,Bhuvneshwar Kumar,598,580,44,1.3473912,,,Top 30%,9
+8177,Akash Madhwal,71,63,11,1.3250473,,,Top 30%,10
+3629,Corbin Bosch,83,80,10,1.3185894,,,Top 30%,11
+403,Umesh Yadav,105,103,9,1.30478,,,Top 30%,12
+7905,Tanzim Sakib,241,230,23,1.1933202,,,Top 30%,13
+2878,Mohit Sharma,161,158,19,1.1880663,,,Top 30%,14
+3697,Kyle Jamieson,229,217,24,1.0135963,,,Top 30%,15
+29066,Zakary Foulkes,85,78,11,0.88192923,,,Top 30%,16
+7052,Dunith Wellalage,65,64,8,0.8675867,,,Top 30%,17
+6256,Varun Chakravarthy,426,421,43,0.86368302,,,Top 30%,18
+34485,Sufiyan Muqeem,113,109,9,0.84730082,,,Top 30%,19
+6669,Mohsin Khan,198,193,16,0.82335105,,,Top 30%,20
+29888,Harshit Rana,353,339,28,0.81842207,,,Top 30%,21
+6628,Gerald Coetzee,115,107,14,0.77265016,,,Top 30%,22
+2876,Axar Patel,640,633,54,0.76104329,,,Top 30%,23
+6726,Romario Shepherd,309,288,36,0.73455769,,,Top 30%,24
+2636,Adam Zampa,177,175,15,0.72373739,,,Top 30%,25
+5979,Abrar Ahmed,178,175,14,0.72084061,,,Top 30%,26
+2490,Mohammad Nawaz,129,126,12,0.71406781,,,Top 30%,27
+4722,Rashid Khan,377,374,39,0.66759803,,,Top 30%,28
+3276,Gudakesh Motie,139,138,12,0.65467878,,,Top 30%,29
+830,Josh Hazlewood,375,365,32,0.62476257,,,Top 30%,30
+2933,Jasprit Bumrah,396,381,35,0.62237331,,,Top 30%,31
+479,Adil Rashid,102,98,11,0.62225426,,,Top 30%,32
+4816,Khaleel Ahmed,420,398,31,0.47494011,,,Top 30%,33
+2681,Taskin Ahmed,266,252,24,0.46325037,,,Top 30%,34
+4900,Wanindu Hasaranga,313,308,19,0.44529984,,,Top 30%,35
+781,Sunil Narine,315,311,27,0.44405915,,,Top 30%,36
+4658,Nasum Ahmed,194,193,16,0.42868217,,,Top 30%,37
+1596,Moeen Ali,165,165,16,0.42273504,,,Top 30%,38
+6806,Tushar Deshpande,389,361,33,0.39337542,,,Top 30%,39
+7690,Saim Ayub,190,188,15,0.39021195,,,Top 30%,40
+4373,Mustafizur Rahman,232,226,29,0.38238196,,,Top 30%,41
+2436,Dasun Shanaka,114,109,15,0.380865,,,Top 30%,42
+27960,Mayank Yadav,114,108,13,0.36472905,,,Top 30%,43
+4823,Washington Sundar,106,104,16,0.34622267,,,Top 30%,44
+39657,Eshan Malinga,183,177,21,0.33759474,,,Top 30%,45
+6450,Mujeeb Ur Rahman,282,267,23,0.32591258,,,Top 30%,46
+1758,Patrick Cummins,207,198,25,0.3253598,,,Top 30%,47
+4219,Krunal Pandya,314,310,27,0.32373188,,,Top 30%,48
+7325,Harpreet Brar,188,185,16,0.30753606,,,Top 30%,49
+47050,Shamar Joseph,95,89,15,0.30413741,,,Top 30%,50
+1566,Mohammed Shami,467,445,35,0.29823529,,,Top 30%,51
+20704,Salman Mirza,138,134,13,0.26849661,,,Top 30%,52
+152,Ravindra Jadeja,308,304,21,0.2595109,,,Top 30%,53
+6683,Mayank Markande,90,88,9,0.24815555,,,Top 30%,54
+3664,Binura Fernando,117,112,12,0.24432669,,,Top 30%,55
+1612,Yuzvendra Chahal,376,365,32,0.23349861,,,Top 30%,56
+2320,Trent Boult,370,357,33,0.23191023,,,Top 30%,57
+5944,Mohammed Siraj,634,602,49,0.22338677,,,Top 30%,58
+4856,Benjamin Sears,111,108,11,0.2218068,,,Top 30%,59
+6354,Spencer Johnson,142,133,14,0.21615742,,,Top 30%,60
+8009,Junaid Siddique,137,129,10,0.2152188,,,Top 30%,61
+5189,Faheem Ashraf,119,115,18,0.20475903,,,Top 30%,62
+2984,Sikandar Raza,176,170,16,0.2015561,,,Top 30%,63
+6512,Michael Bracewell,141,136,15,0.19626866,,,Top 30%,64
+22471,Matthew Humphreys,146,145,11,0.18680471,,,Top 30%,65
+8805,Ottneil Baartman,71,67,10,0.17439413,,,Top 30%,66
+7240,FazalHaq Farooqi,322,311,30,0.16864438,,,Top 30%,67
+4101,Mitchell Santner,289,278,26,0.15396103,,,Top 30%,68
+7741,Gareth Delany,101,101,11,0.14062924,,,Top 30%,69
+58134,Digvesh Rathi,161,157,17,0.13149682,,,Top 30%,70
+4409,Sam Curran,302,287,32,0.1203498,,,Top 30%,71
+3653,Avesh Khan,416,396,34,0.10807763,,,Top 30%,72
+3641,Ben Dwarshuis,110,108,11,0.10676463,,,Top 30%,73
+3644,Kuldeep Yadav,424,414,34,0.10584055,,,Top 30%,74
+23,Piyush Chawla,172,167,12,0.08166822,,,Top 30%,75
+4874,Richard Ngarava,235,224,22,0.078914638,,,Top 30%,76
+8380,Mohammad Rishad Hossain,131,131,10,0.073097893,,,Top 30%,77
+7344,Shoriful Islam,208,198,18,0.047933521,,,Top 30%,78
+5837,Mahedi Hasan,199,198,21,0.04497553,,,Top 30%,79
+6284,Anukul Roy,113,103,11,0.043652386,,,Top 30%,80
+2417,Akeal Hosein,596,579,48,0.028179397,,,Top 30%,81
+2261,Harshal Patel,281,265,30,0.025505213,,,Top 30%,82
+305,Ravichandran Ashwin,242,234,19,-0.0005500668,,,Top 30%,83
+3275,Alzarri Joseph,251,233,22,-0.010236297,,,Top 30%,84
+2526,Ish Sodhi,236,229,22,-0.016558854,,,Top 30%,85
+32862,Allah Ghazanfar,107,107,9,-0.01801526,,,Top 30%,86
+4807,Joshua Little,194,185,14,-0.020221433,,,Top 30%,87
+19316,Maheesh Theekshana,434,422,46,-0.039374613,,,Top 30%,88
+4755,Shivam Dube,80,76,8,-0.055657659,,,Top 30%,89
+5939,Cameron Green,274,255,27,-0.055983884,,,Top 30%,90
+4692,Lockie Ferguson,210,197,19,-0.069197631,,,Top 30%,91
+4265,T Natarajan,198,188,22,-0.072105785,,,Top 30%,92
+7920,Nathan Ellis,331,320,26,-0.074823744,,,Top 30%,93
+6287,Yash Thakur,148,134,15,-0.080412379,,,Top 30%,94
+7503,Ravi Bishnoi,526,506,41,-0.12935656,,,Top 30%,95
+1107,Mohammad Nabi,123,121,16,-0.13909745,,,Top 30%,96
+2399,Dushmantha Chameera,219,207,23,-0.1549482,,,Top 30%,97
+8049,Naseem Shah,73,67,8,-0.15579408,,,Top 30%,98
+2985,Mark Wood,100,90,8,-0.15622418,,,Top 30%,99
+4815,Benjamin White,113,108,8,-0.15927622,,,Top 30%,100
+6161,Rahul Chahar,208,207,13,-0.16500445,,,Top 30%,101
+7327,Rasikh Salam,164,157,15,-0.16848244,,,Top 30%,102
+6398,Aaron Hardie,108,103,9,-0.17343363,,,Top 30%,103
+6272,William Jacks,117,109,15,-0.18351547,,,Top 30%,104
+1813,Deepak Chahar,352,334,27,-0.18889361,,,Top 30%,105
+3298,Jofra Archer,528,498,40,-0.18980286,,,Top 30%,106
+6515,Benjamin Lister,154,148,11,-0.19238831,,,Top 30%,107
+19312,Nuwan Thushara,210,204,24,-0.19642024,,,Top 30%,108
+3628,Kagiso Rabada,420,404,33,-0.19798522,,,Top 30%,109
+27964,Anshul Kamboj,204,203,17,-0.23530844,,,Top 30%,110
+22920,Jacob Duffy,318,300,27,-0.26585811,,,Top 30%,111
+7250,Mukesh Choudhary,118,113,9,-0.28201065,,,Top 30%,112
+2054,Jason Behrendorff,232,226,17,-0.29041245,,,Top 30%,113
+7094,Curtis Campher,93,90,12,-0.29878664,,,Top 30%,114
+2687,Roston Chase,174,169,19,-0.30036,,,Top 30%,115
+2633,Jason Holder,431,406,40,-0.30424565,,,Top 30%,116
+36982,Suyash Sharma,200,197,15,-0.31971604,,,Top 30%,117
+5041,Mukesh Kumar,475,449,45,-0.32240408,,,Top 30%,118
+8746,Vaibhav Arora,322,307,27,-0.33841867,,,Top 30%,119
+3330,Hardik Pandya,489,459,46,-0.35947059,,,Top 30%,120
+20005,Arshad Khan,129,112,14,-0.36755867,,,Top 30%,121
+7967,Noor Ahmad,342,317,26,-0.37413336,,,Top 30%,122
+6464,Arshdeep Singh,1107,1037,88,-0.40648321,,,Top 30%,123
+3174,Matt Henry,273,267,21,-0.40655583,,,Top 30%,124
+7808,Marco Jansen,380,357,38,-0.4527054,,,Top 30%,125
+7312,Nandre Burger,177,171,17,-0.47006383,,,Top 30%,126
+21784,Brad Evans,113,107,14,-0.48010745,,,Top 30%,127
+1487,Adam Milne,203,192,15,-0.48353359,,,Top 30%,128
+7896,Akash Singh,118,113,8,-0.48842788,,,Top 30%,129
+295,Wayne Parnell,120,117,9,-0.49168101,,,Top 30%,130
+7364,Haris Rauf,171,162,18,-0.53113177,,,Top 30%,131
+5809,Naveen ul Haq,187,181,19,-0.55236512,,,Top 30%,132
+786,Chris Jordan,87,83,8,-0.5639626,,,Top 30%,133
+3605,Aiden Markram,77,74,11,-0.60041152,,,Top 30%,134
+8326,Jayden Seales,91,87,8,-0.61874026,,,Top 30%,135
+8221,Nitish Reddy,116,109,15,-0.61999194,,,Top 30%,136
+58246,Prince Yadav,183,171,23,-0.62167625,,,Top 30%,137
+8295,Matthew Forde,188,176,17,-0.69189865,,,Top 30%,138
+838,Glenn Maxwell,119,116,16,-0.71092955,,,Top 30%,139
+7699,Abbas Afridi,81,76,8,-0.77256871,,,Top 30%,140
+1071,Jaydev Unadkat,120,114,15,-0.77915824,,,Top 30%,141
+2847,Shardul Thakur,220,199,20,-0.7854728,,,Top 30%,142
+67036,Brijesh Sharma,114,102,11,-0.87416173,,,Top 30%,143
+6676,Azmatullah Omarzai,380,365,37,-0.90123227,,,Top 30%,144
+5738,Xavier Bartlett,204,198,19,-1.0500035,,,Top 30%,145
+1389,Sean Abbott,150,138,14,-1.1437274,,,Top 30%,146
+4391,Liam Livingstone,95,93,13,-1.1567539,,,Top 30%,147
+4837,Obed McCoy,81,76,10,-1.1807833,,,Top 30%,148
+38855,Mohammad Saifuddin,69,65,12,-1.2271448,,,Top 30%,149
+6281,Abhishek Sharma,128,126,13,-1.2894189,,,Top 30%,150
+1318,Andre Russell,232,223,27,-1.4169633,,,Top 30%,151
+4641,Lungi Ngidi,203,199,22,-1.4207336,,,Top 30%,152
+2639,Marcus Stoinis,185,172,22,-1.4558697,,,Top 30%,153
+8634,Ashwani Kumar,80,75,8,-1.4860447,,,Top 30%,154
+8530,Kartik Tyagi,143,135,16,-1.855294,,,Top 30%,155
+4489,Prasidh Krishna,169,163,20,-2.0193383,,,Top 30%,156
+6355,Shaheen Afridi,404,382,31,-3.3532738,,,Top 30%,157
+8661,Matheesha Pathirana,233,208,22,-3.6100355,,,Top 30%,158
+6523,Blessing Muzarabani,191,189,22,-3.803191,,,Top 30%,159
+7472,Shahbaz Ahmed,68,66,9,-4.9973148,,,Top 30%,160
+2411,Sandeep Sharma,286,272,27,-5.4360714,,,Top 30%,161
+7322,Yash Dayal,223,214,24,-5.9409669,,,Top 30%,162
+7270,Anrich Nortje,156,144,20,-5.9691085,,,Top 30%,163
+5441,Barry McCarthy,161,151,13,-6.0330699,,,Top 30%,164
+278,Tim Southee,139,134,12,-8.4406579,,,Top 30%,165
+3720,Craig Young,71,69,9,4.0963404,,,Top 20%,1
+28,Ishant Sharma,102,96,14,2.4198784,,,Top 20%,2
+5379,Mark Adair,151,144,16,2.1060556,,,Top 20%,3
+4487,Vyshak Kumar,119,108,15,1.8656537,,,Top 20%,4
+7905,Tanzim Sakib,120,113,19,1.8290636,,,Top 20%,5
+403,Umesh Yadav,72,70,8,1.7028808,,,Top 20%,6
+829,Mitchell Starc,160,151,21,1.7013927,,,Top 20%,7
+360,Bhuvneshwar Kumar,448,431,40,1.6289723,,,Top 20%,8
+3697,Kyle Jamieson,151,144,21,1.4575717,,,Top 20%,9
+2878,Mohit Sharma,101,99,16,1.447319,,,Top 20%,10
+3629,Corbin Bosch,69,66,8,1.3764008,,,Top 20%,11
+5979,Abrar Ahmed,91,88,13,1.2001475,,,Top 20%,12
+6256,Varun Chakravarthy,272,268,31,1.1909455,,,Top 20%,13
+29888,Harshit Rana,234,223,24,1.0739581,,,Top 20%,14
+6669,Mohsin Khan,145,140,16,1.0445737,,,Top 20%,15
+2636,Adam Zampa,112,111,11,0.9342285,,,Top 20%,16
+6726,Romario Shepherd,201,189,31,0.90669736,,,Top 20%,17
+2876,Axar Patel,405,400,43,0.8934563,,,Top 20%,18
+34485,Sufiyan Muqeem,93,89,8,0.88601225,,,Top 20%,19
+2933,Jasprit Bumrah,241,230,31,0.87360307,,,Top 20%,20
+830,Josh Hazlewood,242,234,28,0.80248835,,,Top 20%,21
+6628,Gerald Coetzee,75,71,11,0.77789621,,,Top 20%,22
+3276,Gudakesh Motie,92,91,9,0.72831632,,,Top 20%,23
+4722,Rashid Khan,282,282,31,0.71732397,,,Top 20%,24
+4900,Wanindu Hasaranga,224,219,18,0.68946406,,,Top 20%,25
+2681,Taskin Ahmed,155,149,19,0.64581734,,,Top 20%,26
+7690,Saim Ayub,136,134,14,0.60870119,,,Top 20%,27
+1758,Patrick Cummins,108,103,17,0.6074837,,,Top 20%,28
+4816,Khaleel Ahmed,273,258,28,0.60590849,,,Top 20%,29
+781,Sunil Narine,240,238,25,0.54250549,,,Top 20%,30
+2436,Dasun Shanaka,81,77,12,0.53117779,,,Top 20%,31
+1596,Moeen Ali,100,100,13,0.49253525,,,Top 20%,32
+4658,Nasum Ahmed,99,98,16,0.48826199,,,Top 20%,33
+6450,Mujeeb Ur Rahman,166,154,16,0.4847079,,,Top 20%,34
+6806,Tushar Deshpande,284,260,26,0.48209941,,,Top 20%,35
+4373,Mustafizur Rahman,145,142,24,0.44056564,,,Top 20%,36
+1612,Yuzvendra Chahal,267,260,25,0.40659889,,,Top 20%,37
+4219,Krunal Pandya,196,192,21,0.38573404,,,Top 20%,38
+8009,Junaid Siddique,86,81,10,0.38090962,,,Top 20%,39
+1566,Mohammed Shami,332,312,31,0.36826364,,,Top 20%,40
+2320,Trent Boult,252,241,30,0.36162686,,,Top 20%,41
+39657,Eshan Malinga,149,144,17,0.3487399,,,Top 20%,42
+6354,Spencer Johnson,113,106,13,0.2903024,,,Top 20%,43
+7240,FazalHaq Farooqi,225,214,27,0.28376474,,,Top 20%,44
+5944,Mohammed Siraj,472,445,42,0.26761031,,,Top 20%,45
+152,Ravindra Jadeja,211,207,17,0.2384487,,,Top 20%,46
+4874,Richard Ngarava,171,163,19,0.19807334,,,Top 20%,47
+4409,Sam Curran,214,207,26,0.19126878,,,Top 20%,48
+8380,Mohammad Rishad Hossain,88,88,10,0.18778676,,,Top 20%,49
+2984,Sikandar Raza,119,116,16,0.1802635,,,Top 20%,50
+3653,Avesh Khan,308,291,31,0.17129535,,,Top 20%,51
+7325,Harpreet Brar,138,136,14,0.17112815,,,Top 20%,52
+27960,Mayank Yadav,79,74,11,0.15331791,,,Top 20%,53
+2417,Akeal Hosein,406,395,43,0.14734397,,,Top 20%,54
+58134,Digvesh Rathi,91,89,14,0.1243875,,,Top 20%,55
+22471,Matthew Humphreys,92,91,9,0.12323349,,,Top 20%,56
+6512,Michael Bracewell,94,93,14,0.11737845,,,Top 20%,57
+20704,Salman Mirza,80,78,11,0.083406515,,,Top 20%,58
+2261,Harshal Patel,204,193,25,0.070006303,,,Top 20%,59
+2526,Ish Sodhi,91,89,12,0.061608536,,,Top 20%,60
+4101,Mitchell Santner,168,159,18,0.057241585,,,Top 20%,61
+3644,Kuldeep Yadav,243,235,24,0.056869029,,,Top 20%,62
+5939,Cameron Green,204,192,26,0.052708161,,,Top 20%,63
+6284,Anukul Roy,100,90,11,0.050979109,,,Top 20%,64
+3275,Alzarri Joseph,184,170,20,0.045341297,,,Top 20%,65
+305,Ravichandran Ashwin,140,135,13,0.043859784,,,Top 20%,66
+4807,Joshua Little,122,117,14,0.043297519,,,Top 20%,67
+5837,Mahedi Hasan,117,116,17,0.020933614,,,Top 20%,68
+23,Piyush Chawla,122,120,11,0.013761676,,,Top 20%,69
+7503,Ravi Bishnoi,327,312,32,-0.015658235,,,Top 20%,70
+6272,William Jacks,76,71,11,-0.023761469,,,Top 20%,71
+4265,T Natarajan,142,135,21,-0.061223135,,,Top 20%,72
+4692,Lockie Ferguson,141,130,17,-0.07753048,,,Top 20%,73
+7344,Shoriful Islam,98,92,16,-0.090698408,,,Top 20%,74
+19316,Maheesh Theekshana,265,257,32,-0.093468844,,,Top 20%,75
+6287,Yash Thakur,94,84,13,-0.11032141,,,Top 20%,76
+7920,Nathan Ellis,230,223,24,-0.11940382,,,Top 20%,77
+7327,Rasikh Salam,86,84,11,-0.15952996,,,Top 20%,78
+1107,Mohammad Nabi,70,69,10,-0.16291389,,,Top 20%,79
+6161,Rahul Chahar,143,142,10,-0.16593355,,,Top 20%,80
+3298,Jofra Archer,389,365,36,-0.1859614,,,Top 20%,81
+2399,Dushmantha Chameera,144,134,20,-0.19668475,,,Top 20%,82
+6515,Benjamin Lister,141,135,11,-0.20109891,,,Top 20%,83
+7250,Mukesh Choudhary,92,87,9,-0.23023892,,,Top 20%,84
+27964,Anshul Kamboj,140,139,16,-0.30343917,,,Top 20%,85
+3628,Kagiso Rabada,316,304,31,-0.3063956,,,Top 20%,86
+19312,Nuwan Thushara,129,126,22,-0.31233964,,,Top 20%,87
+5041,Mukesh Kumar,344,324,41,-0.32373145,,,Top 20%,88
+2054,Jason Behrendorff,186,180,16,-0.33304241,,,Top 20%,89
+2633,Jason Holder,307,289,32,-0.35162174,,,Top 20%,90
+3330,Hardik Pandya,373,349,42,-0.35947159,,,Top 20%,91
+1813,Deepak Chahar,248,237,24,-0.36100526,,,Top 20%,92
+8746,Vaibhav Arora,221,212,25,-0.36356352,,,Top 20%,93
+36982,Suyash Sharma,135,134,12,-0.39437597,,,Top 20%,94
+7312,Nandre Burger,119,114,13,-0.42321377,,,Top 20%,95
+3174,Matt Henry,181,175,16,-0.4326331,,,Top 20%,96
+6464,Arshdeep Singh,877,820,86,-0.43513899,,,Top 20%,97
+22920,Jacob Duffy,213,202,26,-0.46623818,,,Top 20%,98
+7808,Marco Jansen,278,260,36,-0.47506438,,,Top 20%,99
+20005,Arshad Khan,76,65,11,-0.48741224,,,Top 20%,100
+7967,Noor Ahmad,231,212,19,-0.50427643,,,Top 20%,101
+1487,Adam Milne,156,150,14,-0.51017501,,,Top 20%,102
+295,Wayne Parnell,103,101,9,-0.51237284,,,Top 20%,103
+58246,Prince Yadav,135,127,21,-0.58307059,,,Top 20%,104
+2687,Roston Chase,103,99,12,-0.6504259,,,Top 20%,105
+7364,Haris Rauf,110,103,13,-0.6613393,,,Top 20%,106
+5809,Naveen ul Haq,129,125,17,-0.6938457,,,Top 20%,107
+21784,Brad Evans,64,60,9,-0.70308377,,,Top 20%,108
+8221,Nitish Reddy,98,94,13,-0.76874752,,,Top 20%,109
+2847,Shardul Thakur,131,115,16,-0.85879658,,,Top 20%,110
+67036,Brijesh Sharma,99,88,9,-0.9454889,,,Top 20%,111
+1071,Jaydev Unadkat,79,74,12,-0.95414297,,,Top 20%,112
+8295,Matthew Forde,115,107,13,-1.0452435,,,Top 20%,113
+6676,Azmatullah Omarzai,230,223,29,-1.0534079,,,Top 20%,114
+838,Glenn Maxwell,66,65,11,-1.1149045,,,Top 20%,115
+5738,Xavier Bartlett,134,132,18,-1.2167072,,,Top 20%,116
+4391,Liam Livingstone,60,60,8,-1.2417146,,,Top 20%,117
+4837,Obed McCoy,64,60,9,-1.4955802,,,Top 20%,118
+1389,Sean Abbott,91,84,12,-1.5703044,,,Top 20%,119
+1318,Andre Russell,179,172,22,-1.5869355,,,Top 20%,120
+2639,Marcus Stoinis,113,102,19,-1.7120807,,,Top 20%,121
+6281,Abhishek Sharma,71,69,8,-1.8291516,,,Top 20%,122
+4641,Lungi Ngidi,132,129,19,-1.8529112,,,Top 20%,123
+8530,Kartik Tyagi,111,106,15,-2.0477739,,,Top 20%,124
+4489,Prasidh Krishna,120,115,15,-2.2264499,,,Top 20%,125
+8661,Matheesha Pathirana,199,175,22,-3.8992904,,,Top 20%,126
+6523,Blessing Muzarabani,154,152,21,-4.2406345,,,Top 20%,127
+6355,Shaheen Afridi,226,212,30,-4.7391856,,,Top 20%,128
+2411,Sandeep Sharma,226,215,25,-5.9378778,,,Top 20%,129
+7270,Anrich Nortje,101,92,20,-7.0397771,,,Top 20%,130
+5441,Barry McCarthy,115,109,13,-7.1953285,,,Top 20%,131
+7322,Yash Dayal,140,138,20,-7.4130821,,,Top 20%,132
+278,Tim Southee,99,94,9,-9.9726599,,,Top 20%,133
+28,Ishant Sharma,65,61,12,3.1559099,,,Top 10%,1
+829,Mitchell Starc,78,74,15,2.8131659,,,Top 10%,2
+4487,Vyshak Kumar,75,65,10,2.4979108,,,Top 10%,3
+360,Bhuvneshwar Kumar,228,219,32,2.479491,,,Top 10%,4
+5379,Mark Adair,120,115,13,2.4180047,,,Top 10%,5
+6256,Varun Chakravarthy,133,131,19,2.0300203,,,Top 10%,6
+29888,Harshit Rana,144,136,18,1.5091118,,,Top 10%,7
+6726,Romario Shepherd,104,97,22,1.4464876,,,Top 10%,8
+2876,Axar Patel,186,183,25,1.3995957,,,Top 10%,9
+2933,Jasprit Bumrah,98,94,18,1.3182846,,,Top 10%,10
+830,Josh Hazlewood,106,103,16,1.2281149,,,Top 10%,11
+4816,Khaleel Ahmed,135,126,16,1.075139,,,Top 10%,12
+4900,Wanindu Hasaranga,117,116,14,1.008106,,,Top 10%,13
+2681,Taskin Ahmed,91,87,14,1.0077985,,,Top 10%,14
+781,Sunil Narine,101,101,14,0.90580524,,,Top 10%,15
+6806,Tushar Deshpande,189,172,21,0.79526299,,,Top 10%,16
+4722,Rashid Khan,105,105,17,0.78185697,,,Top 10%,17
+4373,Mustafizur Rahman,93,90,23,0.64096928,,,Top 10%,18
+2320,Trent Boult,126,118,17,0.62215298,,,Top 10%,19
+1566,Mohammed Shami,179,166,20,0.59304324,,,Top 10%,20
+4409,Sam Curran,123,119,21,0.55869715,,,Top 10%,21
+1612,Yuzvendra Chahal,138,133,18,0.48010906,,,Top 10%,22
+7240,FazalHaq Farooqi,107,105,16,0.47109779,,,Top 10%,23
+5944,Mohammed Siraj,216,202,28,0.40245898,,,Top 10%,24
+3275,Alzarri Joseph,119,110,15,0.31467805,,,Top 10%,25
+39657,Eshan Malinga,69,67,12,0.25437541,,,Top 10%,26
+3653,Avesh Khan,219,205,29,0.24368401,,,Top 10%,27
+5939,Cameron Green,119,111,13,0.22448775,,,Top 10%,28
+2261,Harshal Patel,145,137,20,0.2103583,,,Top 10%,29
+2417,Akeal Hosein,191,186,28,0.1868177,,,Top 10%,30
+4101,Mitchell Santner,97,92,14,0.15984974,,,Top 10%,31
+3644,Kuldeep Yadav,106,101,12,0.093995916,,,Top 10%,32
+19316,Maheesh Theekshana,143,140,20,0.079019708,,,Top 10%,33
+4874,Richard Ngarava,72,67,11,0.050307892,,,Top 10%,34
+4692,Lockie Ferguson,76,68,12,0.049901096,,,Top 10%,35
+152,Ravindra Jadeja,127,126,10,0.03996785,,,Top 10%,36
+4265,T Natarajan,89,83,16,0.036981803,,,Top 10%,37
+4219,Krunal Pandya,100,98,13,0.034642529,,,Top 10%,38
+7325,Harpreet Brar,73,72,11,0.0067572951,,,Top 10%,39
+4807,Joshua Little,67,64,10,-0.032619172,,,Top 10%,40
+6515,Benjamin Lister,98,93,10,-0.06514559,,,Top 10%,41
+7503,Ravi Bishnoi,157,151,19,-0.11056597,,,Top 10%,42
+6161,Rahul Chahar,87,86,8,-0.14245739,,,Top 10%,43
+7920,Nathan Ellis,150,146,19,-0.23568054,,,Top 10%,44
+3298,Jofra Archer,156,143,25,-0.24185565,,,Top 10%,45
+3628,Kagiso Rabada,125,120,20,-0.2540462,,,Top 10%,46
+5041,Mukesh Kumar,174,164,31,-0.29566872,,,Top 10%,47
+3330,Hardik Pandya,180,164,29,-0.36972663,,,Top 10%,48
+8746,Vaibhav Arora,105,100,18,-0.39755963,,,Top 10%,49
+295,Wayne Parnell,71,69,9,-0.40084998,,,Top 10%,50
+2054,Jason Behrendorff,138,132,13,-0.40536859,,,Top 10%,51
+22920,Jacob Duffy,100,95,17,-0.41432391,,,Top 10%,52
+1487,Adam Milne,116,112,14,-0.42672847,,,Top 10%,53
+2633,Jason Holder,171,158,20,-0.500916,,,Top 10%,54
+7808,Marco Jansen,143,130,24,-0.54687608,,,Top 10%,55
+7967,Noor Ahmad,129,117,12,-0.55300456,,,Top 10%,56
+3174,Matt Henry,97,92,10,-0.56800879,,,Top 10%,57
+1813,Deepak Chahar,118,114,13,-0.62971211,,,Top 10%,58
+6464,Arshdeep Singh,509,472,64,-0.68416799,,,Top 10%,59
+7312,Nandre Burger,64,61,10,-0.74723174,,,Top 10%,60
+5809,Naveen ul Haq,88,86,15,-0.79301329,,,Top 10%,61
+2847,Shardul Thakur,80,70,12,-0.90155498,,,Top 10%,62
+58246,Prince Yadav,62,60,16,-0.99510069,,,Top 10%,63
+6676,Azmatullah Omarzai,100,95,17,-1.6836462,,,Top 10%,64
+1318,Andre Russell,95,93,16,-2.0387048,,,Top 10%,65
+2639,Marcus Stoinis,77,70,14,-2.1621617,,,Top 10%,66
+4641,Lungi Ngidi,70,69,14,-2.6078387,,,Top 10%,67
+4489,Prasidh Krishna,72,70,10,-2.9850983,,,Top 10%,68
+8661,Matheesha Pathirana,145,127,19,-4.5931299,,,Top 10%,69
+6523,Blessing Muzarabani,63,61,14,-6.5940199,,,Top 10%,70
+2411,Sandeep Sharma,149,141,21,-6.9360928,,,Top 10%,71
+6355,Shaheen Afridi,77,72,15,-8.7540514,,,Top 10%,72
+5441,Barry McCarthy,62,60,11,-10.411137,,,Top 10%,73
+278,Tim Southee,70,65,8,-11.709122,,,Top 10%,74
+4201,Fareed Malik,70,68,9,5.6544969,,,Format-specific quartiles,1
+3720,Craig Young,99,97,10,3.2787426,,,Format-specific quartiles,2
+6643,Hasan Mahmud,77,75,8,2.4681641,,,Format-specific quartiles,3
+28,Ishant Sharma,107,100,14,2.3324554,,,Format-specific quartiles,4
+3323,Jimmy Neesham,103,98,13,1.9422936,,,Format-specific quartiles,5
+5379,Mark Adair,194,183,19,1.8949931,,,Format-specific quartiles,6
+4487,Vyshak Kumar,127,114,15,1.8266142,,,Format-specific quartiles,7
+403,Umesh Yadav,78,76,9,1.6107007,,,Format-specific quartiles,8
+829,Mitchell Starc,183,171,21,1.587285,,,Format-specific quartiles,9
+360,Bhuvneshwar Kumar,502,484,40,1.5136279,,,Format-specific quartiles,10
+3629,Corbin Bosch,77,74,8,1.4744184,,,Format-specific quartiles,11
+2878,Mohit Sharma,114,112,18,1.3410854,,,Format-specific quartiles,12
+7905,Tanzim Sakib,217,209,21,1.2620519,,,Format-specific quartiles,13
+3697,Kyle Jamieson,194,182,22,1.1118974,,,Format-specific quartiles,14
+6256,Varun Chakravarthy,329,325,37,1.0636935,,,Format-specific quartiles,15
+29066,Zakary Foulkes,76,69,11,0.99449365,,,Format-specific quartiles,16
+6669,Mohsin Khan,163,158,16,0.94428129,,,Format-specific quartiles,17
+29888,Harshit Rana,281,268,24,0.94297527,,,Format-specific quartiles,18
+6628,Gerald Coetzee,89,85,11,0.93320472,,,Format-specific quartiles,19
+34485,Sufiyan Muqeem,113,109,9,0.84730082,,,Format-specific quartiles,20
+2636,Adam Zampa,147,145,14,0.84250618,,,Format-specific quartiles,21
+6726,Romario Shepherd,270,250,34,0.82747984,,,Format-specific quartiles,22
+2490,Mohammad Nawaz,118,115,12,0.79983204,,,Format-specific quartiles,23
+5979,Abrar Ahmed,162,159,14,0.79761994,,,Format-specific quartiles,24
+2876,Axar Patel,526,520,47,0.76739777,,,Format-specific quartiles,25
+4722,Rashid Khan,330,330,34,0.74524849,,,Format-specific quartiles,26
+2933,Jasprit Bumrah,312,301,33,0.68717781,,,Format-specific quartiles,27
+3276,Gudakesh Motie,128,127,11,0.6471418,,,Format-specific quartiles,28
+479,Adil Rashid,86,82,10,0.64210906,,,Format-specific quartiles,29
+830,Josh Hazlewood,321,311,29,0.60245774,,,Format-specific quartiles,30
+4900,Wanindu Hasaranga,275,270,18,0.57848458,,,Format-specific quartiles,31
+4816,Khaleel Ahmed,340,323,29,0.55881234,,,Format-specific quartiles,32
+1758,Patrick Cummins,125,120,17,0.51825149,,,Format-specific quartiles,33
+4373,Mustafizur Rahman,180,176,26,0.50554538,,,Format-specific quartiles,34
+2681,Taskin Ahmed,232,218,24,0.48880424,,,Format-specific quartiles,35
+781,Sunil Narine,256,254,25,0.4853104,,,Format-specific quartiles,36
+1596,Moeen Ali,126,126,15,0.46098378,,,Format-specific quartiles,37
+6806,Tushar Deshpande,317,293,30,0.43957113,,,Format-specific quartiles,38
+6450,Mujeeb Ur Rahman,242,229,21,0.41420573,,,Format-specific quartiles,39
+7690,Saim Ayub,186,184,15,0.40962313,,,Format-specific quartiles,40
+4219,Krunal Pandya,217,213,23,0.40862815,,,Format-specific quartiles,41
+4658,Nasum Ahmed,178,177,16,0.40174881,,,Format-specific quartiles,42
+2436,Dasun Shanaka,107,103,15,0.39793232,,,Format-specific quartiles,43
+1612,Yuzvendra Chahal,304,296,27,0.39630832,,,Format-specific quartiles,44
+4823,Washington Sundar,83,81,13,0.38031216,,,Format-specific quartiles,45
+6683,Mayank Markande,63,61,9,0.32445837,,,Format-specific quartiles,46
+39657,Eshan Malinga,155,149,17,0.32215768,,,Format-specific quartiles,47
+1566,Mohammed Shami,371,351,34,0.3112533,,,Format-specific quartiles,48
+20704,Salman Mirza,126,124,13,0.30802619,,,Format-specific quartiles,49
+2984,Sikandar Raza,147,144,16,0.30679829,,,Format-specific quartiles,50
+5189,Faheem Ashraf,90,86,14,0.29458144,,,Format-specific quartiles,51
+3664,Binura Fernando,96,91,11,0.29002597,,,Format-specific quartiles,52
+2320,Trent Boult,284,273,31,0.28898837,,,Format-specific quartiles,53
+6354,Spencer Johnson,128,121,14,0.27319921,,,Format-specific quartiles,54
+152,Ravindra Jadeja,234,230,19,0.26606406,,,Format-specific quartiles,55
+8805,Ottneil Baartman,63,60,10,0.26197509,,,Format-specific quartiles,56
+4856,Benjamin Sears,98,97,11,0.25557575,,,Format-specific quartiles,57
+27960,Mayank Yadav,87,81,12,0.24623666,,,Format-specific quartiles,58
+5944,Mohammed Siraj,516,489,44,0.23289684,,,Format-specific quartiles,59
+7325,Harpreet Brar,147,145,15,0.2312051,,,Format-specific quartiles,60
+3641,Ben Dwarshuis,90,89,10,0.2270177,,,Format-specific quartiles,61
+8009,Junaid Siddique,113,107,10,0.21574537,,,Format-specific quartiles,62
+22471,Matthew Humphreys,125,124,10,0.21259537,,,Format-specific quartiles,63
+4101,Mitchell Santner,228,217,22,0.2084714,,,Format-specific quartiles,64
+4409,Sam Curran,237,228,29,0.16967494,,,Format-specific quartiles,65
+6512,Michael Bracewell,119,116,14,0.15306354,,,Format-specific quartiles,66
+7240,FazalHaq Farooqi,278,267,29,0.15020541,,,Format-specific quartiles,67
+47050,Shamar Joseph,85,79,15,0.14795012,,,Format-specific quartiles,68
+23,Piyush Chawla,139,136,11,0.14704546,,,Format-specific quartiles,69
+3653,Avesh Khan,351,333,33,0.1361093,,,Format-specific quartiles,70
+2526,Ish Sodhi,185,179,18,0.11189065,,,Format-specific quartiles,71
+8380,Mohammad Rishad Hossain,124,124,10,0.10496137,,,Format-specific quartiles,72
+4874,Richard Ngarava,226,216,22,0.094933418,,,Format-specific quartiles,73
+7741,Gareth Delany,84,84,10,0.093288519,,,Format-specific quartiles,74
+2417,Akeal Hosein,553,539,47,0.08070199,,,Format-specific quartiles,75
+58134,Digvesh Rathi,95,93,14,0.060676358,,,Format-specific quartiles,76
+3644,Kuldeep Yadav,321,311,29,0.058514841,,,Format-specific quartiles,77
+6284,Anukul Roy,105,95,11,0.057472448,,,Format-specific quartiles,78
+3275,Alzarri Joseph,225,208,21,0.031650873,,,Format-specific quartiles,79
+2261,Harshal Patel,228,214,26,0.018956301,,,Format-specific quartiles,80
+7344,Shoriful Islam,186,176,18,0.0077508041,,,Format-specific quartiles,81
+5837,Mahedi Hasan,190,189,21,-0.0040514477,,,Format-specific quartiles,82
+5939,Cameron Green,227,213,27,-0.0071492663,,,Format-specific quartiles,83
+305,Ravichandran Ashwin,158,152,14,-0.0072798302,,,Format-specific quartiles,84
+4807,Joshua Little,159,150,14,-0.015810064,,,Format-specific quartiles,85
+1107,Mohammad Nabi,116,114,15,-0.040685538,,,Format-specific quartiles,86
+19316,Maheesh Theekshana,352,342,39,-0.042148583,,,Format-specific quartiles,87
+4265,T Natarajan,160,152,21,-0.049733421,,,Format-specific quartiles,88
+7920,Nathan Ellis,274,265,26,-0.065189839,,,Format-specific quartiles,89
+32862,Allah Ghazanfar,93,93,8,-0.072599044,,,Format-specific quartiles,90
+7503,Ravi Bishnoi,404,386,34,-0.081382583,,,Format-specific quartiles,91
+4755,Shivam Dube,74,71,8,-0.087201414,,,Format-specific quartiles,92
+4815,Benjamin White,97,93,8,-0.11013359,,,Format-specific quartiles,93
+4692,Lockie Ferguson,162,150,18,-0.11263516,,,Format-specific quartiles,94
+6287,Yash Thakur,102,91,13,-0.12427734,,,Format-specific quartiles,95
+8049,Naseem Shah,67,61,8,-0.14329833,,,Format-specific quartiles,96
+7327,Rasikh Salam,92,90,12,-0.15012762,,,Format-specific quartiles,97
+6398,Aaron Hardie,94,89,9,-0.1524196,,,Format-specific quartiles,98
+3298,Jofra Archer,449,422,38,-0.16797346,,,Format-specific quartiles,99
+6515,Benjamin Lister,151,145,11,-0.18949897,,,Format-specific quartiles,100
+6161,Rahul Chahar,156,155,11,-0.19496898,,,Format-specific quartiles,101
+6272,William Jacks,97,90,14,-0.19885112,,,Format-specific quartiles,102
+2399,Dushmantha Chameera,204,192,23,-0.20626987,,,Format-specific quartiles,103
+7250,Mukesh Choudhary,94,89,9,-0.23209081,,,Format-specific quartiles,104
+3628,Kagiso Rabada,345,332,32,-0.27150483,,,Format-specific quartiles,105
+2985,Mark Wood,86,77,8,-0.28249236,,,Format-specific quartiles,106
+2633,Jason Holder,390,368,36,-0.29331023,,,Format-specific quartiles,107
+7094,Curtis Campher,83,80,11,-0.29446357,,,Format-specific quartiles,108
+22920,Jacob Duffy,295,277,26,-0.29626412,,,Format-specific quartiles,109
+19312,Nuwan Thushara,174,168,23,-0.30375335,,,Format-specific quartiles,110
+5041,Mukesh Kumar,399,376,42,-0.31016281,,,Format-specific quartiles,111
+1813,Deepak Chahar,270,258,25,-0.31165628,,,Format-specific quartiles,112
+2687,Roston Chase,154,149,18,-0.31830125,,,Format-specific quartiles,113
+27964,Anshul Kamboj,168,167,16,-0.33304738,,,Format-specific quartiles,114
+2054,Jason Behrendorff,202,196,17,-0.33530269,,,Format-specific quartiles,115
+36982,Suyash Sharma,155,153,13,-0.3641105,,,Format-specific quartiles,116
+3330,Hardik Pandya,439,411,42,-0.38025081,,,Format-specific quartiles,117
+8746,Vaibhav Arora,244,233,25,-0.38594463,,,Format-specific quartiles,118
+20005,Arshad Khan,88,76,11,-0.40077496,,,Format-specific quartiles,119
+7312,Nandre Burger,137,131,16,-0.40964088,,,Format-specific quartiles,120
+6464,Arshdeep Singh,997,936,87,-0.41004792,,,Format-specific quartiles,121
+3174,Matt Henry,243,237,19,-0.42105554,,,Format-specific quartiles,122
+7808,Marco Jansen,315,295,36,-0.42222618,,,Format-specific quartiles,123
+7967,Noor Ahmad,277,255,21,-0.43152501,,,Format-specific quartiles,124
+21784,Brad Evans,103,98,13,-0.49324645,,,Format-specific quartiles,125
+1487,Adam Milne,185,177,15,-0.51136829,,,Format-specific quartiles,126
+786,Chris Jordan,75,72,8,-0.51144898,,,Format-specific quartiles,127
+295,Wayne Parnell,105,103,9,-0.53914408,,,Format-specific quartiles,128
+7364,Haris Rauf,162,153,18,-0.54284857,,,Format-specific quartiles,129
+5809,Naveen ul Haq,146,140,18,-0.60536935,,,Format-specific quartiles,130
+58246,Prince Yadav,147,139,21,-0.63203766,,,Format-specific quartiles,131
+8221,Nitish Reddy,105,98,14,-0.64313447,,,Format-specific quartiles,132
+8295,Matthew Forde,158,147,16,-0.77665371,,,Format-specific quartiles,133
+7699,Abbas Afridi,71,66,8,-0.80375318,,,Format-specific quartiles,134
+2847,Shardul Thakur,169,150,19,-0.82271713,,,Format-specific quartiles,135
+1071,Jaydev Unadkat,85,80,13,-0.83518245,,,Format-specific quartiles,136
+6676,Azmatullah Omarzai,320,306,34,-0.90947285,,,Format-specific quartiles,137
+67036,Brijesh Sharma,104,93,10,-0.92434515,,,Format-specific quartiles,138
+4391,Liam Livingstone,74,73,10,-1.0268674,,,Format-specific quartiles,139
+838,Glenn Maxwell,81,79,12,-1.0398165,,,Format-specific quartiles,140
+5738,Xavier Bartlett,178,174,19,-1.1059095,,,Format-specific quartiles,141
+1389,Sean Abbott,132,120,14,-1.1915578,,,Format-specific quartiles,142
+4837,Obed McCoy,72,68,10,-1.2257697,,,Format-specific quartiles,143
+1318,Andre Russell,199,190,25,-1.5335371,,,Format-specific quartiles,144
+2639,Marcus Stoinis,148,135,21,-1.6050961,,,Format-specific quartiles,145
+6281,Abhishek Sharma,89,87,11,-1.6556655,,,Format-specific quartiles,146
+4641,Lungi Ngidi,153,150,20,-1.712458,,,Format-specific quartiles,147
+8530,Kartik Tyagi,121,116,16,-2.0281021,,,Format-specific quartiles,148
+4489,Prasidh Krishna,129,124,16,-2.1988642,,,Format-specific quartiles,149
+6355,Shaheen Afridi,378,358,31,-3.4846627,,,Format-specific quartiles,150
+8661,Matheesha Pathirana,203,179,22,-3.8586954,,,Format-specific quartiles,151
+6523,Blessing Muzarabani,182,180,22,-3.901842,,,Format-specific quartiles,152
+2411,Sandeep Sharma,236,225,25,-5.854653,,,Format-specific quartiles,153
+5441,Barry McCarthy,146,138,13,-6.3499276,,,Format-specific quartiles,154
+7322,Yash Dayal,168,164,21,-6.7896255,,,Format-specific quartiles,155
+7270,Anrich Nortje,112,103,20,-6.8151981,,,Format-specific quartiles,156
+278,Tim Southee,124,119,12,-8.8212578,,,Format-specific quartiles,157
+4201,Fareed Malik,96,92,10,4.9582169,,,Year-specific quartiles,1
+3720,Craig Young,106,103,11,3.2456175,,,Year-specific quartiles,2
+28,Ishant Sharma,133,122,18,2.2298705,,,Year-specific quartiles,3
+4487,Vyshak Kumar,98,87,14,2.1349923,,,Year-specific quartiles,4
+5379,Mark Adair,237,228,21,1.7456278,,,Year-specific quartiles,5
+360,Bhuvneshwar Kumar,553,535,47,1.4858829,,,Year-specific quartiles,6
+403,Umesh Yadav,95,93,9,1.4683361,,,Year-specific quartiles,7
+2878,Mohit Sharma,120,116,17,1.3792037,,,Year-specific quartiles,8
+3697,Kyle Jamieson,165,157,21,1.3279632,,,Year-specific quartiles,9
+7905,Tanzim Sakib,220,211,22,1.269889,,,Year-specific quartiles,10
+829,Mitchell Starc,256,238,24,1.2362483,,,Year-specific quartiles,11
+34485,Sufiyan Muqeem,99,95,9,1.08421,,,Year-specific quartiles,12
+6256,Varun Chakravarthy,316,313,32,1.0833408,,,Year-specific quartiles,13
+29888,Harshit Rana,291,282,25,1.0703314,,,Year-specific quartiles,14
+29066,Zakary Foulkes,86,78,9,0.94203319,,,Year-specific quartiles,15
+6669,Mohsin Khan,170,164,15,0.91951768,,,Year-specific quartiles,16
+2876,Axar Patel,484,478,45,0.84685974,,,Year-specific quartiles,17
+1596,Moeen Ali,117,117,11,0.83598186,,,Year-specific quartiles,18
+6726,Romario Shepherd,277,258,33,0.82532825,,,Year-specific quartiles,19
+2490,Mohammad Nawaz,120,117,11,0.82355518,,,Year-specific quartiles,20
+2933,Jasprit Bumrah,330,319,33,0.77867401,,,Year-specific quartiles,21
+5979,Abrar Ahmed,171,167,15,0.73479277,,,Year-specific quartiles,22
+3276,Gudakesh Motie,148,145,11,0.73456401,,,Year-specific quartiles,23
+4900,Wanindu Hasaranga,221,216,16,0.70213476,,,Year-specific quartiles,24
+6628,Gerald Coetzee,94,87,12,0.69779698,,,Year-specific quartiles,25
+2636,Adam Zampa,154,153,11,0.69706405,,,Year-specific quartiles,26
+4722,Rashid Khan,304,302,31,0.67892784,,,Year-specific quartiles,27
+781,Sunil Narine,266,263,23,0.63989349,,,Year-specific quartiles,28
+4658,Nasum Ahmed,130,129,15,0.62133694,,,Year-specific quartiles,29
+830,Josh Hazlewood,314,306,30,0.60217206,,,Year-specific quartiles,30
+2681,Taskin Ahmed,229,217,21,0.56071679,,,Year-specific quartiles,31
+4816,Khaleel Ahmed,411,388,38,0.51876474,,,Year-specific quartiles,32
+2436,Dasun Shanaka,102,97,15,0.481572,,,Year-specific quartiles,33
+1758,Patrick Cummins,200,194,22,0.47445895,,,Year-specific quartiles,34
+7690,Saim Ayub,181,179,15,0.46586495,,,Year-specific quartiles,35
+4373,Mustafizur Rahman,213,208,29,0.45112053,,,Year-specific quartiles,36
+6806,Tushar Deshpande,385,361,34,0.44172243,,,Year-specific quartiles,37
+4219,Krunal Pandya,259,255,24,0.43945442,,,Year-specific quartiles,38
+39657,Eshan Malinga,148,143,17,0.34737151,,,Year-specific quartiles,39
+6354,Spencer Johnson,136,128,15,0.33199577,,,Year-specific quartiles,40
+1612,Yuzvendra Chahal,264,256,21,0.33050579,,,Year-specific quartiles,41
+8009,Junaid Siddique,104,99,10,0.31564146,,,Year-specific quartiles,42
+1566,Mohammed Shami,353,334,31,0.31407183,,,Year-specific quartiles,43
+2984,Sikandar Raza,131,127,16,0.30668459,,,Year-specific quartiles,44
+6450,Mujeeb Ur Rahman,235,224,21,0.28707321,,,Year-specific quartiles,45
+20704,Salman Mirza,113,111,13,0.27441232,,,Year-specific quartiles,46
+4856,Benjamin Sears,113,112,10,0.264689,,,Year-specific quartiles,47
+4409,Sam Curran,218,212,30,0.25971564,,,Year-specific quartiles,48
+2320,Trent Boult,343,331,40,0.25659913,,,Year-specific quartiles,49
+27960,Mayank Yadav,115,109,11,0.25404498,,,Year-specific quartiles,50
+7325,Harpreet Brar,156,153,15,0.24444809,,,Year-specific quartiles,51
+7240,FazalHaq Farooqi,301,291,32,0.23269602,,,Year-specific quartiles,52
+152,Ravindra Jadeja,247,246,16,0.23132678,,,Year-specific quartiles,53
+3664,Binura Fernando,111,106,11,0.22880674,,,Year-specific quartiles,54
+4823,Washington Sundar,80,77,12,0.21707016,,,Year-specific quartiles,55
+3641,Ben Dwarshuis,66,66,10,0.21300029,,,Year-specific quartiles,56
+58134,Digvesh Rathi,112,110,15,0.20943559,,,Year-specific quartiles,57
+5944,Mohammed Siraj,561,534,51,0.14990366,,,Year-specific quartiles,58
+5837,Mahedi Hasan,200,199,22,0.14759362,,,Year-specific quartiles,59
+3653,Avesh Khan,380,360,33,0.13081233,,,Year-specific quartiles,60
+5189,Faheem Ashraf,75,72,13,0.087296426,,,Year-specific quartiles,61
+4692,Lockie Ferguson,178,167,20,0.083437785,,,Year-specific quartiles,62
+6284,Anukul Roy,101,92,12,0.078868139,,,Year-specific quartiles,63
+8380,Mohammad Rishad Hossain,151,151,12,0.077545945,,,Year-specific quartiles,64
+47050,Shamar Joseph,98,92,15,0.076862685,,,Year-specific quartiles,65
+5939,Cameron Green,259,241,30,0.074527438,,,Year-specific quartiles,66
+3644,Kuldeep Yadav,314,302,20,0.067753474,,,Year-specific quartiles,67
+2417,Akeal Hosein,534,521,51,0.06557403,,,Year-specific quartiles,68
+22471,Matthew Humphreys,135,134,11,0.060640779,,,Year-specific quartiles,69
+2261,Harshal Patel,205,193,24,0.058503177,,,Year-specific quartiles,70
+3275,Alzarri Joseph,194,180,22,0.038513997,,,Year-specific quartiles,71
+4874,Richard Ngarava,211,202,23,0.033562192,,,Year-specific quartiles,72
+305,Ravichandran Ashwin,162,157,13,0.031679847,,,Year-specific quartiles,73
+4807,Joshua Little,102,97,11,0.013895935,,,Year-specific quartiles,74
+2526,Ish Sodhi,135,129,12,0.011773452,,,Year-specific quartiles,75
+6512,Michael Bracewell,127,122,14,-0.0046009882,,,Year-specific quartiles,76
+4265,T Natarajan,162,152,21,-0.0046414058,,,Year-specific quartiles,77
+6287,Yash Thakur,138,126,14,-0.013375352,,,Year-specific quartiles,78
+19316,Maheesh Theekshana,363,350,42,-0.015348092,,,Year-specific quartiles,79
+7344,Shoriful Islam,176,166,22,-0.016023163,,,Year-specific quartiles,80
+4101,Mitchell Santner,227,217,22,-0.046587303,,,Year-specific quartiles,81
+32862,Allah Ghazanfar,92,92,8,-0.066150118,,,Year-specific quartiles,82
+6272,William Jacks,94,88,12,-0.07368484,,,Year-specific quartiles,83
+6515,Benjamin Lister,111,106,10,-0.085984486,,,Year-specific quartiles,84
+6398,Aaron Hardie,84,80,8,-0.11135721,,,Year-specific quartiles,85
+7503,Ravi Bishnoi,405,387,34,-0.12185459,,,Year-specific quartiles,86
+3298,Jofra Archer,455,430,39,-0.13525997,,,Year-specific quartiles,87
+2315,Reece Topley,70,68,9,-0.14672157,,,Year-specific quartiles,88
+1107,Mohammad Nabi,128,125,18,-0.16046123,,,Year-specific quartiles,89
+7920,Nathan Ellis,218,212,26,-0.16364866,,,Year-specific quartiles,90
+2985,Mark Wood,73,65,8,-0.1893352,,,Year-specific quartiles,91
+19312,Nuwan Thushara,182,176,27,-0.19688902,,,Year-specific quartiles,92
+7327,Rasikh Salam,137,132,13,-0.19704999,,,Year-specific quartiles,93
+7250,Mukesh Choudhary,99,94,9,-0.21696172,,,Year-specific quartiles,94
+2399,Dushmantha Chameera,184,173,21,-0.21951461,,,Year-specific quartiles,95
+20005,Arshad Khan,102,90,12,-0.24204045,,,Year-specific quartiles,96
+27964,Anshul Kamboj,158,157,16,-0.26314547,,,Year-specific quartiles,97
+5041,Mukesh Kumar,402,380,40,-0.27210489,,,Year-specific quartiles,98
+3628,Kagiso Rabada,351,337,35,-0.2855756,,,Year-specific quartiles,99
+1813,Deepak Chahar,312,299,31,-0.28656739,,,Year-specific quartiles,100
+22920,Jacob Duffy,291,274,26,-0.29004917,,,Year-specific quartiles,101
+2054,Jason Behrendorff,166,160,15,-0.31437639,,,Year-specific quartiles,102
+6161,Rahul Chahar,119,118,10,-0.32719016,,,Year-specific quartiles,103
+2633,Jason Holder,314,298,32,-0.36221953,,,Year-specific quartiles,104
+7967,Noor Ahmad,272,252,18,-0.37956209,,,Year-specific quartiles,105
+3330,Hardik Pandya,397,373,45,-0.38170144,,,Year-specific quartiles,106
+1487,Adam Milne,180,174,14,-0.40910524,,,Year-specific quartiles,107
+2687,Roston Chase,167,161,16,-0.42045227,,,Year-specific quartiles,108
+3174,Matt Henry,265,259,22,-0.43834284,,,Year-specific quartiles,109
+8746,Vaibhav Arora,273,262,26,-0.43920605,,,Year-specific quartiles,110
+7312,Nandre Burger,160,155,17,-0.44106468,,,Year-specific quartiles,111
+7094,Curtis Campher,85,82,9,-0.44116794,,,Year-specific quartiles,112
+7808,Marco Jansen,326,302,37,-0.45171208,,,Year-specific quartiles,113
+6464,Arshdeep Singh,959,894,90,-0.45791418,,,Year-specific quartiles,114
+36982,Suyash Sharma,135,133,9,-0.52625903,,,Year-specific quartiles,115
+295,Wayne Parnell,77,75,9,-0.53200716,,,Year-specific quartiles,116
+21784,Brad Evans,73,69,11,-0.54318438,,,Year-specific quartiles,117
+7364,Haris Rauf,149,143,17,-0.60064003,,,Year-specific quartiles,118
+3660,Luke Wood,66,63,8,-0.61711722,,,Year-specific quartiles,119
+5809,Naveen ul Haq,205,197,21,-0.62372083,,,Year-specific quartiles,120
+7699,Abbas Afridi,94,88,8,-0.6487034,,,Year-specific quartiles,121
+8221,Nitish Reddy,120,113,16,-0.68566592,,,Year-specific quartiles,122
+58246,Prince Yadav,140,132,21,-0.70396375,,,Year-specific quartiles,123
+1071,Jaydev Unadkat,125,117,16,-0.72813986,,,Year-specific quartiles,124
+6676,Azmatullah Omarzai,379,364,39,-0.77092628,,,Year-specific quartiles,125
+8295,Matthew Forde,157,146,16,-0.81680672,,,Year-specific quartiles,126
+2847,Shardul Thakur,182,163,19,-0.8419824,,,Year-specific quartiles,127
+67036,Brijesh Sharma,97,87,9,-0.96042096,,,Year-specific quartiles,128
+5738,Xavier Bartlett,201,198,21,-0.98824957,,,Year-specific quartiles,129
+838,Glenn Maxwell,94,91,14,-1.0752969,,,Year-specific quartiles,130
+1389,Sean Abbott,140,127,13,-1.1440146,,,Year-specific quartiles,131
+4391,Liam Livingstone,64,61,10,-1.2841337,,,Year-specific quartiles,132
+4837,Obed McCoy,77,72,10,-1.3414799,,,Year-specific quartiles,133
+6281,Abhishek Sharma,116,114,12,-1.3812927,,,Year-specific quartiles,134
+2639,Marcus Stoinis,179,168,25,-1.4738836,,,Year-specific quartiles,135
+1318,Andre Russell,207,199,27,-1.4850873,,,Year-specific quartiles,136
+4641,Lungi Ngidi,143,141,21,-1.6917467,,,Year-specific quartiles,137
+8530,Kartik Tyagi,112,107,15,-2.112351,,,Year-specific quartiles,138
+4489,Prasidh Krishna,123,119,16,-2.2004847,,,Year-specific quartiles,139
+6355,Shaheen Afridi,386,365,37,-3.5422003,,,Year-specific quartiles,140
+8661,Matheesha Pathirana,227,200,23,-3.6586527,,,Year-specific quartiles,141
+6523,Blessing Muzarabani,173,171,22,-4.0684292,,,Year-specific quartiles,142
+7472,Shahbaz Ahmed,63,61,8,-4.9912343,,,Year-specific quartiles,143
+7322,Yash Dayal,228,221,26,-5.911146,,,Year-specific quartiles,144
+2411,Sandeep Sharma,199,189,27,-6.2396766,,,Year-specific quartiles,145
+5441,Barry McCarthy,150,143,13,-6.2802071,,,Year-specific quartiles,146
+7270,Anrich Nortje,119,110,20,-6.7412806,,,Year-specific quartiles,147
+278,Tim Southee,100,95,9,-10.177682,,,Year-specific quartiles,148
+3720,Craig Young,73,69,8,4.1717199,,,"2024–26, recomputed quartile",1
+4489,Prasidh Krishna,132,127,16,3.9101654,,,"2024–26, recomputed quartile",2
+7322,Yash Dayal,172,166,20,3.4952234,,,"2024–26, recomputed quartile",3
+5379,Mark Adair,113,106,12,3.142144,,,"2024–26, recomputed quartile",4
+2436,Dasun Shanaka,91,87,13,2.9517411,,,"2024–26, recomputed quartile",5
+360,Bhuvneshwar Kumar,415,403,31,1.8899315,,,"2024–26, recomputed quartile",6
+2261,Harshal Patel,96,90,17,1.4942237,,,"2024–26, recomputed quartile",7
+829,Mitchell Starc,209,197,21,1.4386397,,,"2024–26, recomputed quartile",8
+3629,Corbin Bosch,82,79,10,1.3264388,,,"2024–26, recomputed quartile",9
+3697,Kyle Jamieson,177,169,20,1.2906309,,,"2024–26, recomputed quartile",10
+7905,Tanzim Sakib,220,211,20,1.281455,,,"2024–26, recomputed quartile",11
+6806,Tushar Deshpande,187,177,22,1.1574089,,,"2024–26, recomputed quartile",12
+29888,Harshit Rana,253,244,23,1.0524177,,,"2024–26, recomputed quartile",13
+29066,Zakary Foulkes,79,72,11,0.94133968,,,"2024–26, recomputed quartile",14
+7052,Dunith Wellalage,63,62,8,0.86907993,,,"2024–26, recomputed quartile",15
+4722,Rashid Khan,212,210,26,0.85995542,,,"2024–26, recomputed quartile",16
+34485,Sufiyan Muqeem,113,109,9,0.84730082,,,"2024–26, recomputed quartile",17
+5979,Abrar Ahmed,168,165,14,0.77394113,,,"2024–26, recomputed quartile",18
+2490,Mohammad Nawaz,125,122,12,0.77258541,,,"2024–26, recomputed quartile",19
+6628,Gerald Coetzee,99,91,11,0.73163469,,,"2024–26, recomputed quartile",20
+830,Josh Hazlewood,333,325,29,0.72465127,,,"2024–26, recomputed quartile",21
+4219,Krunal Pandya,174,170,17,0.69654731,,,"2024–26, recomputed quartile",22
+2933,Jasprit Bumrah,366,354,33,0.66947947,,,"2024–26, recomputed quartile",23
+7920,Nathan Ellis,113,108,12,0.6557441,,,"2024–26, recomputed quartile",24
+781,Sunil Narine,201,200,18,0.60010979,,,"2024–26, recomputed quartile",25
+4658,Nasum Ahmed,143,142,13,0.53460827,,,"2024–26, recomputed quartile",26
+2636,Adam Zampa,98,97,9,0.50669554,,,"2024–26, recomputed quartile",27
+4900,Wanindu Hasaranga,139,135,9,0.49733707,,,"2024–26, recomputed quartile",28
+2984,Sikandar Raza,113,110,11,0.42772764,,,"2024–26, recomputed quartile",29
+7690,Saim Ayub,189,187,15,0.41352598,,,"2024–26, recomputed quartile",30
+4816,Khaleel Ahmed,314,298,22,0.39535992,,,"2024–26, recomputed quartile",31
+6450,Mujeeb Ur Rahman,224,211,20,0.36892348,,,"2024–26, recomputed quartile",32
+1758,Patrick Cummins,203,194,25,0.33177979,,,"2024–26, recomputed quartile",33
+4373,Mustafizur Rahman,158,155,22,0.32686567,,,"2024–26, recomputed quartile",34
+20704,Salman Mirza,130,128,13,0.31098797,,,"2024–26, recomputed quartile",35
+27960,Mayank Yadav,108,102,13,0.30902425,,,"2024–26, recomputed quartile",36
+39657,Eshan Malinga,170,164,19,0.29062165,,,"2024–26, recomputed quartile",37
+2681,Taskin Ahmed,179,169,20,0.28575605,,,"2024–26, recomputed quartile",38
+3664,Binura Fernando,105,100,12,0.26445197,,,"2024–26, recomputed quartile",39
+838,Glenn Maxwell,70,68,9,0.25444693,,,"2024–26, recomputed quartile",40
+3276,Gudakesh Motie,86,85,9,0.25289531,,,"2024–26, recomputed quartile",41
+47050,Shamar Joseph,91,85,15,0.24277231,,,"2024–26, recomputed quartile",42
+4856,Benjamin Sears,102,100,10,0.24032412,,,"2024–26, recomputed quartile",43
+8805,Ottneil Baartman,67,64,10,0.23682886,,,"2024–26, recomputed quartile",44
+7325,Harpreet Brar,138,135,10,0.23005385,,,"2024–26, recomputed quartile",45
+8009,Junaid Siddique,100,94,8,0.20310245,,,"2024–26, recomputed quartile",46
+6284,Anukul Roy,94,85,10,0.18919485,,,"2024–26, recomputed quartile",47
+22471,Matthew Humphreys,136,135,11,0.18576829,,,"2024–26, recomputed quartile",48
+4874,Richard Ngarava,189,180,18,0.18458379,,,"2024–26, recomputed quartile",49
+6354,Spencer Johnson,125,118,13,0.16548819,,,"2024–26, recomputed quartile",50
+7240,FazalHaq Farooqi,222,215,23,0.16021118,,,"2024–26, recomputed quartile",51
+19316,Maheesh Theekshana,261,251,33,0.13599725,,,"2024–26, recomputed quartile",52
+4692,Lockie Ferguson,151,143,15,0.13377426,,,"2024–26, recomputed quartile",53
+58134,Digvesh Rathi,148,144,17,0.11481712,,,"2024–26, recomputed quartile",54
+3641,Ben Dwarshuis,85,84,8,0.10571596,,,"2024–26, recomputed quartile",55
+8380,Mohammad Rishad Hossain,129,129,10,0.071675749,,,"2024–26, recomputed quartile",56
+2417,Akeal Hosein,435,421,37,0.066616199,,,"2024–26, recomputed quartile",57
+2633,Jason Holder,198,190,23,0.051838259,,,"2024–26, recomputed quartile",58
+2526,Ish Sodhi,108,103,9,0.041723207,,,"2024–26, recomputed quartile",59
+5189,Faheem Ashraf,100,96,15,0.024243569,,,"2024–26, recomputed quartile",60
+1813,Deepak Chahar,221,210,19,0.018146246,,,"2024–26, recomputed quartile",61
+5809,Naveen ul Haq,96,92,11,0.012939514,,,"2024–26, recomputed quartile",62
+1566,Mohammed Shami,236,224,20,0.0097596168,,,"2024–26, recomputed quartile",63
+1612,Yuzvendra Chahal,180,173,12,-0.011985811,,,"2024–26, recomputed quartile",64
+2876,Axar Patel,318,316,32,-0.020476732,,,"2024–26, recomputed quartile",65
+7344,Shoriful Islam,193,183,16,-0.02351799,,,"2024–26, recomputed quartile",66
+5944,Mohammed Siraj,423,404,35,-0.032966386,,,"2024–26, recomputed quartile",67
+3644,Kuldeep Yadav,256,247,17,-0.043771893,,,"2024–26, recomputed quartile",68
+4755,Shivam Dube,77,74,8,-0.05935546,,,"2024–26, recomputed quartile",69
+20005,Arshad Khan,69,62,9,-0.072607801,,,"2024–26, recomputed quartile",70
+32862,Allah Ghazanfar,103,103,9,-0.079903727,,,"2024–26, recomputed quartile",71
+152,Ravindra Jadeja,148,147,10,-0.089551924,,,"2024–26, recomputed quartile",72
+3298,Jofra Archer,453,428,35,-0.1001569,,,"2024–26, recomputed quartile",73
+1107,Mohammad Nabi,99,99,13,-0.10130563,,,"2024–26, recomputed quartile",74
+3628,Kagiso Rabada,309,296,26,-0.10200197,,,"2024–26, recomputed quartile",75
+6272,William Jacks,107,100,14,-0.12310442,,,"2024–26, recomputed quartile",76
+8661,Matheesha Pathirana,141,125,15,-0.12740238,,,"2024–26, recomputed quartile",77
+2320,Trent Boult,228,221,23,-0.13762493,,,"2024–26, recomputed quartile",78
+2399,Dushmantha Chameera,217,205,23,-0.15443891,,,"2024–26, recomputed quartile",79
+6669,Mohsin Khan,137,136,12,-0.15958628,,,"2024–26, recomputed quartile",80
+6726,Romario Shepherd,225,209,29,-0.1618274,,,"2024–26, recomputed quartile",81
+7327,Rasikh Salam,151,144,15,-0.17428398,,,"2024–26, recomputed quartile",82
+5837,Mahedi Hasan,189,188,20,-0.20537168,,,"2024–26, recomputed quartile",83
+19312,Nuwan Thushara,198,192,24,-0.21667129,,,"2024–26, recomputed quartile",84
+5441,Barry McCarthy,112,105,10,-0.23715732,,,"2024–26, recomputed quartile",85
+27964,Anshul Kamboj,191,190,17,-0.23824802,,,"2024–26, recomputed quartile",86
+6512,Michael Bracewell,105,100,9,-0.25120556,,,"2024–26, recomputed quartile",87
+7250,Mukesh Choudhary,115,110,9,-0.26233349,,,"2024–26, recomputed quartile",88
+1389,Sean Abbott,102,95,10,-0.30173827,,,"2024–26, recomputed quartile",89
+4101,Mitchell Santner,167,159,17,-0.30977464,,,"2024–26, recomputed quartile",90
+3653,Avesh Khan,277,261,23,-0.32595705,,,"2024–26, recomputed quartile",91
+22920,Jacob Duffy,302,284,26,-0.32994268,,,"2024–26, recomputed quartile",92
+7312,Nandre Burger,157,152,16,-0.35050007,,,"2024–26, recomputed quartile",93
+2687,Roston Chase,152,148,17,-0.35341842,,,"2024–26, recomputed quartile",94
+8746,Vaibhav Arora,246,234,21,-0.35442112,,,"2024–26, recomputed quartile",95
+6464,Arshdeep Singh,768,723,64,-0.35550694,,,"2024–26, recomputed quartile",96
+2411,Sandeep Sharma,134,129,17,-0.3586051,,,"2024–26, recomputed quartile",97
+4409,Sam Curran,86,84,13,-0.37230566,,,"2024–26, recomputed quartile",98
+7503,Ravi Bishnoi,327,309,27,-0.38920024,,,"2024–26, recomputed quartile",99
+7094,Curtis Campher,62,60,8,-0.39375044,,,"2024–26, recomputed quartile",100
+6256,Varun Chakravarthy,272,269,30,-0.42385061,,,"2024–26, recomputed quartile",101
+7808,Marco Jansen,274,262,29,-0.4256688,,,"2024–26, recomputed quartile",102
+21784,Brad Evans,102,97,13,-0.4658068,,,"2024–26, recomputed quartile",103
+3330,Hardik Pandya,294,271,31,-0.46859186,,,"2024–26, recomputed quartile",104
+7967,Noor Ahmad,232,214,17,-0.47255856,,,"2024–26, recomputed quartile",105
+4265,T Natarajan,98,90,13,-0.48191251,,,"2024–26, recomputed quartile",106
+305,Ravichandran Ashwin,105,104,10,-0.53726805,,,"2024–26, recomputed quartile",107
+5041,Mukesh Kumar,292,274,28,-0.53758099,,,"2024–26, recomputed quartile",108
+7364,Haris Rauf,136,130,15,-0.5412678,,,"2024–26, recomputed quartile",109
+8295,Matthew Forde,165,153,16,-0.59320216,,,"2024–26, recomputed quartile",110
+8221,Nitish Reddy,103,96,14,-0.62611586,,,"2024–26, recomputed quartile",111
+58246,Prince Yadav,167,158,23,-0.63158883,,,"2024–26, recomputed quartile",112
+2847,Shardul Thakur,179,160,16,-0.71572298,,,"2024–26, recomputed quartile",113
+6287,Yash Thakur,69,63,9,-0.74881512,,,"2024–26, recomputed quartile",114
+1071,Jaydev Unadkat,101,96,13,-0.77825164,,,"2024–26, recomputed quartile",115
+2878,Mohit Sharma,92,89,12,-0.79749501,,,"2024–26, recomputed quartile",116
+7699,Abbas Afridi,73,68,8,-0.80773291,,,"2024–26, recomputed quartile",117
+5939,Cameron Green,132,123,16,-0.8336292,,,"2024–26, recomputed quartile",118
+36982,Suyash Sharma,92,91,8,-0.85688535,,,"2024–26, recomputed quartile",119
+3174,Matt Henry,188,187,15,-0.87506113,,,"2024–26, recomputed quartile",120
+67036,Brijesh Sharma,113,101,11,-0.87929421,,,"2024–26, recomputed quartile",121
+1318,Andre Russell,115,110,16,-0.88629912,,,"2024–26, recomputed quartile",122
+6676,Azmatullah Omarzai,326,313,34,-0.89401763,,,"2024–26, recomputed quartile",123
+6281,Abhishek Sharma,73,73,9,-0.90387556,,,"2024–26, recomputed quartile",124
+5738,Xavier Bartlett,196,191,19,-1.0516845,,,"2024–26, recomputed quartile",125
+4641,Lungi Ngidi,157,156,18,-1.1384451,,,"2024–26, recomputed quartile",126
+38855,Mohammad Saifuddin,66,62,12,-1.2469684,,,"2024–26, recomputed quartile",127
+2639,Marcus Stoinis,119,111,16,-1.5065092,,,"2024–26, recomputed quartile",128
+8634,Ashwani Kumar,75,70,8,-1.5711958,,,"2024–26, recomputed quartile",129
+3275,Alzarri Joseph,70,65,8,-1.5716398,,,"2024–26, recomputed quartile",130
+8530,Kartik Tyagi,118,114,13,-1.8378108,,,"2024–26, recomputed quartile",131
+6355,Shaheen Afridi,346,327,27,-4.0288082,,,"2024–26, recomputed quartile",132
+6523,Blessing Muzarabani,155,153,19,-4.452318,,,"2024–26, recomputed quartile",133
+4201,Fareed Malik,65,63,9,4.1313659,,,Centered pre-ball probability,1
+6643,Hasan Mahmud,74,73,8,2.3969672,,,Centered pre-ball probability,2
+3720,Craig Young,88,86,10,2.2559595,,,Centered pre-ball probability,3
+2436,Dasun Shanaka,98,95,14,1.7203646,,,Centered pre-ball probability,4
+28,Ishant Sharma,111,104,14,1.6679386,,,Centered pre-ball probability,5
+2878,Mohit Sharma,121,119,15,1.4869229,,,Centered pre-ball probability,6
+5379,Mark Adair,190,178,19,1.399545,,,Centered pre-ball probability,7
+360,Bhuvneshwar Kumar,533,515,41,1.3909615,,,Centered pre-ball probability,8
+3629,Corbin Bosch,78,75,8,1.3051871,,,Centered pre-ball probability,9
+3697,Kyle Jamieson,180,170,21,1.0820979,,,Centered pre-ball probability,10
+829,Mitchell Starc,189,177,21,0.98048204,,,Centered pre-ball probability,11
+29066,Zakary Foulkes,67,61,9,0.97094153,,,Centered pre-ball probability,12
+2490,Mohammad Nawaz,111,108,11,0.9126203,,,Centered pre-ball probability,13
+34485,Sufiyan Muqeem,107,103,8,0.85874006,,,Centered pre-ball probability,14
+2636,Adam Zampa,141,140,13,0.81912827,,,Centered pre-ball probability,15
+2933,Jasprit Bumrah,306,294,31,0.77443972,,,Centered pre-ball probability,16
+5979,Abrar Ahmed,148,145,14,0.7447613,,,Centered pre-ball probability,17
+479,Adil Rashid,76,72,10,0.73934389,,,Centered pre-ball probability,18
+4722,Rashid Khan,341,341,34,0.72683765,,,Centered pre-ball probability,19
+830,Josh Hazlewood,309,299,30,0.66814839,,,Centered pre-ball probability,20
+29888,Harshit Rana,281,268,25,0.6422561,,,Centered pre-ball probability,21
+6628,Gerald Coetzee,94,89,11,0.63909604,,,Centered pre-ball probability,22
+3276,Gudakesh Motie,120,119,11,0.63516348,,,Centered pre-ball probability,23
+4658,Nasum Ahmed,143,142,16,0.63004281,,,Centered pre-ball probability,24
+3323,Jimmy Neesham,93,88,12,0.6139653,,,Centered pre-ball probability,25
+6726,Romario Shepherd,253,234,32,0.59090899,,,Centered pre-ball probability,26
+2681,Taskin Ahmed,196,186,21,0.53625566,,,Centered pre-ball probability,27
+6256,Varun Chakravarthy,348,343,33,0.51803963,,,Centered pre-ball probability,28
+4900,Wanindu Hasaranga,278,273,19,0.50091979,,,Centered pre-ball probability,29
+7690,Saim Ayub,178,176,15,0.48101971,,,Centered pre-ball probability,30
+2876,Axar Patel,533,527,50,0.45184589,,,Centered pre-ball probability,31
+1596,Moeen Ali,126,126,15,0.44075799,,,Centered pre-ball probability,32
+781,Sunil Narine,279,276,26,0.43037697,,,Centered pre-ball probability,33
+4373,Mustafizur Rahman,185,181,24,0.42491382,,,Centered pre-ball probability,34
+6669,Mohsin Khan,182,177,16,0.3935386,,,Centered pre-ball probability,35
+7325,Harpreet Brar,176,173,15,0.38945296,,,Centered pre-ball probability,36
+6450,Mujeeb Ur Rahman,224,211,21,0.37975438,,,Centered pre-ball probability,37
+4823,Washington Sundar,70,68,11,0.37724513,,,Centered pre-ball probability,38
+7741,Gareth Delany,71,71,9,0.36929343,,,Centered pre-ball probability,39
+6806,Tushar Deshpande,332,306,29,0.36900212,,,Centered pre-ball probability,40
+4816,Khaleel Ahmed,372,351,30,0.34769541,,,Centered pre-ball probability,41
+8009,Junaid Siddique,110,103,10,0.33912522,,,Centered pre-ball probability,42
+4219,Krunal Pandya,264,260,25,0.33783293,,,Centered pre-ball probability,43
+27960,Mayank Yadav,96,90,11,0.30496737,,,Centered pre-ball probability,44
+2984,Sikandar Raza,147,144,16,0.29589894,,,Centered pre-ball probability,45
+6683,Mayank Markande,70,68,9,0.28963826,,,Centered pre-ball probability,46
+1612,Yuzvendra Chahal,336,325,28,0.28168207,,,Centered pre-ball probability,47
+3275,Alzarri Joseph,218,202,20,0.27906282,,,Centered pre-ball probability,48
+3664,Binura Fernando,80,77,11,0.26748436,,,Centered pre-ball probability,49
+6354,Spencer Johnson,127,120,15,0.26271055,,,Centered pre-ball probability,50
+20704,Salman Mirza,102,100,13,0.2619476,,,Centered pre-ball probability,51
+39657,Eshan Malinga,155,149,16,0.24242279,,,Centered pre-ball probability,52
+1566,Mohammed Shami,405,384,34,0.24046815,,,Centered pre-ball probability,53
+4101,Mitchell Santner,220,210,23,0.23558487,,,Centered pre-ball probability,54
+5944,Mohammed Siraj,546,516,46,0.23043146,,,Centered pre-ball probability,55
+2320,Trent Boult,334,322,32,0.20502593,,,Centered pre-ball probability,56
+6512,Michael Bracewell,112,111,14,0.20408471,,,Centered pre-ball probability,57
+47050,Shamar Joseph,73,68,13,0.19022105,,,Centered pre-ball probability,58
+8380,Mohammad Rishad Hossain,116,116,10,0.18575907,,,Centered pre-ball probability,59
+152,Ravindra Jadeja,280,276,20,0.18038662,,,Centered pre-ball probability,60
+1758,Patrick Cummins,147,142,22,0.18013769,,,Centered pre-ball probability,61
+7240,FazalHaq Farooqi,264,253,27,0.17359189,,,Centered pre-ball probability,62
+22471,Matthew Humphreys,116,115,10,0.16488436,,,Centered pre-ball probability,63
+403,Umesh Yadav,88,86,9,0.14611842,,,Centered pre-ball probability,64
+2417,Akeal Hosein,505,490,46,0.13143661,,,Centered pre-ball probability,65
+4856,Benjamin Sears,90,89,11,0.11801244,,,Centered pre-ball probability,66
+4487,Vyshak Kumar,147,133,15,0.10242567,,,Centered pre-ball probability,67
+23,Piyush Chawla,155,150,11,0.094783138,,,Centered pre-ball probability,68
+58134,Digvesh Rathi,113,111,14,0.083568508,,,Centered pre-ball probability,69
+3653,Avesh Khan,374,355,32,0.082268947,,,Centered pre-ball probability,70
+3644,Kuldeep Yadav,344,334,31,0.07823638,,,Centered pre-ball probability,71
+4874,Richard Ngarava,210,200,20,0.068542783,,,Centered pre-ball probability,72
+2526,Ish Sodhi,130,128,17,0.067985404,,,Centered pre-ball probability,73
+305,Ravichandran Ashwin,205,198,16,0.063873777,,,Centered pre-ball probability,74
+5189,Faheem Ashraf,70,67,12,0.061344335,,,Centered pre-ball probability,75
+6284,Anukul Roy,106,96,10,0.027121939,,,Centered pre-ball probability,76
+4265,T Natarajan,173,165,19,0.0257108,,,Centered pre-ball probability,77
+7344,Shoriful Islam,153,143,18,0.014339531,,,Centered pre-ball probability,78
+5837,Mahedi Hasan,162,161,20,0.0095678556,,,Centered pre-ball probability,79
+4409,Sam Curran,248,240,28,-0.039225999,,,Centered pre-ball probability,80
+4807,Joshua Little,179,170,14,-0.046009684,,,Centered pre-ball probability,81
+2054,Jason Behrendorff,216,210,17,-0.051983687,,,Centered pre-ball probability,82
+1107,Mohammad Nabi,109,107,14,-0.069297432,,,Centered pre-ball probability,83
+32862,Allah Ghazanfar,92,92,8,-0.071358578,,,Centered pre-ball probability,84
+19316,Maheesh Theekshana,349,338,41,-0.07185101,,,Centered pre-ball probability,85
+7920,Nathan Ellis,276,267,22,-0.073411429,,,Centered pre-ball probability,86
+5939,Cameron Green,239,226,27,-0.074094536,,,Centered pre-ball probability,87
+4815,Benjamin White,80,76,8,-0.090875292,,,Centered pre-ball probability,88
+6272,William Jacks,95,88,12,-0.092452585,,,Centered pre-ball probability,89
+7503,Ravi Bishnoi,412,393,39,-0.10018599,,,Centered pre-ball probability,90
+2985,Mark Wood,89,80,8,-0.14918352,,,Centered pre-ball probability,91
+6287,Yash Thakur,113,102,13,-0.15699491,,,Centered pre-ball probability,92
+6161,Rahul Chahar,192,191,13,-0.19360746,,,Centered pre-ball probability,93
+6515,Benjamin Lister,147,141,11,-0.1953958,,,Centered pre-ball probability,94
+786,Chris Jordan,73,69,8,-0.20096003,,,Centered pre-ball probability,95
+7250,Mukesh Choudhary,96,91,9,-0.20920042,,,Centered pre-ball probability,96
+3298,Jofra Archer,461,433,39,-0.22266968,,,Centered pre-ball probability,97
+27964,Anshul Kamboj,174,173,16,-0.23455842,,,Centered pre-ball probability,98
+4692,Lockie Ferguson,171,158,18,-0.24262462,,,Centered pre-ball probability,99
+19312,Nuwan Thushara,152,149,23,-0.25121472,,,Centered pre-ball probability,100
+7094,Curtis Campher,75,72,11,-0.25536995,,,Centered pre-ball probability,101
+1813,Deepak Chahar,295,281,27,-0.26446654,,,Centered pre-ball probability,102
+5041,Mukesh Kumar,414,390,43,-0.2864119,,,Centered pre-ball probability,103
+3628,Kagiso Rabada,361,345,30,-0.29144838,,,Centered pre-ball probability,104
+3174,Matt Henry,239,233,18,-0.29541202,,,Centered pre-ball probability,105
+2399,Dushmantha Chameera,188,176,19,-0.31781681,,,Centered pre-ball probability,106
+7327,Rasikh Salam,107,104,14,-0.32850768,,,Centered pre-ball probability,107
+20005,Arshad Khan,97,84,12,-0.3424338,,,Centered pre-ball probability,108
+36982,Suyash Sharma,180,178,13,-0.36039163,,,Centered pre-ball probability,109
+7808,Marco Jansen,321,299,36,-0.37808657,,,Centered pre-ball probability,110
+7364,Haris Rauf,151,142,17,-0.38342098,,,Centered pre-ball probability,111
+22920,Jacob Duffy,267,250,26,-0.39197282,,,Centered pre-ball probability,112
+3330,Hardik Pandya,425,402,44,-0.4049462,,,Centered pre-ball probability,113
+7967,Noor Ahmad,283,260,22,-0.4517882,,,Centered pre-ball probability,114
+8221,Nitish Reddy,105,99,11,-0.46246369,,,Centered pre-ball probability,115
+7312,Nandre Burger,154,148,16,-0.46718715,,,Centered pre-ball probability,116
+6464,Arshdeep Singh,993,930,86,-0.47139511,,,Centered pre-ball probability,117
+6398,Aaron Hardie,84,79,9,-0.47152882,,,Centered pre-ball probability,118
+1487,Adam Milne,173,165,15,-0.47951326,,,Centered pre-ball probability,119
+295,Wayne Parnell,114,112,9,-0.49550255,,,Centered pre-ball probability,120
+21784,Brad Evans,90,85,10,-0.51058672,,,Centered pre-ball probability,121
+2687,Roston Chase,128,123,15,-0.53954351,,,Centered pre-ball probability,122
+838,Glenn Maxwell,97,95,13,-0.56127459,,,Centered pre-ball probability,123
+3605,Aiden Markram,72,69,11,-0.58582366,,,Centered pre-ball probability,124
+7896,Akash Singh,110,105,8,-0.59082846,,,Centered pre-ball probability,125
+2633,Jason Holder,373,351,37,-0.60062641,,,Centered pre-ball probability,126
+5809,Naveen ul Haq,160,155,18,-0.6323862,,,Centered pre-ball probability,127
+8746,Vaibhav Arora,261,250,25,-0.70444608,,,Centered pre-ball probability,128
+7905,Tanzim Sakib,184,176,21,-0.71707835,,,Centered pre-ball probability,129
+2261,Harshal Patel,253,237,24,-0.74039045,,,Centered pre-ball probability,130
+58246,Prince Yadav,159,150,22,-0.83500032,,,Centered pre-ball probability,131
+2847,Shardul Thakur,188,168,20,-0.85988214,,,Centered pre-ball probability,132
+8295,Matthew Forde,136,128,14,-0.87355823,,,Centered pre-ball probability,133
+67036,Brijesh Sharma,108,96,10,-0.91979977,,,Centered pre-ball probability,134
+6676,Azmatullah Omarzai,311,299,32,-0.92596237,,,Centered pre-ball probability,135
+5738,Xavier Bartlett,163,161,19,-1.1547546,,,Centered pre-ball probability,136
+1318,Andre Russell,203,194,26,-1.1916623,,,Centered pre-ball probability,137
+4391,Liam Livingstone,75,75,10,-1.2336054,,,Centered pre-ball probability,138
+1071,Jaydev Unadkat,92,87,15,-1.2988826,,,Centered pre-ball probability,139
+6281,Abhishek Sharma,100,98,12,-1.4451503,,,Centered pre-ball probability,140
+4837,Obed McCoy,68,64,9,-1.5266108,,,Centered pre-ball probability,141
+8530,Kartik Tyagi,123,117,16,-1.6316984,,,Centered pre-ball probability,142
+1389,Sean Abbott,119,107,12,-1.7116903,,,Centered pre-ball probability,143
+2639,Marcus Stoinis,143,130,21,-1.7249076,,,Centered pre-ball probability,144
+4641,Lungi Ngidi,153,150,21,-1.877294,,,Centered pre-ball probability,145
+4489,Prasidh Krishna,139,134,14,-1.8843765,,,Centered pre-ball probability,146
+8661,Matheesha Pathirana,213,188,17,-3.1548572,,,Centered pre-ball probability,147
+6355,Shaheen Afridi,330,313,30,-3.7359363,,,Centered pre-ball probability,148
+6523,Blessing Muzarabani,172,170,22,-3.8840671,,,Centered pre-ball probability,149
+5441,Barry McCarthy,147,137,13,-5.2706253,,,Centered pre-ball probability,150
+7322,Yash Dayal,178,175,22,-5.2780083,,,Centered pre-ball probability,151
+2411,Sandeep Sharma,257,243,25,-5.4969494,,,Centered pre-ball probability,152
+7270,Anrich Nortje,133,123,19,-6.1355888,,,Centered pre-ball probability,153
+278,Tim Southee,115,110,10,-7.0736468,,,Centered pre-ball probability,154
+360,Bhuvneshwar Kumar,246,238,18,2.7440473,-0.59309664,7.9202227,Chase only,1
+3697,Kyle Jamieson,72,67,8,2.5913905,-0.69451156,5.4358123,Chase only,2
+5379,Mark Adair,116,108,10,2.5122185,-1.276359,6.2801161,Chase only,3
+829,Mitchell Starc,105,98,9,2.5074275,-2.3647228,6.1462002,Chase only,4
+2878,Mohit Sharma,91,89,9,2.2027148,-1.1786575,6.3920418,Chase only,5
+6669,Mohsin Khan,123,120,9,1.384281,-1.1876714,3.0488687,Chase only,6
+2876,Axar Patel,319,314,24,1.243064,-0.5477555,3.2136632,Chase only,7
+6256,Varun Chakravarthy,264,261,22,1.2324457,-1.2874513,3.7864188,Chase only,8
+29888,Harshit Rana,166,156,13,1.2071452,-3.3981839,7.3441813,Chase only,9
+2933,Jasprit Bumrah,184,180,15,1.1119614,0.23855763,1.8538299,Chase only,10
+5979,Abrar Ahmed,130,127,12,0.97176273,-0.0018842695,2.0750818,Chase only,11
+6726,Romario Shepherd,228,209,20,0.90355987,-1.390151,3.2974677,Chase only,12
+2490,Mohammad Nawaz,114,111,11,0.88321097,0.17714645,1.899067,Chase only,13
+34485,Sufiyan Muqeem,103,99,8,0.84424482,-0.079063977,1.5646202,Chase only,14
+2636,Adam Zampa,107,106,8,0.81735329,0.069608164,1.9241368,Chase only,15
+4722,Rashid Khan,247,247,22,0.80606146,-0.10438809,1.646536,Chase only,16
+1758,Patrick Cummins,70,67,11,0.73771384,0.037679985,1.3046424,Chase only,17
+3276,Gudakesh Motie,110,109,9,0.72990233,-0.5324691,1.8340183,Chase only,18
+830,Josh Hazlewood,201,193,14,0.72809817,-0.58258535,2.0805765,Chase only,19
+2984,Sikandar Raza,100,99,10,0.70886999,-0.16551319,1.4080249,Chase only,20
+4816,Khaleel Ahmed,189,176,14,0.70485197,-0.39087617,1.6988644,Chase only,21
+7325,Harpreet Brar,127,125,11,0.66568118,-0.14287892,1.6355379,Chase only,22
+4219,Krunal Pandya,162,158,16,0.62015851,-0.26640826,1.6472702,Chase only,23
+6628,Gerald Coetzee,68,67,8,0.58999095,-0.49891464,1.2489711,Chase only,24
+781,Sunil Narine,193,192,17,0.58946822,-0.016425111,1.20808,Chase only,25
+4900,Wanindu Hasaranga,235,230,16,0.56313,-0.20533724,1.3996009,Chase only,26
+4373,Mustafizur Rahman,120,117,9,0.50749507,-1.5610267,2.3365945,Chase only,27
+6806,Tushar Deshpande,220,199,17,0.50397149,-1.4089527,2.5156815,Chase only,28
+7690,Saim Ayub,160,158,13,0.45175202,-0.11289407,1.0625631,Chase only,29
+2436,Dasun Shanaka,89,85,12,0.42986179,-4.4419971,5.986072,Chase only,30
+6450,Mujeeb Ur Rahman,183,170,15,0.41755434,-0.060058105,0.86097862,Chase only,31
+3653,Avesh Khan,303,285,22,0.36754291,-5.2449097,5.027542,Chase only,32
+5939,Cameron Green,105,99,12,0.36658704,-1.6162521,1.7214018,Chase only,33
+1612,Yuzvendra Chahal,241,233,17,0.36047893,-0.87706012,1.4939508,Chase only,34
+39657,Eshan Malinga,115,110,9,0.32746904,-0.86385187,1.5983423,Chase only,35
+4874,Richard Ngarava,123,115,10,0.25594325,-0.78387154,1.3191716,Chase only,36
+7240,FazalHaq Farooqi,131,123,11,0.24600939,-0.52698119,0.89718765,Chase only,37
+3275,Alzarri Joseph,182,172,12,0.24420268,-1.40078,1.8490207,Chase only,38
+4101,Mitchell Santner,177,168,16,0.207206,-0.86976158,1.2623662,Chase only,39
+8380,Mohammad Rishad Hossain,113,113,9,0.19875772,-0.77177286,1.1217644,Chase only,40
+2417,Akeal Hosein,329,315,27,0.19423916,-0.3636286,0.74587341,Chase only,41
+152,Ravindra Jadeja,226,225,15,0.18007057,-0.58487008,0.92640818,Chase only,42
+2526,Ish Sodhi,98,95,11,0.17567212,-0.35171598,0.81910727,Chase only,43
+22471,Matthew Humphreys,113,112,9,0.14952702,-0.27464303,0.49650248,Chase only,44
+4265,T Natarajan,109,102,9,0.13745726,-0.91734748,1.0441824,Chase only,45
+1566,Mohammed Shami,123,118,14,0.12907636,-0.76993969,1.1449376,Chase only,46
+305,Ravichandran Ashwin,150,144,10,0.10692383,-0.81592778,0.85552925,Chase only,47
+5944,Mohammed Siraj,253,238,22,0.073879051,-0.95733881,1.5509266,Chase only,48
+3644,Kuldeep Yadav,277,267,19,0.058860754,-0.73831931,0.84155317,Chase only,49
+58134,Digvesh Rathi,105,103,11,0.04304075,-0.71343718,0.881694,Chase only,50
+5041,Mukesh Kumar,235,221,19,0.032270722,-3.0281162,2.5978496,Chase only,51
+4409,Sam Curran,147,143,17,0.027260058,-2.7616873,2.4827921,Chase only,52
+6512,Michael Bracewell,100,99,12,-0.0047933956,-1.1474599,0.92347634,Chase only,53
+6287,Yash Thakur,91,80,8,-0.0089641633,-0.93603875,1.0376094,Chase only,54
+2320,Trent Boult,138,134,16,-0.03040238,-0.55624086,0.43180801,Chase only,55
+1107,Mohammad Nabi,94,94,12,-0.10416291,-1.0193296,0.71394194,Chase only,56
+4692,Lockie Ferguson,89,83,9,-0.11217296,-1.1026584,0.95472516,Chase only,57
+19316,Maheesh Theekshana,229,222,20,-0.11276879,-0.50325475,0.37563629,Chase only,58
+7920,Nathan Ellis,200,193,11,-0.13784121,-1.2742884,1.0515014,Chase only,59
+7312,Nandre Burger,102,99,10,-0.14775453,-0.9621327,0.49225468,Chase only,60
+7503,Ravi Bishnoi,358,341,30,-0.16119146,-1.0216847,0.52319303,Chase only,61
+3298,Jofra Archer,201,190,14,-0.17303131,-1.0707218,0.93900393,Chase only,62
+2399,Dushmantha Chameera,145,136,12,-0.20227585,-3.1738041,3.012752,Chase only,63
+8221,Nitish Reddy,94,88,8,-0.23922297,-1.2324447,0.48193937,Chase only,64
+6272,William Jacks,68,64,8,-0.25103097,-1.3954773,0.44983456,Chase only,65
+3628,Kagiso Rabada,139,132,10,-0.27841264,-1.129096,0.73252409,Chase only,66
+7327,Rasikh Salam,86,83,8,-0.28075246,-0.76201096,0.27110386,Chase only,67
+6161,Rahul Chahar,118,117,10,-0.35742367,-2.1203899,0.79686572,Chase only,68
+27964,Anshul Kamboj,114,113,8,-0.38531617,-1.0794557,0.26683933,Chase only,69
+7364,Haris Rauf,138,129,12,-0.39233951,-1.8351439,0.99128316,Chase only,70
+3330,Hardik Pandya,219,207,19,-0.40169257,-1.0779131,0.21653768,Chase only,71
+1813,Deepak Chahar,185,175,14,-0.45212328,-1.2244262,0.2835645,Chase only,72
+7808,Marco Jansen,134,128,11,-0.46109503,-1.8564731,1.8782637,Chase only,73
+7967,Noor Ahmad,242,223,18,-0.48700122,-0.86097124,-0.03416825,Chase only,74
+36982,Suyash Sharma,131,130,10,-0.50252914,-1.6799243,0.60952927,Chase only,75
+3174,Matt Henry,154,151,11,-0.50306185,-1.7948031,0.64903638,Chase only,76
+22920,Jacob Duffy,156,147,14,-0.54352252,-1.5283905,0.69656141,Chase only,77
+838,Glenn Maxwell,61,60,9,-0.55213746,-1.2836048,0.4408005,Chase only,78
+2261,Harshal Patel,215,203,15,-0.62435481,-3.0302282,1.0004488,Chase only,79
+2687,Roston Chase,108,104,11,-0.66592429,-1.4327268,-0.064864051,Chase only,80
+8746,Vaibhav Arora,113,105,11,-0.67654248,-5.787999,5.5682698,Chase only,81
+6464,Arshdeep Singh,482,461,37,-0.86251798,-4.4389151,1.8874318,Chase only,82
+2633,Jason Holder,262,249,20,-0.88505265,-2.0201443,0.18842863,Chase only,83
+5809,Naveen ul Haq,119,113,10,-1.0126765,-3.0471102,0.59031822,Chase only,84
+1071,Jaydev Unadkat,79,74,12,-1.0619916,-1.6339465,-0.50024421,Chase only,85
+2847,Shardul Thakur,131,117,13,-1.0989269,-2.3822507,0.38632823,Chase only,86
+58246,Prince Yadav,105,98,10,-1.1482709,-1.8749586,-0.079555444,Chase only,87
+7905,Tanzim Sakib,138,131,11,-1.2348599,-2.8738529,0.58097882,Chase only,88
+6676,Azmatullah Omarzai,240,230,21,-1.2461867,-2.4854886,-0.01326058,Chase only,89
+5738,Xavier Bartlett,93,91,8,-1.4591698,-2.8927547,0.039273311,Chase only,90
+1318,Andre Russell,156,149,16,-1.6076519,-3.4258125,0.18250819,Chase only,91
+6281,Abhishek Sharma,92,90,11,-1.6860411,-3.1005539,-0.20589767,Chase only,92
+1487,Adam Milne,82,78,8,-2.0659638,-3.3250735,-0.62265343,Chase only,93
+2639,Marcus Stoinis,101,91,13,-2.1769678,-3.273926,-0.74495132,Chase only,94
+4489,Prasidh Krishna,101,97,9,-2.3572637,-16.00844,8.7259838,Chase only,95
+8530,Kartik Tyagi,91,87,9,-2.6469713,-3.7999502,-0.49059296,Chase only,96
+8661,Matheesha Pathirana,188,164,12,-4.2263688,-13.347286,1.5192836,Chase only,97
+6355,Shaheen Afridi,236,225,20,-5.5607542,-12.351578,0.20017518,Chase only,98
+6523,Blessing Muzarabani,112,111,10,-6.3172117,-15.174886,0.55251002,Chase only,99
+5441,Barry McCarthy,120,113,10,-7.7238102,-15.811477,0.099515522,Chase only,100
+2411,Sandeep Sharma,152,144,10,-8.0736637,-24.678184,3.9519518,Chase only,101
+7322,Yash Dayal,128,124,11,-8.1362149,-28.368891,8.0158844,Chase only,102
+2633,Jason Holder,122,114,17,1.1525959,-0.59522334,3.7384374,First innings only,1
+5379,Mark Adair,62,60,8,1.0104,-0.13233107,1.7805635,First innings only,2
+20704,Salman Mirza,77,76,8,0.82878685,0.41238965,1.2602025,First innings only,3
+2320,Trent Boult,189,182,16,0.45850489,-0.021089446,0.9316941,First innings only,4
+830,Josh Hazlewood,118,116,17,0.44775229,-0.11809077,0.96712402,First innings only,5
+4722,Rashid Khan,89,89,13,0.44176203,-0.30990694,1.103754,First innings only,6
+4409,Sam Curran,96,91,12,0.42063594,-0.46578997,1.1355542,First innings only,7
+4807,Joshua Little,92,88,8,0.4081874,-0.36464994,0.92960287,First innings only,8
+5944,Mohammed Siraj,305,292,24,0.38892842,-0.088167677,0.88151393,First innings only,9
+4816,Khaleel Ahmed,186,180,16,0.38217965,-0.32900988,0.9195381,First innings only,10
+6676,Azmatullah Omarzai,68,66,13,0.36482436,-0.88143199,1.7077159,First innings only,11
+29888,Harshit Rana,120,117,12,0.35534726,-0.36629102,0.93632571,First innings only,12
+1566,Mohammed Shami,269,253,20,0.34862613,-0.13329313,0.8488462,First innings only,13
+6523,Blessing Muzarabani,66,65,12,0.33966405,-0.35246742,1.0529492,First innings only,14
+5837,Mahedi Hasan,95,95,14,0.33957493,-0.43150457,1.2469957,First innings only,15
+4373,Mustafizur Rahman,65,64,16,0.33929788,-0.085882718,0.87925783,First innings only,16
+2681,Taskin Ahmed,116,111,13,0.31398181,-0.024348294,0.61646784,First innings only,17
+1758,Patrick Cummins,83,79,11,0.30104995,-0.81050391,1.8306765,First innings only,18
+6806,Tushar Deshpande,102,99,13,0.29292212,-0.43304541,1.0314161,First innings only,19
+23,Piyush Chawla,120,117,9,0.22500438,-0.18544726,0.72401856,First innings only,20
+3644,Kuldeep Yadav,78,78,11,0.20204764,-0.2398225,0.88749011,First innings only,21
+6355,Shaheen Afridi,95,88,11,0.17662408,-0.3581677,0.62466272,First innings only,22
+360,Bhuvneshwar Kumar,287,277,23,0.17500791,-0.24690273,0.62195151,First innings only,23
+6464,Arshdeep Singh,512,471,50,0.15368506,-0.64569493,1.2636917,First innings only,24
+8009,Junaid Siddique,99,94,9,0.13955778,-0.27491073,0.64871917,First innings only,25
+1612,Yuzvendra Chahal,89,87,10,0.12989884,-0.59529444,1.0499374,First innings only,26
+4658,Nasum Ahmed,125,124,14,0.12268904,-0.36085474,0.53379543,First innings only,27
+19316,Maheesh Theekshana,124,119,20,0.094905289,-0.52673194,0.73711886,First innings only,28
+7240,FazalHaq Farooqi,139,136,16,0.083551025,-0.74176184,0.8507835,First innings only,29
+781,Sunil Narine,78,76,8,0.035710538,-0.46954907,0.51653312,First innings only,30
+22920,Jacob Duffy,121,115,12,0.020081146,-0.58656177,0.63372471,First innings only,31
+4692,Lockie Ferguson,83,77,10,0.0072109839,-0.85078266,0.77404388,First innings only,32
+2933,Jasprit Bumrah,134,126,17,-0.0016477325,-0.3614549,0.41192783,First innings only,33
+1813,Deepak Chahar,114,109,12,-0.018307442,-0.39346974,0.34360061,First innings only,34
+7344,Shoriful Islam,95,90,12,-0.033314746,-0.44709908,0.39820823,First innings only,35
+7920,Nathan Ellis,72,71,15,-0.035608439,-0.79259765,0.75595149,First innings only,36
+2876,Axar Patel,224,223,27,-0.067761682,-0.42829117,0.27747505,First innings only,37
+8746,Vaibhav Arora,151,148,14,-0.067955566,-0.50337975,0.33713553,First innings only,38
+4219,Krunal Pandya,90,90,9,-0.084647166,-0.72808059,0.72370174,First innings only,39
+3298,Jofra Archer,266,249,25,-0.10911703,-0.54591784,0.32988434,First innings only,40
+2411,Sandeep Sharma,96,92,17,-0.13391515,-0.95109631,0.49546172,First innings only,41
+2417,Akeal Hosein,198,197,20,-0.13840729,-0.57499169,0.27394113,First innings only,42
+27964,Anshul Kamboj,63,63,8,-0.15455856,-1.253226,0.75729132,First innings only,43
+4874,Richard Ngarava,95,93,11,-0.17405878,-0.62895287,0.25901695,First innings only,44
+3697,Kyle Jamieson,117,110,13,-0.18534684,-0.86470497,0.56877154,First innings only,45
+2054,Jason Behrendorff,150,145,11,-0.19358946,-1.2605199,0.77342298,First innings only,46
+19312,Nuwan Thushara,105,103,17,-0.23000896,-1.0568108,0.48320029,First innings only,47
+28,Ishant Sharma,76,74,8,-0.23103416,-1.0409956,0.64066285,First innings only,48
+3628,Kagiso Rabada,227,220,22,-0.24525754,-0.51034871,0.051352824,First innings only,49
+5939,Cameron Green,123,116,15,-0.25893727,-0.6335559,0.13995706,First innings only,50
+6256,Varun Chakravarthy,77,75,12,-0.27527077,-1.0181581,0.39271722,First innings only,51
+829,Mitchell Starc,93,88,12,-0.30755868,-1.1632631,0.63943334,First innings only,52
+3330,Hardik Pandya,215,202,24,-0.35318618,-0.86575787,0.23105633,First innings only,53
+7808,Marco Jansen,202,185,26,-0.40014104,-0.98149976,0.18927071,First innings only,54
+8295,Matthew Forde,87,83,8,-0.53913916,-1.2996984,0.11659473,First innings only,55
+5738,Xavier Bartlett,75,75,11,-0.71087205,-1.2868258,-0.19247553,First innings only,56
+4641,Lungi Ngidi,84,82,14,-0.85058415,-1.9239779,0.11014655,First innings only,57
+5041,Mukesh Kumar,173,163,24,-0.97904422,-2.8557083,0.24868607,First innings only,58
+3653,Avesh Khan,61,60,11,-1.2204152,-1.8906598,-0.52397885,First innings only,59
+7270,Anrich Nortje,71,65,12,-2.1619612,-3.2726169,-0.50060636,First innings only,60
+4489,Prasidh Krishna,83,81,12,5.219935,-1.1733271,9.6456973,IPL only,1
+29888,Harshit Rana,158,148,14,2.8912113,-0.89059922,8.1592695,IPL only,2
+28,Ishant Sharma,115,108,15,2.2357606,-0.73773559,5.2031342,IPL only,3
+4487,Vyshak Kumar,133,120,16,1.7561142,-0.70819581,6.2078851,IPL only,4
+360,Bhuvneshwar Kumar,478,463,37,1.643881,-0.20741125,4.6279681,IPL only,5
+403,Umesh Yadav,82,80,9,1.6035729,-0.69873304,3.3305853,IPL only,6
+829,Mitchell Starc,198,186,21,1.4756411,-1.4894893,4.0916743,IPL only,7
+2878,Mohit Sharma,126,124,18,1.307483,-1.0731859,4.3211182,IPL only,8
+6256,Varun Chakravarthy,229,225,23,1.1242255,-1.8209785,3.9835262,IPL only,9
+5041,Mukesh Kumar,312,296,34,1.025,-0.45677304,2.4243165,IPL only,10
+6669,Mohsin Khan,175,170,16,0.91295903,-0.97243454,2.5002261,IPL only,11
+2933,Jasprit Bumrah,199,193,19,0.86531017,0.015251079,1.5905622,IPL only,12
+39657,Eshan Malinga,96,93,10,0.78646602,-0.77868108,1.967486,IPL only,13
+4641,Lungi Ngidi,72,72,10,0.75358958,-0.26597026,1.5626801,IPL only,14
+830,Josh Hazlewood,215,207,23,0.658296,-0.49267475,1.9205222,IPL only,15
+4722,Rashid Khan,214,214,21,0.57532767,-0.46992535,1.496957,IPL only,16
+1596,Moeen Ali,94,94,10,0.52625111,-0.70069933,1.4071799,IPL only,17
+4816,Khaleel Ahmed,360,341,28,0.49761891,-0.1964239,1.1272771,IPL only,18
+3653,Avesh Khan,297,280,26,0.48824788,-5.2459713,5.1136095,IPL only,19
+1612,Yuzvendra Chahal,275,265,20,0.45717795,-0.56981917,1.4385571,IPL only,20
+781,Sunil Narine,271,268,25,0.45353351,-0.032431908,0.95548996,IPL only,21
+6806,Tushar Deshpande,314,290,29,0.43918533,-0.92112114,1.9466081,IPL only,22
+2261,Harshal Patel,221,208,25,0.37036514,-2.1454547,2.4992527,IPL only,23
+3644,Kuldeep Yadav,249,244,20,0.36135737,-0.29048916,1.1242453,IPL only,24
+7325,Harpreet Brar,162,159,15,0.34510502,-0.36377286,1.1154523,IPL only,25
+4219,Krunal Pandya,252,248,25,0.33994523,-0.27040741,1.0443858,IPL only,26
+6683,Mayank Markande,74,72,9,0.31724326,-1.0598903,2.0371919,IPL only,27
+4900,Wanindu Hasaranga,127,126,9,0.31505406,-0.20103228,1.0041145,IPL only,28
+1566,Mohammed Shami,380,359,33,0.29803502,-0.15455777,0.75407456,IPL only,29
+2320,Trent Boult,327,316,32,0.25439607,-0.11008052,0.60445161,IPL only,30
+4409,Sam Curran,192,185,18,0.23494802,-1.8765397,2.2146036,IPL only,31
+5944,Mohammed Siraj,558,530,46,0.23111048,-0.40066011,0.97666933,IPL only,32
+152,Ravindra Jadeja,268,264,19,0.21901673,-0.45745811,0.87139855,IPL only,33
+7503,Ravi Bishnoi,274,259,26,0.21550379,-0.39389867,0.73139112,IPL only,34
+6354,Spencer Johnson,78,75,8,0.1715979,-1.067947,1.9986802,IPL only,35
+58134,Digvesh Rathi,117,115,15,0.14051362,-0.52698861,0.92216207,IPL only,36
+6676,Azmatullah Omarzai,93,91,9,0.13886283,-1.7443265,1.4573364,IPL only,37
+1758,Patrick Cummins,151,145,21,0.1172897,-0.44037528,0.6185007,IPL only,38
+23,Piyush Chawla,158,153,11,0.093240273,-0.36186084,0.58473088,IPL only,39
+5939,Cameron Green,215,204,24,0.085093643,-0.90701361,0.98391051,IPL only,40
+2876,Axar Patel,269,266,28,0.06878084,-0.42791406,0.64160024,IPL only,41
+6284,Anukul Roy,109,99,11,0.029379827,-0.52273675,0.49953531,IPL only,42
+305,Ravichandran Ashwin,202,194,17,0.014410549,-0.71082079,0.6258644,IPL only,43
+2054,Jason Behrendorff,141,137,11,-0.028983193,-0.56865942,0.59385807,IPL only,44
+4265,T Natarajan,165,157,21,-0.044006253,-0.7216174,0.61311995,IPL only,45
+7327,Rasikh Salam,110,107,14,-0.0893252,-0.52291416,0.43968111,IPL only,46
+6287,Yash Thakur,103,93,13,-0.13819035,-1.1921178,0.77703007,IPL only,47
+3298,Jofra Archer,320,297,26,-0.13861534,-0.74672299,0.56563118,IPL only,48
+7250,Mukesh Choudhary,104,99,9,-0.18869755,-0.84915178,0.338333,IPL only,49
+6161,Rahul Chahar,174,173,13,-0.21626807,-1.4800323,0.66865746,IPL only,50
+3628,Kagiso Rabada,286,277,25,-0.23816551,-0.68758739,0.27257867,IPL only,51
+20005,Arshad Khan,95,83,12,-0.25459918,-0.86497575,0.32205641,IPL only,52
+27964,Anshul Kamboj,177,176,16,-0.29596018,-0.90618423,0.2551751,IPL only,53
+7808,Marco Jansen,281,261,27,-0.30733785,-1.1730946,0.85773691,IPL only,54
+7312,Nandre Burger,130,125,13,-0.31522061,-1.080879,0.3772566,IPL only,55
+19316,Maheesh Theekshana,148,142,14,-0.32778219,-0.71802963,0.1508809,IPL only,56
+4101,Mitchell Santner,83,78,8,-0.34577148,-2.8240159,1.1554533,IPL only,57
+3330,Hardik Pandya,185,172,20,-0.35274664,-1.0395358,0.41161645,IPL only,58
+8746,Vaibhav Arora,264,253,25,-0.40099571,-3.426825,3.0490737,IPL only,59
+36982,Suyash Sharma,173,171,13,-0.40259241,-1.3848188,0.51312022,IPL only,60
+7967,Noor Ahmad,219,207,16,-0.43088877,-0.72454065,-0.12829,IPL only,61
+1813,Deepak Chahar,276,261,25,-0.43254711,-0.91261039,0.052246388,IPL only,62
+8221,Nitish Reddy,103,96,11,-0.45254246,-1.5165202,0.25311242,IPL only,63
+7920,Nathan Ellis,140,140,9,-0.56085557,-1.6756314,1.1628885,IPL only,64
+4692,Lockie Ferguson,87,80,10,-0.56140781,-1.3676894,0.38264689,IPL only,65
+1318,Andre Russell,143,134,16,-0.5781444,-1.5179027,0.56904637,IPL only,66
+58246,Prince Yadav,119,113,14,-0.75391233,-1.5905282,0.34260018,IPL only,67
+5809,Naveen ul Haq,118,114,10,-0.82614359,-2.8986111,0.78072268,IPL only,68
+1071,Jaydev Unadkat,95,90,15,-0.827938,-1.35983,-0.16163275,IPL only,69
+7240,FazalHaq Farooqi,76,70,8,-0.8313187,-1.6405886,-0.22996808,IPL only,70
+2847,Shardul Thakur,183,163,20,-0.83871233,-1.8033655,0.25924234,IPL only,71
+67036,Brijesh Sharma,108,96,10,-0.91857715,-1.3902788,-0.36191379,IPL only,72
+6464,Arshdeep Singh,500,458,42,-0.96258717,-4.2872943,1.9151366,IPL only,73
+4373,Mustafizur Rahman,77,74,9,-1.4472695,-2.9698254,0.1262972,IPL only,74
+6281,Abhishek Sharma,85,83,9,-1.5021346,-3.0575633,-0.0025464971,IPL only,75
+5738,Xavier Bartlett,86,86,8,-1.7102718,-2.94913,-0.41718887,IPL only,76
+8530,Kartik Tyagi,127,122,16,-1.94891,-3.2105724,-0.063852697,IPL only,77
+2633,Jason Holder,84,81,8,-1.9879752,-2.6289752,-0.2572308,IPL only,78
+2639,Marcus Stoinis,67,60,12,-2.6799386,-3.5863388,-1.0255875,IPL only,79
+8661,Matheesha Pathirana,170,154,17,-4.397243,-14.459656,1.4905405,IPL only,80
+2411,Sandeep Sharma,248,236,27,-5.74554,-17.99167,2.8816388,IPL only,81
+7322,Yash Dayal,184,180,21,-6.4485506,-22.659004,6.3812862,IPL only,82
+7270,Anrich Nortje,110,100,17,-6.9161798,-15.310398,-1.090446,IPL only,83
+4201,Fareed Malik,63,62,8,5.9785444,-1.1685073,10.327073,T20I only,1
+3720,Craig Young,88,86,10,3.5388953,-0.78291964,8.2304423,T20I only,2
+6643,Hasan Mahmud,63,62,8,2.7091593,-0.95279488,7.6797292,T20I only,3
+3323,Jimmy Neesham,93,88,12,2.0744023,-0.96603056,3.1992956,T20I only,4
+5379,Mark Adair,178,168,18,1.9565086,-0.46050682,4.6785118,T20I only,5
+4373,Mustafizur Rahman,108,107,16,1.4535505,0.64835316,2.2945532,T20I only,6
+7905,Tanzim Sakib,196,188,21,1.3699872,-1.8521603,6.1780372,T20I only,7
+6726,Romario Shepherd,220,201,23,1.3499639,-0.36107142,3.4749981,T20I only,8
+2876,Axar Patel,274,271,23,1.341124,-0.71334014,3.4626496,T20I only,9
+3697,Kyle Jamieson,161,149,17,1.2547981,-0.64749362,3.4954699,T20I only,10
+29066,Zakary Foulkes,67,61,9,1.1530823,-1.1644981,2.6826217,T20I only,11
+4722,Rashid Khan,122,122,14,0.99626777,0.35120071,1.8262168,T20I only,12
+2490,Mohammad Nawaz,114,111,11,0.88321097,0.17714645,1.899067,T20I only,13
+34485,Sufiyan Muqeem,104,100,9,0.85318969,-0.059766128,1.6035688,T20I only,14
+5979,Abrar Ahmed,137,134,14,0.83880849,-0.12666632,1.8474577,T20I only,15
+479,Adil Rashid,73,69,10,0.83819735,0.20177576,1.8516997,T20I only,16
+4900,Wanindu Hasaranga,149,145,10,0.69713871,-0.51501526,1.8500887,T20I only,17
+3276,Gudakesh Motie,115,114,11,0.68364553,-0.54801678,1.739235,T20I only,18
+830,Josh Hazlewood,104,102,8,0.58796673,-0.30046595,1.641765,T20I only,19
+6256,Varun Chakravarthy,112,111,11,0.56792963,-0.11215349,1.3064972,T20I only,20
+2681,Taskin Ahmed,202,191,20,0.53487699,0.10913009,0.98368697,T20I only,21
+4658,Nasum Ahmed,160,159,16,0.5196437,-0.15217872,1.1661063,T20I only,22
+3275,Alzarri Joseph,169,157,14,0.51502983,-0.87179615,2.0336221,T20I only,23
+2984,Sikandar Raza,112,109,12,0.50919154,-0.43762365,1.2447942,T20I only,24
+7240,FazalHaq Farooqi,194,189,19,0.5033412,-0.13846221,1.0819373,T20I only,25
+4101,Mitchell Santner,133,128,14,0.48384779,-0.55177542,1.5724456,T20I only,26
+2436,Dasun Shanaka,96,92,13,0.47305341,-4.4412409,5.9320062,T20I only,27
+7690,Saim Ayub,177,175,15,0.45631276,-0.067601896,1.0165603,T20I only,28
+4692,Lockie Ferguson,85,80,9,0.4168774,-0.46722197,1.2508262,T20I only,29
+6450,Mujeeb Ur Rahman,219,206,19,0.4046985,0.0085348154,0.7685873,T20I only,30
+3641,Ben Dwarshuis,63,62,9,0.38535814,-0.33167653,1.1813627,T20I only,31
+3664,Binura Fernando,86,83,11,0.35314385,-0.21206618,0.66548616,T20I only,32
+7920,Nathan Ellis,132,124,17,0.328418,-0.67074107,1.0133756,T20I only,33
+2933,Jasprit Bumrah,119,113,13,0.31682596,-0.087057944,0.75943497,T20I only,34
+8009,Junaid Siddique,106,101,10,0.29836499,-0.17485505,0.94163211,T20I only,35
+20704,Salman Mirza,114,112,13,0.273596,-0.39188801,0.9973353,T20I only,36
+6464,Arshdeep Singh,494,474,45,0.26321449,-0.48277925,1.2735201,T20I only,37
+4856,Benjamin Sears,86,85,11,0.23533288,-0.67915531,1.1775325,T20I only,38
+47050,Shamar Joseph,72,67,14,0.23366375,-0.78610756,1.0851032,T20I only,39
+7741,Gareth Delany,74,74,9,0.2248327,-0.91607394,1.1636397,T20I only,40
+6512,Michael Bracewell,98,97,11,0.18386337,-0.87928808,1.0386241,T20I only,41
+19316,Maheesh Theekshana,205,199,26,0.1819196,-0.32544295,0.71216337,T20I only,42
+22471,Matthew Humphreys,119,118,10,0.17237588,-0.23061796,0.51422888,T20I only,43
+2633,Jason Holder,300,282,29,0.15138822,-1.0528804,1.4026977,T20I only,44
+2526,Ish Sodhi,140,136,18,0.1438784,-0.27236003,0.63944838,T20I only,45
+5189,Faheem Ashraf,77,74,13,0.12713952,-0.79070903,0.91187944,T20I only,46
+19312,Nuwan Thushara,136,133,18,0.078131851,-0.40630174,0.66084535,T20I only,47
+4874,Richard Ngarava,218,208,21,0.077040812,-0.56587164,0.71475206,T20I only,48
+2417,Akeal Hosein,437,425,40,0.071111808,-0.38768736,0.49857394,T20I only,49
+8380,Mohammad Rishad Hossain,114,114,10,0.064939525,-0.89241695,0.93674351,T20I only,50
+7344,Shoriful Islam,171,161,18,0.055340195,-0.31364914,0.46804344,T20I only,51
+1107,Mohammad Nabi,109,107,13,0.034873549,-0.79711674,0.76787644,T20I only,52
+4815,Benjamin White,75,71,8,-0.022302907,-0.70372404,0.64761121,T20I only,53
+2399,Dushmantha Chameera,151,143,17,-0.023137328,-2.89397,2.9691283,T20I only,54
+5837,Mahedi Hasan,171,170,21,-0.038398369,-0.73256555,0.72362747,T20I only,55
+3298,Jofra Archer,147,142,13,-0.13898304,-0.93125317,0.57201507,T20I only,56
+6398,Aaron Hardie,85,80,9,-0.17165432,-0.77561296,0.91620557,T20I only,57
+6515,Benjamin Lister,145,139,11,-0.19447975,-0.78743262,0.22220907,T20I only,58
+7094,Curtis Campher,76,73,10,-0.27028417,-0.95162563,0.52033419,T20I only,59
+3174,Matt Henry,186,180,15,-0.29597479,-1.5808231,0.72477018,T20I only,60
+22920,Jacob Duffy,243,232,23,-0.33133534,-1.0962426,0.54980158,T20I only,61
+3330,Hardik Pandya,249,237,23,-0.39614051,-0.89825539,0.069238541,T20I only,62
+5738,Xavier Bartlett,82,80,11,-0.40389404,-1.0954365,0.14691534,T20I only,63
+1487,Adam Milne,152,146,14,-0.46377759,-1.7551304,0.85260232,T20I only,64
+2639,Marcus Stoinis,72,66,9,-0.46500333,-1.7801858,0.97132249,T20I only,65
+21784,Brad Evans,87,83,12,-0.50186104,-1.5059414,0.77187873,T20I only,66
+3644,Kuldeep Yadav,106,101,10,-0.57962384,-1.8918541,0.53624369,T20I only,67
+2687,Roston Chase,136,131,16,-0.59768298,-1.2121026,-0.093673299,T20I only,68
+7364,Haris Rauf,142,133,16,-0.60907208,-1.9750676,0.7190207,T20I only,69
+7503,Ravi Bishnoi,144,141,11,-0.6683333,-2.3102406,0.66762065,T20I only,70
+8295,Matthew Forde,147,137,14,-0.74494478,-1.3402754,-0.16743642,T20I only,71
+1389,Sean Abbott,123,111,14,-1.2293695,-2.4478109,0.12432148,T20I only,72
+6676,Azmatullah Omarzai,215,205,25,-1.4682147,-2.4735212,-0.30935172,T20I only,73
+29888,Harshit Rana,128,125,11,-1.7198364,-4.6250504,0.98752309,T20I only,74
+4641,Lungi Ngidi,82,79,11,-3.3275865,-5.0574679,-0.88324244,T20I only,75
+5041,Mukesh Kumar,96,88,9,-3.4682303,-6.7850622,0.35555776,T20I only,76
+6355,Shaheen Afridi,331,313,31,-3.8771314,-9.6194812,0.22636358,T20I only,77
+6523,Blessing Muzarabani,164,162,20,-4.158196,-10.866794,0.72478049,T20I only,78
+5441,Barry McCarthy,138,131,13,-6.5153698,-14.289416,0.29766356,T20I only,79
+278,Tim Southee,98,93,9,-9.9150976,-23.238137,2.5610529,T20I only,80
+4201,Fareed Malik,62,62,8,6.0348426,,,Legal balls only,1
+3720,Craig Young,86,86,10,3.6186797,,,Legal balls only,2
+6643,Hasan Mahmud,62,62,8,2.7510908,,,Legal balls only,3
+3323,Jimmy Neesham,88,88,12,2.4967962,,,Legal balls only,4
+28,Ishant Sharma,108,108,15,2.4237262,,,Legal balls only,5
+5379,Mark Adair,168,168,18,2.1897476,,,Legal balls only,6
+829,Mitchell Starc,186,186,21,1.7365612,,,Legal balls only,7
+3697,Kyle Jamieson,177,177,21,1.6442795,,,Legal balls only,8
+360,Bhuvneshwar Kumar,515,515,41,1.598245,,,Legal balls only,9
+3629,Corbin Bosch,76,76,9,1.5029214,,,Legal balls only,10
+2878,Mohit Sharma,124,124,18,1.3565052,,,Legal balls only,11
+29066,Zakary Foulkes,61,61,9,1.3178578,,,Legal balls only,12
+6669,Mohsin Khan,170,170,16,1.0508055,,,Legal balls only,13
+29888,Harshit Rana,273,273,25,1.0444037,,,Legal balls only,14
+6256,Varun Chakravarthy,336,336,34,1.0291603,,,Legal balls only,15
+479,Adil Rashid,69,69,10,1.0233478,,,Legal balls only,16
+6726,Romario Shepherd,241,241,32,0.99188545,,,Legal balls only,17
+34485,Sufiyan Muqeem,100,100,9,0.98912948,,,Legal balls only,18
+2490,Mohammad Nawaz,111,111,11,0.94960684,,,Legal balls only,19
+5979,Abrar Ahmed,134,134,14,0.88435847,,,Legal balls only,20
+2876,Axar Patel,537,537,51,0.86936069,,,Legal balls only,21
+2933,Jasprit Bumrah,306,306,32,0.86125028,,,Legal balls only,22
+2636,Adam Zampa,129,129,12,0.82111182,,,Legal balls only,23
+6628,Gerald Coetzee,92,92,12,0.78566937,,,Legal balls only,24
+6806,Tushar Deshpande,298,298,30,0.73494013,,,Legal balls only,25
+3276,Gudakesh Motie,114,114,11,0.72115779,,,Legal balls only,26
+4722,Rashid Khan,336,336,35,0.71505236,,,Legal balls only,27
+830,Josh Hazlewood,309,309,31,0.71215587,,,Legal balls only,28
+2681,Taskin Ahmed,191,191,20,0.70395214,,,Legal balls only,29
+4816,Khaleel Ahmed,356,356,30,0.64872145,,,Legal balls only,30
+2436,Dasun Shanaka,101,101,15,0.55719394,,,Legal balls only,31
+4900,Wanindu Hasaranga,271,271,19,0.55696475,,,Legal balls only,32
+4373,Mustafizur Rahman,181,181,25,0.5350658,,,Legal balls only,33
+4658,Nasum Ahmed,159,159,16,0.5301407,,,Legal balls only,34
+6450,Mujeeb Ur Rahman,206,206,19,0.52313753,,,Legal balls only,35
+6287,Yash Thakur,98,98,14,0.50324265,,,Legal balls only,36
+1596,Moeen Ali,130,130,14,0.49355757,,,Legal balls only,37
+7690,Saim Ayub,175,175,15,0.48788779,,,Legal balls only,38
+1566,Mohammed Shami,371,371,34,0.48040797,,,Legal balls only,39
+781,Sunil Narine,268,268,25,0.4748527,,,Legal balls only,40
+3664,Binura Fernando,83,83,11,0.4265671,,,Legal balls only,41
+6354,Spencer Johnson,120,120,14,0.42561963,,,Legal balls only,42
+5944,Mohammed Siraj,530,530,46,0.4112626,,,Legal balls only,43
+7325,Harpreet Brar,159,159,15,0.39458947,,,Legal balls only,44
+8009,Junaid Siddique,101,101,10,0.392698,,,Legal balls only,45
+4219,Krunal Pandya,248,248,25,0.37789428,,,Legal balls only,46
+3275,Alzarri Joseph,203,203,21,0.3749344,,,Legal balls only,47
+39657,Eshan Malinga,153,153,17,0.36906462,,,Legal balls only,48
+2984,Sikandar Raza,146,146,16,0.36735156,,,Legal balls only,49
+2054,Jason Behrendorff,201,201,17,0.36719786,,,Legal balls only,50
+2320,Trent Boult,316,316,32,0.36659184,,,Legal balls only,51
+27960,Mayank Yadav,86,86,11,0.36231602,,,Legal balls only,52
+6683,Mayank Markande,72,72,9,0.35653765,,,Legal balls only,53
+1612,Yuzvendra Chahal,320,320,27,0.34553372,,,Legal balls only,54
+47050,Shamar Joseph,67,67,14,0.343058,,,Legal balls only,55
+20704,Salman Mirza,112,112,13,0.30321939,,,Legal balls only,56
+4856,Benjamin Sears,85,85,11,0.28554207,,,Legal balls only,57
+3653,Avesh Khan,345,345,33,0.26851314,,,Legal balls only,58
+152,Ravindra Jadeja,264,264,19,0.26474872,,,Legal balls only,59
+4823,Washington Sundar,75,75,11,0.24695022,,,Legal balls only,60
+6512,Michael Bracewell,111,111,15,0.23991392,,,Legal balls only,61
+7240,FazalHaq Farooqi,259,259,27,0.2395427,,,Legal balls only,62
+3641,Ben Dwarshuis,68,68,10,0.23619892,,,Legal balls only,63
+4101,Mitchell Santner,206,206,22,0.22981516,,,Legal balls only,64
+7741,Gareth Delany,74,74,9,0.2248327,,,Legal balls only,65
+5939,Cameron Green,215,215,27,0.22423049,,,Legal balls only,66
+4874,Richard Ngarava,208,208,21,0.21937104,,,Legal balls only,67
+2526,Ish Sodhi,136,136,18,0.21277313,,,Legal balls only,68
+6284,Anukul Roy,99,99,11,0.20951981,,,Legal balls only,69
+5189,Faheem Ashraf,74,74,13,0.19216068,,,Legal balls only,70
+22471,Matthew Humphreys,118,118,10,0.18889687,,,Legal balls only,71
+4409,Sam Curran,234,234,29,0.18443449,,,Legal balls only,72
+58134,Digvesh Rathi,115,115,15,0.17212381,,,Legal balls only,73
+7344,Shoriful Islam,161,161,18,0.1674721,,,Legal balls only,74
+3644,Kuldeep Yadav,345,345,30,0.15813013,,,Legal balls only,75
+5041,Mukesh Kumar,384,384,43,0.14631337,,,Legal balls only,76
+4692,Lockie Ferguson,160,160,19,0.14607151,,,Legal balls only,77
+2417,Akeal Hosein,512,512,47,0.14234615,,,Legal balls only,78
+1758,Patrick Cummins,146,146,22,0.13683296,,,Legal balls only,79
+305,Ravichandran Ashwin,194,194,17,0.1003994,,,Legal balls only,80
+4815,Benjamin White,71,71,8,0.09902106,,,Legal balls only,81
+23,Piyush Chawla,153,153,11,0.092565568,,,Legal balls only,82
+8380,Mohammad Rishad Hossain,114,114,10,0.064939525,,,Legal balls only,83
+4807,Joshua Little,148,148,14,0.060341748,,,Legal balls only,84
+3298,Jofra Archer,439,439,39,0.054471435,,,Legal balls only,85
+19316,Maheesh Theekshana,341,341,40,0.041738468,,,Legal balls only,86
+7327,Rasikh Salam,107,107,14,0.038773128,,,Legal balls only,87
+4265,T Natarajan,157,157,21,0.032768061,,,Legal balls only,88
+1107,Mohammad Nabi,109,109,14,0.012454917,,,Legal balls only,89
+6398,Aaron Hardie,80,80,9,-0.0075051884,,,Legal balls only,90
+2399,Dushmantha Chameera,179,179,22,-0.022561815,,,Legal balls only,91
+7503,Ravi Bishnoi,400,400,37,-0.024346413,,,Legal balls only,92
+5837,Mahedi Hasan,170,170,21,-0.030742437,,,Legal balls only,93
+3174,Matt Henry,231,231,18,-0.049844564,,,Legal balls only,94
+6272,William Jacks,93,93,14,-0.051759146,,,Legal balls only,95
+2985,Mark Wood,78,78,8,-0.052592838,,,Legal balls only,96
+20005,Arshad Khan,83,83,12,-0.058339082,,,Legal balls only,97
+32862,Allah Ghazanfar,92,92,8,-0.066150118,,,Legal balls only,98
+7920,Nathan Ellis,264,264,26,-0.070595047,,,Legal balls only,99
+6515,Benjamin Lister,139,139,11,-0.072728162,,,Legal balls only,100
+7250,Mukesh Choudhary,99,99,9,-0.093824023,,,Legal balls only,101
+7094,Curtis Campher,73,73,10,-0.12513958,,,Legal balls only,102
+403,Umesh Yadav,80,80,9,-0.16544239,,,Legal balls only,103
+7967,Noor Ahmad,279,279,22,-0.17290201,,,Legal balls only,104
+6161,Rahul Chahar,173,173,13,-0.17754892,,,Legal balls only,105
+19312,Nuwan Thushara,157,157,23,-0.19553279,,,Legal balls only,106
+22920,Jacob Duffy,262,262,26,-0.20465133,,,Legal balls only,107
+3628,Kagiso Rabada,352,352,32,-0.20607182,,,Legal balls only,108
+1813,Deepak Chahar,284,284,26,-0.24033104,,,Legal balls only,109
+1071,Jaydev Unadkat,90,90,15,-0.24615828,,,Legal balls only,110
+8746,Vaibhav Arora,253,253,25,-0.24906789,,,Legal balls only,111
+7808,Marco Jansen,313,313,37,-0.25007842,,,Legal balls only,112
+5809,Naveen ul Haq,150,150,17,-0.26586569,,,Legal balls only,113
+7312,Nandre Burger,144,144,16,-0.28015413,,,Legal balls only,114
+27964,Anshul Kamboj,176,176,16,-0.29062918,,,Legal balls only,115
+3330,Hardik Pandya,409,409,43,-0.32137063,,,Legal balls only,116
+1389,Sean Abbott,111,111,14,-0.34616217,,,Legal balls only,117
+21784,Brad Evans,83,83,12,-0.36781172,,,Legal balls only,118
+36982,Suyash Sharma,171,171,13,-0.37631314,,,Legal balls only,119
+6464,Arshdeep Singh,932,932,87,-0.45930028,,,Legal balls only,120
+3605,Aiden Markram,62,62,11,-0.47294083,,,Legal balls only,121
+4487,Vyshak Kumar,120,120,16,-0.48166357,,,Legal balls only,122
+1487,Adam Milne,162,162,15,-0.48482327,,,Legal balls only,123
+295,Wayne Parnell,105,105,9,-0.49392957,,,Legal balls only,124
+2847,Shardul Thakur,163,163,20,-0.51410113,,,Legal balls only,125
+7364,Haris Rauf,133,133,16,-0.51910242,,,Legal balls only,126
+8221,Nitish Reddy,104,104,14,-0.5403071,,,Legal balls only,127
+2687,Roston Chase,131,131,16,-0.56544121,,,Legal balls only,128
+786,Chris Jordan,62,62,8,-0.56590886,,,Legal balls only,129
+58246,Prince Yadav,147,147,22,-0.59457132,,,Legal balls only,130
+8295,Matthew Forde,137,137,14,-0.66199005,,,Legal balls only,131
+2633,Jason Holder,363,363,37,-0.66503104,,,Legal balls only,132
+2261,Harshal Patel,229,229,26,-0.69895662,,,Legal balls only,133
+67036,Brijesh Sharma,96,96,10,-0.70594694,,,Legal balls only,134
+838,Glenn Maxwell,86,86,13,-0.86438847,,,Legal balls only,135
+6676,Azmatullah Omarzai,296,296,34,-0.8751275,,,Legal balls only,136
+7905,Tanzim Sakib,188,188,21,-0.9194234,,,Legal balls only,137
+4837,Obed McCoy,64,64,9,-1.0690483,,,Legal balls only,138
+4391,Liam Livingstone,73,73,10,-1.0960361,,,Legal balls only,139
+5738,Xavier Bartlett,166,166,19,-1.1137651,,,Legal balls only,140
+1318,Andre Russell,191,191,25,-1.4231502,,,Legal balls only,141
+6281,Abhishek Sharma,100,100,12,-1.4607026,,,Legal balls only,142
+2639,Marcus Stoinis,126,126,21,-1.5019264,,,Legal balls only,143
+8530,Kartik Tyagi,122,122,16,-1.5191635,,,Legal balls only,144
+4641,Lungi Ngidi,151,151,21,-1.6757365,,,Legal balls only,145
+4489,Prasidh Krishna,132,132,17,-2.1262839,,,Legal balls only,146
+2411,Sandeep Sharma,236,236,27,-2.9433561,,,Legal balls only,147
+6355,Shaheen Afridi,313,313,31,-3.2606743,,,Legal balls only,148
+8661,Matheesha Pathirana,188,188,22,-3.8635635,,,Legal balls only,149
+6523,Blessing Muzarabani,176,176,22,-3.9364176,,,Legal balls only,150
+7322,Yash Dayal,180,180,21,-5.9188162,,,Legal balls only,151
+7270,Anrich Nortje,113,113,20,-6.3739941,,,Legal balls only,152
+5441,Barry McCarthy,131,131,13,-6.7100964,,,Legal balls only,153
+278,Tim Southee,105,105,10,-9.7001414,,,Legal balls only,154
+4201,Fareed Malik,62,61,8,6.2214244,,,"No run-outs, byes or innings changes",1
+3720,Craig Young,86,84,9,3.6793142,,,"No run-outs, byes or innings changes",2
+28,Ishant Sharma,110,103,13,2.7015354,,,"No run-outs, byes or innings changes",3
+3323,Jimmy Neesham,89,84,11,2.1516262,,,"No run-outs, byes or innings changes",4
+5379,Mark Adair,165,155,16,2.0546165,,,"No run-outs, byes or innings changes",5
+403,Umesh Yadav,79,77,8,1.9493637,,,"No run-outs, byes or innings changes",6
+4487,Vyshak Kumar,127,114,12,1.8877082,,,"No run-outs, byes or innings changes",7
+7905,Tanzim Sakib,184,176,18,1.7176202,,,"No run-outs, byes or innings changes",8
+360,Bhuvneshwar Kumar,515,497,41,1.5308325,,,"No run-outs, byes or innings changes",9
+3697,Kyle Jamieson,185,173,21,1.2834905,,,"No run-outs, byes or innings changes",10
+6256,Varun Chakravarthy,335,330,34,1.032285,,,"No run-outs, byes or innings changes",11
+6669,Mohsin Khan,170,165,14,0.94238386,,,"No run-outs, byes or innings changes",12
+6628,Gerald Coetzee,92,87,10,0.92354048,,,"No run-outs, byes or innings changes",13
+29888,Harshit Rana,276,263,25,0.92102163,,,"No run-outs, byes or innings changes",14
+479,Adil Rashid,73,69,10,0.83819735,,,"No run-outs, byes or innings changes",15
+2636,Adam Zampa,128,127,12,0.80973211,,,"No run-outs, byes or innings changes",16
+2261,Harshal Patel,227,212,18,0.79526356,,,"No run-outs, byes or innings changes",17
+2490,Mohammad Nawaz,113,110,11,0.75884219,,,"No run-outs, byes or innings changes",18
+4722,Rashid Khan,327,327,31,0.74073621,,,"No run-outs, byes or innings changes",19
+3276,Gudakesh Motie,112,111,10,0.72524141,,,"No run-outs, byes or innings changes",20
+5979,Abrar Ahmed,132,129,14,0.6975287,,,"No run-outs, byes or innings changes",21
+830,Josh Hazlewood,312,302,30,0.68402922,,,"No run-outs, byes or innings changes",22
+34485,Sufiyan Muqeem,101,97,8,0.64723451,,,"No run-outs, byes or innings changes",23
+2681,Taskin Ahmed,192,181,19,0.54890298,,,"No run-outs, byes or innings changes",24
+4900,Wanindu Hasaranga,273,268,19,0.50814955,,,"No run-outs, byes or innings changes",25
+1758,Patrick Cummins,150,143,20,0.49831232,,,"No run-outs, byes or innings changes",26
+1596,Moeen Ali,129,129,14,0.49270041,,,"No run-outs, byes or innings changes",27
+7325,Harpreet Brar,159,156,15,0.46244799,,,"No run-outs, byes or innings changes",28
+7690,Saim Ayub,177,175,15,0.45631276,,,"No run-outs, byes or innings changes",29
+781,Sunil Narine,268,265,25,0.45382534,,,"No run-outs, byes or innings changes",30
+4816,Khaleel Ahmed,362,343,29,0.4414246,,,"No run-outs, byes or innings changes",31
+6450,Mujeeb Ur Rahman,215,202,19,0.41302862,,,"No run-outs, byes or innings changes",32
+6806,Tushar Deshpande,307,283,26,0.4020985,,,"No run-outs, byes or innings changes",33
+4658,Nasum Ahmed,158,157,16,0.3896529,,,"No run-outs, byes or innings changes",34
+4219,Krunal Pandya,247,243,24,0.35950135,,,"No run-outs, byes or innings changes",35
+3664,Binura Fernando,84,81,10,0.35675968,,,"No run-outs, byes or innings changes",36
+4373,Mustafizur Rahman,168,164,15,0.35336322,,,"No run-outs, byes or innings changes",37
+27960,Mayank Yadav,89,83,10,0.34066967,,,"No run-outs, byes or innings changes",38
+7741,Gareth Delany,72,72,9,0.3334621,,,"No run-outs, byes or innings changes",39
+8009,Junaid Siddique,98,93,10,0.31916599,,,"No run-outs, byes or innings changes",40
+6683,Mayank Markande,74,72,9,0.31724326,,,"No run-outs, byes or innings changes",41
+1612,Yuzvendra Chahal,328,318,27,0.30755854,,,"No run-outs, byes or innings changes",42
+6726,Romario Shepherd,245,225,25,0.30418566,,,"No run-outs, byes or innings changes",43
+4823,Washington Sundar,77,75,11,0.27433444,,,"No run-outs, byes or innings changes",44
+39657,Eshan Malinga,152,146,15,0.27203357,,,"No run-outs, byes or innings changes",45
+3641,Ben Dwarshuis,66,65,10,0.26903722,,,"No run-outs, byes or innings changes",46
+2933,Jasprit Bumrah,299,287,30,0.25188307,,,"No run-outs, byes or innings changes",47
+1566,Mohammed Shami,378,357,34,0.22681294,,,"No run-outs, byes or innings changes",48
+6512,Michael Bracewell,109,108,15,0.22100146,,,"No run-outs, byes or innings changes",49
+152,Ravindra Jadeja,266,262,19,0.21901918,,,"No run-outs, byes or innings changes",50
+2984,Sikandar Raza,147,144,16,0.21428764,,,"No run-outs, byes or innings changes",51
+7240,FazalHaq Farooqi,263,252,27,0.20502116,,,"No run-outs, byes or innings changes",52
+8380,Mohammad Rishad Hossain,112,112,9,0.20197363,,,"No run-outs, byes or innings changes",53
+20704,Salman Mirza,111,109,13,0.19619916,,,"No run-outs, byes or innings changes",54
+4101,Mitchell Santner,214,204,22,0.16843588,,,"No run-outs, byes or innings changes",55
+5944,Mohammed Siraj,534,506,45,0.15039444,,,"No run-outs, byes or innings changes",56
+2436,Dasun Shanaka,100,96,15,0.14841051,,,"No run-outs, byes or innings changes",57
+23,Piyush Chawla,157,152,11,0.14654458,,,"No run-outs, byes or innings changes",58
+2320,Trent Boult,319,308,31,0.14582692,,,"No run-outs, byes or innings changes",59
+2526,Ish Sodhi,138,134,18,0.14537882,,,"No run-outs, byes or innings changes",60
+2878,Mohit Sharma,116,114,13,0.092152486,,,"No run-outs, byes or innings changes",61
+6354,Spencer Johnson,117,110,12,0.082499515,,,"No run-outs, byes or innings changes",62
+3653,Avesh Khan,350,331,29,0.079695954,,,"No run-outs, byes or innings changes",63
+2417,Akeal Hosein,524,509,47,0.076526401,,,"No run-outs, byes or innings changes",64
+3644,Kuldeep Yadav,352,342,30,0.075817631,,,"No run-outs, byes or innings changes",65
+6287,Yash Thakur,98,87,11,0.054358385,,,"No run-outs, byes or innings changes",66
+4856,Benjamin Sears,83,82,11,0.052533605,,,"No run-outs, byes or innings changes",67
+4265,T Natarajan,155,147,16,0.04724479,,,"No run-outs, byes or innings changes",68
+58134,Digvesh Rathi,116,114,14,0.040971708,,,"No run-outs, byes or innings changes",69
+4874,Richard Ngarava,205,195,20,0.03311183,,,"No run-outs, byes or innings changes",70
+6284,Anukul Roy,107,97,11,0.03211445,,,"No run-outs, byes or innings changes",71
+22471,Matthew Humphreys,116,115,10,0.025573101,,,"No run-outs, byes or innings changes",72
+305,Ravichandran Ashwin,200,192,17,0.012878963,,,"No run-outs, byes or innings changes",73
+3275,Alzarri Joseph,210,194,19,-0.019353075,,,"No run-outs, byes or innings changes",74
+1107,Mohammad Nabi,111,109,14,-0.026356955,,,"No run-outs, byes or innings changes",75
+5837,Mahedi Hasan,169,168,21,-0.036284832,,,"No run-outs, byes or innings changes",76
+5189,Faheem Ashraf,73,70,12,-0.038830886,,,"No run-outs, byes or innings changes",77
+7344,Shoriful Islam,161,151,18,-0.044073678,,,"No run-outs, byes or innings changes",78
+32862,Allah Ghazanfar,92,92,8,-0.066150118,,,"No run-outs, byes or innings changes",79
+5939,Cameron Green,219,206,27,-0.098946971,,,"No run-outs, byes or innings changes",80
+7503,Ravi Bishnoi,412,394,37,-0.14131761,,,"No run-outs, byes or innings changes",81
+7250,Mukesh Choudhary,100,95,9,-0.14178632,,,"No run-outs, byes or innings changes",82
+6272,William Jacks,100,93,14,-0.14915539,,,"No run-outs, byes or innings changes",83
+19312,Nuwan Thushara,147,143,18,-0.15130612,,,"No run-outs, byes or innings changes",84
+4692,Lockie Ferguson,163,151,18,-0.15311066,,,"No run-outs, byes or innings changes",85
+6398,Aaron Hardie,83,78,9,-0.15328116,,,"No run-outs, byes or innings changes",86
+4807,Joshua Little,153,144,14,-0.16263069,,,"No run-outs, byes or innings changes",87
+6161,Rahul Chahar,173,172,13,-0.21495127,,,"No run-outs, byes or innings changes",88
+19316,Maheesh Theekshana,338,326,37,-0.2169854,,,"No run-outs, byes or innings changes",89
+7920,Nathan Ellis,259,251,22,-0.22151983,,,"No run-outs, byes or innings changes",90
+27964,Anshul Kamboj,170,169,16,-0.22350204,,,"No run-outs, byes or innings changes",91
+1813,Deepak Chahar,295,280,26,-0.22371465,,,"No run-outs, byes or innings changes",92
+2876,Axar Patel,533,527,50,-0.22637729,,,"No run-outs, byes or innings changes",93
+3628,Kagiso Rabada,357,343,31,-0.24003612,,,"No run-outs, byes or innings changes",94
+6515,Benjamin Lister,138,132,11,-0.24137145,,,"No run-outs, byes or innings changes",95
+3298,Jofra Archer,450,422,39,-0.25083704,,,"No run-outs, byes or innings changes",96
+7327,Rasikh Salam,105,102,12,-0.279481,,,"No run-outs, byes or innings changes",97
+2399,Dushmantha Chameera,183,171,20,-0.2796588,,,"No run-outs, byes or innings changes",98
+7312,Nandre Burger,144,138,16,-0.29530322,,,"No run-outs, byes or innings changes",99
+20005,Arshad Khan,90,78,11,-0.34058649,,,"No run-outs, byes or innings changes",100
+2633,Jason Holder,374,353,36,-0.35107335,,,"No run-outs, byes or innings changes",101
+3330,Hardik Pandya,419,395,40,-0.35958441,,,"No run-outs, byes or innings changes",102
+7808,Marco Jansen,326,303,33,-0.37388823,,,"No run-outs, byes or innings changes",103
+8221,Nitish Reddy,105,98,10,-0.3939388,,,"No run-outs, byes or innings changes",104
+22920,Jacob Duffy,269,254,26,-0.40862472,,,"No run-outs, byes or innings changes",105
+7364,Haris Rauf,140,131,14,-0.41087907,,,"No run-outs, byes or innings changes",106
+6464,Arshdeep Singh,955,894,82,-0.43211799,,,"No run-outs, byes or innings changes",107
+21784,Brad Evans,84,80,10,-0.48650932,,,"No run-outs, byes or innings changes",108
+36982,Suyash Sharma,170,168,13,-0.4905048,,,"No run-outs, byes or innings changes",109
+5041,Mukesh Kumar,383,359,39,-0.50530495,,,"No run-outs, byes or innings changes",110
+7967,Noor Ahmad,297,275,22,-0.51499084,,,"No run-outs, byes or innings changes",111
+295,Wayne Parnell,106,104,9,-0.53831852,,,"No run-outs, byes or innings changes",112
+2054,Jason Behrendorff,196,190,17,-0.57925443,,,"No run-outs, byes or innings changes",113
+7094,Curtis Campher,74,71,10,-0.59379682,,,"No run-outs, byes or innings changes",114
+2687,Roston Chase,135,130,16,-0.60349846,,,"No run-outs, byes or innings changes",115
+3605,Aiden Markram,65,62,11,-0.63564384,,,"No run-outs, byes or innings changes",116
+4409,Sam Curran,229,220,26,-0.65506416,,,"No run-outs, byes or innings changes",117
+3174,Matt Henry,229,223,18,-0.68436758,,,"No run-outs, byes or innings changes",118
+838,Glenn Maxwell,84,82,12,-0.69666705,,,"No run-outs, byes or innings changes",119
+1071,Jaydev Unadkat,92,87,15,-0.81732947,,,"No run-outs, byes or innings changes",120
+1487,Adam Milne,163,156,15,-0.83116362,,,"No run-outs, byes or innings changes",121
+5809,Naveen ul Haq,148,142,15,-0.85447364,,,"No run-outs, byes or innings changes",122
+8295,Matthew Forde,138,128,14,-0.86239707,,,"No run-outs, byes or innings changes",123
+67036,Brijesh Sharma,107,95,10,-0.90988318,,,"No run-outs, byes or innings changes",124
+2847,Shardul Thakur,178,158,19,-0.93140999,,,"No run-outs, byes or innings changes",125
+58246,Prince Yadav,144,136,18,-1.0486204,,,"No run-outs, byes or innings changes",126
+6676,Azmatullah Omarzai,300,288,32,-1.0910378,,,"No run-outs, byes or innings changes",127
+4391,Liam Livingstone,73,73,10,-1.0960361,,,"No run-outs, byes or innings changes",128
+5738,Xavier Bartlett,160,158,19,-1.1999621,,,"No run-outs, byes or innings changes",129
+1389,Sean Abbott,119,107,13,-1.4521944,,,"No run-outs, byes or innings changes",130
+1318,Andre Russell,190,181,22,-1.4886191,,,"No run-outs, byes or innings changes",131
+829,Mitchell Starc,189,177,19,-1.4951417,,,"No run-outs, byes or innings changes",132
+6281,Abhishek Sharma,102,100,12,-1.5416834,,,"No run-outs, byes or innings changes",133
+8746,Vaibhav Arora,254,243,25,-1.8085638,,,"No run-outs, byes or innings changes",134
+4641,Lungi Ngidi,147,144,18,-1.8233077,,,"No run-outs, byes or innings changes",135
+2639,Marcus Stoinis,132,119,18,-1.8986567,,,"No run-outs, byes or innings changes",136
+8530,Kartik Tyagi,121,116,14,-2.6321656,,,"No run-outs, byes or innings changes",137
+8661,Matheesha Pathirana,199,174,15,-4.2565699,,,"No run-outs, byes or innings changes",138
+6355,Shaheen Afridi,316,298,29,-4.3566683,,,"No run-outs, byes or innings changes",139
+6523,Blessing Muzarabani,169,167,18,-4.8305299,,,"No run-outs, byes or innings changes",140
+2411,Sandeep Sharma,234,222,19,-6.5107615,,,"No run-outs, byes or innings changes",141
+4489,Prasidh Krishna,129,124,13,-6.8916316,,,"No run-outs, byes or innings changes",142
+7322,Yash Dayal,176,172,19,-6.9242275,,,"No run-outs, byes or innings changes",143
+5441,Barry McCarthy,133,126,12,-7.1266889,,,"No run-outs, byes or innings changes",144
+7270,Anrich Nortje,111,101,17,-7.7025819,,,"No run-outs, byes or innings changes",145
+278,Tim Southee,106,101,9,-10.451431,,,"No run-outs, byes or innings changes",146
+3276,Gudakesh Motie,114,113,12,0.86967496,,,"Old scoreboard flag, unweighted WPA",1
+34485,Sufiyan Muqeem,101,98,11,0.79106207,,,"Old scoreboard flag, unweighted WPA",2
+1758,Patrick Cummins,67,62,13,0.69470008,,,"Old scoreboard flag, unweighted WPA",3
+830,Josh Hazlewood,147,142,18,0.69345449,,,"Old scoreboard flag, unweighted WPA",4
+2933,Jasprit Bumrah,129,126,19,0.68819167,,,"Old scoreboard flag, unweighted WPA",5
+2382,Jamie Overton,72,70,9,0.54685081,,,"Old scoreboard flag, unweighted WPA",6
+22471,Matthew Humphreys,67,62,8,0.5252771,,,"Old scoreboard flag, unweighted WPA",7
+27960,Mayank Yadav,89,84,11,0.45773616,,,"Old scoreboard flag, unweighted WPA",8
+2681,Taskin Ahmed,87,83,12,0.45714915,,,"Old scoreboard flag, unweighted WPA",9
+4823,Washington Sundar,80,75,10,0.43184721,,,"Old scoreboard flag, unweighted WPA",10
+781,Sunil Narine,217,216,23,0.43109521,,,"Old scoreboard flag, unweighted WPA",11
+2417,Akeal Hosein,98,96,18,0.42971989,,,"Old scoreboard flag, unweighted WPA",12
+1813,Deepak Chahar,88,81,11,0.40682337,,,"Old scoreboard flag, unweighted WPA",13
+5979,Abrar Ahmed,107,106,14,0.404659,,,"Old scoreboard flag, unweighted WPA",14
+4373,Mustafizur Rahman,131,127,18,0.4024587,,,"Old scoreboard flag, unweighted WPA",15
+6450,Mujeeb Ur Rahman,98,94,15,0.39469684,,,"Old scoreboard flag, unweighted WPA",16
+58134,Digvesh Rathi,80,78,11,0.3851578,,,"Old scoreboard flag, unweighted WPA",17
+4692,Lockie Ferguson,101,91,13,0.36721816,,,"Old scoreboard flag, unweighted WPA",18
+2490,Mohammad Nawaz,107,107,14,0.34740413,,,"Old scoreboard flag, unweighted WPA",19
+6256,Varun Chakravarthy,306,300,36,0.31461728,,,"Old scoreboard flag, unweighted WPA",20
+7741,Gareth Delany,64,64,8,0.31214266,,,"Old scoreboard flag, unweighted WPA",21
+5809,Naveen ul Haq,99,92,11,0.30753651,,,"Old scoreboard flag, unweighted WPA",22
+4722,Rashid Khan,413,404,48,0.28971967,,,"Old scoreboard flag, unweighted WPA",23
+39657,Eshan Malinga,81,73,9,0.28698866,,,"Old scoreboard flag, unweighted WPA",24
+2633,Jason Holder,183,174,22,0.25945209,,,"Old scoreboard flag, unweighted WPA",25
+2984,Sikandar Raza,151,148,17,0.25406585,,,"Old scoreboard flag, unweighted WPA",26
+4900,Wanindu Hasaranga,333,330,33,0.24223753,,,"Old scoreboard flag, unweighted WPA",27
+5939,Cameron Green,131,125,17,0.23972227,,,"Old scoreboard flag, unweighted WPA",28
+3298,Jofra Archer,108,103,13,0.22311213,,,"Old scoreboard flag, unweighted WPA",29
+8221,Nitish Reddy,83,82,13,0.21799688,,,"Old scoreboard flag, unweighted WPA",30
+4101,Mitchell Santner,243,234,27,0.21051739,,,"Old scoreboard flag, unweighted WPA",31
+2320,Trent Boult,99,95,13,0.19886091,,,"Old scoreboard flag, unweighted WPA",32
+2636,Adam Zampa,200,193,23,0.18949453,,,"Old scoreboard flag, unweighted WPA",33
+6683,Mayank Markande,74,70,8,0.18186222,,,"Old scoreboard flag, unweighted WPA",34
+5944,Mohammed Siraj,91,79,13,0.16643777,,,"Old scoreboard flag, unweighted WPA",35
+6355,Shaheen Afridi,101,95,15,0.14970012,,,"Old scoreboard flag, unweighted WPA",36
+7690,Saim Ayub,87,83,10,0.14127936,,,"Old scoreboard flag, unweighted WPA",37
+8661,Matheesha Pathirana,215,178,18,0.12797079,,,"Old scoreboard flag, unweighted WPA",38
+152,Ravindra Jadeja,245,240,27,0.12480793,,,"Old scoreboard flag, unweighted WPA",39
+2876,Axar Patel,346,342,46,0.12158417,,,"Old scoreboard flag, unweighted WPA",40
+2687,Roston Chase,112,107,15,0.11888559,,,"Old scoreboard flag, unweighted WPA",41
+2436,Dasun Shanaka,99,93,14,0.11885035,,,"Old scoreboard flag, unweighted WPA",42
+7503,Ravi Bishnoi,351,339,40,0.064930903,,,"Old scoreboard flag, unweighted WPA",43
+29888,Harshit Rana,188,178,19,0.043705785,,,"Old scoreboard flag, unweighted WPA",44
+6726,Romario Shepherd,166,154,23,0.041676678,,,"Old scoreboard flag, unweighted WPA",45
+2526,Ish Sodhi,146,140,16,-0.0055860048,,,"Old scoreboard flag, unweighted WPA",46
+7325,Harpreet Brar,75,74,9,-0.0080192369,,,"Old scoreboard flag, unweighted WPA",47
+4219,Krunal Pandya,148,142,20,-0.010595029,,,"Old scoreboard flag, unweighted WPA",48
+479,Adil Rashid,147,142,16,-0.018070341,,,"Old scoreboard flag, unweighted WPA",49
+7322,Yash Dayal,90,86,11,-0.020245945,,,"Old scoreboard flag, unweighted WPA",50
+67036,Brijesh Sharma,72,66,8,-0.021418065,,,"Old scoreboard flag, unweighted WPA",51
+305,Ravichandran Ashwin,138,131,14,-0.045316319,,,"Old scoreboard flag, unweighted WPA",52
+2878,Mohit Sharma,127,123,14,-0.048674732,,,"Old scoreboard flag, unweighted WPA",53
+3330,Hardik Pandya,104,100,12,-0.058075501,,,"Old scoreboard flag, unweighted WPA",54
+19316,Maheesh Theekshana,229,224,24,-0.060494334,,,"Old scoreboard flag, unweighted WPA",55
+3644,Kuldeep Yadav,358,347,37,-0.073486265,,,"Old scoreboard flag, unweighted WPA",56
+22920,Jacob Duffy,100,96,14,-0.075076493,,,"Old scoreboard flag, unweighted WPA",57
+360,Bhuvneshwar Kumar,120,118,17,-0.07983651,,,"Old scoreboard flag, unweighted WPA",58
+8380,Mohammad Rishad Hossain,207,203,24,-0.090136348,,,"Old scoreboard flag, unweighted WPA",59
+7364,Haris Rauf,137,131,16,-0.092192337,,,"Old scoreboard flag, unweighted WPA",60
+4639,Wellington Masakadza,77,75,10,-0.11084321,,,"Old scoreboard flag, unweighted WPA",61
+6287,Yash Thakur,103,91,10,-0.11947684,,,"Old scoreboard flag, unweighted WPA",62
+5837,Mahedi Hasan,97,95,12,-0.12507165,,,"Old scoreboard flag, unweighted WPA",63
+4489,Prasidh Krishna,131,128,17,-0.13545493,,,"Old scoreboard flag, unweighted WPA",64
+4807,Joshua Little,72,67,8,-0.13880507,,,"Old scoreboard flag, unweighted WPA",65
+4755,Shivam Dube,87,84,10,-0.14089699,,,"Old scoreboard flag, unweighted WPA",66
+3275,Alzarri Joseph,99,97,14,-0.14278299,,,"Old scoreboard flag, unweighted WPA",67
+7327,Rasikh Salam,78,75,8,-0.15119843,,,"Old scoreboard flag, unweighted WPA",68
+36982,Suyash Sharma,182,179,20,-0.188605,,,"Old scoreboard flag, unweighted WPA",69
+23,Piyush Chawla,78,77,9,-0.20474509,,,"Old scoreboard flag, unweighted WPA",70
+1944,Keshav Maharaj,70,68,8,-0.21784498,,,"Old scoreboard flag, unweighted WPA",71
+395,Karn Sharma,99,96,12,-0.21981891,,,"Old scoreboard flag, unweighted WPA",72
+1389,Sean Abbott,68,62,8,-0.22468411,,,"Old scoreboard flag, unweighted WPA",73
+5041,Mukesh Kumar,134,124,19,-0.23077768,,,"Old scoreboard flag, unweighted WPA",74
+4265,T Natarajan,113,106,13,-0.23615056,,,"Old scoreboard flag, unweighted WPA",75
+7699,Abbas Afridi,66,62,8,-0.23665531,,,"Old scoreboard flag, unweighted WPA",76
+1612,Yuzvendra Chahal,232,223,26,-0.23906007,,,"Old scoreboard flag, unweighted WPA",77
+2411,Sandeep Sharma,103,100,14,-0.27186236,,,"Old scoreboard flag, unweighted WPA",78
+6161,Rahul Chahar,103,101,12,-0.28622618,,,"Old scoreboard flag, unweighted WPA",79
+1318,Andre Russell,129,120,14,-0.30399906,,,"Old scoreboard flag, unweighted WPA",80
+7967,Noor Ahmad,300,280,36,-0.32006988,,,"Old scoreboard flag, unweighted WPA",81
+46066,Vipraj Nigam,71,68,8,-0.33273226,,,"Old scoreboard flag, unweighted WPA",82
+58246,Prince Yadav,84,77,12,-0.34561626,,,"Old scoreboard flag, unweighted WPA",83
+7920,Nathan Ellis,147,139,15,-0.34942596,,,"Old scoreboard flag, unweighted WPA",84
+6512,Michael Bracewell,100,96,12,-0.35102758,,,"Old scoreboard flag, unweighted WPA",85
+7905,Tanzim Sakib,143,135,16,-0.35355212,,,"Old scoreboard flag, unweighted WPA",86
+6676,Azmatullah Omarzai,140,134,19,-0.35556815,,,"Old scoreboard flag, unweighted WPA",87
+3653,Avesh Khan,200,190,22,-0.3581153,,,"Old scoreboard flag, unweighted WPA",88
+4926,Shadab Khan,109,106,14,-0.4373591,,,"Old scoreboard flag, unweighted WPA",89
+1107,Mohammad Nabi,96,95,14,-0.44368186,,,"Old scoreboard flag, unweighted WPA",90
+6464,Arshdeep Singh,271,260,35,-0.46736694,,,"Old scoreboard flag, unweighted WPA",91
+6806,Tushar Deshpande,121,108,16,-0.47555822,,,"Old scoreboard flag, unweighted WPA",92
+7472,Shahbaz Ahmed,62,60,8,-0.5387096,,,"Old scoreboard flag, unweighted WPA",93
+2261,Harshal Patel,159,147,17,-0.5672566,,,"Old scoreboard flag, unweighted WPA",94
+6281,Abhishek Sharma,98,97,11,-0.61546311,,,"Old scoreboard flag, unweighted WPA",95
+4641,Lungi Ngidi,63,63,9,-0.63756834,,,"Old scoreboard flag, unweighted WPA",96
+8746,Vaibhav Arora,74,66,13,-0.65950623,,,"Old scoreboard flag, unweighted WPA",97
+2847,Shardul Thakur,91,79,11,-0.72481645,,,"Old scoreboard flag, unweighted WPA",98
+2639,Marcus Stoinis,151,138,19,-0.91561,,,"Old scoreboard flag, unweighted WPA",99
+3323,Jimmy Neesham,72,69,8,-1.0295354,,,"Old scoreboard flag, unweighted WPA",100
+4409,Sam Curran,117,113,14,-1.1345227,,,"Old scoreboard flag, unweighted WPA",101
+7808,Marco Jansen,105,99,12,-1.1415587,,,"Old scoreboard flag, unweighted WPA",102
+2399,Dushmantha Chameera,82,77,10,-1.3601395,,,"Old scoreboard flag, unweighted WPA",103
+7270,Anrich Nortje,63,62,8,-1.5376895,,,"Old scoreboard flag, unweighted WPA",104
+4489,Prasidh Krishna,88,84,8,4.8970247,,,"2026 only, frozen quartile",1
+6676,Azmatullah Omarzai,92,88,10,0.77309824,,,"2026 only, frozen quartile",2
+4641,Lungi Ngidi,63,63,9,0.53580036,,,"2026 only, frozen quartile",3
+781,Sunil Narine,105,105,9,0.45110757,,,"2026 only, frozen quartile",4
+1566,Mohammed Shami,117,108,11,0.37214012,,,"2026 only, frozen quartile",5
+2933,Jasprit Bumrah,143,134,14,0.36308346,,,"2026 only, frozen quartile",6
+360,Bhuvneshwar Kumar,188,181,15,0.25402251,,,"2026 only, frozen quartile",7
+6284,Anukul Roy,85,77,8,0.2394228,,,"2026 only, frozen quartile",8
+39657,Eshan Malinga,126,123,13,0.17439267,,,"2026 only, frozen quartile",9
+830,Josh Hazlewood,97,95,10,0.072397689,,,"2026 only, frozen quartile",10
+5944,Mohammed Siraj,223,215,15,0.047121228,,,"2026 only, frozen quartile",11
+2417,Akeal Hosein,143,138,13,0.035769304,,,"2026 only, frozen quartile",12
+3298,Jofra Archer,238,222,18,-0.041871626,,,"2026 only, frozen quartile",13
+2876,Axar Patel,100,100,15,-0.13477539,,,"2026 only, frozen quartile",14
+6272,William Jacks,79,74,10,-0.16066512,,,"2026 only, frozen quartile",15
+4692,Lockie Ferguson,82,78,8,-0.16290498,,,"2026 only, frozen quartile",16
+3628,Kagiso Rabada,221,212,17,-0.17706111,,,"2026 only, frozen quartile",17
+5041,Mukesh Kumar,92,87,8,-0.2241627,,,"2026 only, frozen quartile",18
+3697,Kyle Jamieson,84,79,8,-0.27925373,,,"2026 only, frozen quartile",19
+58246,Prince Yadav,120,112,19,-0.30297667,,,"2026 only, frozen quartile",20
+7312,Nandre Burger,122,117,11,-0.3800714,,,"2026 only, frozen quartile",21
+27964,Anshul Kamboj,108,107,10,-0.47234224,,,"2026 only, frozen quartile",22
+6464,Arshdeep Singh,375,350,29,-0.47734009,,,"2026 only, frozen quartile",23
+8295,Matthew Forde,80,74,8,-0.66926746,,,"2026 only, frozen quartile",24
+7503,Ravi Bishnoi,119,108,8,-0.7511644,,,"2026 only, frozen quartile",25
+8221,Nitish Reddy,72,68,8,-0.7926715,,,"2026 only, frozen quartile",26
+67036,Brijesh Sharma,109,97,10,-0.91480505,,,"2026 only, frozen quartile",27
+5939,Cameron Green,75,71,9,-1.0826937,,,"2026 only, frozen quartile",28
+22920,Jacob Duffy,114,104,10,-1.2584121,,,"2026 only, frozen quartile",29
+7808,Marco Jansen,119,114,12,-1.3886325,,,"2026 only, frozen quartile",30
+5738,Xavier Bartlett,87,87,9,-1.6151906,,,"2026 only, frozen quartile",31
+8530,Kartik Tyagi,108,104,12,-1.9317787,,,"2026 only, frozen quartile",32
+8746,Vaibhav Arora,106,102,10,-3.4988152,,,"2026 only, frozen quartile",33
+4201,Fareed Malik,65,64,8,6.0844774,-0.85122036,10.482073,Alternative WP model,1
+3720,Craig Young,87,84,10,3.6328559,-0.83802325,8.5520246,Alternative WP model,2
+28,Ishant Sharma,137,128,16,2.3020604,-0.65953127,5.3987058,Alternative WP model,3
+4487,Vyshak Kumar,128,117,16,2.3000842,-0.65200836,7.4931802,Alternative WP model,4
+3323,Jimmy Neesham,86,82,12,2.2334312,-1.0027933,3.4355963,Alternative WP model,5
+5379,Mark Adair,165,157,17,2.1376523,-0.44438442,5.0503184,Alternative WP model,6
+403,Umesh Yadav,78,76,8,1.6661445,-0.92963813,3.6795373,Alternative WP model,7
+829,Mitchell Starc,203,191,21,1.5476462,-1.3875969,4.231469,Alternative WP model,8
+7905,Tanzim Sakib,193,186,20,1.5165352,-1.9144878,6.6041088,Alternative WP model,9
+2878,Mohit Sharma,118,115,17,1.4936414,-1.0732965,4.8669575,Alternative WP model,10
+360,Bhuvneshwar Kumar,547,530,41,1.3426165,-0.29183394,3.9184589,Alternative WP model,11
+3629,Corbin Bosch,88,84,9,1.3344206,-1.4363313,2.4484414,Alternative WP model,12
+3697,Kyle Jamieson,200,188,22,1.1638888,-0.47352781,3.0491981,Alternative WP model,13
+6256,Varun Chakravarthy,363,356,37,1.1350367,-0.63012864,3.26449,Alternative WP model,14
+6669,Mohsin Khan,159,153,16,1.0922688,-0.81574205,2.6099706,Alternative WP model,15
+6628,Gerald Coetzee,88,84,11,1.0071969,0.32912504,1.7205714,Alternative WP model,16
+29066,Zakary Foulkes,73,68,11,0.94873086,-1.3262986,2.4550375,Alternative WP model,17
+5979,Abrar Ahmed,138,135,13,0.93487656,-0.08717293,1.9580807,Alternative WP model,18
+34485,Sufiyan Muqeem,95,91,9,0.88623411,-0.091320167,1.5910946,Alternative WP model,19
+2490,Mohammad Nawaz,108,105,10,0.88589501,0.16131443,1.9230799,Alternative WP model,20
+2876,Axar Patel,525,519,52,0.80178901,-0.31817629,2.2349106,Alternative WP model,21
+29888,Harshit Rana,306,293,28,0.74200738,-2.2175367,4.3969659,Alternative WP model,22
+2636,Adam Zampa,124,122,12,0.7298013,0.15061961,1.6842686,Alternative WP model,23
+4722,Rashid Khan,336,335,36,0.70554505,-0.010507732,1.394396,Alternative WP model,24
+830,Josh Hazlewood,330,321,31,0.69254627,-0.18573807,1.6053978,Alternative WP model,25
+6726,Romario Shepherd,276,255,34,0.65884712,-1.1872624,2.7749704,Alternative WP model,26
+1758,Patrick Cummins,170,163,21,0.64231858,-0.29763542,1.9146608,Alternative WP model,27
+3276,Gudakesh Motie,110,109,11,0.61233546,-0.59053799,1.5855897,Alternative WP model,28
+4900,Wanindu Hasaranga,264,259,19,0.61137883,-0.071638827,1.3462059,Alternative WP model,29
+2933,Jasprit Bumrah,360,346,33,0.57777895,0.027324117,1.0734544,Alternative WP model,30
+4816,Khaleel Ahmed,356,338,30,0.51757395,-0.049954159,1.0871659,Alternative WP model,31
+5189,Faheem Ashraf,79,78,12,0.47475797,-0.58451282,1.4894233,Alternative WP model,32
+1596,Moeen Ali,123,123,13,0.47132576,-0.48231432,1.2523853,Alternative WP model,33
+4373,Mustafizur Rahman,178,174,25,0.47082542,-0.62177152,1.5258282,Alternative WP model,34
+2681,Taskin Ahmed,222,208,23,0.45943413,0.047526355,0.84784536,Alternative WP model,35
+6806,Tushar Deshpande,328,304,31,0.45557243,-0.88102108,1.8751322,Alternative WP model,36
+4219,Krunal Pandya,275,271,25,0.43343823,-0.1831725,1.1380291,Alternative WP model,37
+4658,Nasum Ahmed,160,159,16,0.43343028,-0.22631088,1.1239837,Alternative WP model,38
+7690,Saim Ayub,180,178,14,0.43235939,-0.085756242,1.0107572,Alternative WP model,39
+781,Sunil Narine,262,259,28,0.40535245,-0.095133944,0.91101975,Alternative WP model,40
+1612,Yuzvendra Chahal,300,291,29,0.39737719,-0.57621011,1.3528326,Alternative WP model,41
+6450,Mujeeb Ur Rahman,223,210,19,0.35961952,-0.041228677,0.72382281,Alternative WP model,42
+7325,Harpreet Brar,169,166,16,0.32694778,-0.38868472,1.1139625,Alternative WP model,43
+39657,Eshan Malinga,167,161,18,0.3267904,-0.49665819,1.1858304,Alternative WP model,44
+4823,Washington Sundar,96,93,16,0.31555574,-0.71169314,1.1233458,Alternative WP model,45
+2436,Dasun Shanaka,105,101,15,0.312506,-4.7500817,5.7374059,Alternative WP model,46
+3664,Binura Fernando,86,82,9,0.30939754,-0.15051575,0.61839894,Alternative WP model,47
+5944,Mohammed Siraj,598,566,46,0.30489396,-0.24322535,0.96285894,Alternative WP model,48
+4101,Mitchell Santner,210,200,21,0.30436202,-0.66226294,1.1989778,Alternative WP model,49
+8009,Junaid Siddique,110,104,10,0.28986294,-0.19337423,0.9063316,Alternative WP model,50
+2320,Trent Boult,302,290,31,0.24168085,-0.11814562,0.58538175,Alternative WP model,51
+1566,Mohammed Shami,404,383,34,0.23970021,-0.13110984,0.62664669,Alternative WP model,52
+20704,Salman Mirza,120,118,11,0.23150155,-0.42581474,0.81774546,Alternative WP model,53
+47050,Shamar Joseph,65,62,13,0.21058159,-0.81133251,1.1744131,Alternative WP model,54
+2526,Ish Sodhi,133,131,14,0.20936084,-0.24920611,0.68023292,Alternative WP model,55
+2261,Harshal Patel,231,216,27,0.20276353,-2.2080128,2.344408,Alternative WP model,56
+8380,Mohammad Rishad Hossain,117,117,10,0.19799909,-0.62658496,0.9906625,Alternative WP model,57
+58134,Digvesh Rathi,128,124,17,0.17162172,-0.47717117,0.89882232,Alternative WP model,58
+7741,Gareth Delany,82,82,9,0.16308442,-0.9314909,0.9644907,Alternative WP model,59
+6512,Michael Bracewell,104,103,14,0.16242428,-0.91931433,1.0898765,Alternative WP model,60
+27960,Mayank Yadav,94,88,12,0.15049258,-0.58122672,0.87077917,Alternative WP model,61
+2417,Akeal Hosein,485,473,46,0.14523999,-0.28968252,0.55781213,Alternative WP model,62
+3641,Ben Dwarshuis,96,94,10,0.13019875,-0.4908494,0.73967743,Alternative WP model,63
+152,Ravindra Jadeja,259,255,20,0.12256083,-0.53027815,0.79034365,Alternative WP model,64
+6354,Spencer Johnson,129,122,14,0.1186406,-0.87104576,1.3669341,Alternative WP model,65
+4874,Richard Ngarava,220,209,21,0.11371992,-0.52436937,0.74283052,Alternative WP model,66
+3653,Avesh Khan,371,352,33,0.1109701,-4.5685894,4.1129522,Alternative WP model,67
+3275,Alzarri Joseph,201,186,21,0.097181135,-1.5526704,1.5851747,Alternative WP model,68
+7240,FazalHaq Farooqi,287,276,27,0.088737068,-0.37467161,0.53974047,Alternative WP model,69
+4856,Benjamin Sears,81,78,10,0.080293807,-0.82665277,1.0763477,Alternative WP model,70
+7344,Shoriful Islam,174,164,18,0.079313914,-0.36195992,0.56151296,Alternative WP model,71
+6287,Yash Thakur,109,97,14,0.077191342,-1.1173539,1.0373311,Alternative WP model,72
+6284,Anukul Roy,109,99,11,0.058026578,-0.48775204,0.54341583,Alternative WP model,73
+22471,Matthew Humphreys,123,122,9,0.053134401,-0.38353054,0.38707946,Alternative WP model,74
+2984,Sikandar Raza,140,134,15,0.051926723,-0.6377317,0.62234439,Alternative WP model,75
+5939,Cameron Green,227,213,26,0.033947179,-0.84093464,0.86274315,Alternative WP model,76
+4265,T Natarajan,169,161,22,0.026813087,-0.69654831,0.70830202,Alternative WP model,77
+4692,Lockie Ferguson,167,155,18,0.015313262,-0.67293724,0.71869679,Alternative WP model,78
+3644,Kuldeep Yadav,315,305,27,0.0069051039,-0.63914251,0.68347116,Alternative WP model,79
+4409,Sam Curran,245,238,31,0.0068989997,-1.7552196,1.6494208,Alternative WP model,80
+7920,Nathan Ellis,277,270,26,-0.0038718358,-0.82439555,0.81146047,Alternative WP model,81
+305,Ravichandran Ashwin,171,165,16,-0.013403808,-0.96453455,0.68430621,Alternative WP model,82
+23,Piyush Chawla,146,142,12,-0.046946662,-0.50759007,0.46227989,Alternative WP model,83
+19316,Maheesh Theekshana,352,341,45,-0.051075391,-0.38916761,0.35233867,Alternative WP model,84
+3330,Hardik Pandya,425,396,43,-0.057520695,-0.65169026,0.5935756,Alternative WP model,85
+4815,Benjamin White,70,66,8,-0.064077192,-0.95259889,0.62752479,Alternative WP model,86
+32862,Allah Ghazanfar,98,98,8,-0.067458492,-0.89969244,1.0572372,Alternative WP model,87
+5837,Mahedi Hasan,174,173,19,-0.080523964,-0.72671328,0.62861128,Alternative WP model,88
+4807,Joshua Little,139,131,13,-0.087928774,-1.0958427,0.66351855,Alternative WP model,89
+7503,Ravi Bishnoi,422,403,38,-0.092569913,-0.89940953,0.53104835,Alternative WP model,90
+6161,Rahul Chahar,163,162,12,-0.11160327,-1.5021139,0.85523579,Alternative WP model,91
+27964,Anshul Kamboj,190,189,16,-0.11246602,-0.67158345,0.37070823,Alternative WP model,92
+3298,Jofra Archer,465,437,39,-0.15583559,-0.65153153,0.35109199,Alternative WP model,93
+6515,Benjamin Lister,148,142,11,-0.16791482,-0.74082207,0.24447174,Alternative WP model,94
+1107,Mohammad Nabi,100,98,13,-0.19179214,-0.98609837,0.57378299,Alternative WP model,95
+4755,Shivam Dube,75,73,8,-0.19223889,-1.1851759,0.8820443,Alternative WP model,96
+6272,William Jacks,102,95,13,-0.19477102,-1.0992598,0.39741432,Alternative WP model,97
+2633,Jason Holder,384,362,38,-0.19505406,-1.2537451,1.1344112,Alternative WP model,98
+21784,Brad Evans,102,97,13,-0.22201659,-1.1810993,0.9297589,Alternative WP model,99
+1813,Deepak Chahar,314,296,25,-0.22472407,-0.71125531,0.22129242,Alternative WP model,100
+3174,Matt Henry,211,205,17,-0.24767114,-1.3010561,0.68480112,Alternative WP model,101
+3628,Kagiso Rabada,388,373,33,-0.26667158,-0.61750349,0.13945703,Alternative WP model,102
+2399,Dushmantha Chameera,178,167,22,-0.27986231,-2.6868422,2.3884536,Alternative WP model,103
+2054,Jason Behrendorff,208,202,17,-0.28044994,-0.92997517,0.34306103,Alternative WP model,104
+7094,Curtis Campher,69,66,11,-0.29354669,-1.0219927,0.46175357,Alternative WP model,105
+7250,Mukesh Choudhary,109,104,9,-0.29410001,-0.88057031,0.14242083,Alternative WP model,106
+19312,Nuwan Thushara,158,155,22,-0.31526756,-1.0322328,0.32936033,Alternative WP model,107
+7327,Rasikh Salam,114,110,14,-0.32038552,-0.72890106,0.22123699,Alternative WP model,108
+8746,Vaibhav Arora,288,275,27,-0.32199348,-3.2088257,2.9261861,Alternative WP model,109
+36982,Suyash Sharma,163,161,14,-0.32885778,-1.2802104,0.6023619,Alternative WP model,110
+5041,Mukesh Kumar,413,387,42,-0.33367342,-2.3514195,1.5213215,Alternative WP model,111
+22920,Jacob Duffy,273,260,26,-0.33525021,-1.0435862,0.44851765,Alternative WP model,112
+20005,Arshad Khan,107,93,13,-0.36394228,-0.98599157,0.16387047,Alternative WP model,113
+1487,Adam Milne,173,166,15,-0.42198803,-1.5297944,0.73141454,Alternative WP model,114
+2985,Mark Wood,78,69,8,-0.44165052,-1.5946969,1.7990124,Alternative WP model,115
+7808,Marco Jansen,346,324,37,-0.44425758,-1.1402138,0.4022135,Alternative WP model,116
+7312,Nandre Burger,154,148,16,-0.4548226,-1.1319207,0.19589318,Alternative WP model,117
+5809,Naveen ul Haq,169,161,16,-0.46198049,-1.8030687,0.65145419,Alternative WP model,118
+7967,Noor Ahmad,266,247,22,-0.46252156,-0.85064074,-0.030847441,Alternative WP model,119
+6464,Arshdeep Singh,1053,987,87,-0.48187588,-2.3686431,1.0291812,Alternative WP model,120
+295,Wayne Parnell,103,101,9,-0.50154895,-1.7770282,1.0501939,Alternative WP model,121
+3605,Aiden Markram,72,69,11,-0.51245028,-1.4373029,0.45258373,Alternative WP model,122
+8326,Jayden Seales,86,82,8,-0.59356562,-1.7888682,0.39445624,Alternative WP model,123
+8221,Nitish Reddy,115,110,15,-0.65985805,-1.7026355,0.060293438,Alternative WP model,124
+8295,Matthew Forde,152,142,14,-0.67095775,-1.2388118,-0.099671318,Alternative WP model,125
+7364,Haris Rauf,152,143,15,-0.67771406,-2.0350941,0.64684457,Alternative WP model,126
+2687,Roston Chase,128,124,16,-0.71448703,-1.3457594,-0.17168412,Alternative WP model,127
+58246,Prince Yadav,175,167,24,-0.7477522,-1.3459595,0.011338248,Alternative WP model,128
+6676,Azmatullah Omarzai,318,306,33,-0.7838485,-1.7874094,0.14319224,Alternative WP model,129
+2847,Shardul Thakur,185,165,19,-0.81469243,-1.8246104,0.27003304,Alternative WP model,130
+1071,Jaydev Unadkat,103,98,15,-0.84325245,-1.3496341,-0.28517748,Alternative WP model,131
+838,Glenn Maxwell,93,91,13,-0.87259026,-1.3807315,-0.18331902,Alternative WP model,132
+67036,Brijesh Sharma,110,99,11,-0.88460282,-1.3983308,-0.20042924,Alternative WP model,133
+4391,Liam Livingstone,67,67,9,-1.1724079,-2.6128849,0.54050281,Alternative WP model,134
+5738,Xavier Bartlett,169,166,18,-1.1815227,-2.2422467,-0.2490679,Alternative WP model,135
+1389,Sean Abbott,118,107,14,-1.3578838,-2.5741263,-0.097350775,Alternative WP model,136
+6281,Abhishek Sharma,105,103,12,-1.3590526,-2.6074201,-0.085549861,Alternative WP model,137
+4641,Lungi Ngidi,175,172,20,-1.5928863,-3.4315472,0.21864037,Alternative WP model,138
+1318,Andre Russell,193,185,24,-1.6026464,-3.1412873,-0.091494321,Alternative WP model,139
+2639,Marcus Stoinis,127,115,21,-1.730508,-2.76954,-0.40082717,Alternative WP model,140
+8530,Kartik Tyagi,135,130,16,-2.0891466,-3.6054578,-0.0331758,Alternative WP model,141
+4489,Prasidh Krishna,155,150,18,-2.2119613,-13.795562,6.6079647,Alternative WP model,142
+8661,Matheesha Pathirana,223,198,22,-3.631335,-11.736743,1.2373612,Alternative WP model,143
+6355,Shaheen Afridi,338,319,31,-3.7301656,-9.3488389,0.3931334,Alternative WP model,144
+6523,Blessing Muzarabani,165,163,22,-4.1736216,-10.962537,0.53336703,Alternative WP model,145
+2411,Sandeep Sharma,254,242,27,-5.8575924,-18.06982,2.7133536,Alternative WP model,146
+7270,Anrich Nortje,124,115,20,-6.1782707,-13.827509,-0.81777974,Alternative WP model,147
+5441,Barry McCarthy,146,139,13,-6.433472,-15.274131,0.44174919,Alternative WP model,148
+7322,Yash Dayal,176,172,20,-6.636688,-23.006323,6.2525042,Alternative WP model,149
+278,Tim Southee,119,114,11,-9.0272944,-22.227413,2.171558,Alternative WP model,150

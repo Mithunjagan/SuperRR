@@ -1,0 +1,1843 @@
+{
+  "alternative_model": "venue_team",
+  "alternative_coherence": [
+    {
+      "year": 2023,
+      "innings": 1,
+      "events": 15851,
+      "mean_coherence_gap_pp": 0.3592809626851819,
+      "mean_signed_gap_pp": -0.06528497512350993,
+      "extra_run_inversion_pct": 0.0,
+      "wicket_inversion_pct": 0.0
+    },
+    {
+      "year": 2023,
+      "innings": 2,
+      "events": 14839,
+      "mean_coherence_gap_pp": 0.21374678313108844,
+      "mean_signed_gap_pp": -0.13014899577723735,
+      "extra_run_inversion_pct": 0.0,
+      "wicket_inversion_pct": 0.0
+    },
+    {
+      "year": 2024,
+      "innings": 1,
+      "events": 20919,
+      "mean_coherence_gap_pp": 0.1856305376102721,
+      "mean_signed_gap_pp": -0.03710266281328086,
+      "extra_run_inversion_pct": 0.0,
+      "wicket_inversion_pct": 0.0
+    },
+    {
+      "year": 2024,
+      "innings": 2,
+      "events": 19239,
+      "mean_coherence_gap_pp": 0.2071039720259183,
+      "mean_signed_gap_pp": -0.0969828098076778,
+      "extra_run_inversion_pct": 0.0,
+      "wicket_inversion_pct": 0.0
+    },
+    {
+      "year": 2025,
+      "innings": 1,
+      "events": 22098,
+      "mean_coherence_gap_pp": 0.20246243274851813,
+      "mean_signed_gap_pp": -0.021128227218895075,
+      "extra_run_inversion_pct": 0.0,
+      "wicket_inversion_pct": 0.3077201556701964
+    },
+    {
+      "year": 2025,
+      "innings": 2,
+      "events": 20062,
+      "mean_coherence_gap_pp": 0.14527765736602258,
+      "mean_signed_gap_pp": 0.019360621575383187,
+      "extra_run_inversion_pct": 0.0,
+      "wicket_inversion_pct": 0.0
+    },
+    {
+      "year": 2026,
+      "innings": 1,
+      "events": 16336,
+      "mean_coherence_gap_pp": 0.20481716170929112,
+      "mean_signed_gap_pp": -0.044670441520716586,
+      "extra_run_inversion_pct": 0.0,
+      "wicket_inversion_pct": 0.14079333986287954
+    },
+    {
+      "year": 2026,
+      "innings": 2,
+      "events": 14745,
+      "mean_coherence_gap_pp": 0.11258130095518282,
+      "mean_signed_gap_pp": -0.021990736851503153,
+      "extra_run_inversion_pct": 0.0,
+      "wicket_inversion_pct": 0.0
+    }
+  ],
+  "source_sha256": {
+    "ball_by_ball.csv": "01e2b4379edfbab6a6e456d304cb3c70f554cb312ef93d9588f3f32a82cb396e",
+    "competition_team_player_mapping.csv": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12",
+    "competitions.csv": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b",
+    "matches.csv": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef",
+    "playing_eleven.csv": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27",
+    "teams.csv": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d"
+  },
+  "selected_model": "scoreboard",
+  "wp_validation": [
+    {
+      "period": "2023–25 forward validation",
+      "innings": 0,
+      "model": "scoreboard",
+      "matches": 473,
+      "events": 113008,
+      "log_loss": 0.5571045235051392,
+      "brier": 0.1899332158065377,
+      "auc": 0.7847523703937938,
+      "ece": 0.02486866607724259
+    },
+    {
+      "period": "2023–25 forward validation",
+      "innings": 0,
+      "model": "venue_team",
+      "matches": 473,
+      "events": 113008,
+      "log_loss": 0.5604485456090255,
+      "brier": 0.19132655055004824,
+      "auc": 0.7814225052347156,
+      "ece": 0.024075789646655375
+    },
+    {
+      "period": "2023–25 forward validation",
+      "innings": 0,
+      "model": "50%",
+      "matches": 473,
+      "events": 113008,
+      "log_loss": 0.6931471805599454,
+      "brier": 0.25,
+      "auc": 0.5,
+      "ece": 0.009145370239275096
+    },
+    {
+      "period": "2023–25 forward validation",
+      "innings": 1,
+      "model": "scoreboard",
+      "matches": 473,
+      "events": 58868,
+      "log_loss": 0.6511073411409011,
+      "brier": 0.22949253789423807,
+      "auc": 0.6711725789886516,
+      "ece": 0.03506083748934785
+    },
+    {
+      "period": "2023–25 forward validation",
+      "innings": 1,
+      "model": "venue_team",
+      "matches": 473,
+      "events": 58868,
+      "log_loss": 0.6506655586616645,
+      "brier": 0.22947951252372512,
+      "auc": 0.6708811454272113,
+      "ece": 0.031533247437336334
+    },
+    {
+      "period": "2023–25 forward validation",
+      "innings": 1,
+      "model": "50%",
+      "matches": 473,
+      "events": 58868,
+      "log_loss": 0.6931471805599452,
+      "brier": 0.25,
+      "auc": 0.5,
+      "ece": 0.010616973567982605
+    },
+    {
+      "period": "2023–25 forward validation",
+      "innings": 2,
+      "model": "scoreboard",
+      "matches": 473,
+      "events": 54140,
+      "log_loss": 0.45489252002190994,
+      "brier": 0.14691921187859633,
+      "auc": 0.8739385564245381,
+      "ece": 0.03403696820269688
+    },
+    {
+      "period": "2023–25 forward validation",
+      "innings": 2,
+      "model": "venue_team",
+      "matches": 473,
+      "events": 54140,
+      "log_loss": 0.46235295779257246,
+      "brier": 0.1498417229647802,
+      "auc": 0.8689513359609917,
+      "ece": 0.03416887703623303
+    },
+    {
+      "period": "2023–25 forward validation",
+      "innings": 2,
+      "model": "50%",
+      "matches": 473,
+      "events": 54140,
+      "log_loss": 0.6931471805599453,
+      "brier": 0.25,
+      "auc": 0.5,
+      "ece": 0.030633542667159216
+    },
+    {
+      "period": "2026 holdout",
+      "innings": 0,
+      "model": "scoreboard",
+      "matches": 131,
+      "events": 31081,
+      "log_loss": 0.5268847205746492,
+      "brier": 0.1801788517274483,
+      "auc": 0.8086423701007808,
+      "ece": 0.04141155521687213
+    },
+    {
+      "period": "2026 holdout",
+      "innings": 0,
+      "model": "venue_team",
+      "matches": 131,
+      "events": 31081,
+      "log_loss": 0.5233568365875025,
+      "brier": 0.17874923823790975,
+      "auc": 0.812697007086457,
+      "ece": 0.04185847632008373
+    },
+    {
+      "period": "2026 holdout",
+      "innings": 0,
+      "model": "50%",
+      "matches": 131,
+      "events": 31081,
+      "log_loss": 0.6931471805599454,
+      "brier": 0.25,
+      "auc": 0.5,
+      "ece": 0.010987419967182523
+    },
+    {
+      "period": "2026 holdout",
+      "innings": 1,
+      "model": "scoreboard",
+      "matches": 131,
+      "events": 16336,
+      "log_loss": 0.6596519238347129,
+      "brier": 0.2327878605752959,
+      "auc": 0.6777401671982322,
+      "ece": 0.08746081752041214
+    },
+    {
+      "period": "2026 holdout",
+      "innings": 1,
+      "model": "venue_team",
+      "matches": 131,
+      "events": 16336,
+      "log_loss": 0.6556033272703559,
+      "brier": 0.23073524447300567,
+      "auc": 0.6857398517287016,
+      "ece": 0.08367871435990476
+    },
+    {
+      "period": "2026 holdout",
+      "innings": 1,
+      "model": "50%",
+      "matches": 131,
+      "events": 16336,
+      "log_loss": 0.6931471805599453,
+      "brier": 0.25,
+      "auc": 0.5,
+      "ece": 0.06326518119490696
+    },
+    {
+      "period": "2026 holdout",
+      "innings": 2,
+      "model": "scoreboard",
+      "matches": 131,
+      "events": 14745,
+      "log_loss": 0.3797918055216549,
+      "brier": 0.12189327909004996,
+      "auc": 0.9251788839583698,
+      "ece": 0.07752284465868066
+    },
+    {
+      "period": "2026 holdout",
+      "innings": 2,
+      "model": "venue_team",
+      "matches": 131,
+      "events": 14745,
+      "log_loss": 0.3768408195108603,
+      "brier": 0.12115389080783,
+      "auc": 0.9260637205461403,
+      "ece": 0.07786736468936767
+    },
+    {
+      "period": "2026 holdout",
+      "innings": 2,
+      "model": "50%",
+      "matches": 131,
+      "events": 14745,
+      "log_loss": 0.6931471805599451,
+      "brier": 0.25,
+      "auc": 0.5,
+      "ece": 0.04693116310613767
+    }
+  ],
+  "coherence": [
+    {
+      "year": 2023,
+      "innings": 1,
+      "events": 15851,
+      "mean_coherence_gap_pp": 0.37313681269158816,
+      "mean_signed_gap_pp": -0.07475696961998335,
+      "extra_run_inversion_pct": 0.0,
+      "wicket_inversion_pct": 0.0
+    },
+    {
+      "year": 2023,
+      "innings": 2,
+      "events": 14839,
+      "mean_coherence_gap_pp": 0.21819048541812497,
+      "mean_signed_gap_pp": -0.13325910118463663,
+      "extra_run_inversion_pct": 0.0,
+      "wicket_inversion_pct": 0.0
+    },
+    {
+      "year": 2024,
+      "innings": 1,
+      "events": 20919,
+      "mean_coherence_gap_pp": 0.21243529490194402,
+      "mean_signed_gap_pp": -0.04639397550647556,
+      "extra_run_inversion_pct": 0.0,
+      "wicket_inversion_pct": 0.0
+    },
+    {
+      "year": 2024,
+      "innings": 2,
+      "events": 19239,
+      "mean_coherence_gap_pp": 0.1976003432411855,
+      "mean_signed_gap_pp": -0.0980467220002082,
+      "extra_run_inversion_pct": 0.0,
+      "wicket_inversion_pct": 0.0
+    },
+    {
+      "year": 2025,
+      "innings": 1,
+      "events": 22098,
+      "mean_coherence_gap_pp": 0.1911356233852686,
+      "mean_signed_gap_pp": -0.0324391061646845,
+      "extra_run_inversion_pct": 0.0,
+      "wicket_inversion_pct": 0.18553715268350077
+    },
+    {
+      "year": 2025,
+      "innings": 2,
+      "events": 20062,
+      "mean_coherence_gap_pp": 0.1417284492192193,
+      "mean_signed_gap_pp": 0.013949976716227951,
+      "extra_run_inversion_pct": 0.0,
+      "wicket_inversion_pct": 0.0
+    },
+    {
+      "year": 2026,
+      "innings": 1,
+      "events": 16336,
+      "mean_coherence_gap_pp": 0.1989070494804884,
+      "mean_signed_gap_pp": -0.0429632526893865,
+      "extra_run_inversion_pct": 0.0,
+      "wicket_inversion_pct": 0.0979431929480901
+    },
+    {
+      "year": 2026,
+      "innings": 2,
+      "events": 14745,
+      "mean_coherence_gap_pp": 0.11228693448716322,
+      "mean_signed_gap_pp": -0.023708252708891226,
+      "extra_run_inversion_pct": 0.0,
+      "wicket_inversion_pct": 0.0
+    }
+  ],
+  "outcome_count": 52,
+  "outcomes": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      2,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      2,
+      1,
+      0
+    ],
+    [
+      2,
+      1,
+      1
+    ],
+    [
+      3,
+      0,
+      0
+    ],
+    [
+      3,
+      0,
+      1
+    ],
+    [
+      3,
+      1,
+      0
+    ],
+    [
+      3,
+      1,
+      1
+    ],
+    [
+      4,
+      0,
+      0
+    ],
+    [
+      4,
+      0,
+      1
+    ],
+    [
+      4,
+      1,
+      0
+    ],
+    [
+      4,
+      1,
+      1
+    ],
+    [
+      5,
+      0,
+      0
+    ],
+    [
+      5,
+      0,
+      1
+    ],
+    [
+      5,
+      1,
+      0
+    ],
+    [
+      5,
+      1,
+      1
+    ],
+    [
+      6,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      1
+    ],
+    [
+      6,
+      1,
+      0
+    ],
+    [
+      6,
+      1,
+      1
+    ],
+    [
+      7,
+      0,
+      0
+    ],
+    [
+      7,
+      0,
+      1
+    ],
+    [
+      7,
+      1,
+      0
+    ],
+    [
+      7,
+      1,
+      1
+    ],
+    [
+      8,
+      0,
+      0
+    ],
+    [
+      8,
+      0,
+      1
+    ],
+    [
+      8,
+      1,
+      0
+    ],
+    [
+      8,
+      1,
+      1
+    ],
+    [
+      9,
+      0,
+      0
+    ],
+    [
+      9,
+      0,
+      1
+    ],
+    [
+      9,
+      1,
+      0
+    ],
+    [
+      9,
+      1,
+      1
+    ],
+    [
+      10,
+      0,
+      0
+    ],
+    [
+      10,
+      0,
+      1
+    ],
+    [
+      10,
+      1,
+      0
+    ],
+    [
+      10,
+      1,
+      1
+    ],
+    [
+      11,
+      0,
+      0
+    ],
+    [
+      11,
+      0,
+      1
+    ],
+    [
+      11,
+      1,
+      0
+    ],
+    [
+      11,
+      1,
+      1
+    ],
+    [
+      12,
+      0,
+      0
+    ],
+    [
+      12,
+      0,
+      1
+    ],
+    [
+      12,
+      1,
+      0
+    ],
+    [
+      12,
+      1,
+      1
+    ]
+  ],
+  "bootstrap_draws": 6000,
+  "bootstrap_seed": 20261116,
+  "screened": [
+    {
+      "group": "IPL",
+      "events": 85096,
+      "matches": 352
+    },
+    {
+      "group": "T20I",
+      "events": 99380,
+      "matches": 419
+    }
+  ],
+  "warmup_events": 40387,
+  "warmup_matches": 167,
+  "rankings": {
+    "bowl": {
+      "rankings": [
+        {
+          "player": 4201,
+          "name": "Fareed Malik",
+          "events": 63,
+          "balls": 62,
+          "fixtures": 8,
+          "rating_pp": 5.9785444353,
+          "ci_low": -1.1685073036,
+          "ci_high": 10.3270727972
+        },
+        {
+          "player": 3720,
+          "name": "Craig Young",
+          "events": 88,
+          "balls": 86,
+          "fixtures": 10,
+          "rating_pp": 3.5388952611,
+          "ci_low": -0.782919644,
+          "ci_high": 8.2304423321
+        },
+        {
+          "player": 6643,
+          "name": "Hasan Mahmud",
+          "events": 63,
+          "balls": 62,
+          "fixtures": 8,
+          "rating_pp": 2.7091593269,
+          "ci_low": -0.9527948759,
+          "ci_high": 7.6797292188
+        },
+        {
+          "player": 28,
+          "name": "Ishant Sharma",
+          "events": 115,
+          "balls": 108,
+          "fixtures": 15,
+          "rating_pp": 2.235760602,
+          "ci_low": -0.737735592,
+          "ci_high": 5.2031342118
+        },
+        {
+          "player": 3323,
+          "name": "Jimmy Neesham",
+          "events": 93,
+          "balls": 88,
+          "fixtures": 12,
+          "rating_pp": 2.0744022978,
+          "ci_low": -0.9660305609,
+          "ci_high": 3.1992955985
+        },
+        {
+          "player": 5379,
+          "name": "Mark Adair",
+          "events": 178,
+          "balls": 168,
+          "fixtures": 18,
+          "rating_pp": 1.9565085949,
+          "ci_low": -0.4605068239,
+          "ci_high": 4.6785117713
+        },
+        {
+          "player": 4487,
+          "name": "Vyshak Kumar",
+          "events": 133,
+          "balls": 120,
+          "fixtures": 16,
+          "rating_pp": 1.756114203,
+          "ci_low": -0.708195806,
+          "ci_high": 6.207885105
+        },
+        {
+          "player": 403,
+          "name": "Umesh Yadav",
+          "events": 82,
+          "balls": 80,
+          "fixtures": 9,
+          "rating_pp": 1.6035729288,
+          "ci_low": -0.6987330449,
+          "ci_high": 3.3305853439
+        },
+        {
+          "player": 829,
+          "name": "Mitchell Starc",
+          "events": 198,
+          "balls": 186,
+          "fixtures": 21,
+          "rating_pp": 1.4756411306,
+          "ci_low": -1.4894893137,
+          "ci_high": 4.0916743052
+        },
+        {
+          "player": 360,
+          "name": "Bhuvneshwar Kumar",
+          "events": 533,
+          "balls": 515,
+          "fixtures": 41,
+          "rating_pp": 1.4672847683,
+          "ci_low": -0.2322456673,
+          "ci_high": 4.2599760564
+        }
+      ],
+      "sensitivities": {
+        "Primary": {
+          "eligible": 154,
+          "overlap": 10,
+          "leader": "Fareed Malik"
+        },
+        "Unweighted": {
+          "eligible": 154,
+          "overlap": 0,
+          "leader": "Corbin Bosch"
+        },
+        "State-only expectation": {
+          "eligible": 154,
+          "overlap": 10,
+          "leader": "Fareed Malik"
+        },
+        "Top 30%": {
+          "eligible": 165,
+          "overlap": 9,
+          "leader": "Fareed Malik"
+        },
+        "Top 20%": {
+          "eligible": 133,
+          "overlap": 7,
+          "leader": "Craig Young"
+        },
+        "Top 10%": {
+          "eligible": 74,
+          "overlap": 5,
+          "leader": "Ishant Sharma"
+        },
+        "Format-specific quartiles": {
+          "eligible": 157,
+          "overlap": 10,
+          "leader": "Fareed Malik"
+        },
+        "Year-specific quartiles": {
+          "eligible": 148,
+          "overlap": 7,
+          "leader": "Fareed Malik"
+        },
+        "2024–26, recomputed quartile": {
+          "eligible": 133,
+          "overlap": 4,
+          "leader": "Craig Young"
+        },
+        "Centered pre-ball probability": {
+          "eligible": 154,
+          "overlap": 6,
+          "leader": "Fareed Malik"
+        },
+        "Chase only": {
+          "eligible": 102,
+          "overlap": 3,
+          "leader": "Bhuvneshwar Kumar"
+        },
+        "First innings only": {
+          "eligible": 60,
+          "overlap": 1,
+          "leader": "Jason Holder"
+        },
+        "IPL only": {
+          "eligible": 83,
+          "overlap": 5,
+          "leader": "Prasidh Krishna"
+        },
+        "T20I only": {
+          "eligible": 80,
+          "overlap": 5,
+          "leader": "Fareed Malik"
+        },
+        "Legal balls only": {
+          "eligible": 154,
+          "overlap": 8,
+          "leader": "Fareed Malik"
+        },
+        "No run-outs, byes or innings changes": {
+          "eligible": 146,
+          "overlap": 8,
+          "leader": "Fareed Malik"
+        },
+        "Old scoreboard flag, unweighted WPA": {
+          "eligible": 104,
+          "overlap": 0,
+          "leader": "Gudakesh Motie"
+        },
+        "2026 only, frozen quartile": {
+          "eligible": 33,
+          "overlap": 1,
+          "leader": "Prasidh Krishna"
+        },
+        "Alternative WP model": {
+          "eligible": 150,
+          "overlap": 8,
+          "leader": "Fareed Malik"
+        }
+      },
+      "old_top10_overlap": 0,
+      "old_overlap_names": [],
+      "own_tested": 151,
+      "own_ci_excludes_zero": 15,
+      "own_fdr": 0,
+      "own_fdr_names": [],
+      "own_comparison": [
+        {
+          "player": 2417,
+          "name": "Akeal Hosein",
+          "high_balls": 512,
+          "low_balls": 442,
+          "high_fixtures": 47,
+          "low_fixtures": 43,
+          "high_pct_leverage": 2.1908462307,
+          "low_pct_leverage": 2.3250659283,
+          "change_pct_leverage": -0.1342196976,
+          "ci_low": -23.6910554756,
+          "ci_high": 23.2785018175,
+          "high_pp": 0.0523705882,
+          "low_pp": 0.0137321733,
+          "change_pp": 0.0386384148,
+          "change_pp_ci_low": -0.2592918949,
+          "change_pp_ci_high": 0.3373305684,
+          "p": 0.9841693051,
+          "q_bh": 0.9975004166
+        },
+        {
+          "player": 2933,
+          "name": "Jasprit Bumrah",
+          "high_balls": 306,
+          "low_balls": 612,
+          "high_fixtures": 32,
+          "low_fixtures": 48,
+          "high_pct_leverage": 14.9202335182,
+          "low_pct_leverage": 20.5986120715,
+          "change_pct_leverage": -5.6783785532,
+          "ci_low": -28.8043148191,
+          "ci_high": 18.0419545006,
+          "high_pp": 0.3670121377,
+          "low_pp": 0.1116499067,
+          "change_pp": 0.255362231,
+          "change_pp_ci_low": -0.193435056,
+          "change_pp_ci_high": 0.6934872183,
+          "p": 0.6312281286,
+          "q_bh": 0.989378059
+        }
+      ],
+      "repeatability": {
+        "common_players": 51,
+        "historical_rmse_pp": 1.9707026271769725,
+        "zero_rmse_pp": 1.1743889281210904,
+        "spearman": -0.09981900452488687
+      },
+      "pair": {
+        "Primary": {
+          "names": [
+            "Jasprit Bumrah",
+            "Akeal Hosein"
+          ],
+          "balls": [
+            306,
+            512
+          ],
+          "events": [
+            318,
+            527
+          ],
+          "matches": [
+            32,
+            47
+          ],
+          "ratings": [
+            0.6953081386378628,
+            0.07372396077221988
+          ],
+          "gap_pp": 0.6215841778656429,
+          "ci": [
+            -0.0818572225004729,
+            1.3094020115480745
+          ],
+          "a_above_fraction": 0.9585
+        },
+        "Unweighted": {
+          "names": [
+            "Jasprit Bumrah",
+            "Akeal Hosein"
+          ],
+          "balls": [
+            306,
+            512
+          ],
+          "events": [
+            318,
+            527
+          ],
+          "matches": [
+            32,
+            47
+          ],
+          "ratings": [
+            0.3670121376852726,
+            0.052370588156734975
+          ],
+          "gap_pp": 0.3146415495285376,
+          "ci": [
+            -0.20930483819317433,
+            0.858129925584226
+          ],
+          "a_above_fraction": 0.8825
+        },
+        "State-only expectation": {
+          "names": [
+            "Jasprit Bumrah",
+            "Akeal Hosein"
+          ],
+          "balls": [
+            306,
+            512
+          ],
+          "events": [
+            318,
+            527
+          ],
+          "matches": [
+            32,
+            47
+          ],
+          "ratings": [
+            0.6898645917237531,
+            0.062374924857821354
+          ],
+          "gap_pp": 0.6274896668659318,
+          "ci": [
+            -0.07371599199744676,
+            1.314586656919015
+          ],
+          "a_above_fraction": 0.961
+        },
+        "Top 30%": {
+          "names": [
+            "Jasprit Bumrah",
+            "Akeal Hosein"
+          ],
+          "balls": [
+            381,
+            579
+          ],
+          "events": [
+            396,
+            596
+          ],
+          "matches": [
+            35,
+            48
+          ],
+          "ratings": [
+            0.6223733077047598,
+            0.028179396858578756
+          ],
+          "gap_pp": 0.5941939108461811,
+          "ci": [
+            -0.10039903266870187,
+            1.2519442559125336
+          ],
+          "a_above_fraction": 0.9573333333333334
+        },
+        "Top 20%": {
+          "names": [
+            "Jasprit Bumrah",
+            "Akeal Hosein"
+          ],
+          "balls": [
+            230,
+            395
+          ],
+          "events": [
+            241,
+            406
+          ],
+          "matches": [
+            31,
+            43
+          ],
+          "ratings": [
+            0.8736030745072898,
+            0.14734397259938817
+          ],
+          "gap_pp": 0.7262591019079017,
+          "ci": [
+            -0.1371116015528677,
+            1.5881612776886
+          ],
+          "a_above_fraction": 0.9456666666666667
+        },
+        "Top 10%": {
+          "names": [
+            "Jasprit Bumrah",
+            "Akeal Hosein"
+          ],
+          "balls": [
+            94,
+            186
+          ],
+          "events": [
+            98,
+            191
+          ],
+          "matches": [
+            18,
+            28
+          ],
+          "ratings": [
+            1.318284629172912,
+            0.18681770430462635
+          ],
+          "gap_pp": 1.1314669248682856,
+          "ci": [
+            -0.22617353502800802,
+            2.3312479262598784
+          ],
+          "a_above_fraction": 0.9488333333333333
+        },
+        "Format-specific quartiles": {
+          "names": [
+            "Jasprit Bumrah",
+            "Akeal Hosein"
+          ],
+          "balls": [
+            301,
+            539
+          ],
+          "events": [
+            312,
+            553
+          ],
+          "matches": [
+            33,
+            47
+          ],
+          "ratings": [
+            0.6871778104027189,
+            0.0807019902165767
+          ],
+          "gap_pp": 0.6064758201861422,
+          "ci": [
+            -0.13998298526364641,
+            1.3098599898277434
+          ],
+          "a_above_fraction": 0.9448333333333333
+        },
+        "Year-specific quartiles": {
+          "names": [
+            "Jasprit Bumrah",
+            "Akeal Hosein"
+          ],
+          "balls": [
+            319,
+            521
+          ],
+          "events": [
+            330,
+            534
+          ],
+          "matches": [
+            33,
+            51
+          ],
+          "ratings": [
+            0.7786740124630376,
+            0.06557403014306178
+          ],
+          "gap_pp": 0.7130999823199758,
+          "ci": [
+            0.022744238374546092,
+            1.3971575401490055
+          ],
+          "a_above_fraction": 0.9776666666666667
+        },
+        "2024–26, recomputed quartile": {
+          "names": [
+            "Jasprit Bumrah",
+            "Akeal Hosein"
+          ],
+          "balls": [
+            354,
+            421
+          ],
+          "events": [
+            366,
+            435
+          ],
+          "matches": [
+            33,
+            37
+          ],
+          "ratings": [
+            0.6694794709218206,
+            0.06661619857919275
+          ],
+          "gap_pp": 0.6028632723426278,
+          "ci": [
+            -0.15660196034934068,
+            1.3500848316409315
+          ],
+          "a_above_fraction": 0.9395
+        },
+        "Centered pre-ball probability": {
+          "names": [
+            "Jasprit Bumrah",
+            "Akeal Hosein"
+          ],
+          "balls": [
+            294,
+            490
+          ],
+          "events": [
+            306,
+            505
+          ],
+          "matches": [
+            31,
+            46
+          ],
+          "ratings": [
+            0.7744397175927951,
+            0.1314366060772659
+          ],
+          "gap_pp": 0.6430031115155291,
+          "ci": [
+            -0.1096144408182127,
+            1.3771750967774832
+          ],
+          "a_above_fraction": 0.9513333333333334
+        },
+        "Chase only": {
+          "names": [
+            "Jasprit Bumrah",
+            "Akeal Hosein"
+          ],
+          "balls": [
+            180,
+            315
+          ],
+          "events": [
+            184,
+            329
+          ],
+          "matches": [
+            15,
+            27
+          ],
+          "ratings": [
+            1.1119614016270292,
+            0.19423915956551574
+          ],
+          "gap_pp": 0.9177222420615134,
+          "ci": [
+            -0.1625899773223049,
+            1.8901067833755651
+          ],
+          "a_above_fraction": 0.9541666666666667
+        },
+        "First innings only": {
+          "names": [
+            "Jasprit Bumrah",
+            "Akeal Hosein"
+          ],
+          "balls": [
+            126,
+            197
+          ],
+          "events": [
+            134,
+            198
+          ],
+          "matches": [
+            17,
+            20
+          ],
+          "ratings": [
+            -0.001647732484726619,
+            -0.1384072872752732
+          ],
+          "gap_pp": 0.13675955479054658,
+          "ci": [
+            -0.43559129889085796,
+            0.7449246393308148
+          ],
+          "a_above_fraction": 0.6871666666666667
+        },
+        "IPL only": {
+          "names": [
+            "Jasprit Bumrah",
+            "Akeal Hosein"
+          ],
+          "balls": [
+            193,
+            87
+          ],
+          "events": [
+            199,
+            90
+          ],
+          "matches": [
+            19,
+            7
+          ],
+          "ratings": [
+            0.8653101723729724,
+            0.08577917174220918
+          ],
+          "gap_pp": 0.7795310006307632,
+          "ci": [
+            -0.6311656149576035,
+            1.9605836205345193
+          ],
+          "a_above_fraction": 0.8700800533689126
+        },
+        "T20I only": {
+          "names": [
+            "Jasprit Bumrah",
+            "Akeal Hosein"
+          ],
+          "balls": [
+            113,
+            425
+          ],
+          "events": [
+            119,
+            437
+          ],
+          "matches": [
+            13,
+            40
+          ],
+          "ratings": [
+            0.3168259553395737,
+            0.07111180837215521
+          ],
+          "gap_pp": 0.2457141469674185,
+          "ci": [
+            -0.35261314400338883,
+            0.885795343107285
+          ],
+          "a_above_fraction": 0.7915
+        },
+        "Legal balls only": {
+          "names": [
+            "Jasprit Bumrah",
+            "Akeal Hosein"
+          ],
+          "balls": [
+            306,
+            512
+          ],
+          "events": [
+            306,
+            512
+          ],
+          "matches": [
+            32,
+            47
+          ],
+          "ratings": [
+            0.861250283192362,
+            0.1423461478129973
+          ],
+          "gap_pp": 0.7189041353793647,
+          "ci": [
+            0.021972411422086797,
+            1.4057493223483977
+          ],
+          "a_above_fraction": 0.9778333333333333
+        },
+        "No run-outs, byes or innings changes": {
+          "names": [
+            "Jasprit Bumrah",
+            "Akeal Hosein"
+          ],
+          "balls": [
+            287,
+            509
+          ],
+          "events": [
+            299,
+            524
+          ],
+          "matches": [
+            30,
+            47
+          ],
+          "ratings": [
+            0.2518830691999917,
+            0.07652640102505115
+          ],
+          "gap_pp": 0.17535666817494056,
+          "ci": [
+            -0.5415394442600892,
+            0.8399469268675859
+          ],
+          "a_above_fraction": 0.685
+        },
+        "Old scoreboard flag, unweighted WPA": {
+          "names": [
+            "Jasprit Bumrah",
+            "Akeal Hosein"
+          ],
+          "balls": [
+            126,
+            96
+          ],
+          "events": [
+            129,
+            98
+          ],
+          "matches": [
+            19,
+            18
+          ],
+          "ratings": [
+            0.6881916742872197,
+            0.4297198872404204
+          ],
+          "gap_pp": 0.25847178704679935,
+          "ci": [
+            -0.5406278590967716,
+            1.0359544141269097
+          ],
+          "a_above_fraction": 0.7416666666666667
+        },
+        "2026 only, frozen quartile": {
+          "names": [
+            "Jasprit Bumrah",
+            "Akeal Hosein"
+          ],
+          "balls": [
+            134,
+            138
+          ],
+          "events": [
+            143,
+            143
+          ],
+          "matches": [
+            14,
+            13
+          ],
+          "ratings": [
+            0.36308345650788887,
+            0.035769303512837844
+          ],
+          "gap_pp": 0.327314152995051,
+          "ci": [
+            -0.9745125790171394,
+            1.4989183371433212
+          ],
+          "a_above_fraction": 0.6666666666666666
+        },
+        "Alternative WP model": {
+          "names": [
+            "Jasprit Bumrah",
+            "Akeal Hosein"
+          ],
+          "balls": [
+            346,
+            473
+          ],
+          "events": [
+            360,
+            485
+          ],
+          "matches": [
+            33,
+            46
+          ],
+          "ratings": [
+            0.5777789484579616,
+            0.14523998983764577
+          ],
+          "gap_pp": 0.4325389586203159,
+          "ci": [
+            -0.2687840213706631,
+            1.1119694763529577
+          ],
+          "a_above_fraction": 0.8861666666666667
+        }
+      }
+    },
+    "bat": {
+      "rankings": [
+        {
+          "player": 7446,
+          "name": "Abdul Samad",
+          "events": 69,
+          "balls": 61,
+          "fixtures": 14,
+          "rating_pp": 14.6438679839,
+          "ci_low": -7.5772580489,
+          "ci_high": 33.7236671705
+        },
+        {
+          "player": 2984,
+          "name": "Sikandar Raza",
+          "events": 155,
+          "balls": 148,
+          "fixtures": 17,
+          "rating_pp": 8.4476069111,
+          "ci_low": -1.154373015,
+          "ci_high": 23.4533012815
+        },
+        {
+          "player": 4708,
+          "name": "Rinku Singh",
+          "events": 140,
+          "balls": 128,
+          "fixtures": 25,
+          "rating_pp": 8.248476218,
+          "ci_low": -2.569349971,
+          "ci_high": 21.3614041714
+        },
+        {
+          "player": 6396,
+          "name": "Tim David",
+          "events": 207,
+          "balls": 194,
+          "fixtures": 34,
+          "rating_pp": 7.8104273299,
+          "ci_low": 0.4240879763,
+          "ci_high": 17.2679506753
+        },
+        {
+          "player": 838,
+          "name": "Glenn Maxwell",
+          "events": 183,
+          "balls": 173,
+          "fixtures": 14,
+          "rating_pp": 6.7332839634,
+          "ci_low": 0.3233731967,
+          "ci_high": 14.8901054976
+        },
+        {
+          "player": 8101,
+          "name": "Ashutosh Sharma",
+          "events": 124,
+          "balls": 115,
+          "fixtures": 14,
+          "rating_pp": 3.1621970537,
+          "ci_low": 0.4455819032,
+          "ci_high": 7.9966824288
+        },
+        {
+          "player": 2436,
+          "name": "Dasun Shanaka",
+          "events": 102,
+          "balls": 96,
+          "fixtures": 13,
+          "rating_pp": 2.0204657045,
+          "ci_low": -0.983261744,
+          "ci_high": 4.9456534434
+        },
+        {
+          "player": 6280,
+          "name": "Harry Brook",
+          "events": 133,
+          "balls": 125,
+          "fixtures": 17,
+          "rating_pp": 1.8050337901,
+          "ci_low": -1.1410917395,
+          "ci_high": 5.3900145318
+        },
+        {
+          "player": 37052,
+          "name": "Naman Dhir",
+          "events": 69,
+          "balls": 67,
+          "fixtures": 16,
+          "rating_pp": 1.4512779631,
+          "ci_low": -1.8225449043,
+          "ci_high": 3.5165823885
+        },
+        {
+          "player": 3926,
+          "name": "Rahul Tewatia",
+          "events": 95,
+          "balls": 93,
+          "fixtures": 21,
+          "rating_pp": 1.4361931372,
+          "ci_low": -0.4263426536,
+          "ci_high": 3.6297076997
+        }
+      ],
+      "sensitivities": {
+        "Primary": {
+          "eligible": 135,
+          "overlap": 10,
+          "leader": "Abdul Samad"
+        },
+        "Unweighted": {
+          "eligible": 135,
+          "overlap": 5,
+          "leader": "Rinku Singh"
+        },
+        "State-only expectation": {
+          "eligible": 135,
+          "overlap": 10,
+          "leader": "Abdul Samad"
+        },
+        "Top 30%": {
+          "eligible": 149,
+          "overlap": 9,
+          "leader": "Abdul Samad"
+        },
+        "Top 20%": {
+          "eligible": 118,
+          "overlap": 8,
+          "leader": "Sikandar Raza"
+        },
+        "Top 10%": {
+          "eligible": 69,
+          "overlap": 5,
+          "leader": "Tim David"
+        },
+        "Format-specific quartiles": {
+          "eligible": 135,
+          "overlap": 9,
+          "leader": "Sikandar Raza"
+        },
+        "Year-specific quartiles": {
+          "eligible": 141,
+          "overlap": 10,
+          "leader": "Abdul Samad"
+        },
+        "2024–26, recomputed quartile": {
+          "eligible": 119,
+          "overlap": 4,
+          "leader": "Tim David"
+        },
+        "Centered pre-ball probability": {
+          "eligible": 137,
+          "overlap": 9,
+          "leader": "Abdul Samad"
+        },
+        "Chase only": {
+          "eligible": 97,
+          "overlap": 8,
+          "leader": "Rinku Singh"
+        },
+        "First innings only": {
+          "eligible": 50,
+          "overlap": 1,
+          "leader": "Vaibhav Sooryavanshi"
+        },
+        "IPL only": {
+          "eligible": 78,
+          "overlap": 5,
+          "leader": "Abdul Samad"
+        },
+        "T20I only": {
+          "eligible": 76,
+          "overlap": 3,
+          "leader": "Tim David"
+        },
+        "Legal balls only": {
+          "eligible": 135,
+          "overlap": 9,
+          "leader": "Abdul Samad"
+        },
+        "No run-outs, byes or innings changes": {
+          "eligible": 132,
+          "overlap": 9,
+          "leader": "Rinku Singh"
+        },
+        "Old scoreboard flag, unweighted WPA": {
+          "eligible": 81,
+          "overlap": 3,
+          "leader": "Shreyas Iyer"
+        },
+        "2026 only, frozen quartile": {
+          "eligible": 28,
+          "overlap": 0,
+          "leader": "Devdutt Padikkal"
+        },
+        "Alternative WP model": {
+          "eligible": 133,
+          "overlap": 9,
+          "leader": "Abdul Samad"
+        }
+      },
+      "old_top10_overlap": 0,
+      "old_overlap_names": [],
+      "own_tested": 122,
+      "own_ci_excludes_zero": 6,
+      "own_fdr": 0,
+      "own_fdr_names": [],
+      "own_comparison": [],
+      "repeatability": {
+        "common_players": 58,
+        "historical_rmse_pp": 1.8207466310909892,
+        "zero_rmse_pp": 1.0179709270006536,
+        "spearman": 0.21732443323387374
+      },
+      "pair": {}
+    }
+  },
+  "thresholds_pp": {
+    "50": 1.0501695484203868,
+    "70": 1.5266130603465002,
+    "75": 1.6784397370559423,
+    "80": 1.8425362785451074,
+    "90": 2.4649291168033822,
+    "2026_frozen": 1.652207993470511
+  },
+  "high_events": 36023,
+  "low_events": 72045,
+  "events": 144089,
+  "matches": 604,
+  "legacy_events": 19865,
+  "overlap_events": 8029,
+  "alt_overlap": 33507,
+  "profiles": [
+    {
+      "grouping": "innings",
+      "value": "1",
+      "events": 75204,
+      "high": 13152,
+      "legacy": 6593,
+      "mean_leverage_pp": 1.184634629903315,
+      "mean_abs_realised_pp": 1.2055859615962583
+    },
+    {
+      "grouping": "innings",
+      "value": "2",
+      "events": 68885,
+      "high": 22871,
+      "legacy": 13272,
+      "mean_leverage_pp": 1.453756209704146,
+      "mean_abs_realised_pp": 1.4846592568865307
+    },
+    {
+      "grouping": "phase",
+      "value": "Powerplay",
+      "events": 45304,
+      "high": 18116,
+      "legacy": 1278,
+      "mean_leverage_pp": 1.5059668264709551,
+      "mean_abs_realised_pp": 1.5901142677776763
+    },
+    {
+      "grouping": "phase",
+      "value": "Middle",
+      "events": 66566,
+      "high": 10919,
+      "legacy": 13901,
+      "mean_leverage_pp": 1.0283132363040102,
+      "mean_abs_realised_pp": 1.024412606751025
+    },
+    {
+      "grouping": "phase",
+      "value": "Death",
+      "events": 32219,
+      "high": 6988,
+      "legacy": 4686,
+      "mean_leverage_pp": 1.6311567465925731,
+      "mean_abs_realised_pp": 1.635868686120771
+    },
+    {
+      "grouping": "group",
+      "value": "IPL",
+      "events": 67657,
+      "high": 18554,
+      "legacy": 9272,
+      "mean_leverage_pp": 1.3918833873072092,
+      "mean_abs_realised_pp": 1.407953098723839
+    },
+    {
+      "grouping": "group",
+      "value": "T20I",
+      "events": 76432,
+      "high": 17469,
+      "legacy": 10593,
+      "mean_leverage_pp": 1.2437278218243035,
+      "mean_abs_realised_pp": 1.2779693945749804
+    },
+    {
+      "grouping": "year",
+      "value": "2023",
+      "events": 30690,
+      "high": 11670,
+      "legacy": 4298,
+      "mean_leverage_pp": 1.649620102999096,
+      "mean_abs_realised_pp": 1.6547636442751674
+    },
+    {
+      "grouping": "year",
+      "value": "2024",
+      "events": 40158,
+      "high": 4897,
+      "legacy": 5894,
+      "mean_leverage_pp": 1.0752394384518114,
+      "mean_abs_realised_pp": 1.103310777158068
+    },
+    {
+      "grouping": "year",
+      "value": "2025",
+      "events": 42160,
+      "high": 10622,
+      "legacy": 5619,
+      "mean_leverage_pp": 1.275892405453123,
+      "mean_abs_realised_pp": 1.3010398169352473
+    },
+    {
+      "grouping": "year",
+      "value": "2026",
+      "events": 31081,
+      "high": 8834,
+      "legacy": 4054,
+      "mean_leverage_pp": 1.339510603533517,
+      "mean_abs_realised_pp": 1.3832357534379556
+    },
+    {
+      "grouping": "knock_out",
+      "value": "0",
+      "events": 139918,
+      "high": 34914,
+      "legacy": 19284,
+      "mean_leverage_pp": 1.314770889414034,
+      "mean_abs_realised_pp": 1.3405455559039492
+    },
+    {
+      "grouping": "knock_out",
+      "value": "1",
+      "events": 4171,
+      "high": 1109,
+      "legacy": 581,
+      "mean_leverage_pp": 1.2637607067097152,
+      "mean_abs_realised_pp": 1.2872659974933884
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario": "Late and effectively decided",
+      "events": 3175,
+      "high": 129,
+      "median_leverage_pp": 0.22194624683809705
+    },
+    {
+      "scenario": "Late and competitive",
+      "events": 836,
+      "high": 836,
+      "median_leverage_pp": 5.723713270254086
+    },
+    {
+      "scenario": "Late, 10+ RRR and two wickets left",
+      "events": 1389,
+      "high": 369,
+      "median_leverage_pp": 0.32635198684676375
+    },
+    {
+      "scenario": "Late, fair chase below 10 RRR",
+      "events": 404,
+      "high": 404,
+      "median_leverage_pp": 3.663347406654173
+    },
+    {
+      "scenario": "Needs 24–30 runs off 18, at least 3 wickets",
+      "events": 59,
+      "high": 50,
+      "median_leverage_pp": 2.3722423858298805
+    },
+    {
+      "scenario": "Needs 18–27 runs off 18, 0–2 wickets lost",
+      "events": 8,
+      "high": 2,
+      "median_leverage_pp": 1.1819917146641041
+    }
+  ],
+  "period_counts": [
+    {
+      "year": "2023",
+      "events": 30690,
+      "matches": 127,
+      "high": 11670
+    },
+    {
+      "year": "2024",
+      "events": 40158,
+      "matches": 168,
+      "high": 4897
+    },
+    {
+      "year": "2025",
+      "events": 42160,
+      "matches": 178,
+      "high": 10622
+    },
+    {
+      "year": "2026",
+      "events": 31081,
+      "matches": 131,
+      "high": 8834
+    }
+  ]
+}

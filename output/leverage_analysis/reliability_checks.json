@@ -1,0 +1,42 @@
+{
+  "bowl": {
+    "120 balls and 12 matches": {
+      "top10_overlap": 4,
+      "leader": "Mark Adair",
+      "leader_balls": 168,
+      "leader_score": 1.9565085984782382
+    },
+    "Bootstrap Q25": {
+      "top10_overlap": 3,
+      "leader": "Jimmy Neesham",
+      "leader_balls": 88,
+      "leader_score": 2.074402240885508
+    },
+    "Worst match removed": {
+      "top10_overlap": 1,
+      "leader": "Jimmy Neesham",
+      "leader_balls": 88,
+      "leader_score": 2.074402240885508
+    }
+  },
+  "bat": {
+    "120 balls and 12 matches": {
+      "top10_overlap": 5,
+      "leader": "Sikandar Raza",
+      "leader_balls": 148,
+      "leader_score": 8.447606894958623
+    },
+    "Bootstrap Q25": {
+      "top10_overlap": 5,
+      "leader": "Tim David",
+      "leader_balls": 194,
+      "leader_score": 7.810427345899744
+    },
+    "Worst match removed": {
+      "top10_overlap": 4,
+      "leader": "Tim David",
+      "leader_balls": 194,
+      "leader_score": 7.810427345899744
+    }
+  }
+}

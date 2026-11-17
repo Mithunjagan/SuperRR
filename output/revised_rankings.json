@@ -1,0 +1,841 @@
+{
+  "matches": 771,
+  "events": 184476,
+  "pressure_events": 14381,
+  "format_matches": {
+    "IPL": 352,
+    "T20I": 419
+  },
+  "Batters": {
+    "top": [
+      {
+        "player": 25213,
+        "value": 57.1503,
+        "lift": 44.3874,
+        "balls": 106,
+        "matches": 12,
+        "rating": 34.4279,
+        "per100": 53.9153,
+        "lift_per100": 41.8749,
+        "name": "Dewald Brevis",
+        "rank": 1,
+        "p_top10": 0.684,
+        "rank_low": 1,
+        "rank_high": 36,
+        "positive_matches": 8,
+        "best_positive_share": 0.3578,
+        "drop_best_balls": 94.0,
+        "drop_best_rating": 18.1057,
+        "drop_best_rank": 12.0,
+        "original_rank": 2.0
+      },
+      {
+        "player": 3056,
+        "value": 39.7847,
+        "lift": 42.7246,
+        "balls": 62,
+        "matches": 9,
+        "rating": 32.6104,
+        "per100": 64.1689,
+        "lift_per100": 68.9107,
+        "name": "Iftikhar Ahmed",
+        "rank": 2,
+        "p_top10": 0.724,
+        "rank_low": 1,
+        "rank_high": 30,
+        "positive_matches": 6,
+        "best_positive_share": 0.4405,
+        "drop_best_balls": 48.0,
+        "drop_best_rating": 18.0007,
+        "drop_best_rank": null,
+        "original_rank": 1.0
+      },
+      {
+        "player": 4260,
+        "value": 77.4185,
+        "lift": 4.8965,
+        "balls": 194,
+        "matches": 23,
+        "rating": 30.4797,
+        "per100": 39.9064,
+        "lift_per100": 2.524,
+        "name": "Heinrich Klaasen",
+        "rank": 3,
+        "p_top10": 0.77,
+        "rank_low": 1,
+        "rank_high": 20,
+        "positive_matches": 18,
+        "best_positive_share": 0.1556,
+        "drop_best_balls": 176.0,
+        "drop_best_rating": 26.5262,
+        "drop_best_rank": 4.0,
+        "original_rank": 7.0
+      },
+      {
+        "player": 3647,
+        "value": 55.7721,
+        "lift": 30.1601,
+        "balls": 128,
+        "matches": 17,
+        "rating": 29.666,
+        "per100": 43.572,
+        "lift_per100": 23.5626,
+        "name": "Shreyas Iyer",
+        "rank": 4,
+        "p_top10": 0.669,
+        "rank_low": 1,
+        "rank_high": 30,
+        "positive_matches": 10,
+        "best_positive_share": 0.2809,
+        "drop_best_balls": 118.0,
+        "drop_best_rating": 18.8682,
+        "drop_best_rank": 11.0,
+        "original_rank": 4.0
+      },
+      {
+        "player": 4708,
+        "value": 56.1367,
+        "lift": 25.4843,
+        "balls": 162,
+        "matches": 18,
+        "rating": 25.2868,
+        "per100": 34.6523,
+        "lift_per100": 15.731,
+        "name": "Rinku Singh",
+        "rank": 5,
+        "p_top10": 0.636,
+        "rank_low": 2,
+        "rank_high": 26,
+        "positive_matches": 13,
+        "best_positive_share": 0.2187,
+        "drop_best_balls": 148.0,
+        "drop_best_rating": 19.3018,
+        "drop_best_rank": 10.0,
+        "original_rank": null
+      },
+      {
+        "player": 7897,
+        "value": 91.0887,
+        "lift": 29.187,
+        "balls": 301,
+        "matches": 29,
+        "rating": 25.2323,
+        "per100": 30.262,
+        "lift_per100": 9.6967,
+        "name": "Namboori Tilak Varma",
+        "rank": 6,
+        "p_top10": 0.557,
+        "rank_low": 1,
+        "rank_high": 27,
+        "positive_matches": 20,
+        "best_positive_share": 0.1866,
+        "drop_best_balls": 284.0,
+        "drop_best_rating": 19.6904,
+        "drop_best_rank": 10.0,
+        "original_rank": 9.0
+      },
+      {
+        "player": 3374,
+        "value": 38.0475,
+        "lift": 20.6428,
+        "balls": 93,
+        "matches": 9,
+        "rating": 24.8676,
+        "per100": 40.9113,
+        "lift_per100": 22.1966,
+        "name": "Mark Chapman",
+        "rank": 7,
+        "p_top10": 0.568,
+        "rank_low": 1,
+        "rank_high": 27,
+        "positive_matches": 7,
+        "best_positive_share": 0.4546,
+        "drop_best_balls": 76.0,
+        "drop_best_rating": 14.318,
+        "drop_best_rank": 17.0,
+        "original_rank": null
+      },
+      {
+        "player": 3125,
+        "value": 56.2493,
+        "lift": 21.1304,
+        "balls": 167,
+        "matches": 26,
+        "rating": 24.7794,
+        "per100": 33.6822,
+        "lift_per100": 12.6529,
+        "name": "Nicholas Pooran",
+        "rank": 8,
+        "p_top10": 0.534,
+        "rank_low": 1,
+        "rank_high": 33,
+        "positive_matches": 13,
+        "best_positive_share": 0.2496,
+        "drop_best_balls": 158.0,
+        "drop_best_rating": 15.0245,
+        "drop_best_rank": 16.0,
+        "original_rank": 6.0
+      },
+      {
+        "player": 4904,
+        "value": 36.3524,
+        "lift": 44.8505,
+        "balls": 100,
+        "matches": 12,
+        "rating": 22.7202,
+        "per100": 36.3524,
+        "lift_per100": 44.8505,
+        "name": "Kamindu Mendis",
+        "rank": 9,
+        "p_top10": 0.513,
+        "rank_low": 1,
+        "rank_high": 34,
+        "positive_matches": 9,
+        "best_positive_share": 0.3406,
+        "drop_best_balls": 93.0,
+        "drop_best_rating": 11.8193,
+        "drop_best_rank": 19.0,
+        "original_rank": 3.0
+      },
+      {
+        "player": 6396,
+        "value": 40.5911,
+        "lift": -3.0949,
+        "balls": 138,
+        "matches": 21,
+        "rating": 20.5005,
+        "per100": 29.4138,
+        "lift_per100": -2.2427,
+        "name": "Tim David",
+        "rank": 10,
+        "p_top10": 0.408,
+        "rank_low": 2,
+        "rank_high": 32,
+        "positive_matches": 13,
+        "best_positive_share": 0.2937,
+        "drop_best_balls": 126.0,
+        "drop_best_rating": 12.433,
+        "drop_best_rank": 19.0,
+        "original_rank": 5.0
+      }
+    ],
+    "eligible": 43,
+    "original_overlap": 8,
+    "window_overlap": 8,
+    "split": {
+      "IPL": {
+        "eligible": 22,
+        "overlap": 6,
+        "top": [
+          {
+            "player": 3647,
+            "name": "Shreyas Iyer",
+            "rank": 1,
+            "rating": 41.1679,
+            "balls": 96,
+            "matches": 12
+          },
+          {
+            "player": 4260,
+            "name": "Heinrich Klaasen",
+            "rank": 2,
+            "rating": 33.0472,
+            "balls": 177,
+            "matches": 21
+          },
+          {
+            "player": 3125,
+            "name": "Nicholas Pooran",
+            "rank": 3,
+            "rating": 24.7682,
+            "balls": 96,
+            "matches": 17
+          },
+          {
+            "player": 7897,
+            "name": "Namboori Tilak Varma",
+            "rank": 4,
+            "rating": 24.6566,
+            "balls": 227,
+            "matches": 20
+          },
+          {
+            "player": 4703,
+            "name": "Rishabh Pant",
+            "rank": 5,
+            "rating": 19.0434,
+            "balls": 63,
+            "matches": 8
+          },
+          {
+            "player": 4708,
+            "name": "Rinku Singh",
+            "rank": 6,
+            "rating": 11.7984,
+            "balls": 90,
+            "matches": 12
+          },
+          {
+            "player": 20702,
+            "name": "Tristan Stubbs",
+            "rank": 7,
+            "rating": 7.8139,
+            "balls": 67,
+            "matches": 11
+          },
+          {
+            "player": 25213,
+            "name": "Dewald Brevis",
+            "rank": 8,
+            "rating": 6.9972,
+            "balls": 67,
+            "matches": 9
+          },
+          {
+            "player": 4409,
+            "name": "Sam Curran",
+            "rank": 9,
+            "rating": 6.6943,
+            "balls": 62,
+            "matches": 8
+          },
+          {
+            "player": 1077,
+            "name": "David Miller",
+            "rank": 10,
+            "rating": 6.4703,
+            "balls": 149,
+            "matches": 20
+          }
+        ]
+      },
+      "T20I": {
+        "eligible": 18,
+        "overlap": 5,
+        "top": [
+          {
+            "player": 3056,
+            "name": "Iftikhar Ahmed",
+            "rank": 1,
+            "rating": 32.6104,
+            "balls": 62,
+            "matches": 9
+          },
+          {
+            "player": 3374,
+            "name": "Mark Chapman",
+            "rank": 2,
+            "rating": 24.8676,
+            "balls": 93,
+            "matches": 9
+          },
+          {
+            "player": 4904,
+            "name": "Kamindu Mendis",
+            "rank": 3,
+            "rating": 21.2961,
+            "balls": 98,
+            "matches": 11
+          },
+          {
+            "player": 3330,
+            "name": "Hardik Pandya",
+            "rank": 4,
+            "rating": 20.311,
+            "balls": 93,
+            "matches": 11
+          },
+          {
+            "player": 1107,
+            "name": "Mohammad Nabi",
+            "rank": 5,
+            "rating": 19.5883,
+            "balls": 78,
+            "matches": 8
+          },
+          {
+            "player": 7897,
+            "name": "Namboori Tilak Varma",
+            "rank": 6,
+            "rating": 15.1673,
+            "balls": 74,
+            "matches": 9
+          },
+          {
+            "player": 2687,
+            "name": "Roston Chase",
+            "rank": 7,
+            "rating": 14.8556,
+            "balls": 68,
+            "matches": 8
+          },
+          {
+            "player": 3125,
+            "name": "Nicholas Pooran",
+            "rank": 8,
+            "rating": 13.4434,
+            "balls": 71,
+            "matches": 9
+          },
+          {
+            "player": 4986,
+            "name": "Rovman Powell",
+            "rank": 9,
+            "rating": 12.8665,
+            "balls": 156,
+            "matches": 19
+          },
+          {
+            "player": 2436,
+            "name": "Dasun Shanaka",
+            "rank": 10,
+            "rating": 12.4262,
+            "balls": 80,
+            "matches": 13
+          }
+        ]
+      }
+    },
+    "sensitivity": {
+      "flat": {
+        "overlap": 10,
+        "leader": "Dewald Brevis"
+      },
+      "half": {
+        "overlap": 9,
+        "leader": "Dewald Brevis"
+      },
+      "higher": {
+        "overlap": 10,
+        "leader": "Dewald Brevis"
+      }
+    },
+    "holdout": {
+      "n": 14,
+      "train": 31,
+      "new": 0.398,
+      "original": 0.512,
+      "ordinary": 0.323
+    },
+    "cold_lost": 5398,
+    "cold_total": 13770,
+    "fine_state_median": 62.0,
+    "fine_state_empty_pct": 0.03678929765886288
+  },
+  "Bowlers": {
+    "top": [
+      {
+        "player": 4722,
+        "value": 114.528,
+        "lift": 56.4166,
+        "balls": 277,
+        "matches": 44,
+        "rating": 33.9846,
+        "per100": 41.3459,
+        "lift_per100": 20.367,
+        "name": "Rashid Khan",
+        "rank": 1,
+        "p_top10": 0.873,
+        "rank_low": 1,
+        "rank_high": 20,
+        "positive_matches": 31,
+        "best_positive_share": 0.1071,
+        "drop_best_balls": 271.0,
+        "drop_best_rating": 29.199,
+        "drop_best_rank": 2.0,
+        "original_rank": 1.0
+      },
+      {
+        "player": 830,
+        "value": 58.8497,
+        "lift": 30.9055,
+        "balls": 130,
+        "matches": 19,
+        "rating": 30.9735,
+        "per100": 45.269,
+        "lift_per100": 23.7735,
+        "name": "Josh Hazlewood",
+        "rank": 2,
+        "p_top10": 0.702,
+        "rank_low": 1,
+        "rank_high": 35,
+        "positive_matches": 12,
+        "best_positive_share": 0.2558,
+        "drop_best_balls": 118.0,
+        "drop_best_rating": 20.0036,
+        "drop_best_rank": 8.0,
+        "original_rank": 4.0
+      },
+      {
+        "player": 6256,
+        "value": 62.1712,
+        "lift": 41.3649,
+        "balls": 153,
+        "matches": 25,
+        "rating": 29.1884,
+        "per100": 40.6348,
+        "lift_per100": 27.0359,
+        "name": "Varun Chakravarthy",
+        "rank": 3,
+        "p_top10": 0.77,
+        "rank_low": 1,
+        "rank_high": 27,
+        "positive_matches": 19,
+        "best_positive_share": 0.1848,
+        "drop_best_balls": 140.0,
+        "drop_best_rating": 22.4986,
+        "drop_best_rank": 5.0,
+        "original_rank": 2.0
+      },
+      {
+        "player": 4900,
+        "value": 71.8072,
+        "lift": 43.0578,
+        "balls": 206,
+        "matches": 28,
+        "rating": 26.9952,
+        "per100": 34.8579,
+        "lift_per100": 20.9019,
+        "name": "Wanindu Hasaranga",
+        "rank": 4,
+        "p_top10": 0.727,
+        "rank_low": 1,
+        "rank_high": 28,
+        "positive_matches": 18,
+        "best_positive_share": 0.1179,
+        "drop_best_balls": 200.0,
+        "drop_best_rating": 22.5702,
+        "drop_best_rank": 5.0,
+        "original_rank": 3.0
+      },
+      {
+        "player": 2633,
+        "value": 47.0433,
+        "lift": 58.3403,
+        "balls": 138,
+        "matches": 21,
+        "rating": 23.7593,
+        "per100": 34.0894,
+        "lift_per100": 42.2756,
+        "name": "Jason Holder",
+        "rank": 5,
+        "p_top10": 0.62,
+        "rank_low": 1,
+        "rank_high": 31,
+        "positive_matches": 15,
+        "best_positive_share": 0.2608,
+        "drop_best_balls": 126.0,
+        "drop_best_rating": 16.0129,
+        "drop_best_rank": 9.0,
+        "original_rank": 5.0
+      },
+      {
+        "player": 5809,
+        "value": 26.968,
+        "lift": 18.3547,
+        "balls": 60,
+        "matches": 10,
+        "rating": 22.4733,
+        "per100": 44.9467,
+        "lift_per100": 30.5912,
+        "name": "Naveen ul Haq",
+        "rank": 6,
+        "p_top10": 0.562,
+        "rank_low": 2,
+        "rank_high": 23,
+        "positive_matches": 8,
+        "best_positive_share": 0.4175,
+        "drop_best_balls": 49.0,
+        "drop_best_rating": 13.9467,
+        "drop_best_rank": null,
+        "original_rank": 10.0
+      },
+      {
+        "player": 6355,
+        "value": 27.1301,
+        "lift": 21.9845,
+        "balls": 66,
+        "matches": 11,
+        "rating": 21.5318,
+        "per100": 41.1062,
+        "lift_per100": 33.3099,
+        "name": "Shaheen Afridi",
+        "rank": 7,
+        "p_top10": 0.578,
+        "rank_low": 2,
+        "rank_high": 23,
+        "positive_matches": 10,
+        "best_positive_share": 0.2197,
+        "drop_best_balls": 59.0,
+        "drop_best_rating": 17.0881,
+        "drop_best_rank": null,
+        "original_rank": null
+      },
+      {
+        "player": 3330,
+        "value": 28.0526,
+        "lift": 31.1835,
+        "balls": 75,
+        "matches": 11,
+        "rating": 20.7797,
+        "per100": 37.4034,
+        "lift_per100": 41.5781,
+        "name": "Hardik Pandya",
+        "rank": 8,
+        "p_top10": 0.524,
+        "rank_low": 2,
+        "rank_high": 28,
+        "positive_matches": 7,
+        "best_positive_share": 0.2935,
+        "drop_best_balls": 69.0,
+        "drop_best_rating": 13.3723,
+        "drop_best_rank": 12.0,
+        "original_rank": 7.0
+      },
+      {
+        "player": 781,
+        "value": 29.8332,
+        "lift": 2.4218,
+        "balls": 103,
+        "matches": 14,
+        "rating": 18.3026,
+        "per100": 28.9643,
+        "lift_per100": 2.3512,
+        "name": "Sunil Narine",
+        "rank": 9,
+        "p_top10": 0.459,
+        "rank_low": 2,
+        "rank_high": 31,
+        "positive_matches": 9,
+        "best_positive_share": 0.2057,
+        "drop_best_balls": 97.0,
+        "drop_best_rating": 13.128,
+        "drop_best_rank": 12.0,
+        "original_rank": 6.0
+      },
+      {
+        "player": 3298,
+        "value": 22.4443,
+        "lift": 20.8476,
+        "balls": 88,
+        "matches": 13,
+        "rating": 15.1651,
+        "per100": 25.5049,
+        "lift_per100": 23.6904,
+        "name": "Jofra Archer",
+        "rank": 10,
+        "p_top10": 0.313,
+        "rank_low": 3,
+        "rank_high": 31,
+        "positive_matches": 8,
+        "best_positive_share": 0.2645,
+        "drop_best_balls": 82.0,
+        "drop_best_rating": 9.5376,
+        "drop_best_rank": 15.0,
+        "original_rank": null
+      }
+    ],
+    "eligible": 51,
+    "original_overlap": 8,
+    "window_overlap": 8,
+    "split": {
+      "IPL": {
+        "eligible": 23,
+        "overlap": 5,
+        "top": [
+          {
+            "player": 830,
+            "name": "Josh Hazlewood",
+            "rank": 1,
+            "rating": 45.5077,
+            "balls": 82,
+            "matches": 12
+          },
+          {
+            "player": 6256,
+            "name": "Varun Chakravarthy",
+            "rank": 2,
+            "rating": 23.7186,
+            "balls": 69,
+            "matches": 14
+          },
+          {
+            "player": 2633,
+            "name": "Jason Holder",
+            "rank": 3,
+            "rating": 22.3934,
+            "balls": 63,
+            "matches": 9
+          },
+          {
+            "player": 2261,
+            "name": "Harshal Patel",
+            "rank": 4,
+            "rating": 19.8816,
+            "balls": 127,
+            "matches": 20
+          },
+          {
+            "player": 781,
+            "name": "Sunil Narine",
+            "rank": 5,
+            "rating": 18.3026,
+            "balls": 103,
+            "matches": 14
+          },
+          {
+            "player": 4722,
+            "name": "Rashid Khan",
+            "rank": 6,
+            "rating": 18.1051,
+            "balls": 151,
+            "matches": 20
+          },
+          {
+            "player": 360,
+            "name": "Bhuvneshwar Kumar",
+            "rank": 7,
+            "rating": 14.7481,
+            "balls": 100,
+            "matches": 15
+          },
+          {
+            "player": 2933,
+            "name": "Jasprit Bumrah",
+            "rank": 8,
+            "rating": 7.8218,
+            "balls": 72,
+            "matches": 13
+          },
+          {
+            "player": 1612,
+            "name": "Yuzvendra Chahal",
+            "rank": 9,
+            "rating": 5.8976,
+            "balls": 133,
+            "matches": 21
+          },
+          {
+            "player": 2411,
+            "name": "Sandeep Sharma",
+            "rank": 10,
+            "rating": 5.3205,
+            "balls": 64,
+            "matches": 13
+          }
+        ]
+      },
+      "T20I": {
+        "eligible": 23,
+        "overlap": 5,
+        "top": [
+          {
+            "player": 4722,
+            "name": "Rashid Khan",
+            "rank": 1,
+            "rating": 41.0356,
+            "balls": 126,
+            "matches": 24
+          },
+          {
+            "player": 4900,
+            "name": "Wanindu Hasaranga",
+            "rank": 2,
+            "rating": 35.4301,
+            "balls": 135,
+            "matches": 18
+          },
+          {
+            "player": 6256,
+            "name": "Varun Chakravarthy",
+            "rank": 3,
+            "rating": 21.9266,
+            "balls": 84,
+            "matches": 11
+          },
+          {
+            "player": 6355,
+            "name": "Shaheen Afridi",
+            "rank": 4,
+            "rating": 21.5318,
+            "balls": 66,
+            "matches": 11
+          },
+          {
+            "player": 6726,
+            "name": "Romario Shepherd",
+            "rank": 5,
+            "rating": 20.2697,
+            "balls": 61,
+            "matches": 11
+          },
+          {
+            "player": 4373,
+            "name": "Mustafizur Rahman",
+            "rank": 6,
+            "rating": 18.7934,
+            "balls": 103,
+            "matches": 17
+          },
+          {
+            "player": 2876,
+            "name": "Axar Patel",
+            "rank": 7,
+            "rating": 18.762,
+            "balls": 85,
+            "matches": 12
+          },
+          {
+            "player": 6464,
+            "name": "Arshdeep Singh",
+            "rank": 8,
+            "rating": 15.1317,
+            "balls": 90,
+            "matches": 14
+          },
+          {
+            "player": 2633,
+            "name": "Jason Holder",
+            "rank": 9,
+            "rating": 14.444,
+            "balls": 75,
+            "matches": 12
+          },
+          {
+            "player": 6450,
+            "name": "Mujeeb Ur Rahman",
+            "rank": 10,
+            "rating": 13.908,
+            "balls": 68,
+            "matches": 11
+          }
+        ]
+      }
+    },
+    "sensitivity": {
+      "flat": {
+        "overlap": 10,
+        "leader": "Rashid Khan"
+      },
+      "half": {
+        "overlap": 9,
+        "leader": "Rashid Khan"
+      },
+      "higher": {
+        "overlap": 9,
+        "leader": "Rashid Khan"
+      }
+    },
+    "holdout": {
+      "n": 16,
+      "train": 41,
+      "new": 0.218,
+      "original": 0.076,
+      "ordinary": 0.109
+    },
+    "cold_lost": 4384,
+    "cold_total": 13707,
+    "fine_state_median": 53.0,
+    "fine_state_empty_pct": 0.03435545072300277
+  }
+}

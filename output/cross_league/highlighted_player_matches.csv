@@ -1,0 +1,46 @@
+role,rank,player,match_date,league,cricsheet_match_id,team,opponent,pressure_balls,pressure_events,role_runs,role_wickets,raw_value,expected_value,adjusted_value,lift
+Batters,1,Dewald Brevis,2024-01-23,SA20,1392667,MI Cape Town,Durban's Super Giants,2,2,6,1,2.0,2.341898,-0.341898,-0.38009
+Batters,1,Dewald Brevis,2024-01-27,SA20,1392671,MI Cape Town,Sunrisers Eastern Cape,7,7,14,1,10.0,9.297949,0.702051,0.538925
+Batters,1,Dewald Brevis,2025-01-09,SA20,1449634,MI Cape Town,Sunrisers Eastern Cape,10,10,17,0,17.0,8.232984,8.767016,8.071142
+Batters,1,Dewald Brevis,2025-01-31,SA20,1449660,MI Cape Town,Pretoria Capitals,5,5,6,0,6.0,4.475016,1.524984,0.971687
+Batters,1,Dewald Brevis,2026-01-10,SA20,1494271,Pretoria Capitals,Paarl Royals,10,10,10,0,10.0,5.644655,4.355345,2.499719
+Batters,1,Dewald Brevis,2026-01-12,SA20,1494274,Pretoria Capitals,MI Cape Town,1,1,1,0,1.0,0.901339,0.098661,-0.071656
+Batters,1,Dewald Brevis,2026-01-15,SA20,1494277,Pretoria Capitals,Paarl Royals,15,15,18,0,18.0,13.821843,4.178157,1.514776
+Batters,1,Dewald Brevis,2026-01-17,SA20,1494280,Pretoria Capitals,Joburg Super Kings,16,16,12,0,12.0,11.759254,0.240746,-2.344113
+Batters,1,Dewald Brevis,2026-01-21,SA20,1494283,Pretoria Capitals,Sunrisers Eastern Cape,8,8,20,0,20.0,7.576219,12.423781,11.051396
+Batters,3,Heinrich Klaasen,2023-01-17,SA20,1343950,Durban's Super Giants,Paarl Royals,8,8,10,0,10.0,10.543585,-0.543585,-3.391963
+Batters,3,Heinrich Klaasen,2023-01-20,SA20,1343955,Durban's Super Giants,Pretoria Capitals,16,16,27,0,27.0,10.335185,16.664815,10.873112
+Batters,3,Heinrich Klaasen,2023-01-24,SA20,1343962,Durban's Super Giants,Joburg Super Kings,18,18,24,0,24.0,14.37745,9.62255,4.770496
+Batters,3,Heinrich Klaasen,2024-01-15,SA20,1392658,Durban's Super Giants,Joburg Super Kings,10,10,12,0,12.0,9.49119,2.50881,-1.818488
+Batters,3,Heinrich Klaasen,2024-01-20,SA20,1392663,Durban's Super Giants,Sunrisers Eastern Cape,4,4,8,0,8.0,3.633357,4.366643,2.769525
+Batters,3,Heinrich Klaasen,2024-01-23,SA20,1392667,Durban's Super Giants,MI Cape Town,1,1,1,0,1.0,0.702751,0.297249,-0.097096
+Batters,3,Heinrich Klaasen,2024-02-06,SA20,1392682,Durban's Super Giants,Sunrisers Eastern Cape,4,4,8,0,8.0,4.664109,3.335891,1.498243
+Batters,3,Heinrich Klaasen,2024-02-08,SA20,1392684,Durban's Super Giants,Joburg Super Kings,7,7,8,0,8.0,6.90384,1.09616,-2.036795
+Batters,3,Heinrich Klaasen,2025-01-25,SA20,1449654,Durban's Super Giants,MI Cape Town,13,13,10,0,10.0,8.366432,1.633568,-3.397582
+Batters,3,Heinrich Klaasen,2025-12-30,SA20,1494258,Durban's Super Giants,Joburg Super Kings,7,7,3,1,-3.0,2.551126,-5.551126,-8.137782
+Batters,3,Heinrich Klaasen,2026-01-07,SA20,1494268,Durban's Super Giants,Pretoria Capitals,1,1,0,1,-4.0,1.081328,-5.081328,-5.454466
+Batters,3,Heinrich Klaasen,2026-01-17,SA20,1494279,Durban's Super Giants,Paarl Royals,7,7,8,0,8.0,7.275492,0.724508,-1.641049
+Bowlers,1,Rashid Khan,2022-02-13,PSL,1293019,Lahore Qalandars,Quetta Gladiators,18,18,7,1,1.0,-19.645404,20.645404,19.978523
+Bowlers,1,Rashid Khan,2022-02-18,PSL,1293025,Lahore Qalandars,Karachi Kings,5,7,10,0,-10.0,-5.345029,-4.654971,-4.888141
+Bowlers,1,Rashid Khan,2022-09-22,CPL,1323169,St Kitts and Nevis Patriots,Trinbago Knight Riders,4,4,2,0,-2.0,-4.314443,2.314443,1.33019
+Bowlers,1,Rashid Khan,2022-12-26,BBL,1324639,Adelaide Strikers,Perth Scorchers,2,2,2,0,-2.0,-2.096386,0.096386,-0.471591
+Bowlers,1,Rashid Khan,2023-01-14,SA20,1343947,MI Cape Town,Joburg Super Kings,6,6,5,0,-5.0,-7.319375,2.319375,1.375606
+Bowlers,1,Rashid Khan,2023-01-16,SA20,1343949,MI Cape Town,Sunrisers Eastern Cape,3,3,0,0,0.0,-4.709419,4.709419,4.153488
+Bowlers,1,Rashid Khan,2023-01-18,SA20,1343952,MI Cape Town,Sunrisers Eastern Cape,6,6,28,0,-28.0,-8.362062,-19.637938,-20.760222
+Bowlers,1,Rashid Khan,2023-01-23,SA20,1343960,MI Cape Town,Pretoria Capitals,2,2,2,0,-2.0,-1.747193,-0.252807,-0.642653
+Bowlers,1,Rashid Khan,2023-02-06,SA20,1343969,MI Cape Town,Joburg Super Kings,12,12,19,0,-19.0,-8.856777,-10.143223,-12.863725
+Bowlers,1,Rashid Khan,2025-01-25,SA20,1449654,MI Cape Town,Durban's Super Giants,11,11,9,1,-3.0,-9.844961,6.844961,4.09287
+Bowlers,1,Rashid Khan,2025-02-04,SA20,1449664,MI Cape Town,Paarl Royals,1,1,1,0,-1.0,-1.067995,0.067995,-0.184956
+Bowlers,1,Rashid Khan,2025-12-31,SA20,1494260,MI Cape Town,Pretoria Capitals,12,12,20,0,-20.0,-10.541311,-9.458689,-12.241964
+Bowlers,1,Rashid Khan,2026-01-12,SA20,1494274,MI Cape Town,Pretoria Capitals,1,1,1,0,-1.0,-1.28379,0.28379,0.060681
+Bowlers,9,Sunil Narine,2023-08-27,CPL,1369569,Trinbago Knight Riders,St Kitts and Nevis Patriots,3,3,1,0,-1.0,-3.208314,2.208314,1.187911
+Bowlers,9,Sunil Narine,2023-09-03,CPL,1369574,Trinbago Knight Riders,Jamaica Tallawahs,6,6,6,1,-2.0,-5.636064,3.636064,1.304267
+Bowlers,9,Sunil Narine,2023-09-05,CPL,1369576,Trinbago Knight Riders,Guyana Amazon Warriors,3,3,9,0,-9.0,-3.491567,-5.508433,-6.603964
+Bowlers,9,Sunil Narine,2024-09-13,CPL,1428692,Trinbago Knight Riders,Barbados Royals,12,12,9,1,-3.0,-12.655933,9.655933,5.294615
+Bowlers,9,Sunil Narine,2025-08-23,CPL,1477981,Trinbago Knight Riders,St Lucia Kings,6,7,4,0,-4.0,-7.400547,3.400547,1.219194
+Bowlers,9,Sunil Narine,2025-08-27,CPL,1477985,Trinbago Knight Riders,Antigua and Barbuda Falcons,6,6,3,0,-3.0,-4.621033,1.621033,-0.420901
+Bowlers,9,Sunil Narine,2025-08-30,CPL,1477988,Trinbago Knight Riders,Guyana Amazon Warriors,6,6,6,0,-6.0,-5.431327,-0.568673,-2.429909
+Bowlers,9,Sunil Narine,2025-09-01,CPL,1477990,Trinbago Knight Riders,St Kitts and Nevis Patriots,4,4,3,0,-3.0,-5.655358,2.655358,1.375699
+Bowlers,9,Sunil Narine,2025-09-06,CPL,1477994,Trinbago Knight Riders,Guyana Amazon Warriors,6,6,1,1,3.0,-6.862853,9.862853,7.964445
+Bowlers,9,Sunil Narine,2025-09-21,CPL,1478005,Trinbago Knight Riders,Guyana Amazon Warriors,6,6,0,0,0.0,-6.968209,6.968209,4.927104
+Bowlers,9,Sunil Narine,2026-01-13,SA20,1494275,Durban's Super Giants,Paarl Royals,6,6,2,1,2.0,-8.024443,10.024443,8.065186

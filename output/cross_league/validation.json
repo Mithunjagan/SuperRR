@@ -1,0 +1,246 @@
+{
+  "date_window": [
+    "2022-01-22",
+    "2026-11-01"
+  ],
+  "archive_audit": {
+    "BBL": {
+      "archive_matches": 662,
+      "in_window": 192,
+      "clean_matches": 175,
+      "exclusions": {
+        "revised or missing target": 4,
+        "no completed result": 5,
+        "revised overs or result method": 7,
+        "innings penalty runs": 1
+      },
+      "url": "https://cricsheet.org/downloads/bbl_json.zip",
+      "sha256": "f1356db6bd48d90282000b4b978f979f529e34001358277695af24dbac236fbf",
+      "first_date": "2022-01-22",
+      "last_date": "2026-01-25",
+      "deliveries": 41526,
+      "pressure_deliveries": 3287
+    },
+    "PSL": {
+      "archive_matches": 357,
+      "in_window": 177,
+      "clean_matches": 169,
+      "exclusions": {
+        "short unfinished chase": 2,
+        "delivery penalty runs": 2,
+        "no completed result": 1,
+        "revised overs or result method": 1,
+        "revised or missing target": 2
+      },
+      "url": "https://cricsheet.org/downloads/psl_json.zip",
+      "sha256": "59222dd5bec34d7a1d4510f49bbfad3a98bed21582865afe061c91defeeabef0",
+      "first_date": "2022-01-27",
+      "last_date": "2026-05-03",
+      "deliveries": 40419,
+      "pressure_deliveries": 2885
+    },
+    "SA20": {
+      "archive_matches": 130,
+      "in_window": 130,
+      "clean_matches": 117,
+      "exclusions": {
+        "no completed result": 7,
+        "revised overs or result method": 5,
+        "short unfinished chase": 1
+      },
+      "url": "https://cricsheet.org/downloads/sat_json.zip",
+      "sha256": "6db3a8654554be05d3da5a28e687385c1a494636a741a926abf03cc90383fb55",
+      "first_date": "2023-01-10",
+      "last_date": "2026-01-25",
+      "deliveries": 27395,
+      "pressure_deliveries": 2335
+    },
+    "CPL": {
+      "archive_matches": 445,
+      "in_window": 167,
+      "clean_matches": 149,
+      "exclusions": {
+        "revised or missing target": 2,
+        "revised overs or result method": 12,
+        "no completed result": 2,
+        "short unfinished chase": 2
+      },
+      "url": "https://cricsheet.org/downloads/cpl_json.zip",
+      "sha256": "7faf3a13d85f9f33e9533c69b252a20052171868ea772b08fdfa5bd833f074c9",
+      "first_date": "2022-08-31",
+      "last_date": "2026-09-20",
+      "deliveries": 35585,
+      "pressure_deliveries": 2915
+    }
+  },
+  "shared_team_names": [],
+  "scorecards_for_identity_checks": {
+    "exact_date": 759,
+    "one_day_difference": 12
+  },
+  "identity_source_sha256": {
+    "ipl_json.zip": "46ff2f5e41147510a55502e52ea8761b216a319974cad907d6ff2d8c2d4be495",
+    "t20s_male_json.zip": "102586ea122793aafc645e05d6a598b9fff0746935e39b77f2d6f153bc385086",
+    "people.csv": "3926fec53340ed8539ba98b420f907ab5e8aced21e8a61138d313adc1ed8a42b",
+    "names.csv": "cde5292c15be1cf03e0b366875b5aa2e23c29283ca9d368bb0f768ea85761fb1"
+  },
+  "ranked_player_identities": 86,
+  "verified_identities": 85,
+  "verified_with_public_appearances": 48,
+  "external_matches": 610,
+  "external_deliveries": 144925,
+  "external_pressure_deliveries": 11422,
+  "public_minimum": {
+    "prior_ordinary_balls": 120,
+    "pressure_balls": 12,
+    "pressure_matches": 3
+  },
+  "pressure_deliveries_by_league_and_year": {
+    "BBL": {
+      "2022": 537,
+      "2023": 959,
+      "2024": 587,
+      "2025": 764,
+      "2026": 440
+    },
+    "CPL": {
+      "2022": 451,
+      "2023": 437,
+      "2024": 712,
+      "2025": 662,
+      "2026": 653
+    },
+    "PSL": {
+      "2022": 706,
+      "2023": 597,
+      "2024": 520,
+      "2025": 443,
+      "2026": 619
+    },
+    "SA20": {
+      "2022": 0,
+      "2023": 682,
+      "2024": 662,
+      "2025": 632,
+      "2026": 359
+    }
+  },
+  "roles": {
+    "Batters": {
+      "transfer": {
+        "2024": {
+          "comparable_players": 5,
+          "pressure_balls": 168,
+          "pressure_matches": 21,
+          "spearman": 0.0,
+          "ordinary_spearman": -0.3,
+          "spearman_match_bootstrap_95": [
+            -0.9,
+            0.6
+          ],
+          "pack_eligible_players": 8,
+          "public_eligible_players": 12
+        },
+        "2025": {
+          "comparable_players": 7,
+          "pressure_balls": 225,
+          "pressure_matches": 25,
+          "spearman": -0.036,
+          "ordinary_spearman": 0.429,
+          "spearman_match_bootstrap_95": [
+            -0.543,
+            0.679
+          ],
+          "pack_eligible_players": 18,
+          "public_eligible_players": 14
+        },
+        "2026": {
+          "comparable_players": 6,
+          "pressure_balls": 153,
+          "pressure_matches": 25,
+          "spearman": -0.429,
+          "ordinary_spearman": -0.086,
+          "spearman_match_bootstrap_95": [
+            -1.0,
+            0.086
+          ],
+          "pack_eligible_players": 31,
+          "public_eligible_players": 11
+        }
+      },
+      "public_challenger": {
+        "selected_weight": 0.0,
+        "development_rmse": {
+          "0.0": 34.675,
+          "0.25": 35.132,
+          "0.5": 35.908,
+          "0.75": 36.985,
+          "1.0": 38.336
+        },
+        "holdout_players": 14,
+        "players_with_public_prior": 5,
+        "holdout_rmse_model_a": 51.048,
+        "holdout_rmse_with_public": 51.048,
+        "holdout_spearman_model_a": 0.398,
+        "holdout_spearman_with_public": 0.398,
+        "paired_rmse_improvement_95": [
+          0.0,
+          0.0
+        ],
+        "adopt": false
+      }
+    },
+    "Bowlers": {
+      "transfer": {
+        "2024": {
+          "comparable_players": 2,
+          "pressure_balls": 41,
+          "pressure_matches": 6,
+          "spearman": -1.0,
+          "ordinary_spearman": 1.0,
+          "pack_eligible_players": 8,
+          "public_eligible_players": 9
+        },
+        "2025": {
+          "comparable_players": 3,
+          "pressure_balls": 93,
+          "pressure_matches": 13,
+          "spearman": -1.0,
+          "ordinary_spearman": -0.5,
+          "pack_eligible_players": 21,
+          "public_eligible_players": 9
+        },
+        "2026": {
+          "comparable_players": 3,
+          "pressure_balls": 86,
+          "pressure_matches": 14,
+          "spearman": -0.5,
+          "ordinary_spearman": -1.0,
+          "pack_eligible_players": 41,
+          "public_eligible_players": 4
+        }
+      },
+      "public_challenger": {
+        "selected_weight": 0.75,
+        "development_rmse": {
+          "0.0": 41.326,
+          "0.25": 41.0,
+          "0.5": 40.797,
+          "0.75": 40.718,
+          "1.0": 40.764
+        },
+        "holdout_players": 16,
+        "players_with_public_prior": 6,
+        "holdout_rmse_model_a": 59.034,
+        "holdout_rmse_with_public": 58.236,
+        "holdout_spearman_model_a": 0.218,
+        "holdout_spearman_with_public": 0.176,
+        "paired_rmse_improvement_95": [
+          -1.876,
+          3.37
+        ],
+        "adopt": false
+      }
+    }
+  }
+}

@@ -1,0 +1,437 @@
+{
+  "design": "Training pressure selection only. Model A expectations, 120-ball cold start, 60-ball shrinkage, wicket values, batting and chase rules remain fixed.",
+  "development_equal_year_rmse": {
+    "A": 41.32593671850429,
+    "D1": 47.23303279533426,
+    "D2": 47.13212981186791
+  },
+  "selected_by_historical_rmse": "D2",
+  "passed_both_development_folds": false,
+  "adopt": false,
+  "adoption_rule": "Lower RMSE and no worse Spearman on both historical folds, then positive 95% paired match-bootstrap RMSE improvement and no worse Spearman in 2026.",
+  "folds": {
+    "2024": {
+      "players": 5,
+      "D2_reference": {
+        "D2_events_without_prior_reference": 74,
+        "D2_last_thresholds": {
+          "IPL Powerplay": 9.6,
+          "IPL Middle": 9.647,
+          "T20I Powerplay": 9.0,
+          "T20I Middle": 8.939
+        }
+      },
+      "variants": {
+        "A": {
+          "rmse": 48.45446606423036,
+          "spearman": -0.1,
+          "training_balls_all_players": 2634,
+          "first_innings_balls_all_players": 1085,
+          "chase_balls_all_players": 1549,
+          "training_balls_evaluation_players": 482,
+          "players_under_60_balls": 0,
+          "players_under_8_matches": 0,
+          "players_with_zero_balls": 0
+        },
+        "D1": {
+          "rmse": 55.56981491696096,
+          "spearman": -0.5,
+          "training_balls_all_players": 3311,
+          "first_innings_balls_all_players": 1762,
+          "chase_balls_all_players": 1549,
+          "training_balls_evaluation_players": 472,
+          "players_under_60_balls": 1,
+          "players_under_8_matches": 0,
+          "players_with_zero_balls": 0
+        },
+        "D2": {
+          "rmse": 55.957668629313865,
+          "spearman": -0.5,
+          "training_balls_all_players": 3229,
+          "first_innings_balls_all_players": 1680,
+          "chase_balls_all_players": 1549,
+          "training_balls_evaluation_players": 448,
+          "players_under_60_balls": 1,
+          "players_under_8_matches": 1,
+          "players_with_zero_balls": 0
+        }
+      }
+    },
+    "2025": {
+      "players": 11,
+      "D2_reference": {
+        "D2_events_without_prior_reference": 74,
+        "D2_last_thresholds": {
+          "IPL Powerplay": 9.75,
+          "IPL Middle": 9.813,
+          "T20I Powerplay": 9.257,
+          "T20I Middle": 9.375
+        }
+      },
+      "variants": {
+        "A": {
+          "rmse": 32.677680605483474,
+          "spearman": 0.127,
+          "training_balls_all_players": 4993,
+          "first_innings_balls_all_players": 2404,
+          "chase_balls_all_players": 2589,
+          "training_balls_evaluation_players": 1050,
+          "players_under_60_balls": 0,
+          "players_under_8_matches": 0,
+          "players_with_zero_balls": 0
+        },
+        "D1": {
+          "rmse": 37.06635191362844,
+          "spearman": -0.109,
+          "training_balls_all_players": 5906,
+          "first_innings_balls_all_players": 3317,
+          "chase_balls_all_players": 2589,
+          "training_balls_evaluation_players": 1230,
+          "players_under_60_balls": 1,
+          "players_under_8_matches": 0,
+          "players_with_zero_balls": 0
+        },
+        "D2": {
+          "rmse": 36.21622071361725,
+          "spearman": -0.209,
+          "training_balls_all_players": 5510,
+          "first_innings_balls_all_players": 2921,
+          "chase_balls_all_players": 2589,
+          "training_balls_evaluation_players": 1154,
+          "players_under_60_balls": 1,
+          "players_under_8_matches": 0,
+          "players_with_zero_balls": 0
+        }
+      }
+    },
+    "2026": {
+      "players": 16,
+      "D2_reference": {
+        "D2_events_without_prior_reference": 74,
+        "D2_last_thresholds": {
+          "IPL Powerplay": 10.071,
+          "IPL Middle": 10.118,
+          "T20I Powerplay": 9.29,
+          "T20I Middle": 9.45
+        }
+      },
+      "variants": {
+        "A": {
+          "rmse": 59.03420620554275,
+          "spearman": 0.218,
+          "training_balls_all_players": 7520,
+          "first_innings_balls_all_players": 3911,
+          "chase_balls_all_players": 3609,
+          "training_balls_evaluation_players": 1809,
+          "players_under_60_balls": 0,
+          "players_under_8_matches": 0,
+          "players_with_zero_balls": 0
+        },
+        "D1": {
+          "rmse": 52.22299797338269,
+          "spearman": 0.218,
+          "training_balls_all_players": 9086,
+          "first_innings_balls_all_players": 5477,
+          "chase_balls_all_players": 3609,
+          "training_balls_evaluation_players": 2180,
+          "players_under_60_balls": 0,
+          "players_under_8_matches": 0,
+          "players_with_zero_balls": 0,
+          "rmse_improvement_95_interval": [
+            0.854,
+            9.463
+          ]
+        },
+        "D2": {
+          "rmse": 52.86933886444849,
+          "spearman": 0.312,
+          "training_balls_all_players": 8043,
+          "first_innings_balls_all_players": 4434,
+          "chase_balls_all_players": 3609,
+          "training_balls_evaluation_players": 1892,
+          "players_under_60_balls": 0,
+          "players_under_8_matches": 0,
+          "players_with_zero_balls": 0,
+          "rmse_improvement_95_interval": [
+            0.928,
+            8.188
+          ]
+        }
+      }
+    }
+  },
+  "diagnostic_players": [
+    {
+      "player": 360,
+      "balls": 36,
+      "observed_value": 24.79,
+      "matches": 4,
+      "observed": 68.861,
+      "name": "Bhuvneshwar Kumar",
+      "A": -10.6799,
+      "A_training_balls": 110,
+      "A_training_matches": 17,
+      "D1": -0.4981,
+      "D1_training_balls": 138,
+      "D1_training_matches": 22,
+      "D2": 1.8371,
+      "D2_training_balls": 127,
+      "D2_training_matches": 20
+    },
+    {
+      "player": 479,
+      "balls": 14,
+      "observed_value": -7.9514,
+      "matches": 3,
+      "observed": -56.7959,
+      "name": "Adil Rashid",
+      "A": 14.2533,
+      "A_training_balls": 86,
+      "A_training_matches": 10,
+      "D1": 11.7609,
+      "D1_training_balls": 78,
+      "D1_training_matches": 8,
+      "D2": 12.672,
+      "D2_training_balls": 85,
+      "D2_training_matches": 9
+    },
+    {
+      "player": 781,
+      "balls": 25,
+      "observed_value": 16.6437,
+      "matches": 4,
+      "observed": 66.5747,
+      "name": "Sunil Narine",
+      "A": 10.0402,
+      "A_training_balls": 78,
+      "A_training_matches": 10,
+      "D1": 2.327,
+      "D1_training_balls": 107,
+      "D1_training_matches": 13,
+      "D2": 13.7255,
+      "D2_training_balls": 87,
+      "D2_training_matches": 10
+    },
+    {
+      "player": 830,
+      "balls": 29,
+      "observed_value": 34.3899,
+      "matches": 4,
+      "observed": 118.5858,
+      "name": "Josh Hazlewood",
+      "A": 14.6303,
+      "A_training_balls": 101,
+      "A_training_matches": 15,
+      "D1": 41.6386,
+      "D1_training_balls": 92,
+      "D1_training_matches": 17,
+      "D2": 37.3445,
+      "D2_training_balls": 86,
+      "D2_training_matches": 16
+    },
+    {
+      "player": 2633,
+      "balls": 47,
+      "observed_value": 25.6282,
+      "matches": 7,
+      "observed": 54.528,
+      "name": "Jason Holder",
+      "A": 14.2125,
+      "A_training_balls": 91,
+      "A_training_matches": 14,
+      "D1": -4.4655,
+      "D1_training_balls": 149,
+      "D1_training_matches": 23,
+      "D2": -0.9389,
+      "D2_training_balls": 132,
+      "D2_training_matches": 20
+    },
+    {
+      "player": 2636,
+      "balls": 43,
+      "observed_value": 9.7268,
+      "matches": 5,
+      "observed": 22.6204,
+      "name": "Adam Zampa",
+      "A": 1.2241,
+      "A_training_balls": 116,
+      "A_training_matches": 18,
+      "D1": 26.0506,
+      "D1_training_balls": 71,
+      "D1_training_matches": 12,
+      "D2": 24.8721,
+      "D2_training_balls": 63,
+      "D2_training_matches": 11
+    },
+    {
+      "player": 2876,
+      "balls": 46,
+      "observed_value": 10.0524,
+      "matches": 7,
+      "observed": 21.8531,
+      "name": "Axar Patel",
+      "A": 12.2011,
+      "A_training_balls": 126,
+      "A_training_matches": 17,
+      "D1": 2.9908,
+      "D1_training_balls": 185,
+      "D1_training_matches": 27,
+      "D2": 1.5828,
+      "D2_training_balls": 157,
+      "D2_training_matches": 23
+    },
+    {
+      "player": 2933,
+      "balls": 19,
+      "observed_value": 3.1842,
+      "matches": 4,
+      "observed": 16.7589,
+      "name": "Jasprit Bumrah",
+      "A": 5.9543,
+      "A_training_balls": 76,
+      "A_training_matches": 14,
+      "D1": 24.7732,
+      "D1_training_balls": 88,
+      "D1_training_matches": 17,
+      "D2": 23.1116,
+      "D2_training_balls": 81,
+      "D2_training_matches": 16
+    },
+    {
+      "player": 3644,
+      "balls": 55,
+      "observed_value": -55.8747,
+      "matches": 7,
+      "observed": -101.5903,
+      "name": "Kuldeep Yadav",
+      "A": 26.3427,
+      "A_training_balls": 158,
+      "A_training_matches": 24,
+      "D1": 2.519,
+      "D1_training_balls": 161,
+      "D1_training_matches": 23,
+      "D2": 3.3144,
+      "D2_training_balls": 138,
+      "D2_training_matches": 20
+    },
+    {
+      "player": 4101,
+      "balls": 24,
+      "observed_value": -18.2865,
+      "matches": 4,
+      "observed": -76.1936,
+      "name": "Mitchell Santner",
+      "A": 0.3557,
+      "A_training_balls": 100,
+      "A_training_matches": 16,
+      "D1": -3.4692,
+      "D1_training_balls": 117,
+      "D1_training_matches": 17,
+      "D2": -3.9554,
+      "D2_training_balls": 105,
+      "D2_training_matches": 16
+    },
+    {
+      "player": 4722,
+      "balls": 67,
+      "observed_value": 25.5249,
+      "matches": 9,
+      "observed": 38.0968,
+      "name": "Rashid Khan",
+      "A": 32.8043,
+      "A_training_balls": 210,
+      "A_training_matches": 35,
+      "D1": 46.5853,
+      "D1_training_balls": 212,
+      "D1_training_matches": 34,
+      "D2": 51.5635,
+      "D2_training_balls": 194,
+      "D2_training_matches": 33
+    },
+    {
+      "player": 6256,
+      "balls": 30,
+      "observed_value": 12.4068,
+      "matches": 4,
+      "observed": 41.3558,
+      "name": "Varun Chakravarthy",
+      "A": 26.6766,
+      "A_training_balls": 123,
+      "A_training_matches": 21,
+      "D1": 28.1668,
+      "D1_training_balls": 118,
+      "D1_training_matches": 24,
+      "D2": 12.5718,
+      "D2_training_balls": 89,
+      "D2_training_matches": 18
+    },
+    {
+      "player": 6464,
+      "balls": 29,
+      "observed_value": 1.2741,
+      "matches": 6,
+      "observed": 4.3936,
+      "name": "Arshdeep Singh",
+      "A": 3.9895,
+      "A_training_balls": 157,
+      "A_training_matches": 22,
+      "D1": 9.1268,
+      "D1_training_balls": 202,
+      "D1_training_matches": 32,
+      "D2": 4.8472,
+      "D2_training_balls": 186,
+      "D2_training_matches": 30
+    },
+    {
+      "player": 7503,
+      "balls": 52,
+      "observed_value": -31.2963,
+      "matches": 8,
+      "observed": -60.1853,
+      "name": "Ravi Bishnoi",
+      "A": -1.3428,
+      "A_training_balls": 109,
+      "A_training_matches": 20,
+      "D1": 0.4574,
+      "D1_training_balls": 192,
+      "D1_training_matches": 31,
+      "D2": 3.3532,
+      "D2_training_balls": 164,
+      "D2_training_matches": 28
+    },
+    {
+      "player": 7967,
+      "balls": 18,
+      "observed_value": 2.8316,
+      "matches": 3,
+      "observed": 15.731,
+      "name": "Noor Ahmad",
+      "A": -24.7297,
+      "A_training_balls": 77,
+      "A_training_matches": 16,
+      "D1": 7.3139,
+      "D1_training_balls": 105,
+      "D1_training_matches": 18,
+      "D2": -18.6705,
+      "D2_training_balls": 71,
+      "D2_training_matches": 14
+    },
+    {
+      "player": 19316,
+      "balls": 24,
+      "observed_value": 2.8756,
+      "matches": 3,
+      "observed": 11.9817,
+      "name": "Maheesh Theekshana",
+      "A": -10.8241,
+      "A_training_balls": 91,
+      "A_training_matches": 17,
+      "D1": 16.468,
+      "D1_training_balls": 165,
+      "D1_training_matches": 26,
+      "D2": 16.9388,
+      "D2_training_balls": 127,
+      "D2_training_matches": 22
+    }
+  ]
+}
