@@ -4,5 +4,15 @@
   "buildCommand": "",
   "installCommand": "",
   "outputDirectory": "public",
-  "functions": { "api/analyst.mjs": { "maxDuration": 20 } }
+  "functions": { "api/analyst.mjs": { "maxDuration": 20 } },
+  "headers": [
+    {
+      "source": "/snapshot.:hash([a-f0-9]+).json",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    },
+    {
+      "source": "/viewer.css",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }]
+    }
+  ]
 }

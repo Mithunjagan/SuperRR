@@ -2,9 +2,27 @@ import { createHash } from "node:crypto";
 import { copyFile, readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import { registerHooks } from "node:module";
 
 const builderPath = process.argv[2];
 if (!builderPath) throw new Error("Pass the installed Data app builder's data-app-build.mjs path.");
+
+// The installed builder's legacy chart-manifest mapping uses Windows separators
+// in an otherwise POSIX manifest. Normalize only that computed relative path.
+// All installed source hashes and authored-content checks still run unchanged.
+if (process.platform === "win32") {
+  registerHooks({
+    load(url, context, nextLoad) {
+      const result = nextLoad(url, context);
+      if (!url.endsWith("/prebuilt/manifest.mjs")) return result;
+      const before = 'relative(pluginRoot, chartRuntimePath(pluginRoot, path.slice("skills/visualize-data/".length))) : path';
+      const source = String(result.source);
+      return source.includes(before)
+        ? { ...result, source: source.replace(before, before.replace(" : path", '.split(sep).join("/") : path')) }
+        : result;
+    },
+  });
+}
 
 const { buildPrebuiltDataApp } = await import(pathToFileURL(resolve(builderPath)));
 const projectDir = fileURLToPath(new URL("../supeRR-dashboard/", import.meta.url));

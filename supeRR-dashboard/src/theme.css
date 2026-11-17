@@ -49,14 +49,17 @@
 :root,
 :root:not([data-app-theme]),
 :root:is([data-app-theme="original"], [data-app-theme="codex-classic"]) {
-  --background:light-dark(#f7f3fa,#160f20);
+  --background:light-dark(#fbf6f8,#110c16);
   --dashboard-background:var(--background);
-  --surface:light-dark(#fff,#21172e);
+  --surface:light-dark(#fffcfd,#1b121d);
   --control:var(--surface);
-  --control-hover:light-dark(#efe7f4,#3a284a);
-  --text:light-dark(#211835,#f6edff);
-  --secondary:light-dark(#625973,#c5b7d5);
-  --border:light-dark(#e8dff0,#483556);
-  --data-app-chrome-background:light-dark(#f9f5fc,#1f152b);
+  --control-hover:light-dark(#f5e7ee,#332131);
+  --text:light-dark(#291827,#f9f0f6);
+  --secondary:light-dark(#75616e,#bfaebc);
+  --border:light-dark(#e9dce4,#3b2938);
+  --accent:light-dark(#c21d6c,#ff86bb);
+  --chart-1:light-dark(#c21d6c,#ff86bb);
+  --chart-2:light-dark(#7860a5,#baa5df);
+  --data-app-chrome-background:light-dark(#fcf7f9,#170f1b);
   --data-app-chrome-text:var(--text);
 }
