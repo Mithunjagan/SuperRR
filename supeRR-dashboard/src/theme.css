@@ -46,23 +46,17 @@
   --dashboard-background: light-dark(color-mix(in srgb, var(--background) 98.6%, var(--text)), var(--background));
 }
 
-:root {
-  --dashboard-background:#f7f3fa;
-  --data-app-chrome-background:#f9f5fc;
-  --data-app-chrome-text:#211835;
-}
-
 :root,
 :root:not([data-app-theme]),
 :root:is([data-app-theme="original"], [data-app-theme="codex-classic"]) {
-  --background:#f7f3fa;
-  --dashboard-background:#f7f3fa;
-  --surface:#ffffff;
-  --control:#ffffff;
-  --control-hover:#efe7f4;
-  --text:#211835;
-  --secondary:#625973;
-  --border:#e8dff0;
-  --data-app-chrome-background:#f9f5fc;
-  --data-app-chrome-text:#211835;
+  --background:light-dark(#f7f3fa,#160f20);
+  --dashboard-background:var(--background);
+  --surface:light-dark(#fff,#21172e);
+  --control:var(--surface);
+  --control-hover:light-dark(#efe7f4,#3a284a);
+  --text:light-dark(#211835,#f6edff);
+  --secondary:light-dark(#625973,#c5b7d5);
+  --border:light-dark(#e8dff0,#483556);
+  --data-app-chrome-background:light-dark(#f9f5fc,#1f152b);
+  --data-app-chrome-text:var(--text);
 }

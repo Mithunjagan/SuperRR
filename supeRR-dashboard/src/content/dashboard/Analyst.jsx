@@ -17,7 +17,7 @@ const examples = [
 
 export default function Analyst() {
   const [question, setQuestion] = useState("");
-  const [answer, setAnswer] = useState(null);
+  const [answer, setAnswer] = useState(/** @type {{label: string, text: string} | null} */ (null));
   const [loading, setLoading] = useState(false);
 
   async function ask(event) {
@@ -33,11 +33,11 @@ export default function Analyst() {
         body:JSON.stringify({question:prompt}),
         signal:AbortSignal.timeout(18000)
       });
-      const data = await response.json();
+      const data = response.headers.get("content-type")?.includes("application/json") ? await response.json() : {};
       if (response.ok && typeof data.answer === "string") {
-        setAnswer({label:"Gemini · dossier-grounded answer", text:data.answer});
+        setAnswer({label:data.source === "dossier" ? "Dossier answer" : "Live analyst", text:data.answer});
       } else {
-        setAnswer({label:"Live analyst unavailable",text:data.error || "Try a dossier answer above."});
+        setAnswer({label:"Live analyst unavailable",text:data.error || "This preview has no live analyst. Choose a dossier question above."});
       }
     } catch {
       setAnswer({label:"Live analyst unavailable",text:"Try one of the dossier answers above."});
@@ -60,7 +60,7 @@ export default function Analyst() {
         <label htmlFor="rr-question">Ask a question about the analysis</label>
         <div className="rr-analyst-input">
           <input id="rr-question" value={question} onChange={event => setQuestion(event.target.value)} maxLength={320} placeholder="e.g. How is own-baseline lift different from the final rating?" required/>
-          <button type="submit" disabled={loading || !question.trim()}>{loading ? "Asking…" : "Ask Gemini"} <span aria-hidden="true">↗</span></button>
+          <button type="submit" disabled={loading || !question.trim()}>{loading ? "Checking…" : "Ask analyst"} <span aria-hidden="true">↗</span></button>
         </div>
       </form>
       <div aria-live="polite" aria-busy={loading}>

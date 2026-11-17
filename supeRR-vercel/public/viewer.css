@@ -1,0 +1,16 @@
+/* The read-only deployment uses the dashboard's own navigation and analyst. */
+:root:has(meta[name="data-app-static-demo"]) .dashboard-topbar-mode-controls {
+  display: none;
+}
+
+:root:has(.rr-page[data-rr-appearance="light"]) {
+  color-scheme: light !important;
+}
+
+:root:has(.rr-page[data-rr-appearance="dark"]) {
+  color-scheme: dark !important;
+}
+
+:root:has(.rr-page[data-rr-appearance="system"]) {
+  color-scheme: light dark !important;
+}

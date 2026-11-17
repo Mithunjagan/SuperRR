@@ -32,6 +32,33 @@ function reply(res, status, result) {
   return res.status(status).json(result);
 }
 
+function dossierAnswer(question) {
+  const query = question.toLowerCase();
+  if (/2026/.test(query) && /predict|forecast|rmse|validat/.test(query)) {
+    return "The zero baseline had lower forecast RMSE in both roles: 44.69 vs 50.43 for batters and 43.69 vs 47.02 for bowlers. The 2026 period was repeatedly inspected. See page 7.";
+  }
+  if (/hosein/.test(query) && /bumrah|rank|#1|first|lead/.test(query)) {
+    return "Hosein leads the official bowling list 22.10 to 21.66. Bumrah leads on bootstrap Q25, chase-only rank and IPL exposure (113 vs 24 balls). Bumrah led 53.13% of joint fixture resamples. See page 6.";
+  }
+  if (/own.baseline/.test(query)) {
+    return "Own-baseline lift compares pressure performance with the player's earlier ordinary adjusted rate. The final rating uses the worst score after removing one match at a time, with 60 added to the remaining-ball denominator. See page 4.";
+  }
+  if (/counts as pressure|pressure (?:rule|window|defin)|define pressure/.test(query)) {
+    return "Pressure includes early first-innings collapses (at least three wickets lost before the 60th legal ball is completed) and two chase windows with at least two wickets in hand. With 31–60 balls remaining, the required rate is 9.5–16. With 1–30 balls remaining, it is 8–16. See page 4.";
+  }
+  if (/pace bid|archer leaves/.test(query)) {
+    return "If Archer leaves and Bumrah enters the official auction pool, Bumrah is the first pace bid for the new ball and death. He had 113 qualifying IPL balls. Hazlewood is the fallback. See pages 1, 8 and 10.";
+  }
+  return null;
+}
+
+function fallback(res, question, status, message) {
+  const answer = dossierAnswer(question);
+  if (answer) return reply(res, 200, { answer, source: "dossier", notice: message });
+  if (status === 429) res.setHeader("Retry-After", "60");
+  return reply(res, status, { error: message });
+}
+
 export default async function handler(req, res) {
   if (req.method !== "POST") {
     res.setHeader("Allow", "POST");
@@ -55,12 +82,11 @@ export default async function handler(req, res) {
 
   const key = process.env.GEMINI_API_KEY?.trim();
   if (!key) {
-    return reply(res, 503, {error:"Live Gemini is awaiting configuration. Try one of the dossier answers above."});
+    return fallback(res, question, 503, "Live answers are awaiting configuration. Try a dossier question above.");
   }
   const client = req.headers["x-vercel-forwarded-for"]?.split(",")[0]?.trim() ?? req.socket?.remoteAddress ?? "unknown";
   if (!allowRequest(client)) {
-    res.setHeader("Retry-After", "60");
-    return reply(res, 429, {error:"The analyst is busy. Try again in a minute or use a dossier answer above."});
+    return fallback(res, question, 429, "The analyst is busy. Try again in a minute or choose a dossier question above.");
   }
 
   const model = process.env.GEMINI_MODEL?.trim() || "gemini-3.5-flash-lite";
@@ -73,26 +99,40 @@ export default async function handler(req, res) {
         body:JSON.stringify({
           systemInstruction:{parts:[{text:guidance + "\n\n" + notes + "\n\nReviewed JSON evidence: " + evidence}]},
           contents:[{role:"user",parts:[{text:question}]}],
-          generationConfig:{maxOutputTokens:600,temperature:0.2}
+          generationConfig:{
+            maxOutputTokens:900,
+            temperature:0.2,
+            ...(model === "gemini-3.5-flash-lite" ? { thinkingConfig:{thinkingLevel:"minimal"} } : {})
+          }
         }),
         signal:AbortSignal.timeout(14000)
       }
     );
     if (!response.ok) {
-      const limited = response.status === 429;
-      if (limited) res.setHeader("Retry-After", "60");
-      return reply(res, limited ? 429 : 502, {error:limited ? "Gemini is temporarily at its usage limit. Try a dossier answer above." : "Gemini is temporarily unavailable. Try a dossier answer above."});
+      const status = response.status;
+      console.warn("Analyst upstream rejected the request", { status });
+      if (status === 429) return fallback(res, question, 429, "Live answers are at their usage limit. Try a dossier question above.");
+      if ([400, 401, 403, 404].includes(status)) {
+        return fallback(res, question, 503, "Live answers are unavailable due to provider configuration. Try a dossier question above.");
+      }
+      return fallback(res, question, 502, "The live analyst is temporarily unavailable. Try a dossier question above.");
     }
     const data = await response.json();
-    const answer = data.candidates?.[0]?.content?.parts
+    const candidate = data?.candidates?.[0];
+    if (candidate?.finishReason !== "STOP") {
+      console.warn("Analyst upstream answer was incomplete", { finishReason: candidate?.finishReason ?? "missing" });
+      return fallback(res, question, 502, "The live analyst could not complete its answer. Try rephrasing or choose a dossier question above.");
+    }
+    const answer = candidate?.content?.parts
       ?.filter(part => !part.thought && typeof part.text === "string")
       .map(part => part.text).join("").trim();
     if (!answer) {
-      return reply(res, 502, {error:"Gemini returned no answer. Try rephrasing or use a dossier answer above."});
+      return fallback(res, question, 502, "The live analyst returned no answer. Try rephrasing or choose a dossier question above.");
     }
-    return reply(res, 200, {answer});
-  } catch {
-    return reply(res, 502, {error:"Gemini did not respond in time. Try a dossier answer above."});
+    return reply(res, 200, {answer, source:"live"});
+  } catch (error) {
+    console.warn("Analyst upstream request failed", { type: error?.name ?? "UnknownError" });
+    return fallback(res, question, 502, "The live analyst could not respond. Try a dossier question above.");
   }
 }
 

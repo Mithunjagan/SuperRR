@@ -19,6 +19,18 @@ const windows = [
   ["Mid-chase","Second innings","31–60","legal balls remaining","9.5–16 required runs per over"],
   ["Late chase","Second innings","1–30","legal balls remaining","8–16 required runs per over"]
 ];
+const appearanceKey = "superrr-viewer-appearance";
+const appearances = ["system", "light", "dark"];
+
+function readAppearance() {
+  try {
+    const saved = localStorage.getItem(appearanceKey);
+    if (saved && appearances.includes(saved)) return saved;
+  } catch {
+    // Appearance still works if the browser blocks storage.
+  }
+  return "system";
+}
 
 function Mark({ className = "" }) {
   return <span className={"rr-mark " + className} aria-hidden="true"><i/><i/><i/></span>;
@@ -76,7 +88,7 @@ function RankExplorer({ rows }) {
   const [metric, setMetric] = useState("score");
   const group = rows.filter(p => p.role === role);
   const player = group.find(p => p.final_rank === rank);
-  const [,,unit] = metrics.find(([id]) => id === metric);
+  const [,,unit] = metrics.find(([id]) => id === metric) ?? metrics[0];
   const values = group.map(p => p[metric]);
   const min = Math.min(0, ...values);
   const max = Math.max(1, ...values);
@@ -105,7 +117,7 @@ function RankExplorer({ rows }) {
         <p className="rr-small rr-rank-foot">Final rating sets the submission order for every metric view.</p>
       </Evidence>
       <Evidence id="selected-player" query="shortlist" title="Selected player evidence" rows={[player]}>
-        <div aria-live="polite"><PlayerCard player={player}/></div>
+        <div aria-live="polite"><PlayerCard key={player.name} player={player}/></div>
       </Evidence>
     </div>
   </section>;
@@ -117,9 +129,22 @@ const duelModes = [
   ["ipl_balls","IPL exposure","Qualifying IPL balls","Bumrah has 89 more qualifying IPL balls in this sample."]
 ];
 
+function RatingGap({ low, high }) {
+  const limit = Math.ceil(Math.max(Math.abs(low), Math.abs(high)) / 10) * 10;
+  const point = value => (value + limit) / (2 * limit) * 100;
+  return <figure className="rr-gap">
+    <figcaption>Middle 95% of the bootstrap rating gap <span>Bumrah minus Hosein</span></figcaption>
+    <div className="rr-gap-axis" aria-hidden="true">
+      <span style={{left:point(low)+"%",width:point(high)-point(low)+"%"}}/>
+      <i/>
+    </div>
+    <div className="rr-gap-labels" aria-hidden="true"><span>−{limit} · Hosein leads</span><span>0</span><span>+{limit} · Bumrah leads</span></div>
+  </figure>;
+}
+
 function Duel({ bowlers, totals }) {
   const [mode, setMode] = useState("score");
-  const [,,unit,summary] = duelModes.find(([id]) => id === mode);
+  const [,,unit,summary] = duelModes.find(([id]) => id === mode) ?? duelModes[0];
   const pair = bowlers.slice(0,2);
   const max = Math.max(...pair.map(p => p[mode])) * 1.06;
   return <section id="comparison" className="rr-section rr-duel" data-reveal>
@@ -142,6 +167,7 @@ function Duel({ bowlers, totals }) {
       </Evidence>
       <Evidence id="joint-bootstrap" query="screening" title="Joint fixture bootstrap" rows={[totals]}>
         <p className="rr-joint"><b>{pct(totals.bumrahAhead)}</b><span>Bumrah led in {pct(totals.bumrahAhead)} of {number.format(totals.draws)} draws across {totals.fixtures} fixtures. The middle 95% of the rating gap ran from {signed(totals.jointLow)} to {signed(totals.jointHigh)}, leaving the order uncertain.</span></p>
+        <RatingGap low={totals.jointLow} high={totals.jointHigh}/>
       </Evidence>
       <div className="rr-leverage"><strong>Win-probability cross-check</strong><p>Bumrah +0.70 (+0.08 to +1.24), Hosein +0.07 (−0.32 to +0.47) percentage points per ball. The interval for the gap includes zero.</p></div>
     </div>
@@ -161,7 +187,7 @@ function Auction({ comparators, scenario, setScenario }) {
     <Heading index="RR SQUAD FIT" title="Auction room" detail="Test the bid against the vacancy it would fill."/>
     <Choices options={callOptions} value={scenario} onChange={setScenario} label="Auction scenario"/>
     <div className="rr-call" aria-live="polite">
-      <div><div className="rr-kicker">{label}</div><h3>{player}</h3><p>{decision}</p></div>
+      <div key={scenario} className="rr-update"><div className="rr-kicker">{label}</div><h3>{player}</h3><p>{decision}</p></div>
       <div><strong>{one}</strong><span>{oneLabel}</span></div>
       <div><strong>{two}</strong><span>{twoLabel}</span></div>
     </div>
@@ -184,7 +210,7 @@ function Methodology({ robustness }) {
     <Heading index="MODEL & VALIDATION" title="What counts as pressure?" detail="We read the score before each delivery and apply the same situations to both roles."/>
     <Choices options={windows.map(([label],i) => [i,label])} value={window} onChange={setWindow} label="Pressure window"/>
     <div className="rr-rule" aria-live="polite">
-      <div><span className="rr-kicker">{innings}</span><h3>{name}</h3><p>{condition}{window > 0 && " · At least 2 wickets in hand"}</p></div>
+      <div key={window} className="rr-update"><span className="rr-kicker">{innings}</span><h3>{name}</h3><p>{condition}{window > 0 && " · At least 2 wickets in hand"}</p></div>
       <div><strong>{balls}</strong><span>{ballLabel}</span></div>
     </div>
     <div className="rr-method-grid">
@@ -198,7 +224,9 @@ function Methodology({ robustness }) {
         <div className="rr-table-header"><h3>How much of the top ten survives?</h3><small>Players retained from each final list</small></div>
         <div className="rr-table-wrap"><table><thead><tr><th scope="col">Sensitivity check</th>{robustness.map(r => <th key={r.role} scope="col">{r.role}</th>)}</tr></thead>
           <tbody>{[["chase","Chase-only"],["q25","Match bootstrap Q25"],["equal8","Equal-eight-match Q25"],["leverage","Win-probability leverage"]].map(([id,label]) =>
-            <tr key={id}><th scope="row">{label}</th>{robustness.map(r => <td key={r.role}><b>{r[id]} / 10</b></td>)}</tr>)}</tbody></table></div>
+            <tr key={id}><th scope="row">{label}</th>{robustness.map(r => <td key={r.role}><b>{r[id]} / 10</b>
+              <span className="rr-overlap-track" aria-hidden="true"><i style={{width:r[id]*10+"%"}}/></span>
+            </td>)}</tr>)}</tbody></table></div>
       </Evidence>
     </div>
     <Evidence id="forecast-test" query="robustness" title="2026 forward test" rows={robustness} className="rr-panel rr-forecast">
@@ -212,9 +240,11 @@ function Methodology({ robustness }) {
 
 export function DashboardContent() {
   const { reviewedRows } = useDataApp();
-  const root = useRef(null);
+  const root = useRef(/** @type {HTMLDivElement | null} */ (null));
   const [active, setActive] = useState("top");
   const [scenario, setScenario] = useState("finish");
+  const publicViewer = Boolean(document.querySelector('meta[name="data-app-static-demo"]'));
+  const [appearance, setAppearance] = useState(readAppearance);
   const rows = reviewedRows("shortlist");
   const totals = reviewedRows("screening")[0];
   const comparators = reviewedRows("auction");
@@ -222,6 +252,7 @@ export function DashboardContent() {
 
   useEffect(() => {
     const page = root.current;
+    if (!page) return;
     const reveal = new IntersectionObserver(entries => {
       for (const entry of entries) {
         if (entry.isIntersecting) {
@@ -231,19 +262,19 @@ export function DashboardContent() {
       }
     }, {threshold:0.07});
     page.querySelectorAll("[data-reveal]").forEach(section => reveal.observe(section));
-    const sections = nav.map(([id]) => page.querySelector("#"+id));
+    const sections = Array.from(page.querySelectorAll(nav.map(([id]) => "#"+id).join(",")));
     let frame = 0;
-    function update() {
+    const update = () => {
       frame = 0;
       const rect = page.getBoundingClientRect();
       const viewport = window.innerHeight;
       const traveled = Math.max(0, -rect.top);
       const total = Math.max(1, rect.height - viewport);
-      page.style.setProperty("--rr-progress", Math.min(1,traveled/total));
+      page.style.setProperty("--rr-progress", String(Math.min(1,traveled/total)));
       page.style.setProperty("--rr-parallax", Math.min(43, traveled * .13) + "px");
       const pointer = sections.reduce((current, section) => section.getBoundingClientRect().top <= viewport * .35 ? section.id : current, "top");
       setActive(pointer);
-    }
+    };
     function schedule() { if (!frame) frame = requestAnimationFrame(update); }
     document.addEventListener("scroll", schedule, {passive:true,capture:true});
     window.addEventListener("resize", schedule);
@@ -256,14 +287,25 @@ export function DashboardContent() {
     };
   }, []);
 
-  return <div ref={root} className="rr-page">
+  function changeAppearance(event) {
+    const next = event.target.value;
+    setAppearance(next);
+    try { localStorage.setItem(appearanceKey, next); } catch {
+      // Keep the change for the current visit.
+    }
+  }
+
+  return <div ref={root} className="rr-page" data-rr-appearance={publicViewer ? appearance : undefined}>
     <nav className="rr-nav" aria-label="Scouting dashboard">
       <a className="rr-brand" href="#top"><Mark/> Supe<span>RR</span></a>
       <div className="rr-nav-links">{nav.map(([id, name]) => <a key={id} href={"#"+id} aria-current={active === id ? "location" : undefined}>{name}</a>)}</div>
-      <span className="rr-round">ROUND 1 <b>•</b> IPL 2027</span>
+      {publicViewer ? <select className="rr-appearance" aria-label="Appearance" value={appearance} onChange={changeAppearance}>
+        <option value="system">System theme</option><option value="light">Light theme</option><option value="dark">Dark theme</option>
+      </select> : <span className="rr-round">ROUND 1 <b>•</b> IPL 2027</span>}
     </nav>
     <section id="top" className="rr-hero">
       <div className="rr-hero-art" aria-hidden="true"/><div className="rr-hero-orbit" aria-hidden="true"/>
+      <div className="rr-hero-light" aria-hidden="true"/>
       <div className="rr-hero-content">
         <div className="rr-kicker"><span/> RAJASTHAN ROYALS SCOUTING ANALYSIS</div>
         <h1>Under<br/><em>Pressure.</em></h1>
