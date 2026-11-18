@@ -3,8 +3,8 @@
   "kind": "vite-viewer-v1",
   "html": {
     "path": "index.html",
-    "sha256": "dda6b0015922cc8f8a93ad199197f7cef493de16d07ce7dc1757027f0bd7d467",
-    "bytes": 2355914
+    "sha256": "9c82453c4e684ceef8496c061752e5029b40d9eaf8c61888e75d90737c5a4922",
+    "bytes": 2218400
   },
   "snapshot": {
     "path": "snapshot.bd532ad1367717e95865bbb02461c8665d0b44fce31998c4c05598bb29ecc4ec.json",

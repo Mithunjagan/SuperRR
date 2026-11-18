@@ -38,7 +38,14 @@
   background:radial-gradient(ellipse at 83% 17%,#922368 0%,#3e1546 38%,#170b27 71%);
   color:#fff; border-radius:0 0 18px 18px; padding:clamp(28px,4.5vw,67px); scroll-margin-top:123px;
 }
-.rr-hero-art {position:absolute;inset:0;background-image:linear-gradient(90deg,#190c2b 0%,#1b0c2ceb 28%,#1b0c2c55 60%,#1b0c2c08 100%),url("./stadium.webp");background-position:center,center 30%;background-size:cover;animation:rr-arrive 1.3s cubic-bezier(.2,.72,.15,1) both}
+.rr-hero-art {
+  position:absolute;
+  inset:0 0 auto auto;
+  height:100%;
+  aspect-ratio:3 / 2;
+  background:url("./stadium.webp") right center / auto 100% no-repeat;
+  mask-image:linear-gradient(to right,transparent,#000 48%);
+}
 .rr-hero:after {content:"";position:absolute;inset:0;background:linear-gradient(0deg,#190c2b95,transparent 28%);pointer-events:none}
 .rr-hero-content {z-index:1;position:relative;animation:rr-rise .75s .08s both}
 .rr-hero-orbit {position:absolute;width:540px;aspect-ratio:1;border:1px solid #ffa7d03a;right:-190px;top:-245px;border-radius:50%;box-shadow:0 0 0 38px #ffa7d015,0 0 0 76px #ffa7d010,0 0 0 114px #ffa7d00d;pointer-events:none}
@@ -191,7 +198,6 @@
 .rr-footer > a:last-child {font-size:12px;color:var(--rr-pink);font-weight:750}
 .rr-visible {animation:rr-rise .59s cubic-bezier(.2,.65,.2,1) both}
 @keyframes rr-rise {from {opacity:.62;transform:translateY(18px)} to {opacity:1;transform:translateY(0)}}
-@keyframes rr-arrive {from {transform:scale(1.065)} to {transform:scale(1)}}
 @keyframes rr-grow {from {scale:0 1} to {scale:1 1}}
 @keyframes rr-light-pass {from {opacity:.35;translate:5% -7%} to {opacity:.8;translate:-4% 3%}}
 @media (max-width:850px) {
@@ -209,7 +215,6 @@
   .rr-nav-links a {font-size:11px}
   .rr-page .rr-brand {font-size:19px}
   .rr-hero {min-height:348px;padding:20px 16px 30px}
-  .rr-hero-art {background-position:center,62% 44%;opacity:.81}
   .rr-hero h1 {font-size:clamp(53px,14vw,77px)}
   .rr-hero .rr-kicker {font-size:8px;letter-spacing:.12em}
   .rr-hero-tag {bottom:10px;right:11px;font-size:8px}
@@ -247,7 +252,6 @@
 .rr-analyst-answer {margin-top:11px;padding:9px;background:#180e24a0;border-radius:8px;color:#f1dfef;font-size:12px}
 .rr-analyst-answer p {overflow-wrap:anywhere}
 @media (prefers-reduced-motion:no-preference) {
-  .rr-hero-art {translate:0 var(--rr-parallax,0px)}
   .rr-hero-light {animation:rr-light-pass 3s ease-out both}
   .rr-leaders > a {animation:rr-rise .5s var(--rr-entry-delay,.12s) backwards}
   .rr-leaders > a:nth-child(2) {--rr-entry-delay:.20s}

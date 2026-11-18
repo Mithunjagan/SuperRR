@@ -278,7 +278,6 @@ export function DashboardContent() {
     const page = root.current;
     if (!page) return;
     const progress = page.querySelector(".rr-nav");
-    const hero = page.querySelector(".rr-hero");
     const reveal = new IntersectionObserver(entries => {
       for (const entry of entries) {
         if (entry.isIntersecting) {
@@ -293,12 +292,11 @@ export function DashboardContent() {
       for (const entry of entries) if (entry.isIntersecting) setActive(entry.target.id);
     }, {rootMargin:"-15% 0px -65% 0px",threshold:0});
     sections.forEach(section => activeSections.observe(section));
-    const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)");
     let height = page.scrollHeight;
     const size = new ResizeObserver(() => {height=page.scrollHeight;schedule();});
     size.observe(page);
     let frame = 0;
-    let previousProgress = "", previousParallax = "";
+    let previousProgress = "";
     const update = () => {
       frame = 0;
       const rect = page.getBoundingClientRect();
@@ -308,10 +306,6 @@ export function DashboardContent() {
       const nextProgress = Math.min(1,traveled/total).toFixed(4);
       if (progress instanceof HTMLElement && nextProgress !== previousProgress) {
         progress.style.setProperty("--rr-progress", nextProgress);previousProgress=nextProgress;
-      }
-      const nextParallax = !reducedMotion.matches && window.innerWidth > 760 ? Math.min(90, traveled * .18).toFixed(1) + "px" : "0px";
-      if (hero instanceof HTMLElement && nextParallax !== previousParallax) {
-        hero.style.setProperty("--rr-parallax", nextParallax);previousParallax=nextParallax;
       }
     };
     function schedule() { if (!frame) frame = requestAnimationFrame(update); }
@@ -352,7 +346,6 @@ export function DashboardContent() {
         <p>When the game turns, who stands up?<br/>Follow the evidence. Make the call.</p>
         <div className="rr-hero-actions"><a className="rr-primary" href="#analytics">Enter the analytics lab <span>↗</span></a><a className="rr-secondary" href="#rankings">Explore the shortlist <span>↓</span></a></div>
       </div>
-      <div className="rr-hero-coordinate" aria-hidden="true">RR / PERFORMANCE INTELLIGENCE<br/>IPL + T20I / SCOUTING DOSSIER</div>
       <span className="rr-hero-tag">IPL + T20I <b> / </b> REVIEWED 17 NOV 2026</span>
     </section>
     <Evidence id="analysis-coverage" query="screening" title="Screened match coverage" rows={[totals]}><div className="rr-coverage">{[[totals.matches,"matches screened"],[totals.events,"regulation events"],[totals.pressure,"pressure-window events"]].map(([n,label]) => <div key={label}><b>{number.format(n)}</b><span>{label}</span></div>)}<a href="#methods">Inside the model <span>↗</span></a></div>
