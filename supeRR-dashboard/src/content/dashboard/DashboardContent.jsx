@@ -4,6 +4,7 @@ import "./pressure.css";
 import "./experience.css";
 import Analyst from "./Analyst.jsx";
 import AnalyticsLab from "./AnalyticsLab.jsx";
+import Picker from "./Picker.jsx";
 
 const number = new Intl.NumberFormat("en-IN");
 const fmt = n => Number(n).toFixed(2);
@@ -22,12 +23,16 @@ const windows = [
   ["Late chase","Second innings","1–30","legal balls remaining","8–16 required runs per over"]
 ];
 const appearanceKey = "superrr-viewer-appearance";
-const appearances = ["system", "light", "dark"];
+const appearances = [
+  { value: "system", label: "System theme" },
+  { value: "light", label: "Light theme" },
+  { value: "dark", label: "Dark theme" },
+];
 
 function readAppearance() {
   try {
     const saved = localStorage.getItem(appearanceKey);
-    if (saved && appearances.includes(saved)) return saved;
+    if (appearances.some(option => option.value === saved)) return saved;
   } catch {
     // Appearance still works if the browser blocks storage.
   }
@@ -321,8 +326,7 @@ export function DashboardContent() {
     };
   }, []);
 
-  function changeAppearance(event) {
-    const next = event.target.value;
+  function changeAppearance(next) {
     setAppearance(next);
     try { localStorage.setItem(appearanceKey, next); } catch {
       // Keep the change for the current visit.
@@ -334,9 +338,8 @@ export function DashboardContent() {
     <nav className="rr-nav" aria-label="Scouting dashboard">
       <a className="rr-brand" href="#top"><Mark/> Supe<span>RR</span></a>
       <div className="rr-nav-links">{nav.map(([id, name]) => <a key={id} href={"#"+id} aria-current={active === id ? "location" : undefined}>{name}</a>)}</div>
-      {publicViewer ? <select className="rr-appearance" aria-label="Appearance" value={appearance} onChange={changeAppearance}>
-        <option value="system">System theme</option><option value="light">Light theme</option><option value="dark">Dark theme</option>
-      </select> : <span className="rr-round">ROUND 1 <b>•</b> IPL 2027</span>}
+      {publicViewer ? <Picker label="Appearance" variant="theme" value={appearance} options={appearances}
+        onChange={changeAppearance} /> : <span className="rr-round">ROUND 1 <b>•</b> IPL 2027</span>}
     </nav>
     <section id="top" className="rr-hero">
       <div className="rr-hero-art" aria-hidden="true"/><div className="rr-hero-grid" aria-hidden="true"/>
@@ -348,7 +351,6 @@ export function DashboardContent() {
         <div className="rr-hero-actions"><a className="rr-primary" href="#analytics">Enter the analytics lab <span>↗</span></a><a className="rr-secondary" href="#rankings">Explore the shortlist <span>↓</span></a></div>
       </div>
       <div className="rr-hero-coordinate" aria-hidden="true">RR / PERFORMANCE INTELLIGENCE<br/>IPL + T20I / SCOUTING DOSSIER</div>
-      <a className="rr-scroll-cue" href="#analytics"><span>SCROLL TO EXPLORE</span><i>↓</i></a>
       <span className="rr-hero-tag">IPL + T20I <b> / </b> REVIEWED 17 NOV 2026</span>
     </section>
     <Evidence id="analysis-coverage" query="screening" title="Screened match coverage" rows={[totals]}><div className="rr-coverage">{[[totals.matches,"matches screened"],[totals.events,"regulation events"],[totals.pressure,"pressure-window events"]].map(([n,label]) => <div key={label}><b>{number.format(n)}</b><span>{label}</span></div>)}<a href="#methods">Inside the model <span>↗</span></a></div>

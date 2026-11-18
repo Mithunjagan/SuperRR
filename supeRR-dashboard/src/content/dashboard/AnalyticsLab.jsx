@@ -1,5 +1,6 @@
 import React, { useId, useMemo, useState } from "react";
 import { DataComponent } from "../../data-app-public.jsx";
+import Picker from "./Picker.jsx";
 import { chartDomain, preparePlayer, sensitivityCurve, sensitivityRating } from "./pressure-analytics.mjs";
 
 const format = value => value == null ? "Unavailable" : value.toFixed(2);
@@ -84,6 +85,11 @@ export default function AnalyticsLab({ rows, matches }) {
     const group = rows.filter(row => row.role === next);
     setRole(next);setSelected(group[0].name);setComparison(group[1].name);
   }
+  function changePlayer(next) {
+    if (next === comparison) setComparison(selected);
+    setSelected(next);
+  }
+  const playerOptions = players.map(({ name }) => ({ value: name, label: name }));
   const display = [selected, comparison].map(name => ({name, addedBalls:strength, sensitivityRating:sensitivityRating(prepared[name], strength), officialRating:sensitivityRating(prepared[name],60)}));
   return <section id="analytics" className="rr-section rr-lab" data-reveal>
     <div className="rr-section-top"><header className="rr-heading"><div className="rr-kicker"><span/> THE ANALYTICS LAB</div><h2>Move it.<br/><em>Measure it.</em></h2><p>Change the assumptions. See exactly how the model responds.</p></header>
@@ -91,8 +97,13 @@ export default function AnalyticsLab({ rows, matches }) {
     <div className="rr-lab-workspace">
       <aside className="rr-lab-controls" aria-label="Analytics controls">
         <div className="rr-choices" role="group" aria-label="Analytics player category">{["Batters","Bowlers"].map(item => <button type="button" key={item} aria-pressed={role===item} onClick={()=>changeRole(item)}>{item}</button>)}</div>
-        <label className="rr-field">Player<select value={selected} onChange={event => {const next=event.target.value;if(next===comparison)setComparison(selected);setSelected(next);}}>{players.map(p=><option key={p.name}>{p.name}</option>)}</select></label>
-        <label className="rr-field">Compare with<select value={comparison} onChange={event=>setComparison(event.target.value)}>{players.filter(p=>p.name!==selected).map(p=><option key={p.name}>{p.name}</option>)}</select></label>
+        <div className="rr-field">Player
+          <Picker label="Player" variant="player" value={selected} options={playerOptions} onChange={changePlayer} />
+        </div>
+        <div className="rr-field">Compare with
+          <Picker label="Compare with" variant="player" value={comparison}
+            options={playerOptions.filter(option => option.value !== selected)} onChange={setComparison} />
+        </div>
         <div className="rr-strength"><label htmlFor="rr-shrinkage">Shrinkage <output>{strength}<small>added balls</small></output></label>
           <input id="rr-shrinkage" type="range" min="0" max="240" step="5" value={strength} onChange={event=>setStrength(Number(event.target.value))}/>
           <div><span>0 · rawer</span><span>240 · more conservative</span></div>
