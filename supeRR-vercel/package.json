@@ -1,0 +1,15 @@
+{
+  "name": "superr-vercel",
+  "version": "1.0.0",
+  "description": "SupeRR Under Pressure - Cricket Analytics Dashboard",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'",
+    "test": "node tests/test-analyst.mjs"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
