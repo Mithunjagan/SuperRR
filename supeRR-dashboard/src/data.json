@@ -4565,6 +4565,98 @@
           "code": "Source aggregates are prepared by supeRR-vercel/prepare-analytics.py. Interactive calculations are in src/content/dashboard/pressure-analytics.mjs. Preserve frozen eligibility and the official 60-ball ranking; a different shrinkage is a sensitivity scenario. Per-match bars show supplied adjusted value, ordered by match ID; they are not a chronological time series."
         }
       ]
+    },
+    "auctionPlan": {
+      "rows": [
+        {
+          "id": "finish",
+          "label": "Finishing depth",
+          "title": "Compare the market with a Hetmyer return",
+          "decision": "Ferreira is the internal option. If Hetmyer registers, use his RR role experience and price to benchmark alternatives for the overseas finishing slot. Keep Ferreira as cover if the pool offers no clear upgrade.",
+          "status": "RR released Hetmyer and retained Ferreira.",
+          "sourceHref": "https://www.rajasthanroyals.com/latest-news/ipl-2027-rr-players-retention-list-retained-released",
+          "sourceLabel": "RR retentions",
+          "candidate": "Shimron Hetmyer",
+          "rating": 5.854527479596505,
+          "iplBalls": 201
+        },
+        {
+          "id": "pace",
+          "label": "Death bowling",
+          "title": "Keep Archer as the lead death bowler",
+          "decision": "Archer bowled 102 death balls for RR in the screened 2026 matches. Shami adds new-ball cover. Check Ferguson’s availability if RR wants a reserve quick. His overall rating was positive, while his IPL pressure sample was small and his net adjusted contribution in it was negative.",
+          "status": "Punjab Kings released Ferguson. Registration and availability remain unverified.",
+          "sourceHref": "https://www.punjabkingsipl.in/news/ipl-2027-meet-our-retained-shers",
+          "sourceLabel": "PBKS retentions",
+          "candidate": "Lockie Ferguson",
+          "rating": 3.4364275049804505,
+          "iplBalls": 40
+        },
+        {
+          "id": "cover",
+          "label": "Curran’s role",
+          "title": "Assess seam and batting cover separately",
+          "decision": "Curran’s trade takes away lower-order batting and left-arm seam in one roster spot. Assess those roles separately before committing to an all-rounder. Siddharth provides Indian left-arm spin for the powerplay, so an overseas spin bid would need to fill a different role.",
+          "status": "RR received Shami and Siddharth in the trade with Lucknow.",
+          "sourceHref": "https://www.iplt20.com/news/article/mohd-shami-and-m-siddharth-traded-to-rajasthan-royals-sam-curran-traded-to-lucknow-super-giants",
+          "sourceLabel": "IPL trade advisory"
+        }
+      ],
+      "source": {
+        "provider": "SupeRR Round 1 analysis and franchise announcements",
+        "label": "Auction decisions after retentions",
+        "files": [
+          "output/final_recheck/ipl_2027_availability.csv",
+          "output/final_recheck/batters_audit.csv",
+          "output/final_recheck/bowlers_audit.csv",
+          "output/rr_2026_deployment.json"
+        ],
+        "grain": "One row per auction role",
+        "metricDefinitions": [],
+        "evidenceFlow": [
+          {
+            "title": "Evidence and decision",
+            "detail": "Use 17 November franchise announcements for retention and release status. Historical ratings come from the full eligible audit. Phase deployment uses screened RR matches. Check registration and availability before bidding."
+          }
+        ]
+      },
+      "methods": [
+        {
+          "language": "text",
+          "code": "Use 17 November franchise announcements for retention and release status. Historical ratings come from the full eligible audit. Phase deployment uses screened RR matches. Check registration and availability before bidding."
+        }
+      ]
+    },
+    "auctionSquad": {
+      "rows": [
+        {
+          "purseCrore": 27.05,
+          "openSlots": 6,
+          "squadSize": 19,
+          "sourceHref": "https://www.rajasthanroyals.com/latest-news/ipl-2027-rr-players-retention-list-retained-released"
+        }
+      ],
+      "source": {
+        "provider": "Rajasthan Royals",
+        "label": "RR roster after retentions",
+        "files": [
+          "https://www.rajasthanroyals.com/latest-news/ipl-2027-rr-players-retention-list-retained-released"
+        ],
+        "grain": "One row for Rajasthan Royals",
+        "metricDefinitions": [],
+        "evidenceFlow": [
+          {
+            "title": "Evidence and decision",
+            "detail": "Take the purse in crore and roster counts from the Rajasthan Royals announcement dated 17 November 2026."
+          }
+        ]
+      },
+      "methods": [
+        {
+          "language": "text",
+          "code": "Take the purse in crore and roster counts from the Rajasthan Royals announcement dated 17 November 2026."
+        }
+      ]
     }
   },
   "id": "dashboard:f4097156-4c89-4728-b5f8-a9eeeb7a2042",

@@ -223,6 +223,12 @@
 .rr-gap-axis {margin-top:17px;height:25px}.rr-gap-labels{font-size:8px}
 .rr-leverage {font-size:10px;line-height:1.8;margin-top:23px;color:#bdaac3}
 .rr-leverage strong {display:block;font-size:9px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px}
+.rr-page[data-rr-appearance="light"] {color-scheme:light}
+.rr-page[data-rr-appearance="dark"] {color-scheme:dark}
+.rr-page[data-rr-appearance="system"] {color-scheme:light dark}
+.rr-auction-squad {font-size:12px;color:var(--rr-muted);line-height:1.6}
+#auction .rr-auction-squad a,#auction .rr-availability a {text-decoration:underline;text-underline-offset:2px}
+#auction .rr-table-header {margin:0}
 .rr-call {border:0;border-left:3px solid var(--rr-pink);border-radius:0;background:var(--rr-wash);padding:30px;margin-top:22px;gap:26px}
 .rr-call h3 {font-size:clamp(28px,3.5vw,47px);line-height:1.1;margin:9px 0 13px;font-weight:750}
 .rr-call p {font-size:12px;line-height:1.8;max-width:57ch}

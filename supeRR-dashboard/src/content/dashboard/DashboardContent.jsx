@@ -16,7 +16,7 @@ const metrics = [
   ["boot_q0.25", "Bootstrap Q25", "Adjusted runs / 100 balls"],
   ["ipl_balls", "IPL balls", "Qualifying IPL balls"]
 ];
-const nav = [["top","Overview"],["analytics","Analytics"],["rankings","Players"],["comparison","The duel"],["auction","Squad fit"],["methods","Method"],["analyst","Q&A"]];
+const nav = [["top","Overview"],["analytics","Analytics"],["rankings","Players"],["comparison","The duel"],["auction","Auction"],["methods","Method"],["analyst","Q&A"]];
 const windows = [
   ["Early collapse","First innings","0–59","legal balls already bowled","At least 3 wickets lost"],
   ["Mid-chase","Second innings","31–60","legal balls remaining","9.5–16 required runs per over"],
@@ -43,9 +43,9 @@ function Mark({ className = "" }) {
   return <span className={"rr-mark " + className} aria-hidden="true"><i/><i/><i/></span>;
 }
 
-function Evidence({ id, query, title, rows, children, className = "" }) {
+function Evidence({ id, query, title, rows, children, className = "", headerControls }) {
   return <DataComponent id={id} queryId={query} title={title} kind="custom" variant="plain" showHeading={false} sourceRows={rows}
-    className={className}><div data-reviewed-rows>{children}</div></DataComponent>;
+    className={className} headerControls={headerControls}>{children && <div data-reviewed-rows>{children}</div>}</DataComponent>;
 }
 
 function Heading({ index, title, detail }) {
@@ -195,31 +195,31 @@ function Duel({ bowlers, totals }) {
   </section>;
 }
 
-const callOptions = [["finish","Finishing slot opens"],["pace","Archer leaves"],["spin","Overseas spin role opens"]];
-const calls = {
-  finish: ["Heinrich Klaasen","First bid for finishing","If he enters the official pool and RR has an overseas finishing slot, add right-handed boundary hitting behind Jurel and Parag.","37.14","Final rating","5.85","Hetmyer rating"],
-  pace: ["Jasprit Bumrah","First bid for pace","If he enters the official pool, prioritise the death overs alongside Shami and use Bumrah with the new ball when needed.","113","Qualifying IPL balls","#1","Chase-only bowling rank"],
-  spin: ["Akeal Hosein","Conditional new-ball spin bid","Consider him if he enters the official pool and RR has a distinct overseas new-ball spin role alongside Siddharth.","22.10","Final rating","15/19","Positive matches"]
-};
-
-function Auction({ comparators, scenario, setScenario }) {
-  const [player, label, decision, one, oneLabel, two, twoLabel] = calls[scenario];
+function Auction({ comparators, plans, squad, scenario, setScenario }) {
+  const plan = plans.find(row => row.id === scenario) ?? plans[0];
   return <section id="auction" className="rr-section" data-reveal>
-    <Heading index="RR SQUAD FIT" title="The right player. The right opening." detail="A great rating is only the start. Test the role it would fill."/>
-    <Choices options={callOptions} value={scenario} onChange={setScenario} label="Auction scenario"/>
-    <div className="rr-call" aria-live="polite">
-      <div key={scenario} className="rr-update"><div className="rr-kicker">{label}</div><h3>{player}</h3><p>{decision}</p></div>
-      <div><strong>{one}</strong><span>{oneLabel}</span></div>
-      <div><strong>{two}</strong><span>{twoLabel}</span></div>
-    </div>
-    <p className="rr-availability"><span/> <b>17 Nov 2026 snapshot</b> · Official auction-pool confirmation pending for the eligible shortlist.</p>
-    <Evidence id="auction-comparators" query="auction" title="Historical RR role comparisons" rows={comparators} className="rr-panel">
-      <div className="rr-table-header"><h3>Candidate vs RR comparator</h3><small>Final rating · adjusted runs / 100 balls</small></div>
+    <Heading index="IPL 2027" title="RR auction plan" detail="Prioritise finishing depth. Keep Archer as the lead death bowler and assess seam cover after Curran’s trade."/>
+    {squad && <Evidence id="auction-squad" query="auctionSquad" title="RR roster after retentions" rows={[squad]}
+      headerControls={<p className="rr-auction-squad" data-reviewed-rows><b>₹{fmt(squad.purseCrore)} crore</b> remaining · {squad.openSlots} open slots · {squad.squadSize} players in the squad · <a href={squad.sourceHref} target="_blank" rel="noreferrer">RR’s squad announcement</a></p>} />}
+    {plan ? <Evidence id="auction-plan" query="auctionPlan" title="Auction decisions after retentions" rows={[plan]}
+      headerControls={<Choices options={plans.map(row => [row.id, row.label])} value={plan.id} onChange={setScenario} label="Auction scenario"/>}>
+      <div className="rr-call" aria-live="polite">
+        <div key={plan.id} className="rr-update"><div className="rr-kicker">{plan.label}</div><h3>{plan.title}</h3><p>{plan.decision}</p></div>
+        {plan.candidate ? <>
+          <div><strong>{fmt(plan.rating)}</strong><span>{plan.candidate} · historical rating</span></div>
+          <div><strong>{plan.iplBalls}</strong><span>Qualifying IPL balls</span></div>
+        </> : null}
+      </div>
+      <p className="rr-availability"><span/> {plan.status} <a href={plan.sourceHref} target="_blank" rel="noreferrer">{plan.sourceLabel}</a></p>
+    </Evidence> : <p className="rr-availability">Auction scenarios are unavailable for this snapshot.</p>}
+    <p className="rr-availability">Auction registration was unverified for the watchlist on 18 Nov 2026. The historical test did not establish predictive accuracy for future performance, and we have no model for winning bids or prices.</p>
+    <Evidence id="auction-comparators" query="auction" title="Historical RR role comparisons" rows={comparators} className="rr-panel"
+      headerControls={<div className="rr-table-header"><h3>Historical role benchmarks</h3><small>Final rating · adjusted runs / 100 balls</small></div>}>
       <div className="rr-table-wrap"><table>
-        <thead><tr><th scope="col">Role</th><th scope="col">Candidate</th><th scope="col">RR comparator</th><th scope="col">Gap</th></tr></thead>
-        <tbody>{comparators.map(row => <tr key={row.label}><th scope="row">{row.label}</th><td>{row.target} <b>{fmt(row.targetScore)}</b></td><td>{row.incumbent} <b>{fmt(row.incumbentScore)}</b></td><td className={row.gap < 0 ? "rr-negative" : "rr-positive"}><b>{signed(row.gap)}</b></td></tr>)}</tbody>
+        <thead><tr><th scope="col">Role</th><th scope="col">Benchmark</th><th scope="col">RR comparator</th><th scope="col">Gap</th></tr></thead>
+        <tbody>{comparators.map(row => <tr key={row.label}><th scope="row">{row.label === "Pace fallback" ? "Pace" : row.label}</th><td>{row.target} <b>{fmt(row.targetScore)}</b></td><td>{row.incumbent} <b>{fmt(row.incumbentScore)}</b></td><td className={row.gap < 0 ? "rr-negative" : "rr-positive"}><b>{signed(row.gap)}</b></td></tr>)}</tbody>
       </table></div>
-      <p className="rr-small rr-table-note">Hazlewood is the pace fallback. Ferreira fell short of the final-rating eligibility rules.</p>
+      <p className="rr-small rr-table-note">These comparisons describe past performance. Ferreira fell short of the sample threshold for a final rating.</p>
     </Evidence>
   </section>;
 }
@@ -260,15 +260,17 @@ function Methodology({ robustness }) {
 }
 
 export function DashboardContent() {
-  const { reviewedRows } = useDataApp();
+  const { canEdit, reviewedRows } = useDataApp();
   const root = useRef(/** @type {HTMLDivElement | null} */ (null));
   const [active, setActive] = useState("top");
   const [scenario, setScenario] = useState("finish");
-  const publicViewer = Boolean(document.querySelector('meta[name="data-app-static-demo"]'));
+  const publicViewer = !canEdit;
   const [appearance, setAppearance] = useState(readAppearance);
   const rows = reviewedRows("shortlist");
   const totals = reviewedRows("screening")[0];
   const comparators = reviewedRows("auction");
+  const auctionPlans = reviewedRows("auctionPlan");
+  const squad = reviewedRows("auctionSquad")[0];
   const robustness = reviewedRows("robustness");
   const matchEvidence = reviewedRows("matchEvidence");
 
@@ -355,17 +357,17 @@ export function DashboardContent() {
     </section>
     <Evidence id="analysis-coverage" query="screening" title="Screened match coverage" rows={[totals]}><div className="rr-coverage">{[[totals.matches,"matches screened"],[totals.events,"regulation events"],[totals.pressure,"pressure-window events"]].map(([n,label]) => <div key={label}><b>{number.format(n)}</b><span>{label}</span></div>)}<a href="#methods">Inside the model <span>↗</span></a></div>
     </Evidence>
-    <Evidence id="opening-scouting-calls" query="shortlist" title="Opening scouting calls" rows={rows.filter(p => ["Heinrich Klaasen","Akeal Hosein","Jasprit Bumrah"].includes(p.name))}>
+    <Evidence id="opening-scouting-calls" query="shortlist" title="Opening scouting calls" rows={rows.filter(p => ["Heinrich Klaasen","Akeal Hosein"].includes(p.name))}>
       <div className="rr-leaders">
-        <a href="#rankings"><small>01 / TOP BATTER <span>↗</span></small><div><strong>Heinrich<br/>Klaasen</strong><b>37.14</b></div><p>First bid if he is in the pool and an overseas slot opens.</p></a>
+        <a href="#rankings"><small>01 / TOP BATTER <span>↗</span></small><div><strong>Heinrich<br/>Klaasen</strong><b>37.14</b></div><p>Leads the historical batting shortlist.</p></a>
         <a href="#comparison"><small>01 / TOP BOWLER <span>↗</span></small><div><strong>Akeal<br/>Hosein</strong><b>22.10</b></div><p>Leads the official bowling shortlist.</p></a>
-        <a href="#auction" onClick={() => setScenario("pace")}><small>RR / PACE CALL <span>↗</span></small><div><strong>Jasprit<br/>Bumrah</strong><b>113 <em>balls</em></b></div><p>Conditional first pace bid if Archer leaves.</p></a>
+        <a href="#auction" onClick={() => setScenario("finish")}><small>RR / AUCTION PRIORITY <span>↗</span></small><div><strong>Finishing<br/>depth</strong></div><p>Hetmyer was released. Ferreira provides cover.</p></a>
       </div>
     </Evidence>
     <AnalyticsLab rows={rows} matches={matchEvidence}/>
     <RankExplorer rows={rows}/>
     <Duel bowlers={rows.filter(p => p.role === "Bowlers")} totals={totals}/>
-    <Auction comparators={comparators} scenario={scenario} setScenario={setScenario}/>
+    <Auction comparators={comparators} plans={auctionPlans} squad={squad} scenario={scenario} setScenario={setScenario}/>
     <Methodology robustness={robustness}/>
     <Analyst/>
     <footer className="rr-footer"><a className="rr-brand" href="#top"><Mark/> Supe<span>RR</span></a><p>Round 1 scouting dossier and final recheck · 17 November 2026</p><a href="#top">Back to top ↑</a></footer>

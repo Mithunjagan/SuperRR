@@ -24,7 +24,8 @@ PALE=HexColor('#F0F4F8'); GRID=HexColor('#D6DFE9'); BLUE=HexColor('#235D91')
 W=A4[0]-92
 TRADE_DATE = date(2026, 11, 17)
 IPL_TRADE = 'https://www.iplt20.com/news/article/mohd-shami-and-m-siddharth-traded-to-rajasthan-royals-sam-curran-traded-to-lucknow-super-giants'
-RR_RETENTION = 'https://timesofindia.indiatimes.com/sports/cricket/news/ipl-2027-rajasthan-royals-retention-list-released-players-and-remaining-purse/articleshow/135929009.cms'
+RR_RETENTION = 'https://www.rajasthanroyals.com/latest-news/ipl-2027-rr-players-retention-list-retained-released'
+PBKS_RETENTION = 'https://www.punjabkingsipl.in/news/ipl-2027-meet-our-retained-shers'
 RR_TRADE = 'https://www.rajasthanroyals.com/latest-news/ipl-2027-trade-rr-mohammed-shami-manimaran-siddharth'
 
 
@@ -81,7 +82,7 @@ RR_ROLES = {
             'He bowled 744 legal powerplay balls. Siddharth adds Indian cover in that phase, so an overseas slot needs a clear role beyond duplicating that cover.'),
         'Jasprit Bumrah': (
             'New-ball and death benchmark',
-            'Reported retained by MI. He bowled 696 legal powerplay balls and 514 at the death and led the chase-only ranking.'),
+            'Retained by MI. He bowled 696 legal powerplay balls and 514 at the death and led the chase-only ranking.'),
         'Sunil Narine': (
             'Offspin alongside Jadeja',
             'Add a middle-over offspin option if RR has an overseas slot. He bowled 1,068 legal balls in that phase.'),
@@ -105,7 +106,7 @@ RR_ROLES = {
             'Consider if a left-arm spin role and overseas slot open. He bowled 1,158 legal middle-over balls and 312 in the powerplay.'),
         'Jofra Archer': (
             'Existing RR pace role',
-            'Reported retained by RR. Keep him as the lead death option. Across 15 screened RR matches he bowled 198 powerplay balls and 102 at the death.'),
+            'RR retained him. Keep him as the lead death option. Across 15 screened RR matches he bowled 198 powerplay balls and 102 at the death.'),
     },
 }
 
@@ -179,11 +180,11 @@ def render():
 
     page('Round 1 pressure shortlist',
          'Historical leaders: <b>Heinrich Klaasen</b> (batting) and <b>Akeal Hosein</b> (bowling).')
-    p("<b>RR auction priority: replace Hetmyer's finishing.</b> Retention-day reports list Hetmyer as released and Ferreira as retained. "
-      "Assess Ferreira as internal cover and prioritise an overseas finisher once the official pool is published. "
+    p("<b>RR auction priority: add finishing depth.</b> RR released Hetmyer and retained Ferreira as internal cover. "
+      "Once the pool is published, compare available finishers with a Hetmyer return if he registers. "
       "Klaasen is the historical benchmark and is reported retained by SRH (page 8).",'auction_call')
-    p("<b>Bowling: keep Archer at the death and add depth if needed.</b> RR reportedly retained Archer. Bumrah leads Hosein "
-      "in chases and has 113 qualifying IPL balls to Hosein's 24. Both are reported retained. Hosein leads the historical rating "
+    p("<b>Bowling: keep Archer at the death and add depth if needed.</b> RR retained Archer. Bumrah leads Hosein "
+      "in chases and has 113 qualifying IPL balls to Hosein's 24. MI retained Bumrah and CSK reportedly retained Hosein. Hosein leads the historical rating "
       "by 0.44, with the bootstrap showing a close ordering (page 6).",'auction_call')
     summary('1. Pressure definition',
         'We read the score before each ball. In the first innings, we look for an early collapse. In a chase, we use '
@@ -405,11 +406,11 @@ def render():
       'Review those performances for IPL role fit and availability before committing auction budget.','note')
 
     page('RR auction plan',
-         f'Retention-day snapshot, {report_date.isoformat()}. Auction entry requires the official register.')
+         f'Availability checked {report_date.isoformat()}. RR announced a ₹27.05 crore purse, 19 players and six open slots.')
     table(['RR decision','What the latest evidence supports'],[
-        ['Fill the finishing vacancy first','Hetmyer is reported released. Ferreira is reportedly retained and offers internal cover. Scout an overseas finisher and compare the price with a Hetmyer return if he registers.'],
-        ['Keep Archer as the lead death bowler','Archer is reported retained. In 15 screened RR matches he bowled 198 powerplay and 102 death balls. Shami adds Indian new-ball pace. Look for depth if an appropriate player enters the pool.'],
-        ['Protect the overseas slot','Siddharth supplies Indian left-arm powerplay spin. Hosein is reported retained by CSK. Curran moves to LSG, leaving a lower-order batting and left-arm seam role to reassess.'],
+        ['Prioritise finishing depth','Ferreira provides internal cover. Compare available finishers with a Hetmyer return if he registers. Hetmyer scored 5.85 on 201 qualifying IPL balls and additional T20I evidence.'],
+        ['Keep Archer as the lead death bowler','Archer bowled 102 death balls in 15 screened RR matches. Shami adds new-ball pace. Check Ferguson for depth if he registers. His 3.44 overall rating includes a small, net negative IPL pressure sample (40 balls).'],
+        ['Cover Curran’s two roles','Curran moves to LSG. Assess lower-order batting and left-arm seam separately before bidding for an all-rounder. Siddharth already supplies Indian left-arm powerplay spin.'],
     ],[160,343],pad=7)
     watchlist = {role: released_pending(role) for role in top}
     for title, groups in [
@@ -428,17 +429,18 @@ def render():
             p('No eligible player had verified auction entry in the register at this check.')
         else:
             p('No eligible player had a verified or reported release in this snapshot.')
-    p('Klaasen (37.14) benchmarks the finishing role against Hetmyer (5.85). Ferreira fell short of scoring eligibility. '
-      'Bumrah and Klaasen are reported retained, so keep them as historical comparators. A release earns a watchlist place while registration is pending. '
+    p('Klaasen (37.14) is a historical finishing benchmark. Ferreira fell short of scoring eligibility. '
+      'A release earns a watchlist place while registration is pending. These recommendations carry no bid-price or purchase forecast. '
       '* marks a reported status. Player-specific sources are recorded with the availability data.','note')
     p(f'<link href="{IPL_TRADE}" color="#235D91">IPL trade advisory</link> | '
       f'<link href="{RR_TRADE}" color="#235D91">RR trade announcement</link> | '
-      f'<link href="{RR_RETENTION}" color="#235D91">RR retention reporting</link> | '
+      f'<link href="{RR_RETENTION}" color="#235D91">RR retentions and purse</link> | '
+      f'<link href="{PBKS_RETENTION}" color="#235D91">PBKS retention announcement</link> | '
       '<link href="https://www.iplt20.com/news" color="#235D91">IPL announcements</link>','note')
 
     role_intros = {
-        'Batters': "Hetmyer's reported release opens a finishing role. Ferreira and the opening pair are reported retained.",
-        'Bowlers': "Shami and Siddharth add new-ball options. Archer is reported retained, so focus on depth behind him.",
+        'Batters': "Hetmyer's release opens a finishing role. RR retained Ferreira and the opening pair.",
+        'Bowlers': "Shami and Siddharth add new-ball options. RR retained Archer, so focus on depth behind him.",
     }
     for role in ('Batters','Bowlers'):
         page(f'How the {role.lower()} could help RR', role_intros[role])

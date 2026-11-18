@@ -20,6 +20,11 @@ supeRR-dashboard/dist/
 supeRR-dashboard/.data-app-offline/
 .vercel/
 
+# Local competition inputs and delivery-level exports
+/Data Pack/
+/output/SupeRR Round 1 Reproduction.zip
+/output/leverage_analysis/delivery_audit.csv.gz
+
 # Secrets
 .env
 .env.*

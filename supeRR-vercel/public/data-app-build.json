@@ -3,13 +3,13 @@
   "kind": "vite-viewer-v1",
   "html": {
     "path": "index.html",
-    "sha256": "d28a30852183e0035c9b7ad4126ec08290acdc4a0d9f71571a7017e0ff2b6ff6",
-    "bytes": 2354880
+    "sha256": "dda6b0015922cc8f8a93ad199197f7cef493de16d07ce7dc1757027f0bd7d467",
+    "bytes": 2355914
   },
   "snapshot": {
-    "path": "snapshot.0d41d87314d7f1a0df8c030c499eab828911579f6e287c432594222b7a5166bd.json",
-    "sha256": "0d41d87314d7f1a0df8c030c499eab828911579f6e287c432594222b7a5166bd",
-    "bytes": 133072
+    "path": "snapshot.bd532ad1367717e95865bbb02461c8665d0b44fce31998c4c05598bb29ecc4ec.json",
+    "sha256": "bd532ad1367717e95865bbb02461c8665d0b44fce31998c4c05598bb29ecc4ec",
+    "bytes": 132999
   },
-  "sourceSnapshotSha256": "0d41d87314d7f1a0df8c030c499eab828911579f6e287c432594222b7a5166bd"
+  "sourceSnapshotSha256": "bd532ad1367717e95865bbb02461c8665d0b44fce31998c4c05598bb29ecc4ec"
 }
