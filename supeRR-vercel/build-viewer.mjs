@@ -40,7 +40,12 @@ const output = new URL("./public/", import.meta.url);
 const manifest = JSON.parse(await readFile(new URL(manifestName, dist), "utf8"));
 const built = await readFile(htmlPath, "utf8");
 if (!built.includes("</head>")) throw new Error("The dashboard build has no closing head tag.");
-const html = built.replace("</head>", '<link rel="stylesheet" href="./viewer.css">\n</head>');
+const viewerHead = `<link rel="stylesheet" href="./viewer.css">
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>`;
+const html = built.replace("</head>", `${viewerHead}\n</head>`);
 manifest.html.sha256 = createHash("sha256").update(html).digest("hex");
 manifest.html.bytes = Buffer.byteLength(html);
 await writeFile(new URL(manifest.html.path, output), html);

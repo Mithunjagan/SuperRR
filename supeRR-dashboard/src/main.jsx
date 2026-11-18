@@ -1,5 +1,6 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
+import { Analytics } from "@vercel/analytics/react";
 
 // Load starter CSS before App traverses authored component stylesheet imports.
 import "./theme.css";
@@ -26,6 +27,7 @@ if (typeof document !== "undefined") {
     createRoot(root).render(
       <React.StrictMode>
         <DataAppRuntime />
+        <Analytics />
       </React.StrictMode>,
     );
   }
