@@ -15,20 +15,31 @@ import { App } from "./App.jsx";
 import reviewedSnapshot from "./data.json";
 
 const hosted = globalThis.location?.hostname.endsWith(".chatgpt.site") ?? false;
+const splitViewer = import.meta.env.MODE === "viewer";
 
-export function DataAppRuntime() {
-  return <App hosted={hosted} />;
+async function loadViewerSnapshot() {
+  const url = document.querySelector('meta[name="data-app-local-snapshot"]')?.content;
+  if (!url) throw new Error("The dashboard snapshot is missing.");
+  const response = await fetch(url);
+  if (!response.ok) throw new Error("The dashboard snapshot could not be loaded.");
+  return response.json();
 }
 
-if (typeof document !== "undefined") {
-  document.title = reviewedSnapshot.title || "Data app";
-  const root = document.getElementById("root");
-  if (root) {
-    createRoot(root).render(
+async function mount(element) {
+  const root = createRoot(element);
+  try {
+    const snapshot = splitViewer ? await loadViewerSnapshot() : reviewedSnapshot;
+    document.title = snapshot.title || "SupeRR";
+    root.render(
       <React.StrictMode>
-        <DataAppRuntime />
+        <App hosted={hosted} reviewedSnapshot={snapshot} />
         <Analytics />
       </React.StrictMode>,
     );
+  } catch {
+    root.render(<main className="dashboard-shell-loading-error" role="alert">The dashboard could not load. Refresh the page to try again.</main>);
   }
 }
+
+const element = globalThis.document?.getElementById("root");
+if (element) void mount(element);

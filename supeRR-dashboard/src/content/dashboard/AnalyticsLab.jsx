@@ -23,12 +23,18 @@ function Curves({ primary, peer, first, second, strength, onChange, sourceRows, 
     const point = new DOMPoint(event.clientX, event.clientY).matrixTransform(transform.inverse());
     onChange(clamp((point.x - plot.left) / (plot.right - plot.left) * 240));
   }
+  function startScrubbing(event) {
+    if (!event.isPrimary || event.button !== 0) return;
+    event.preventDefault();
+    event.currentTarget.setPointerCapture(event.pointerId);
+    scrub(event);
+  }
   const heading = <div className="rr-chart-heading"><h3>Rating sensitivity</h3><span>Adjusted runs / 100 balls</span></div>;
   return <DataComponent id="shrinkage-curves" queryId="matchEvidence" title="Player rating sensitivity" kind="custom"
     variant="plain" className="rr-lab-card" showHeading={false} headerControls={heading} sourceRows={sourceRows} displayRows={displayRows}><div data-reviewed-rows>
     <svg className="rr-curve-chart" viewBox="0 0 510 185" role="img" aria-label={`Shrinkage sensitivity: ${first} ${format(primaryScore)}, ${second} ${format(peerScore)}, at ${strength} added balls`}
-      onPointerDown={event => { event.currentTarget.setPointerCapture(event.pointerId); scrub(event); }}
-      onPointerMove={event => { if (event.buttons === 1) scrub(event); }}>
+      onPointerDown={startScrubbing}
+      onPointerMove={event => { if (event.currentTarget.hasPointerCapture(event.pointerId)) scrub(event); }}>
       <defs><linearGradient id={gradient} x1="0" x2="0" y1="0" y2="1"><stop offset="0" stopColor="#f44d9b" stopOpacity=".24"/><stop offset="1" stopColor="#f44d9b" stopOpacity="0"/></linearGradient></defs>
       {Array.from({length:5}, (_, i) => min + (max - min) * i / 4).map(tick => <g key={tick}>
         <line x1={plot.left} x2={plot.right} y1={y(tick)} y2={y(tick)} className="rr-plot-grid"/>

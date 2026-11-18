@@ -189,6 +189,7 @@ function ChartEditorDialog({ component, ...props }) {
 export function DataAppShell({
   snapshot,
   hosted,
+  staticDemo = false,
   canEdit: ownerCanEdit = true,
   persistLocally = true,
   onSnapshotChange,
@@ -1130,7 +1131,7 @@ export function DataAppShell({
       <DataAppBlockLayoutContext.Provider value={blockLayoutContext}>
         <DashboardAskProvider
           canEdit={ownerCanEdit}
-          enabled={canUseDashboardAsk({ canEdit: ownerCanEdit, mode })}
+          enabled={!staticDemo && canUseDashboardAsk({ mode })}
           explorationEnabled={mode === "view"}
           dashboardTitle={appTitle}
           onStatus={setActionStatus}
@@ -1157,6 +1158,7 @@ export function DataAppShell({
               refreshError={refreshError}
               onOpenThemes={() => setThemesOpen(true)}
               published={hosted}
+              staticDemo={staticDemo}
               canEdit={ownerCanEdit}
               verification={verification}
               pendingVerification={pendingVerification}

@@ -1,16 +1,15 @@
 {
   "version": 1,
-  "kind": "separate-data-v1",
+  "kind": "vite-viewer-v1",
   "html": {
     "path": "index.html",
-    "sha256": "8cfe3a6f2967bcf63eb87aed71fed695a791b4ca1fc759b4e722bd0bb2f8bc20",
-    "bytes": 2742284
+    "sha256": "d28a30852183e0035c9b7ad4126ec08290acdc4a0d9f71571a7017e0ff2b6ff6",
+    "bytes": 2354880
   },
   "snapshot": {
     "path": "snapshot.0d41d87314d7f1a0df8c030c499eab828911579f6e287c432594222b7a5166bd.json",
     "sha256": "0d41d87314d7f1a0df8c030c499eab828911579f6e287c432594222b7a5166bd",
     "bytes": 133072
   },
-  "runtimeSha256": "916b94ce943116be361cec379e4d341661a4f1f18fee2be142cab27bacd2fa02",
   "sourceSnapshotSha256": "0d41d87314d7f1a0df8c030c499eab828911579f6e287c432594222b7a5166bd"
 }

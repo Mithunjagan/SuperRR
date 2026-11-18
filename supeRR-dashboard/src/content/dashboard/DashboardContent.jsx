@@ -16,7 +16,7 @@ const metrics = [
   ["boot_q0.25", "Bootstrap Q25", "Adjusted runs / 100 balls"],
   ["ipl_balls", "IPL balls", "Qualifying IPL balls"]
 ];
-const nav = [["top","Overview"],["analytics","Analytics"],["rankings","Players"],["comparison","The duel"],["auction","Squad fit"],["methods","Method"],["analyst","Analyst"]];
+const nav = [["top","Overview"],["analytics","Analytics"],["rankings","Players"],["comparison","The duel"],["auction","Squad fit"],["methods","Method"],["analyst","Q&A"]];
 const windows = [
   ["Early collapse","First innings","0–59","legal balls already bowled","At least 3 wickets lost"],
   ["Mid-chase","Second innings","31–60","legal balls remaining","9.5–16 required runs per over"],

@@ -126,6 +126,7 @@ function ResolvedDataApp({ snapshot, createContent, DashboardContent, ReportCont
     <DataAppShell
       snapshot={snapshot}
       hosted={hosted}
+      staticDemo={staticDemo}
       onSnapshotChange={onSnapshotChange}
       canEdit={!staticDemo && (!hosted || presentationRecord.canEdit === true)}
       persistLocally={!staticDemo}

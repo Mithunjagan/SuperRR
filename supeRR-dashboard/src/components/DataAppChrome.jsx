@@ -668,6 +668,7 @@ export function DataAppTopbar({
   onOpenThemes,
   surface = "dashboard",
   published = false,
+  staticDemo = false,
   canEdit = true,
   verification,
   pendingVerification,
@@ -688,7 +689,6 @@ export function DataAppTopbar({
   const noun = surface === "report" ? "report" : "dashboard";
   const label = noun[0].toUpperCase() + noun.slice(1);
   const showTabs = surface !== "report" && tabs.length > 1;
-  const vercelViewer = globalThis.location?.hostname.endsWith(".vercel.app") ?? false;
   const [chromeColors, setChromeColors] = useState({});
   const [chromeLayout, setChromeLayout] = useState({});
   const topbar = useRef(null);
@@ -874,7 +874,7 @@ export function DataAppTopbar({
           >
             {title}
           </strong>
-          {build.label && (
+          {!staticDemo && build.label && (
             <span className="freshness freshness-label dashboard-authoring-status" role="status"
               title={build.active ? `ChatGPT is working on this ${noun}. You can keep exploring; editing and publishing will be available when it finishes.` : "Work is paused. Continue in ChatGPT to finish this update."}>
               {build.active && <Icon name="spinner" size={16} className="dashboard-authoring-spinner" />}
@@ -894,7 +894,7 @@ export function DataAppTopbar({
           )}
         </div>
 
-        {!vercelViewer && <div className="dashboard-topbar-mode-controls" ref={modeControls}>
+        {!staticDemo && <div className="dashboard-topbar-mode-controls" ref={modeControls}>
         {canEdit && mode === "edit" && <div className="dashboard-topbar-edit-controls">
           {(saving || saveStatus === "error") && (
             <span

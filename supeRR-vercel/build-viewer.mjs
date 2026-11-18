@@ -1,53 +1,36 @@
+import { execFileSync } from "node:child_process";
 import { createHash } from "node:crypto";
-import { copyFile, readFile, writeFile } from "node:fs/promises";
-import { resolve } from "node:path";
-import { fileURLToPath, pathToFileURL } from "node:url";
-import { registerHooks } from "node:module";
+import { readFile, writeFile } from "node:fs/promises";
+import { fileURLToPath } from "node:url";
 
-const builderPath = process.argv[2];
-if (!builderPath) throw new Error("Pass the installed Data app builder's data-app-build.mjs path.");
+const project = new URL("../supeRR-dashboard/", import.meta.url);
+const publicDir = new URL("./public/", import.meta.url);
+const compiled = new URL("dist/index.html", project);
+const options = { cwd: fileURLToPath(project), stdio: "inherit" };
+const vite = fileURLToPath(new URL("node_modules/vite/bin/vite.js", project));
+const sha256 = bytes => createHash("sha256").update(bytes).digest("hex");
 
-// The installed builder's legacy chart-manifest mapping uses Windows separators
-// in an otherwise POSIX manifest. Normalize only that computed relative path.
-// All installed source hashes and authored-content checks still run unchanged.
-if (process.platform === "win32") {
-  registerHooks({
-    load(url, context, nextLoad) {
-      const result = nextLoad(url, context);
-      if (!url.endsWith("/prebuilt/manifest.mjs")) return result;
-      const before = 'relative(pluginRoot, chartRuntimePath(pluginRoot, path.slice("skills/visualize-data/".length))) : path';
-      const source = String(result.source);
-      return source.includes(before)
-        ? { ...result, source: source.replace(before, before.replace(" : path", '.split(sep).join("/") : path')) }
-        : result;
-    },
-  });
-}
+execFileSync(process.execPath, ["scripts/verify-protected-runtime.mjs"], options);
+execFileSync(process.execPath, [vite, "build"], options);
+const offline = await readFile(compiled);
+execFileSync(process.execPath, [vite, "build", "--mode", "viewer"], options);
 
-const { buildPrebuiltDataApp } = await import(pathToFileURL(resolve(builderPath)));
-const projectDir = fileURLToPath(new URL("../supeRR-dashboard/", import.meta.url));
-const { htmlPath } = await buildPrebuiltDataApp({
-  projectDir,
-  separateData: true,
-  staticDemo: true,
-  check: true,
-  onProgress: console.log,
-});
-
-const manifestName = "data-app-build.json";
-const dist = new URL("../supeRR-dashboard/dist/", import.meta.url);
-const output = new URL("./public/", import.meta.url);
-const manifest = JSON.parse(await readFile(new URL(manifestName, dist), "utf8"));
-const built = await readFile(htmlPath, "utf8");
+const snapshot = await readFile(new URL("src/data.json", project));
+const snapshotHash = sha256(snapshot);
+const snapshotPath = `snapshot.${snapshotHash}.json`;
+const head = `<meta name="data-app-local-snapshot" content="${snapshotPath}">\n<link rel="stylesheet" href="./viewer.css">`;
+const built = await readFile(compiled, "utf8");
 if (!built.includes("</head>")) throw new Error("The dashboard build has no closing head tag.");
-const viewerHead = `<link rel="stylesheet" href="./viewer.css">
-<script>
-  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-</script>
-<script defer src="/_vercel/insights/script.js"></script>`;
-const html = built.replace("</head>", `${viewerHead}\n</head>`);
-manifest.html.sha256 = createHash("sha256").update(html).digest("hex");
-manifest.html.bytes = Buffer.byteLength(html);
-await writeFile(new URL(manifest.html.path, output), html);
-await copyFile(new URL(manifest.snapshot.path, dist), new URL(manifest.snapshot.path, output));
-await writeFile(new URL(manifestName, output), JSON.stringify(manifest, null, 2) + "\n");
+const html = Buffer.from(built.replace("</head>", `${head}\n</head>`));
+const manifest = {
+  version: 1,
+  kind: "vite-viewer-v1",
+  html: { path: "index.html", sha256: sha256(html), bytes: html.length },
+  snapshot: { path: snapshotPath, sha256: snapshotHash, bytes: snapshot.length },
+  sourceSnapshotSha256: snapshotHash,
+};
+
+await writeFile(new URL(snapshotPath, publicDir), snapshot);
+await writeFile(new URL(manifest.html.path, publicDir), html);
+await writeFile(new URL("data-app-build.json", publicDir), JSON.stringify(manifest, null, 2) + "\n");
+await writeFile(new URL("../output/SupeRR_Dashboard_Preview.html", import.meta.url), offline);

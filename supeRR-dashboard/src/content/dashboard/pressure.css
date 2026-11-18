@@ -238,26 +238,14 @@
 
 
 .rr-analyst {border-radius:18px;display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(15px,3.5vw,45px);align-items:start;background:radial-gradient(ellipse at 105% -15%,#692758,transparent 72%),var(--rr-dark);padding:clamp(18px,4.5vw,52px);color:white}
-.rr-analyst .rr-kicker {color:#ffa9d0}
 .rr-analyst h2 {font-size:clamp(34px,5vw,67px);line-height:.92;letter-spacing:-.08em;margin:.2em 0}
-.rr-analyst h2 span {color:#ff91cb}
 .rr-analyst-intro p {color:#ecd8e8;max-width:37ch;font-size:13px}
 .rr-analyst-card {background:#ffffff12;border:1px solid #ffffff38;padding:14px;border-radius:13px;min-width:0}
 .rr-analyst-examples {display:flex;flex-wrap:wrap;gap:5px}
 .rr-analyst-examples button {font-size:11px;color:#fff;border:1px solid #ffffff45;border-radius:7px;background:#ffffff0b;padding:6px 8px;text-align:left}
 .rr-analyst-examples button:hover {background:#ffffff26}
-.rr-analyst-examples span {color:#ffc0df}
-.rr-analyst form {margin-top:12px}
-.rr-analyst form label {display:block;font-size:11px;color:#f3d7ea;margin-bottom:5px}
-.rr-analyst-input {display:flex;gap:5px}
-.rr-analyst-input input {font:inherit;font-size:12px;min-width:0;flex:1;background:#1a0f26;color:#fff;border:1px solid #c796b688;border-radius:7px;padding:8px}
-.rr-analyst-input input::placeholder {color:#c8b1c9}
-.rr-analyst-input button {border:0;background:#ff9dcf;color:#2a1331;border-radius:7px;font-size:12px;font-weight:800;padding:7px;white-space:nowrap}
-.rr-analyst button:disabled {opacity:.65;cursor:default}
-.rr-analyst-status,.rr-analyst-answer {margin-top:11px!important;color:#f1dfef;font-size:12px}
-.rr-analyst-answer {padding:9px;background:#180e24a0;border-radius:8px}
-.rr-analyst-answer strong {display:block;font-size:10px;color:#ffb8dc;text-transform:uppercase;letter-spacing:.08em}
-.rr-analyst-answer p {white-space:pre-wrap;overflow-wrap:anywhere;padding-top:4px}
+.rr-analyst-answer {margin-top:11px;padding:9px;background:#180e24a0;border-radius:8px;color:#f1dfef;font-size:12px}
+.rr-analyst-answer p {overflow-wrap:anywhere}
 @media (prefers-reduced-motion:no-preference) {
   .rr-hero-art {translate:0 var(--rr-parallax,0px)}
   .rr-hero-light {animation:rr-light-pass 3s ease-out both}

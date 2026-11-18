@@ -16,56 +16,19 @@ const examples = [
 ];
 
 export default function Analyst() {
-  const [question, setQuestion] = useState("");
-  const [answer, setAnswer] = useState(/** @type {{label: string, text: string} | null} */ (null));
-  const [loading, setLoading] = useState(false);
-
-  async function ask(event) {
-    event.preventDefault();
-    const prompt = question.trim();
-    if (!prompt || loading) return;
-    setLoading(true);
-    setAnswer(null);
-    try {
-      const response = await fetch("/api/analyst", {
-        method:"POST",
-        headers:{"Content-Type":"application/json"},
-        body:JSON.stringify({question:prompt}),
-        signal:AbortSignal.timeout(18000)
-      });
-      const data = response.headers.get("content-type")?.includes("application/json") ? await response.json() : {};
-      if (response.ok && typeof data.answer === "string") {
-        setAnswer({label:data.source === "dossier" ? "Dossier answer" : "Live analyst", text:data.answer});
-      } else {
-        setAnswer({label:"Live analyst unavailable",text:data.error || "This preview has no live analyst. Choose a dossier question above."});
-      }
-    } catch {
-      setAnswer({label:"Live analyst unavailable",text:"Try one of the dossier answers above."});
-    } finally {
-      setLoading(false);
-    }
-  }
+  const [answer, setAnswer] = useState(null);
 
   return <section id="analyst" className="rr-section rr-analyst" data-reveal>
     <div className="rr-analyst-intro">
-      <div className="rr-kicker"><span/> REPORT Q&A</div>
-      <h2>Ask the Analyst<span>.</span></h2>
-      <p>Ask why a player ranked where they did, how pressure was measured, or what could change an RR bid.</p>
+      <h2>Dossier Q&amp;A</h2>
+      <p>Answers on the bowling rankings, the pace bid, and the 2026 forecast check.</p>
     </div>
     <div className="rr-analyst-card">
       <div className="rr-analyst-examples" role="group" aria-label="Dossier answers">
-        {examples.map(item => <button type="button" key={item.label} disabled={loading} onClick={() => setAnswer({label:"Dossier answer", text:item.answer})}>{item.label}<span aria-hidden="true"> ↗</span></button>)}
+        {examples.map(item => <button type="button" key={item.label} aria-pressed={answer === item} onClick={() => setAnswer(item)}>{item.label}</button>)}
       </div>
-      <form onSubmit={ask}>
-        <label htmlFor="rr-question">Ask a question about the analysis</label>
-        <div className="rr-analyst-input">
-          <input id="rr-question" value={question} onChange={event => setQuestion(event.target.value)} maxLength={320} placeholder="e.g. How is own-baseline lift different from the final rating?" required/>
-          <button type="submit" disabled={loading || !question.trim()}>{loading ? "Checking…" : "Ask analyst"} <span aria-hidden="true">↗</span></button>
-        </div>
-      </form>
-      <div aria-live="polite" aria-busy={loading}>
-        {loading && <p className="rr-analyst-status">Checking the dossier evidence…</p>}
-        {answer && <div className="rr-analyst-answer"><strong>{answer.label}</strong><p>{answer.text}</p></div>}
+      <div aria-live="polite">
+        {answer && <div className="rr-analyst-answer"><p>{answer.answer}</p></div>}
       </div>
     </div>
   </section>;

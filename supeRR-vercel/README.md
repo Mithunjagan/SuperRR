@@ -6,12 +6,11 @@ Interactive companion to the 17 November 2026 Round 1 scouting dossier. The two 
 
 1. Extract this ZIP into its own folder. Deploy from the folder that contains `vercel.json`, `api/` and `public/`. Use the **Other** framework preset if Vercel asks. The build is already compiled in `public/`.
 2. Import this folder through a Git repository in Vercel, or run `npx vercel` from the extracted folder to link it to a Vercel project.
-3. In the Vercel project, open **Settings → Environment Variables** and add `GEMINI_API_KEY` to **Production**. Add it to **Preview** too if you want to test there. The optional `GEMINI_MODEL` overrides the default `gemini-3.5-flash-lite`.
-4. Deploy or redeploy after setting the key. For CLI production deployment, run `npx vercel --prod`. Open the production URL in a signed-out window and submit a custom question in *Ask the Analyst*. A response marked **Live analyst** confirms the Gemini request succeeded. Suggested dossier answers work independently of the key.
+3. For CLI production deployment, run `npx vercel --prod`. Open the production URL in a signed-out window and check the Analytics controls and Dossier Q&A.
 
-The Gemini endpoint is server-side. The browser sends only the entered question. The function passes the question and aggregate evidence to Gemini. The package contains aggregate findings and no raw delivery data. The endpoint has per-instance request limits. Those limits do not act as a project-wide usage cap.
+The dashboard uses reviewed aggregate data and provides three built-in dossier answers. The package includes no raw delivery data.
 
-Projects whose Vercel Root Directory is `supeRR-dashboard` use `supeRR-dashboard/api/analyst.mjs`, which loads a self-contained server bundle under `src/content/server/`. After changing this folder's canonical analyst or its evidence, run `node supeRR-vercel/sync-analyst.mjs` from the repository root and commit both bundles. The regression suite checks they stay synchronized. Configure `GEMINI_API_KEY` on the Vercel project that owns the dashboard URL, regardless of which root it uses.
+The optional `/api/analyst` endpoint is available for direct API callers. Configure `GEMINI_API_KEY` on the server to enable custom answers and set `GEMINI_MODEL` to override the default model. After updating the endpoint or its evidence, run `node supeRR-vercel/sync-analyst.mjs` to sync the copy used when the Vercel Root Directory is `supeRR-dashboard`.
 
 Vercel references
 - https://vercel.com/docs/cli/deploy
@@ -19,9 +18,9 @@ Vercel references
 
 ## Preview the dashboard locally
 
-From this folder run `python -m http.server 8080 --directory public` and open http://127.0.0.1:8080. For a local preview that includes the Gemini function, use `npx vercel dev` with a configured key.
+From this folder run `python -m http.server 8080 --directory public` and open http://127.0.0.1:8080.
 
-To rebuild the public viewer from the repository root, run `node supeRR-vercel/build-viewer.mjs <path-to-installed-data-app-build.mjs>` with Node 24 and the installed Data plugin. The build refreshes the HTML, reviewed snapshot, and manifest in `public/`. The helper normalizes one Windows path-separator mapping in the installed builder while preserving its source-hash and authored-content verification.
+Install the locked dashboard dependencies with `npm --prefix supeRR-dashboard ci`. From the repository root, run `node supeRR-vercel/build-viewer.mjs` with Node 24. The build refreshes the HTML, reviewed snapshot, and manifest in `public/` and the standalone HTML preview in `output/`.
 
 Run `node --test supeRR-vercel/tests/analyst.test.mjs` from the repository root to verify request validation, dossier fallbacks, provider failures, and request limits. These tests mock Gemini; they do not confirm a live provider connection. Incomplete or blocked provider responses are reported as unavailable, with a dossier answer where one is supported.
 
