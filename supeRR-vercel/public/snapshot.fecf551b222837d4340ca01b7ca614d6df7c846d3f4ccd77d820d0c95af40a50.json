@@ -1,0 +1,4673 @@
+{
+  "surface": "dashboard",
+  "title": "SupeRR | Under Pressure",
+  "generatedAt": "2026-11-18T12:38:37Z",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "filters": [],
+  "queries": {
+    "shortlist": {
+      "rows": [
+        {
+          "name": "Heinrich Klaasen",
+          "final_rank": 1,
+          "balls": 310,
+          "matches": 32,
+          "score": 37.14032,
+          "pooled": 43.736437,
+          "positive_matches": 24,
+          "largest_positive_share": 0.169377,
+          "lift_per100": 18.656213,
+          "boot_q0.025": 23.275836,
+          "boot_q0.25": 36.623688,
+          "boot_q0.975": 63.697655,
+          "chase_balls": 157,
+          "collapse_balls": 153,
+          "ipl_balls": 280,
+          "t20i_balls": 30,
+          "chase_rank": 2,
+          "min_balls_after_removal": 288,
+          "min_matches_after_removal": 31,
+          "role": "Batters",
+          "fit": "Finishing benchmark",
+          "deployment": "SRH retained Klaasen. His strike rate of 198.0 across 393 death balls benchmarks the finishing role behind Jurel and Parag."
+        },
+        {
+          "name": "Reeza Hendricks",
+          "final_rank": 2,
+          "balls": 95,
+          "matches": 9,
+          "score": 36.565373,
+          "pooled": 43.057617,
+          "positive_matches": 6,
+          "largest_positive_share": 0.255265,
+          "lift_per100": 51.062548,
+          "boot_q0.025": 20.445651,
+          "boot_q0.25": 36.256108,
+          "boot_q0.975": 59.711393,
+          "chase_balls": 82,
+          "collapse_balls": 13,
+          "ipl_balls": 0,
+          "t20i_balls": 95,
+          "chase_rank": null,
+          "min_balls_after_removal": 66,
+          "min_matches_after_removal": 8,
+          "role": "Batters",
+          "fit": "Jaiswal / Sooryavanshi cover",
+          "deployment": "Consider as opening depth if a slot opens. He opened in 31 screened innings. His pressure evidence comes entirely from T20Is."
+        },
+        {
+          "name": "Shubman Gill",
+          "final_rank": 3,
+          "balls": 95,
+          "matches": 10,
+          "score": 36.105844,
+          "pooled": 45.845981,
+          "positive_matches": 7,
+          "largest_positive_share": 0.285985,
+          "lift_per100": 55.457177,
+          "boot_q0.025": 4.432253,
+          "boot_q0.25": 33.680189,
+          "boot_q0.975": 72.66911,
+          "chase_balls": 79,
+          "collapse_balls": 16,
+          "ipl_balls": 81,
+          "t20i_balls": 14,
+          "chase_rank": null,
+          "min_balls_after_removal": 69,
+          "min_matches_after_removal": 9,
+          "role": "Batters",
+          "fit": "Jaiswal / Sooryavanshi cover",
+          "deployment": "If an opening slot opens, he can bat past the powerplay. His pressure sample includes 81 IPL balls. The chase-only match screen fails."
+        },
+        {
+          "name": "Shreyas Iyer",
+          "final_rank": 4,
+          "balls": 234,
+          "matches": 20,
+          "score": 33.045642,
+          "pooled": 41.11116,
+          "positive_matches": 12,
+          "largest_positive_share": 0.212254,
+          "lift_per100": 33.908618,
+          "boot_q0.025": 11.083553,
+          "boot_q0.25": 30.689108,
+          "boot_q0.975": 66.367093,
+          "chase_balls": 150,
+          "collapse_balls": 84,
+          "ipl_balls": 175,
+          "t20i_balls": 59,
+          "chase_rank": 1,
+          "min_balls_after_removal": 208,
+          "min_matches_after_removal": 19,
+          "role": "Batters",
+          "fit": "Jurel / Parag at No. 3-4",
+          "deployment": "Give RR cover at No. 3-4 when an early wicket exposes the middle order. He led the chase-only ranking."
+        },
+        {
+          "name": "Mark Chapman",
+          "final_rank": 5,
+          "balls": 130,
+          "matches": 10,
+          "score": 32.954446,
+          "pooled": 47.952472,
+          "positive_matches": 7,
+          "largest_positive_share": 0.393946,
+          "lift_per100": 65.213116,
+          "boot_q0.025": 10.736846,
+          "boot_q0.25": 34.443169,
+          "boot_q0.975": 80.876606,
+          "chase_balls": 48,
+          "collapse_balls": 82,
+          "ipl_balls": 0,
+          "t20i_balls": 130,
+          "chase_rank": null,
+          "min_balls_after_removal": 104,
+          "min_matches_after_removal": 9,
+          "role": "Batters",
+          "fit": "Left-handed cover ahead of Dubey",
+          "deployment": "If RR needs a left-hander higher up, he offers rebuild cover after early wickets. Collapse situations account for 82 of his 130 pressure balls."
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "final_rank": 6,
+          "balls": 409,
+          "matches": 38,
+          "score": 29.593307,
+          "pooled": 35.727507,
+          "positive_matches": 24,
+          "largest_positive_share": 0.158097,
+          "lift_per100": -3.111035,
+          "boot_q0.025": 12.813585,
+          "boot_q0.25": 28.00853,
+          "boot_q0.975": 55.928568,
+          "chase_balls": 303,
+          "collapse_balls": 106,
+          "ipl_balls": 301,
+          "t20i_balls": 108,
+          "chase_rank": 3,
+          "min_balls_after_removal": 383,
+          "min_matches_after_removal": 37,
+          "role": "Batters",
+          "fit": "Jurel / Parag at No. 3-4",
+          "deployment": "Add middle-over acceleration if a No. 3-4 slot opens. He struck at 167.1 across 1,661 middle-over balls."
+        },
+        {
+          "name": "Nicholas Pooran",
+          "final_rank": 7,
+          "balls": 336,
+          "matches": 32,
+          "score": 19.462311,
+          "pooled": 29.020746,
+          "positive_matches": 16,
+          "largest_positive_share": 0.217524,
+          "lift_per100": 18.825461,
+          "boot_q0.025": -0.447979,
+          "boot_q0.25": 18.24843,
+          "boot_q0.975": 57.362914,
+          "chase_balls": 246,
+          "collapse_balls": 90,
+          "ipl_balls": 226,
+          "t20i_balls": 110,
+          "chase_rank": 4,
+          "min_balls_after_removal": 311,
+          "min_matches_after_removal": 31,
+          "role": "Batters",
+          "fit": "Left-handed finishing benchmark",
+          "deployment": "LSG retained Pooran. His strike rate of 191.8 across 427 death balls and fourth-place chase ranking benchmark the left-handed finishing role."
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "final_rank": 8,
+          "balls": 444,
+          "matches": 38,
+          "score": 18.52646,
+          "pooled": 22.686921,
+          "positive_matches": 24,
+          "largest_positive_share": 0.147182,
+          "lift_per100": 3.681404,
+          "boot_q0.025": 5.103824,
+          "boot_q0.25": 16.615591,
+          "boot_q0.975": 39.37548,
+          "chase_balls": 270,
+          "collapse_balls": 174,
+          "ipl_balls": 316,
+          "t20i_balls": 128,
+          "chase_rank": 5,
+          "min_balls_after_removal": 416,
+          "min_matches_after_removal": 37,
+          "role": "Batters",
+          "fit": "Left-hand partner for Parag or Jurel",
+          "deployment": "Add a left-handed No. 4-5 so RR can keep a left-right pair after the powerplay. He struck at 190.1 across 525 death balls."
+        },
+        {
+          "name": "Virat Kohli",
+          "final_rank": 9,
+          "balls": 114,
+          "matches": 12,
+          "score": 14.983519,
+          "pooled": 21.917946,
+          "positive_matches": 8,
+          "largest_positive_share": 0.288771,
+          "lift_per100": 24.252039,
+          "boot_q0.025": -0.042656,
+          "boot_q0.25": 14.60901,
+          "boot_q0.975": 42.183455,
+          "chase_balls": 100,
+          "collapse_balls": 14,
+          "ipl_balls": 97,
+          "t20i_balls": 17,
+          "chase_rank": 13,
+          "min_balls_after_removal": 96,
+          "min_matches_after_removal": 11,
+          "role": "Batters",
+          "fit": "Jaiswal / Sooryavanshi cover",
+          "deployment": "If an opening slot opens, add a batter who can carry the chase into the middle. He faced 100 qualifying chase balls."
+        },
+        {
+          "name": "Jos Buttler",
+          "final_rank": 10,
+          "balls": 135,
+          "matches": 14,
+          "score": 14.164314,
+          "pooled": 23.352444,
+          "positive_matches": 8,
+          "largest_positive_share": 0.303781,
+          "lift_per100": 9.751842,
+          "boot_q0.025": -11.724339,
+          "boot_q0.25": 12.275067,
+          "boot_q0.975": 47.198832,
+          "chase_balls": 106,
+          "collapse_balls": 29,
+          "ipl_balls": 96,
+          "t20i_balls": 39,
+          "chase_rank": null,
+          "min_balls_after_removal": 106,
+          "min_matches_after_removal": 13,
+          "role": "Batters",
+          "fit": "Jaiswal / Sooryavanshi cover",
+          "deployment": "Restore powerplay scoring if an opening slot opens and RR has room for an overseas opener. He struck at 148.3 across 1,206 powerplay balls."
+        },
+        {
+          "name": "Akeal Hosein",
+          "final_rank": 1,
+          "balls": 108,
+          "matches": 19,
+          "score": 22.096441,
+          "pooled": 26.859985,
+          "positive_matches": 15,
+          "largest_positive_share": 0.142886,
+          "lift_per100": 41.560384,
+          "boot_q0.025": 1.284903,
+          "boot_q0.25": 18.775451,
+          "boot_q0.975": 48.540603,
+          "chase_balls": 70,
+          "collapse_balls": 38,
+          "ipl_balls": 24,
+          "t20i_balls": 84,
+          "chase_rank": 2,
+          "min_balls_after_removal": 96,
+          "min_matches_after_removal": 18,
+          "role": "Bowlers",
+          "fit": "Overseas new-ball spin alongside Siddharth",
+          "deployment": "CSK retained Hosein. His 744 legal powerplay balls show the new-ball role. Siddharth provides Indian cover for that phase at RR."
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "final_rank": 2,
+          "balls": 165,
+          "matches": 24,
+          "score": 21.656704,
+          "pooled": 28.387068,
+          "positive_matches": 16,
+          "largest_positive_share": 0.179748,
+          "lift_per100": 5.565559,
+          "boot_q0.025": 2.878573,
+          "boot_q0.25": 19.414367,
+          "boot_q0.975": 54.701709,
+          "chase_balls": 132,
+          "collapse_balls": 33,
+          "ipl_balls": 113,
+          "t20i_balls": 52,
+          "chase_rank": 1,
+          "min_balls_after_removal": 147,
+          "min_matches_after_removal": 23,
+          "role": "Bowlers",
+          "fit": "New-ball and death benchmark",
+          "deployment": "Mumbai retained Bumrah. He bowled 696 legal powerplay balls and 514 at the death and led the chase-only ranking."
+        },
+        {
+          "name": "Sunil Narine",
+          "final_rank": 3,
+          "balls": 239,
+          "matches": 25,
+          "score": 18.968109,
+          "pooled": 24.664471,
+          "positive_matches": 15,
+          "largest_positive_share": 0.168945,
+          "lift_per100": 4.718037,
+          "boot_q0.025": 1.512801,
+          "boot_q0.25": 16.609013,
+          "boot_q0.975": 48.100238,
+          "chase_balls": 172,
+          "collapse_balls": 67,
+          "ipl_balls": 239,
+          "t20i_balls": 0,
+          "chase_rank": 4,
+          "min_balls_after_removal": 221,
+          "min_matches_after_removal": 24,
+          "role": "Bowlers",
+          "fit": "Offspin alongside Jadeja",
+          "deployment": "Add a middle-over offspin option if RR has an overseas slot. He bowled 1,068 legal balls in that phase."
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "final_rank": 4,
+          "balls": 319,
+          "matches": 38,
+          "score": 18.866389,
+          "pooled": 22.750636,
+          "positive_matches": 25,
+          "largest_positive_share": 0.117835,
+          "lift_per100": 16.089432,
+          "boot_q0.025": 0.968037,
+          "boot_q0.25": 15.655203,
+          "boot_q0.975": 42.780986,
+          "chase_balls": 217,
+          "collapse_balls": 102,
+          "ipl_balls": 183,
+          "t20i_balls": 136,
+          "chase_rank": 8,
+          "min_balls_after_removal": 301,
+          "min_matches_after_removal": 37,
+          "role": "Bowlers",
+          "fit": "Bishnoi / Punja wicket role",
+          "deployment": "If a domestic spin slot opens, add a middle-over wicket option alongside Jadeja. He took 90 credited wickets on 1,416 legal balls in that phase."
+        },
+        {
+          "name": "Jason Holder",
+          "final_rank": 5,
+          "balls": 227,
+          "matches": 29,
+          "score": 18.627553,
+          "pooled": 27.748537,
+          "positive_matches": 18,
+          "largest_positive_share": 0.250885,
+          "lift_per100": 43.272169,
+          "boot_q0.025": 1.896611,
+          "boot_q0.25": 18.084373,
+          "boot_q0.975": 56.178543,
+          "chase_balls": 148,
+          "collapse_balls": 79,
+          "ipl_balls": 122,
+          "t20i_balls": 105,
+          "chase_rank": 9,
+          "min_balls_after_removal": 209,
+          "min_matches_after_removal": 28,
+          "role": "Bowlers",
+          "fit": "Seam all-rounder benchmark",
+          "deployment": "Gujarat retained Holder. His 546 legal powerplay balls, 711 in the middle and 617 at the death illustrate the seam coverage RR would need after Curran’s trade. Assess batting separately."
+        },
+        {
+          "name": "Mohammad Nawaz",
+          "final_rank": 6,
+          "balls": 126,
+          "matches": 17,
+          "score": 15.920574,
+          "pooled": 26.58235,
+          "positive_matches": 11,
+          "largest_positive_share": 0.320135,
+          "lift_per100": 29.50456,
+          "boot_q0.025": 2.548669,
+          "boot_q0.25": 16.969776,
+          "boot_q0.975": 57.36113,
+          "chase_balls": 75,
+          "collapse_balls": 51,
+          "ipl_balls": 0,
+          "t20i_balls": 126,
+          "chase_rank": null,
+          "min_balls_after_removal": 110,
+          "min_matches_after_removal": 16,
+          "role": "Bowlers",
+          "fit": "Jadeja left-arm spin cover",
+          "deployment": "Consider only if the left-arm spin role opens and eligibility is confirmed. He bowled 750 legal middle-over balls and has zero qualifying IPL pressure balls."
+        },
+        {
+          "name": "Rashid Khan",
+          "final_rank": 7,
+          "balls": 464,
+          "matches": 59,
+          "score": 14.934307,
+          "pooled": 18.087919,
+          "positive_matches": 34,
+          "largest_positive_share": 0.087745,
+          "lift_per100": -1.550308,
+          "boot_q0.025": -1.56363,
+          "boot_q0.25": 11.353381,
+          "boot_q0.975": 37.90033,
+          "chase_balls": 273,
+          "collapse_balls": 191,
+          "ipl_balls": 251,
+          "t20i_balls": 213,
+          "chase_rank": 5,
+          "min_balls_after_removal": 446,
+          "min_matches_after_removal": 58,
+          "role": "Bowlers",
+          "fit": "Bishnoi / Punja wicket role",
+          "deployment": "Add a legspin wicket option with late-over cover if an overseas slot opens. He bowled 1,895 legal middle-over balls and 516 at the death."
+        },
+        {
+          "name": "Naveen ul Haq",
+          "final_rank": 8,
+          "balls": 83,
+          "matches": 10,
+          "score": 13.990341,
+          "pooled": 21.142177,
+          "positive_matches": 7,
+          "largest_positive_share": 0.340877,
+          "lift_per100": 21.378484,
+          "boot_q0.025": 3.700532,
+          "boot_q0.25": 14.796176,
+          "boot_q0.975": 38.489233,
+          "chase_balls": 70,
+          "collapse_balls": 13,
+          "ipl_balls": 59,
+          "t20i_balls": 24,
+          "chase_rank": null,
+          "min_balls_after_removal": 71,
+          "min_matches_after_removal": 9,
+          "role": "Bowlers",
+          "fit": "Archer / Burger pace cover",
+          "deployment": "If an overseas pace slot opens, prioritise closing overs alongside Shami. He bowled 330 legal powerplay balls and 306 at the death."
+        },
+        {
+          "name": "Mitchell Santner",
+          "final_rank": 9,
+          "balls": 263,
+          "matches": 32,
+          "score": 12.869528,
+          "pooled": 18.941762,
+          "positive_matches": 17,
+          "largest_positive_share": 0.165017,
+          "lift_per100": 11.593464,
+          "boot_q0.025": -7.998876,
+          "boot_q0.25": 9.489596,
+          "boot_q0.975": 45.309219,
+          "chase_balls": 200,
+          "collapse_balls": 63,
+          "ipl_balls": 68,
+          "t20i_balls": 195,
+          "chase_rank": 3,
+          "min_balls_after_removal": 245,
+          "min_matches_after_removal": 31,
+          "role": "Bowlers",
+          "fit": "Jadeja cover alongside Siddharth",
+          "deployment": "Consider if a left-arm spin role and overseas slot open. He bowled 1,158 legal middle-over balls and 312 in the powerplay."
+        },
+        {
+          "name": "Jofra Archer",
+          "final_rank": 10,
+          "balls": 103,
+          "matches": 13,
+          "score": 12.643574,
+          "pooled": 20.668115,
+          "positive_matches": 8,
+          "largest_positive_share": 0.34198,
+          "lift_per100": 32.516125,
+          "boot_q0.025": -0.640062,
+          "boot_q0.25": 12.927133,
+          "boot_q0.975": 41.579377,
+          "chase_balls": 66,
+          "collapse_balls": 37,
+          "ipl_balls": 52,
+          "t20i_balls": 51,
+          "chase_rank": null,
+          "min_balls_after_removal": 85,
+          "min_matches_after_removal": 12,
+          "role": "Bowlers",
+          "fit": "Existing RR pace role",
+          "deployment": "RR retained Archer. Keep him as the lead death bowler. Across 15 screened RR matches he bowled 198 powerplay balls and 102 at the death."
+        }
+      ],
+      "source": {
+        "provider": "SupeRR Round 1 analysis",
+        "files": [
+          "final_rankings.json",
+          "Unstop_Submission_Order.csv",
+          "SupeRR_Round_1_Scouting_Dossier.pdf",
+          "https://www.iplt20.com/news/article/tata-ipl-2027-player-retentions-announced"
+        ],
+        "grain": "Player × role",
+        "metricDefinitions": [
+          {
+            "label": "Final rating",
+            "definition": "Minimum of the adjusted rating after deleting each match in turn. Units are adjusted runs per 100 balls, with 60 virtual balls of shrinkage."
+          },
+          {
+            "label": "Own-baseline lift",
+            "definition": "Adjusted runs per 100 qualifying balls relative to that player’s earlier ordinary adjusted rate. This is a separate measure."
+          },
+          {
+            "label": "Bootstrap Q25",
+            "definition": "25th percentile of 20,000 whole-match resamples. The original expected values and eligibility stay fixed."
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Snapshot assembly",
+            "detail": "Take the final ten players of each role in the submission order. Use the dossier’s role evidence and the reviewed 2027 availability snapshot to distinguish retained players from potential auction targets."
+          }
+        ],
+        "label": "Official Round 1 shortlists"
+      },
+      "methods": [
+        {
+          "language": "text",
+          "code": "Take the final ten players of each role in the submission order. Keep published aggregate metrics and the dossier’s role notes."
+        }
+      ]
+    },
+    "robustness": {
+      "rows": [
+        {
+          "role": "Batters",
+          "eligible": 57,
+          "chase": 5,
+          "q25": 9,
+          "equal8": 9,
+          "leverage": 0,
+          "players": 26,
+          "zero": 44.691,
+          "deletion": 50.434,
+          "forecastQ25": 51.562,
+          "spearman": -0.263
+        },
+        {
+          "role": "Bowlers",
+          "eligible": 75,
+          "chase": 7,
+          "q25": 9,
+          "equal8": 7,
+          "leverage": 0,
+          "players": 30,
+          "zero": 43.69,
+          "deletion": 47.021,
+          "forecastQ25": 47.216,
+          "spearman": 0.042
+        }
+      ],
+      "source": {
+        "provider": "SupeRR Round 1 analysis",
+        "files": [
+          "audit.json",
+          "final_rankings.json",
+          "SupeRR_Round_1_Scouting_Dossier.pdf"
+        ],
+        "grain": "One row per role",
+        "metricDefinitions": [],
+        "evidenceFlow": [
+          {
+            "title": "Snapshot assembly",
+            "detail": "Read top-ten overlap and 2026 forward-test RMSE at the cohort grain. Dossier page 7 supplies the leverage overlap."
+          }
+        ],
+        "label": "Historical robustness checks"
+      },
+      "methods": [
+        {
+          "language": "text",
+          "code": "Read top-ten overlap and 2026 forward-test RMSE at the cohort grain. Dossier page 7 supplies the leverage overlap."
+        }
+      ]
+    },
+    "screening": {
+      "rows": [
+        {
+          "matches": 771,
+          "events": 184476,
+          "pressure": 25780,
+          "matchesThrough": "2026-11-01",
+          "draws": 20000,
+          "fixtures": 44,
+          "bumrahAhead": 0.5313,
+          "jointLow": -32.773724788712606,
+          "jointHigh": 37.74712068509055
+        }
+      ],
+      "source": {
+        "provider": "SupeRR Round 1 analysis",
+        "files": [
+          "audit.json",
+          "final_rankings.json"
+        ],
+        "grain": "Analysis snapshot",
+        "metricDefinitions": [],
+        "evidenceFlow": [
+          {
+            "title": "Snapshot assembly",
+            "detail": "Read the regulation match and event counts and the fixed-contribution Bumrah-versus-Hosein bootstrap. The match cutoff is the latest date among the screened matches."
+          }
+        ],
+        "label": "Regulation screening and joint fixture bootstrap"
+      },
+      "methods": [
+        {
+          "language": "text",
+          "code": "Read the regulation match and event counts and the fixed-contribution Bumrah-versus-Hosein bootstrap. Use the latest match date from prepare_deliveries.py after screening."
+        }
+      ]
+    },
+    "auction": {
+      "rows": [
+        {
+          "label": "Finishing",
+          "target": "Heinrich Klaasen",
+          "incumbent": "Shimron Hetmyer",
+          "targetScore": 37.1403197852309,
+          "incumbentScore": 5.854527479596505,
+          "gap": 31.285792305634395
+        },
+        {
+          "label": "Domestic spin",
+          "target": "Varun Chakravarthy",
+          "incumbent": "Ravi Bishnoi",
+          "targetScore": 18.86638904839234,
+          "incumbentScore": -2.6997371420477325,
+          "gap": 21.566126190440073
+        },
+        {
+          "label": "Pace fallback",
+          "target": "Josh Hazlewood",
+          "incumbent": "Jofra Archer",
+          "targetScore": 10.13625290421657,
+          "incumbentScore": 12.643573519196565,
+          "gap": -2.507320614979994
+        }
+      ],
+      "source": {
+        "provider": "SupeRR Round 1 analysis",
+        "files": [
+          "batters_audit.csv",
+          "bowlers_audit.csv",
+          "SupeRR_Round_1_Scouting_Dossier.pdf"
+        ],
+        "grain": "One row per compared role",
+        "metricDefinitions": [],
+        "evidenceFlow": [
+          {
+            "title": "Snapshot assembly",
+            "detail": "Use unrounded deletion ratings to calculate target minus RR comparator. Availability is assessed separately in the 17 November dossier."
+          }
+        ],
+        "label": "Historical RR slot comparisons"
+      },
+      "methods": [
+        {
+          "language": "text",
+          "code": "Use unrounded deletion ratings to calculate target minus RR comparator. Availability is assessed separately in the 17 November dossier."
+        }
+      ]
+    },
+    "matchEvidence": {
+      "rows": [
+        {
+          "name": "Virat Kohli",
+          "role": "Batters",
+          "matchId": 14161,
+          "value": 3.0529438654283325,
+          "balls": 2,
+          "lift": 3.2484701791578425
+        },
+        {
+          "name": "Virat Kohli",
+          "role": "Batters",
+          "matchId": 16660,
+          "value": -0.14099191097560748,
+          "balls": 1,
+          "lift": -0.09286420701202115
+        },
+        {
+          "name": "Virat Kohli",
+          "role": "Batters",
+          "matchId": 17396,
+          "value": -1.2637667187541908,
+          "balls": 16,
+          "lift": -1.7884457660706907
+        },
+        {
+          "name": "Virat Kohli",
+          "role": "Batters",
+          "matchId": 20216,
+          "value": -3.424750088860113,
+          "balls": 7,
+          "lift": -4.036180801273893
+        },
+        {
+          "name": "Virat Kohli",
+          "role": "Batters",
+          "matchId": 20245,
+          "value": 14.463265553113889,
+          "balls": 16,
+          "lift": 13.380320499218797
+        },
+        {
+          "name": "Virat Kohli",
+          "role": "Batters",
+          "matchId": 20250,
+          "value": 3.4767049935483163,
+          "balls": 3,
+          "lift": 3.2459082096163865
+        },
+        {
+          "name": "Virat Kohli",
+          "role": "Batters",
+          "matchId": 30056,
+          "value": 8.733103127552921,
+          "balls": 10,
+          "lift": 7.735275887900799
+        },
+        {
+          "name": "Virat Kohli",
+          "role": "Batters",
+          "matchId": 30061,
+          "value": 5.9660707991467286,
+          "balls": 15,
+          "lift": 4.641136080251484
+        },
+        {
+          "name": "Virat Kohli",
+          "role": "Batters",
+          "matchId": 31263,
+          "value": 4.787479610291756,
+          "balls": 11,
+          "lift": 3.6712283817376483
+        },
+        {
+          "name": "Virat Kohli",
+          "role": "Batters",
+          "matchId": 40739,
+          "value": 0.08971865650059263,
+          "balls": 18,
+          "lift": -2.4866910412011682
+        },
+        {
+          "name": "Virat Kohli",
+          "role": "Batters",
+          "matchId": 40752,
+          "value": -7.11892970996387,
+          "balls": 2,
+          "lift": -7.407135091002122
+        },
+        {
+          "name": "Virat Kohli",
+          "role": "Batters",
+          "matchId": 50378,
+          "value": 9.516377324298613,
+          "balls": 13,
+          "lift": 7.536302505697719
+        },
+        {
+          "name": "Reeza Hendricks",
+          "role": "Batters",
+          "matchId": 19960,
+          "value": 12.622555012086526,
+          "balls": 7,
+          "lift": 11.60758677825565
+        },
+        {
+          "name": "Reeza Hendricks",
+          "role": "Batters",
+          "matchId": 19961,
+          "value": 15.627272565418165,
+          "balls": 19,
+          "lift": 11.773401188703009
+        },
+        {
+          "name": "Reeza Hendricks",
+          "role": "Batters",
+          "matchId": 25155,
+          "value": -0.6883702695483684,
+          "balls": 6,
+          "lift": -2.136343933359023
+        },
+        {
+          "name": "Reeza Hendricks",
+          "role": "Batters",
+          "matchId": 25157,
+          "value": 9.609936229937952,
+          "balls": 7,
+          "lift": 8.031526640247892
+        },
+        {
+          "name": "Reeza Hendricks",
+          "role": "Batters",
+          "matchId": 32617,
+          "value": 11.742682475560843,
+          "balls": 13,
+          "lift": 9.429563190351793
+        },
+        {
+          "name": "Reeza Hendricks",
+          "role": "Batters",
+          "matchId": 37015,
+          "value": -0.6341511297599798,
+          "balls": 8,
+          "lift": -2.3130780414969454
+        },
+        {
+          "name": "Reeza Hendricks",
+          "role": "Batters",
+          "matchId": 38796,
+          "value": 17.417734823295852,
+          "balls": 29,
+          "lift": 12.324735081081457
+        },
+        {
+          "name": "Reeza Hendricks",
+          "role": "Batters",
+          "matchId": 46740,
+          "value": -0.17214406168204385,
+          "balls": 1,
+          "lift": -0.38316744640868083
+        },
+        {
+          "name": "Reeza Hendricks",
+          "role": "Batters",
+          "matchId": 46742,
+          "value": 1.2137908783904507,
+          "balls": 5,
+          "lift": 0.17519746186930288
+        },
+        {
+          "name": "Jos Buttler",
+          "role": "Batters",
+          "matchId": 20197,
+          "value": 1.9220353667747812,
+          "balls": 3,
+          "lift": 0.8621301175019923
+        },
+        {
+          "name": "Jos Buttler",
+          "role": "Batters",
+          "matchId": 25160,
+          "value": -1.873901353801835,
+          "balls": 7,
+          "lift": -3.660095017205987
+        },
+        {
+          "name": "Jos Buttler",
+          "role": "Batters",
+          "matchId": 28065,
+          "value": -4.35999489209015,
+          "balls": 5,
+          "lift": -5.623924116640846
+        },
+        {
+          "name": "Jos Buttler",
+          "role": "Batters",
+          "matchId": 31250,
+          "value": 21.402297905995283,
+          "balls": 29,
+          "lift": 14.584136116326777
+        },
+        {
+          "name": "Jos Buttler",
+          "role": "Batters",
+          "matchId": 36199,
+          "value": 0.30889136910520815,
+          "balls": 2,
+          "lift": -0.1541217353756162
+        },
+        {
+          "name": "Jos Buttler",
+          "role": "Batters",
+          "matchId": 36200,
+          "value": -10.475072413283739,
+          "balls": 6,
+          "lift": -11.895767286797547
+        },
+        {
+          "name": "Jos Buttler",
+          "role": "Batters",
+          "matchId": 40036,
+          "value": 1.0023772045710597,
+          "balls": 5,
+          "lift": -0.19313324623392808
+        },
+        {
+          "name": "Jos Buttler",
+          "role": "Batters",
+          "matchId": 40037,
+          "value": -4.50455409826095,
+          "balls": 8,
+          "lift": -6.497950946054805
+        },
+        {
+          "name": "Jos Buttler",
+          "role": "Batters",
+          "matchId": 40698,
+          "value": 13.877361821415915,
+          "balls": 14,
+          "lift": 10.470496182734315
+        },
+        {
+          "name": "Jos Buttler",
+          "role": "Batters",
+          "matchId": 40728,
+          "value": 21.17464591961464,
+          "balls": 23,
+          "lift": 15.916486145708978
+        },
+        {
+          "name": "Jos Buttler",
+          "role": "Batters",
+          "matchId": 48612,
+          "value": -2.9958140099681243,
+          "balls": 6,
+          "lift": -4.493843660186359
+        },
+        {
+          "name": "Jos Buttler",
+          "role": "Batters",
+          "matchId": 50133,
+          "value": 3.4440979839303028,
+          "balls": 9,
+          "lift": 1.2666031285243013
+        },
+        {
+          "name": "Jos Buttler",
+          "role": "Batters",
+          "matchId": 50381,
+          "value": 7.321326796379471,
+          "balls": 13,
+          "lift": 4.419853444961116
+        },
+        {
+          "name": "Jos Buttler",
+          "role": "Batters",
+          "matchId": 50945,
+          "value": -0.7064318696241598,
+          "balls": 5,
+          "lift": -1.8358830377639601
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 14116,
+          "value": 7.317039062979324,
+          "balls": 26,
+          "lift": -2.394467147923527
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 14119,
+          "value": 0.4674568741920737,
+          "balls": 15,
+          "lift": -4.800205786252709
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 14126,
+          "value": -2.799166300966494,
+          "balls": 13,
+          "lift": -7.587471087599193
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 16040,
+          "value": 1.3526365342725282,
+          "balls": 3,
+          "lift": 0.26824025431818127
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 16041,
+          "value": 6.044777843905152,
+          "balls": 10,
+          "lift": 2.1520654150206604
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 16042,
+          "value": 35.575857717674715,
+          "balls": 23,
+          "lift": 27.200652896571587
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 16654,
+          "value": -8.785136489682182,
+          "balls": 4,
+          "lift": -10.436162756997959
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 17396,
+          "value": 17.855593858998773,
+          "balls": 12,
+          "lift": 12.948401635150066
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 19557,
+          "value": 12.880006426278523,
+          "balls": 18,
+          "lift": 3.9649175938419567
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 19715,
+          "value": -4.323831732097708,
+          "balls": 7,
+          "lift": -8.02083109178276
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 19716,
+          "value": 1.982541231681855,
+          "balls": 2,
+          "lift": 0.9121335332285192
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 20185,
+          "value": -1.7963458889221302,
+          "balls": 11,
+          "lift": -7.268578154759437
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 20196,
+          "value": -5.446641267447079,
+          "balls": 1,
+          "lift": -5.928196161547234
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 20211,
+          "value": 21.698844927176182,
+          "balls": 25,
+          "lift": 9.669377166743994
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 20215,
+          "value": -0.18330344983773428,
+          "balls": 1,
+          "lift": -0.6633720912578636
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 20222,
+          "value": 13.474543796244674,
+          "balls": 21,
+          "lift": 3.382998228972509
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 20225,
+          "value": 23.368403276251712,
+          "balls": 18,
+          "lift": 14.619695066197664
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 20229,
+          "value": 8.218648861583352,
+          "balls": 21,
+          "lift": -1.9535255261027116
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 20234,
+          "value": 10.163177556911169,
+          "balls": 6,
+          "lift": 7.308554931144263
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 20237,
+          "value": 3.196281557730983,
+          "balls": 4,
+          "lift": 1.2129810947668624
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 20243,
+          "value": -8.405067845541266,
+          "balls": 5,
+          "lift": -11.012211808114138
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 20249,
+          "value": -0.1333793083428767,
+          "balls": 1,
+          "lift": -0.6525213222987073
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 21585,
+          "value": 2.499628284163413,
+          "balls": 17,
+          "lift": -6.231480455192123
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 24354,
+          "value": 2.0027638047239593,
+          "balls": 5,
+          "lift": -0.5733805647938772
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 27060,
+          "value": 15.345096791340179,
+          "balls": 15,
+          "lift": 7.686208459095916
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 31269,
+          "value": 17.40815300307679,
+          "balls": 18,
+          "lift": 9.1966914284902
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 34429,
+          "value": -7.000350977224219,
+          "balls": 9,
+          "lift": -11.264852213459603
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 40696,
+          "value": 5.736294951574878,
+          "balls": 15,
+          "lift": -0.6862303167359283
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 40702,
+          "value": 9.889678349469847,
+          "balls": 10,
+          "lift": 5.66340731275552
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 40709,
+          "value": 6.617049952690557,
+          "balls": 25,
+          "lift": -4.033603603774684
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 40714,
+          "value": -8.251287990455904,
+          "balls": 5,
+          "lift": -10.382990448314128
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 40759,
+          "value": -0.7945537916734545,
+          "balls": 8,
+          "lift": -4.259859553999215
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 50132,
+          "value": 0.02054063257580931,
+          "balls": 1,
+          "lift": -0.37527252113225207
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 50144,
+          "value": -7.466190386399961,
+          "balls": 5,
+          "lift": -9.437880360753434
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 50354,
+          "value": 0.1348909598321169,
+          "balls": 6,
+          "lift": -2.178390494988962
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 50368,
+          "value": -1.0424090185879389,
+          "balls": 2,
+          "lift": -1.7879212026343865
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 50386,
+          "value": 1.7757929085534272,
+          "balls": 6,
+          "lift": -0.43015553207338897
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batters",
+          "matchId": 50390,
+          "value": -1.0360265628958327,
+          "balls": 15,
+          "lift": -6.550897664462875
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 13523,
+          "value": 9.936280583455584,
+          "balls": 25,
+          "lift": 7.545975498072645
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 13524,
+          "value": -2.5506220803898896,
+          "balls": 21,
+          "lift": -5.32616403525784
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 14105,
+          "value": 6.3002786146186995,
+          "balls": 21,
+          "lift": 4.198622765328554
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 14114,
+          "value": 5.858758620350051,
+          "balls": 6,
+          "lift": 5.24201956916345
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 14121,
+          "value": -1.5749878302429545,
+          "balls": 4,
+          "lift": -1.9595515790457143
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 14140,
+          "value": 4.716054164864909,
+          "balls": 17,
+          "lift": 3.5191054638818637
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 14144,
+          "value": 15.804220687438837,
+          "balls": 19,
+          "lift": 13.383209798205886
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 14148,
+          "value": -3.855904370163711,
+          "balls": 9,
+          "lift": -5.041738327622756
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 14155,
+          "value": -6.67713946302455,
+          "balls": 3,
+          "lift": -7.083366561171582
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 17640,
+          "value": -1.5281430905704347,
+          "balls": 3,
+          "lift": -1.932915200360906
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 19961,
+          "value": -0.3060756719858242,
+          "balls": 2,
+          "lift": -0.4937334842084882
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 20186,
+          "value": 9.218458200672519,
+          "balls": 18,
+          "lift": 6.949564449491085
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 20195,
+          "value": 41.159996103265954,
+          "balls": 17,
+          "lift": 39.01715200492793
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 20238,
+          "value": 23.495910560549824,
+          "balls": 9,
+          "lift": 22.614916102381038
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 24350,
+          "value": 2.822363034461805,
+          "balls": 8,
+          "lift": 1.9418949525438403
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 28065,
+          "value": 0.1354364415174619,
+          "balls": 4,
+          "lift": -0.4022466346690565
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 29815,
+          "value": -3.233006727773589,
+          "balls": 14,
+          "lift": -5.762064683842303
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 30059,
+          "value": 18.357813632873782,
+          "balls": 22,
+          "lift": 14.70254129003319
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 30066,
+          "value": 0.744023932925322,
+          "balls": 4,
+          "lift": 0.08688507656680189
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 31244,
+          "value": -6.6513058372975165,
+          "balls": 1,
+          "lift": -6.835548417394869
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 31252,
+          "value": 4.010074510765598,
+          "balls": 2,
+          "lift": 3.6533952967569956
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 31257,
+          "value": 15.275942888992669,
+          "balls": 15,
+          "lift": 12.589295102282453
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 31272,
+          "value": -7.884331057795498,
+          "balls": 3,
+          "lift": -8.38637724541386
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 31282,
+          "value": -6.616931130603152,
+          "balls": 3,
+          "lift": -7.142879841345605
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 31285,
+          "value": -2.7578521230615456,
+          "balls": 3,
+          "lift": -3.366743441626161
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 37349,
+          "value": 18.90278712743004,
+          "balls": 16,
+          "lift": 14.95762980253165
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 37350,
+          "value": -2.8758550996258476,
+          "balls": 17,
+          "lift": -6.82259697971062
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 40706,
+          "value": 12.482504594193196,
+          "balls": 18,
+          "lift": 8.188402745010402
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 50129,
+          "value": -5.062862750871293,
+          "balls": 8,
+          "lift": -6.935704716558376
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 50139,
+          "value": -11.226672581960058,
+          "balls": 7,
+          "lift": -12.816672592135976
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 50143,
+          "value": -2.3518210569929447,
+          "balls": 6,
+          "lift": -3.720281148778002
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batters",
+          "matchId": 50359,
+          "value": -9.145238861584334,
+          "balls": 11,
+          "lift": -11.308475057193615
+        },
+        {
+          "name": "Mark Chapman",
+          "role": "Batters",
+          "matchId": 21407,
+          "value": 37.0644049391727,
+          "balls": 26,
+          "lift": 38.133278895023956
+        },
+        {
+          "name": "Mark Chapman",
+          "role": "Batters",
+          "matchId": 24792,
+          "value": 0.052143188134769175,
+          "balls": 9,
+          "lift": -0.4189905158827817
+        },
+        {
+          "name": "Mark Chapman",
+          "role": "Batters",
+          "matchId": 24793,
+          "value": 7.262857006831019,
+          "balls": 16,
+          "lift": 6.911603550222688
+        },
+        {
+          "name": "Mark Chapman",
+          "role": "Batters",
+          "matchId": 25158,
+          "value": -2.0126449845525327,
+          "balls": 9,
+          "lift": -2.7520346522917585
+        },
+        {
+          "name": "Mark Chapman",
+          "role": "Batters",
+          "matchId": 28332,
+          "value": -0.8021078748065893,
+          "balls": 19,
+          "lift": -2.9670297139434094
+        },
+        {
+          "name": "Mark Chapman",
+          "role": "Batters",
+          "matchId": 31708,
+          "value": 0.7276804361904627,
+          "balls": 10,
+          "lift": 0.19061113837497512
+        },
+        {
+          "name": "Mark Chapman",
+          "role": "Batters",
+          "matchId": 31709,
+          "value": 27.70636014079004,
+          "balls": 17,
+          "lift": 26.751833862848677
+        },
+        {
+          "name": "Mark Chapman",
+          "role": "Batters",
+          "matchId": 39810,
+          "value": 2.69661702680829,
+          "balls": 2,
+          "lift": 2.6698195119507586
+        },
+        {
+          "name": "Mark Chapman",
+          "role": "Batters",
+          "matchId": 48591,
+          "value": -0.16063637664676775,
+          "balls": 5,
+          "lift": -0.6374585567700525
+        },
+        {
+          "name": "Mark Chapman",
+          "role": "Batters",
+          "matchId": 48593,
+          "value": 18.57502257811014,
+          "balls": 17,
+          "lift": 16.895417201455405
+        },
+        {
+          "name": "Shreyas Iyer",
+          "role": "Batters",
+          "matchId": 14134,
+          "value": 5.303829569438794,
+          "balls": 7,
+          "lift": 3.418833367186954
+        },
+        {
+          "name": "Shreyas Iyer",
+          "role": "Batters",
+          "matchId": 14155,
+          "value": -3.6637319248272373,
+          "balls": 7,
+          "lift": -4.369749467577848
+        },
+        {
+          "name": "Shreyas Iyer",
+          "role": "Batters",
+          "matchId": 14160,
+          "value": 3.2334834526109733,
+          "balls": 12,
+          "lift": 1.8121759001223605
+        },
+        {
+          "name": "Shreyas Iyer",
+          "role": "Batters",
+          "matchId": 15407,
+          "value": -1.1496023232731885,
+          "balls": 2,
+          "lift": -1.4777133719851823
+        },
+        {
+          "name": "Shreyas Iyer",
+          "role": "Batters",
+          "matchId": 16042,
+          "value": -3.061949013438447,
+          "balls": 12,
+          "lift": -4.724263911807607
+        },
+        {
+          "name": "Shreyas Iyer",
+          "role": "Batters",
+          "matchId": 27064,
+          "value": -1.3536831462125685,
+          "balls": 7,
+          "lift": -1.9856712877631382
+        },
+        {
+          "name": "Shreyas Iyer",
+          "role": "Batters",
+          "matchId": 31240,
+          "value": -1.3996347162664096,
+          "balls": 5,
+          "lift": -1.9605358492194846
+        },
+        {
+          "name": "Shreyas Iyer",
+          "role": "Batters",
+          "matchId": 31254,
+          "value": 4.026392560094058,
+          "balls": 13,
+          "lift": 2.7589186929667537
+        },
+        {
+          "name": "Shreyas Iyer",
+          "role": "Batters",
+          "matchId": 40742,
+          "value": 18.38256799036487,
+          "balls": 19,
+          "lift": 14.438738969370966
+        },
+        {
+          "name": "Shreyas Iyer",
+          "role": "Batters",
+          "matchId": 40760,
+          "value": 2.3717268994121015,
+          "balls": 22,
+          "lift": -2.1534898959763518
+        },
+        {
+          "name": "Shreyas Iyer",
+          "role": "Batters",
+          "matchId": 40766,
+          "value": 28.31058261338057,
+          "balls": 24,
+          "lift": 23.68554484507387
+        },
+        {
+          "name": "Shreyas Iyer",
+          "role": "Batters",
+          "matchId": 43057,
+          "value": 4.6835291935082575,
+          "balls": 5,
+          "lift": 3.689357552861061
+        },
+        {
+          "name": "Shreyas Iyer",
+          "role": "Batters",
+          "matchId": 45393,
+          "value": 3.0210751330388375,
+          "balls": 10,
+          "lift": 1.312878287473114
+        },
+        {
+          "name": "Shreyas Iyer",
+          "role": "Batters",
+          "matchId": 45394,
+          "value": -6.953517380761184,
+          "balls": 1,
+          "lift": -7.137963850097342
+        },
+        {
+          "name": "Shreyas Iyer",
+          "role": "Batters",
+          "matchId": 50131,
+          "value": 23.710182639672134,
+          "balls": 20,
+          "lift": 19.96756822458273
+        },
+        {
+          "name": "Shreyas Iyer",
+          "role": "Batters",
+          "matchId": 50141,
+          "value": 16.340199185714596,
+          "balls": 9,
+          "lift": 14.779496330721226
+        },
+        {
+          "name": "Shreyas Iyer",
+          "role": "Batters",
+          "matchId": 50356,
+          "value": 32.30449135769222,
+          "balls": 26,
+          "lift": 27.425771904519532
+        },
+        {
+          "name": "Shreyas Iyer",
+          "role": "Batters",
+          "matchId": 50367,
+          "value": -6.687843671618891,
+          "balls": 6,
+          "lift": -7.722920977469196
+        },
+        {
+          "name": "Shreyas Iyer",
+          "role": "Batters",
+          "matchId": 54210,
+          "value": 10.508969821684257,
+          "balls": 26,
+          "lift": 4.866021889893945
+        },
+        {
+          "name": "Shreyas Iyer",
+          "role": "Batters",
+          "matchId": 54211,
+          "value": -7.060256707590622,
+          "balls": 1,
+          "lift": -7.276831580046536
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 20214,
+          "value": 4.653086348471131,
+          "balls": 19,
+          "lift": -1.368609551605461
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 20220,
+          "value": -1.7842133903542219,
+          "balls": 2,
+          "lift": -2.418076116678074
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 20227,
+          "value": 10.47122615726437,
+          "balls": 2,
+          "lift": 9.655155017648447
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 20232,
+          "value": 9.115407941980102,
+          "balls": 12,
+          "lift": 4.4949675295953595
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 20238,
+          "value": 4.160523374309001,
+          "balls": 3,
+          "lift": 3.005413271212816
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 20242,
+          "value": 19.786661840144603,
+          "balls": 19,
+          "lift": 12.887050268065371
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 30058,
+          "value": 3.4988082741925464,
+          "balls": 16,
+          "lift": -1.9237238062041992
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 31241,
+          "value": 0.529464350749729,
+          "balls": 1,
+          "lift": 0.10563168275901896
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 31253,
+          "value": -6.87673773071928,
+          "balls": 1,
+          "lift": -7.300792847834216
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 31264,
+          "value": 2.079615493514603,
+          "balls": 8,
+          "lift": -1.3080433735563006
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 31289,
+          "value": 14.816754868039531,
+          "balls": 18,
+          "lift": 7.913871042034755
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 31291,
+          "value": 5.287080279206131,
+          "balls": 10,
+          "lift": 1.5950081229812145
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 31292,
+          "value": 2.071963067554372,
+          "balls": 9,
+          "lift": -1.2370006232064519
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 37940,
+          "value": -1.8244035836934032,
+          "balls": 2,
+          "lift": -2.5360738384558257
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 37942,
+          "value": 9.830895845018212,
+          "balls": 11,
+          "lift": 6.216024818543445
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 38795,
+          "value": -2.731014336350495,
+          "balls": 13,
+          "lift": -6.895922816201265
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 38796,
+          "value": 1.8276483123184635,
+          "balls": 4,
+          "lift": 0.5461380108259187
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 40700,
+          "value": 4.60130680868848,
+          "balls": 11,
+          "lift": 1.0171068340639104
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 40703,
+          "value": 14.111536549561906,
+          "balls": 17,
+          "lift": 8.485731446287014
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 40708,
+          "value": 13.214660242287234,
+          "balls": 11,
+          "lift": 9.70841971895027
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 40713,
+          "value": 0.37391384943070216,
+          "balls": 9,
+          "lift": -2.3901301775264248
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 40720,
+          "value": -2.582669644371983,
+          "balls": 6,
+          "lift": -4.431211653183026
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 40734,
+          "value": 7.063096661047465,
+          "balls": 22,
+          "lift": 0.5023664058342091
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 40744,
+          "value": -0.6217269051132166,
+          "balls": 11,
+          "lift": -3.9244506797767063
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 50125,
+          "value": 7.521809300503375,
+          "balls": 13,
+          "lift": 2.9956817083279668
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 50130,
+          "value": 1.2284674772747817,
+          "balls": 2,
+          "lift": 0.5484566500147978
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 50134,
+          "value": -4.714981119976458,
+          "balls": 13,
+          "lift": -9.093278734576682
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 50348,
+          "value": 8.933614522070133,
+          "balls": 9,
+          "lift": 6.104438111054187
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 50357,
+          "value": 1.975571728290351,
+          "balls": 6,
+          "lift": 0.05773705108661886
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 50362,
+          "value": 32.20510184422631,
+          "balls": 21,
+          "lift": 25.759420602899795
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 50377,
+          "value": -7.17779780544873,
+          "balls": 1,
+          "lift": -7.463566183598145
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Batters",
+          "matchId": 50384,
+          "value": 10.780147274566406,
+          "balls": 8,
+          "lift": 8.526523623940305
+        },
+        {
+          "name": "Shubman Gill",
+          "role": "Batters",
+          "matchId": 14151,
+          "value": 2.9980824401168498,
+          "balls": 2,
+          "lift": 2.792337786962385
+        },
+        {
+          "name": "Shubman Gill",
+          "role": "Batters",
+          "matchId": 20198,
+          "value": 8.706797179874108,
+          "balls": 7,
+          "lift": 7.523088279046529
+        },
+        {
+          "name": "Shubman Gill",
+          "role": "Batters",
+          "matchId": 20219,
+          "value": -6.9127003996327385,
+          "balls": 1,
+          "lift": -7.072144478845477
+        },
+        {
+          "name": "Shubman Gill",
+          "role": "Batters",
+          "matchId": 20250,
+          "value": 24.484732132800623,
+          "balls": 26,
+          "lift": 19.301715150478373
+        },
+        {
+          "name": "Shubman Gill",
+          "role": "Batters",
+          "matchId": 21583,
+          "value": -6.8112864717903,
+          "balls": 9,
+          "lift": -8.771412021830608
+        },
+        {
+          "name": "Shubman Gill",
+          "role": "Batters",
+          "matchId": 31242,
+          "value": 21.397953892793083,
+          "balls": 18,
+          "lift": 17.72026133953229
+        },
+        {
+          "name": "Shubman Gill",
+          "role": "Batters",
+          "matchId": 34429,
+          "value": 7.191022285118953,
+          "balls": 14,
+          "lift": 4.524463331674526
+        },
+        {
+          "name": "Shubman Gill",
+          "role": "Batters",
+          "matchId": 40755,
+          "value": 19.69682824244254,
+          "balls": 13,
+          "lift": 17.17084655649375
+        },
+        {
+          "name": "Shubman Gill",
+          "role": "Batters",
+          "matchId": 50346,
+          "value": 1.1400170415271098,
+          "balls": 2,
+          "lift": 0.8197324695327457
+        },
+        {
+          "name": "Shubman Gill",
+          "role": "Batters",
+          "matchId": 50381,
+          "value": -0.8301756415852939,
+          "balls": 3,
+          "lift": -1.3245703900952472
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 14159,
+          "value": -7.212969423758536,
+          "balls": 9,
+          "lift": -8.842188180995503
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 14163,
+          "value": 2.089419342892182,
+          "balls": 15,
+          "lift": -0.6259452525027649
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 20185,
+          "value": 9.774695109536959,
+          "balls": 12,
+          "lift": 7.891573791305479
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 20192,
+          "value": 5.824263372156071,
+          "balls": 6,
+          "lift": 4.513943279997155
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 20196,
+          "value": 9.870711296283488,
+          "balls": 5,
+          "lift": 8.940221590788882
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 20211,
+          "value": -0.06302312580743524,
+          "balls": 2,
+          "lift": -0.416129577066752
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 20222,
+          "value": 5.240798035619634,
+          "balls": 21,
+          "lift": 2.3206997187835143
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 20225,
+          "value": 11.369871288566927,
+          "balls": 5,
+          "lift": 10.674609784558328
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 27060,
+          "value": -3.542955838237169,
+          "balls": 10,
+          "lift": -5.553270831792233
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 30060,
+          "value": -4.273812351145747,
+          "balls": 9,
+          "lift": -5.907728331872599
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 30063,
+          "value": 0.5125302924404007,
+          "balls": 11,
+          "lift": -1.5972366169844792
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 30069,
+          "value": 7.919078073086468,
+          "balls": 20,
+          "lift": 3.626683212392477
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 31247,
+          "value": -1.642336234140057,
+          "balls": 13,
+          "lift": -4.252262856109942
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 31256,
+          "value": 4.3109385486328655,
+          "balls": 17,
+          "lift": 0.7055350037303871
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 31261,
+          "value": -2.2160760311784093,
+          "balls": 5,
+          "lift": -3.3374543395861673
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 37941,
+          "value": -2.4121400219841904,
+          "balls": 13,
+          "lift": -5.262067675165293
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 40037,
+          "value": 4.582744043734928,
+          "balls": 2,
+          "lift": 3.9760220038420613
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 40696,
+          "value": 13.315303872530157,
+          "balls": 18,
+          "lift": 8.045043096577798
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 40702,
+          "value": -10.084558781431353,
+          "balls": 6,
+          "lift": -11.776541853732745
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 40709,
+          "value": -2.1026532393114774,
+          "balls": 16,
+          "lift": -6.591541655647421
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 40714,
+          "value": 9.873962271556408,
+          "balls": 27,
+          "lift": 2.3012714655876776
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 40759,
+          "value": 0.2965123634087994,
+          "balls": 12,
+          "lift": -3.021713414238396
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 41976,
+          "value": -9.532296775844992,
+          "balls": 2,
+          "lift": -10.022816240194759
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 42027,
+          "value": 0.2710884177537132,
+          "balls": 13,
+          "lift": -2.7829285593477704
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 42028,
+          "value": 4.876636847037413,
+          "balls": 10,
+          "lift": 2.639741180335564
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 45394,
+          "value": 10.516972820619909,
+          "balls": 5,
+          "lift": 9.4855043085911
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 45512,
+          "value": -1.1660641514801964,
+          "balls": 6,
+          "lift": -2.597084006325064
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 45513,
+          "value": 10.19002693152968,
+          "balls": 20,
+          "lift": 5.343929640400063
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 50341,
+          "value": 5.728019475893421,
+          "balls": 15,
+          "lift": 2.6180177557785083
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 50351,
+          "value": 0.2927505456019725,
+          "balls": 9,
+          "lift": -1.6247313236275542
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 50354,
+          "value": -5.4549360265239475,
+          "balls": 5,
+          "lift": -6.651069975851224
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 50368,
+          "value": -5.7962277314784725,
+          "balls": 2,
+          "lift": -6.241961440659405
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 50375,
+          "value": 4.770161401263241,
+          "balls": 23,
+          "lift": -0.252233734615213
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 50379,
+          "value": 23.859031798450452,
+          "balls": 28,
+          "lift": 17.714852365755597
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 50386,
+          "value": -5.353283610768557,
+          "balls": 20,
+          "lift": -9.857030281967338
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 50406,
+          "value": 2.2592240146726583,
+          "balls": 3,
+          "lift": 1.5991900656580433
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 54211,
+          "value": 25.785602010190917,
+          "balls": 26,
+          "lift": 20.147428573880823
+        },
+        {
+          "name": "Namboori Tilak Varma",
+          "role": "Batters",
+          "matchId": 54213,
+          "value": 1.6650730812918217,
+          "balls": 3,
+          "lift": 1.0151034779323662
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "Bowlers",
+          "matchId": 14150,
+          "value": -1.3863307734339716,
+          "balls": 11,
+          "lift": -5.603218869859251
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "Bowlers",
+          "matchId": 14155,
+          "value": 10.976360101294448,
+          "balls": 12,
+          "lift": 6.390199065209306
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "Bowlers",
+          "matchId": 20216,
+          "value": -5.908066160339837,
+          "balls": 12,
+          "lift": -9.070484287913194
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "Bowlers",
+          "matchId": 20219,
+          "value": 6.857315826301317,
+          "balls": 6,
+          "lift": 5.432463189094784
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "Bowlers",
+          "matchId": 20233,
+          "value": 2.4700233771559823,
+          "balls": 6,
+          "lift": 1.2090240764189715
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "Bowlers",
+          "matchId": 20248,
+          "value": 6.9549981815843775,
+          "balls": 6,
+          "lift": 5.58238674422862
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "Bowlers",
+          "matchId": 30058,
+          "value": 10.333690670031526,
+          "balls": 12,
+          "lift": 7.63661272771783
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "Bowlers",
+          "matchId": 31250,
+          "value": -2.035760449128671,
+          "balls": 12,
+          "lift": -4.6555554581406104
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "Bowlers",
+          "matchId": 31254,
+          "value": -13.092053382760005,
+          "balls": 10,
+          "lift": -15.343821985798792
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "Bowlers",
+          "matchId": 31260,
+          "value": 12.196831935744726,
+          "balls": 12,
+          "lift": 9.213240454704167
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "Bowlers",
+          "matchId": 31265,
+          "value": -2.855494296962626,
+          "balls": 12,
+          "lift": -5.834106363539835
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "Bowlers",
+          "matchId": 31269,
+          "value": 9.491591385596138,
+          "balls": 12,
+          "lift": 6.487432530660372
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "Bowlers",
+          "matchId": 31272,
+          "value": 2.7101279645676466,
+          "balls": 6,
+          "lift": 1.1361528869244455
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "Bowlers",
+          "matchId": 31289,
+          "value": -7.895215940468015,
+          "balls": 12,
+          "lift": -11.092726721102778
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "Bowlers",
+          "matchId": 31292,
+          "value": 6.332322928959033,
+          "balls": 12,
+          "lift": 3.1776180210188736
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "Bowlers",
+          "matchId": 40708,
+          "value": -3.9221821977717664,
+          "balls": 12,
+          "lift": -6.960776002285102
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "Bowlers",
+          "matchId": 40724,
+          "value": 2.022724592475461,
+          "balls": 6,
+          "lift": 0.4593335941456158
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "Bowlers",
+          "matchId": 40741,
+          "value": 19.308293066785865,
+          "balls": 12,
+          "lift": 16.16987657214542
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "Bowlers",
+          "matchId": 40746,
+          "value": -2.621434070087146,
+          "balls": 18,
+          "lift": -7.13596569911709
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "Bowlers",
+          "matchId": 50139,
+          "value": 8.817067793262188,
+          "balls": 6,
+          "lift": 7.452674462949423
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "Bowlers",
+          "matchId": 50359,
+          "value": 8.549630958777195,
+          "balls": 12,
+          "lift": 5.557844708180101
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "Bowlers",
+          "matchId": 50372,
+          "value": 0.8605524675969596,
+          "balls": 1,
+          "lift": 0.6056247588570318
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "Bowlers",
+          "matchId": 50378,
+          "value": -0.10606324732088979,
+          "balls": 6,
+          "lift": -1.6823661207756793
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "Bowlers",
+          "matchId": 50381,
+          "value": -0.7183247686556775,
+          "balls": 1,
+          "lift": -0.9828313061345465
+        },
+        {
+          "name": "Sunil Narine",
+          "role": "Bowlers",
+          "matchId": 50386,
+          "value": 6.406160967736199,
+          "balls": 12,
+          "lift": 3.1274774892037565
+        },
+        {
+          "name": "Akeal Hosein",
+          "role": "Bowlers",
+          "matchId": 16063,
+          "value": 8.277584180474847,
+          "balls": 12,
+          "lift": 8.227893608611845
+        },
+        {
+          "name": "Akeal Hosein",
+          "role": "Bowlers",
+          "matchId": 20220,
+          "value": 0.8731829279834467,
+          "balls": 6,
+          "lift": 0.9616018427169319
+        },
+        {
+          "name": "Akeal Hosein",
+          "role": "Bowlers",
+          "matchId": 28064,
+          "value": 8.80303668420466,
+          "balls": 6,
+          "lift": 8.840425371741595
+        },
+        {
+          "name": "Akeal Hosein",
+          "role": "Bowlers",
+          "matchId": 29816,
+          "value": -6.778624652487676,
+          "balls": 6,
+          "lift": -6.687990950488007
+        },
+        {
+          "name": "Akeal Hosein",
+          "role": "Bowlers",
+          "matchId": 29817,
+          "value": -6.120957063189738,
+          "balls": 6,
+          "lift": -5.969424407163818
+        },
+        {
+          "name": "Akeal Hosein",
+          "role": "Bowlers",
+          "matchId": 36096,
+          "value": 7.795182739719658,
+          "balls": 12,
+          "lift": 8.599651300321653
+        },
+        {
+          "name": "Akeal Hosein",
+          "role": "Bowlers",
+          "matchId": 36097,
+          "value": 8.905790117331957,
+          "balls": 6,
+          "lift": 9.309704721740735
+        },
+        {
+          "name": "Akeal Hosein",
+          "role": "Bowlers",
+          "matchId": 36200,
+          "value": 6.173944887143142,
+          "balls": 6,
+          "lift": 6.011900357755799
+        },
+        {
+          "name": "Akeal Hosein",
+          "role": "Bowlers",
+          "matchId": 38842,
+          "value": 2.7687759849738214,
+          "balls": 6,
+          "lift": 2.8371627153155483
+        },
+        {
+          "name": "Akeal Hosein",
+          "role": "Bowlers",
+          "matchId": 41504,
+          "value": 1.1176925031246019,
+          "balls": 1,
+          "lift": 1.1026126754289054
+        },
+        {
+          "name": "Akeal Hosein",
+          "role": "Bowlers",
+          "matchId": 41505,
+          "value": -5.688621883962569,
+          "balls": 3,
+          "lift": -5.7881265703758125
+        },
+        {
+          "name": "Akeal Hosein",
+          "role": "Bowlers",
+          "matchId": 41507,
+          "value": -1.0,
+          "balls": 0,
+          "lift": -1.0
+        },
+        {
+          "name": "Akeal Hosein",
+          "role": "Bowlers",
+          "matchId": 41511,
+          "value": -0.5736933760207723,
+          "balls": 2,
+          "lift": -0.6106583041528743
+        },
+        {
+          "name": "Akeal Hosein",
+          "role": "Bowlers",
+          "matchId": 41850,
+          "value": 2.31266640054362,
+          "balls": 6,
+          "lift": 2.1132270832533644
+        },
+        {
+          "name": "Akeal Hosein",
+          "role": "Bowlers",
+          "matchId": 46940,
+          "value": 2.0311310260780386,
+          "balls": 6,
+          "lift": 1.7530395824744915
+        },
+        {
+          "name": "Akeal Hosein",
+          "role": "Bowlers",
+          "matchId": 46941,
+          "value": 2.976098880837745,
+          "balls": 3,
+          "lift": 2.8048186072783112
+        },
+        {
+          "name": "Akeal Hosein",
+          "role": "Bowlers",
+          "matchId": 47965,
+          "value": 0.4496061501371503,
+          "balls": 3,
+          "lift": 0.2357068011327796
+        },
+        {
+          "name": "Akeal Hosein",
+          "role": "Bowlers",
+          "matchId": 50343,
+          "value": 1.9705057602773177,
+          "balls": 6,
+          "lift": 1.783451777602912
+        },
+        {
+          "name": "Akeal Hosein",
+          "role": "Bowlers",
+          "matchId": 50354,
+          "value": 9.328540712381244,
+          "balls": 6,
+          "lift": 9.109620747818024
+        },
+        {
+          "name": "Akeal Hosein",
+          "role": "Bowlers",
+          "matchId": 50384,
+          "value": 1.5029331573590046,
+          "balls": 6,
+          "lift": 1.2505973906600996
+        },
+        {
+          "name": "Mohammad Nawaz",
+          "role": "Bowlers",
+          "matchId": 17555,
+          "value": 2.4740143464218938,
+          "balls": 6,
+          "lift": 1.2721923234604091
+        },
+        {
+          "name": "Mohammad Nawaz",
+          "role": "Bowlers",
+          "matchId": 17556,
+          "value": 0.9210603899756687,
+          "balls": 1,
+          "lift": 0.780691299775368
+        },
+        {
+          "name": "Mohammad Nawaz",
+          "role": "Bowlers",
+          "matchId": 17737,
+          "value": 6.034583486223063,
+          "balls": 12,
+          "lift": 5.4235262649350275
+        },
+        {
+          "name": "Mohammad Nawaz",
+          "role": "Bowlers",
+          "matchId": 28966,
+          "value": -2.9338158469492615,
+          "balls": 4,
+          "lift": -2.9405280483912324
+        },
+        {
+          "name": "Mohammad Nawaz",
+          "role": "Bowlers",
+          "matchId": 41510,
+          "value": 20.786138013254714,
+          "balls": 6,
+          "lift": 20.46636221668906
+        },
+        {
+          "name": "Mohammad Nawaz",
+          "role": "Bowlers",
+          "matchId": 44266,
+          "value": -1.4558119917195285,
+          "balls": 6,
+          "lift": -1.5897209745854233
+        },
+        {
+          "name": "Mohammad Nawaz",
+          "role": "Bowlers",
+          "matchId": 45851,
+          "value": 7.815709807558614,
+          "balls": 6,
+          "lift": 7.373830066041485
+        },
+        {
+          "name": "Mohammad Nawaz",
+          "role": "Bowlers",
+          "matchId": 45852,
+          "value": 8.299206539596554,
+          "balls": 8,
+          "lift": 7.707469632382227
+        },
+        {
+          "name": "Mohammad Nawaz",
+          "role": "Bowlers",
+          "matchId": 45855,
+          "value": -0.264801103414527,
+          "balls": 6,
+          "lift": -0.7150448441849386
+        },
+        {
+          "name": "Mohammad Nawaz",
+          "role": "Bowlers",
+          "matchId": 45857,
+          "value": 3.273392867334956,
+          "balls": 6,
+          "lift": 2.845995230252212
+        },
+        {
+          "name": "Mohammad Nawaz",
+          "role": "Bowlers",
+          "matchId": 46740,
+          "value": 1.1309933256904414,
+          "balls": 3,
+          "lift": 0.8420836565110393
+        },
+        {
+          "name": "Mohammad Nawaz",
+          "role": "Bowlers",
+          "matchId": 46741,
+          "value": -1.9528868429549422,
+          "balls": 12,
+          "lift": -3.343163389617106
+        },
+        {
+          "name": "Mohammad Nawaz",
+          "role": "Bowlers",
+          "matchId": 46742,
+          "value": 6.377853831637922,
+          "balls": 6,
+          "lift": 5.683806892989043
+        },
+        {
+          "name": "Mohammad Nawaz",
+          "role": "Bowlers",
+          "matchId": 47978,
+          "value": 1.548733878170155,
+          "balls": 6,
+          "lift": 0.9191969143592974
+        },
+        {
+          "name": "Mohammad Nawaz",
+          "role": "Bowlers",
+          "matchId": 47979,
+          "value": 6.267609672046695,
+          "balls": 10,
+          "lift": 4.98251694242362
+        },
+        {
+          "name": "Mohammad Nawaz",
+          "role": "Bowlers",
+          "matchId": 48512,
+          "value": -3.8337497751820915,
+          "balls": 12,
+          "lift": -5.501888821042941
+        },
+        {
+          "name": "Mohammad Nawaz",
+          "role": "Bowlers",
+          "matchId": 48915,
+          "value": -5.045059138355871,
+          "balls": 16,
+          "lift": -7.031579641609708
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 14105,
+          "value": -3.240779359562066,
+          "balls": 7,
+          "lift": -3.935447998268234
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 14119,
+          "value": 7.4419656071333975,
+          "balls": 6,
+          "lift": 7.181890748802111
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 14124,
+          "value": 8.574516248255692,
+          "balls": 12,
+          "lift": 8.368906841070492
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 14139,
+          "value": -0.6722794049718657,
+          "balls": 8,
+          "lift": -1.0282956098554321
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 14147,
+          "value": 14.275494048337258,
+          "balls": 2,
+          "lift": 14.288216528300829
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 14160,
+          "value": -1.9894435476715517,
+          "balls": 6,
+          "lift": -1.899030775653564
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 16063,
+          "value": 1.6450481535647064,
+          "balls": 12,
+          "lift": 2.8850546079958432
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 19960,
+          "value": 4.328257170232685,
+          "balls": 6,
+          "lift": 4.983026839931651
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 19961,
+          "value": -1.6721597380870978,
+          "balls": 18,
+          "lift": 0.7566145221443086
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 20191,
+          "value": -2.499892696120754,
+          "balls": 6,
+          "lift": -1.9869283812710083
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 20217,
+          "value": -4.752613315346966,
+          "balls": 6,
+          "lift": -4.114608071954932
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 20222,
+          "value": -13.967035981086157,
+          "balls": 13,
+          "lift": -12.425533797417536
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 24350,
+          "value": 0.45672099544306033,
+          "balls": 9,
+          "lift": 1.6708644813817446
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 28064,
+          "value": 0.6910589264117037,
+          "balls": 7,
+          "lift": 1.4710108376260767
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 28065,
+          "value": 4.44888297386963,
+          "balls": 8,
+          "lift": 5.3241235178253765
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 28067,
+          "value": 3.1385816352775793,
+          "balls": 6,
+          "lift": 4.038985791669644
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 46250,
+          "value": -0.45462063174422096,
+          "balls": 2,
+          "lift": -0.231248795042311
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 46940,
+          "value": 3.424431669047252,
+          "balls": 9,
+          "lift": 4.41980207428044
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 46941,
+          "value": 4.3740271842364145,
+          "balls": 10,
+          "lift": 5.460591068278767
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 47965,
+          "value": 3.553870388900353,
+          "balls": 6,
+          "lift": 4.1192813871444525
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 50358,
+          "value": 5.653926967676706,
+          "balls": 12,
+          "lift": 6.941981647737798
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 50363,
+          "value": 3.0780305712803706,
+          "balls": 6,
+          "lift": 3.7169293311691978
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 50367,
+          "value": 17.259400705550554,
+          "balls": 12,
+          "lift": 18.459115783893456
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 50373,
+          "value": -1.460751608450873,
+          "balls": 9,
+          "lift": -0.5984451514420717
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 50377,
+          "value": 28.41253183819378,
+          "balls": 12,
+          "lift": 29.403219337074113
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 50503,
+          "value": 1.4238911973960582,
+          "balls": 6,
+          "lift": 1.9126208925817954
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 50505,
+          "value": -2.543878110075772,
+          "balls": 6,
+          "lift": -2.1287107713011064
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 50942,
+          "value": -0.35744517238445805,
+          "balls": 2,
+          "lift": -0.16761419971267266
+        },
+        {
+          "name": "Jason Holder",
+          "role": "Bowlers",
+          "matchId": 50944,
+          "value": 1.0685657661961587,
+          "balls": 3,
+          "lift": 1.341451977872154
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Bowlers",
+          "matchId": 14126,
+          "value": 2.02704577726732,
+          "balls": 11,
+          "lift": 0.5239914680469336
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Bowlers",
+          "matchId": 14145,
+          "value": -3.609342464523608,
+          "balls": 12,
+          "lift": -5.0806339786343875
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Bowlers",
+          "matchId": 14153,
+          "value": -3.178463812029244,
+          "balls": 8,
+          "lift": -4.99343664029254
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Bowlers",
+          "matchId": 14163,
+          "value": -4.802349830293293,
+          "balls": 2,
+          "lift": -5.327260814859828
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Bowlers",
+          "matchId": 16041,
+          "value": 8.13744678223426,
+          "balls": 6,
+          "lift": 5.973167538879597
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Bowlers",
+          "matchId": 24823,
+          "value": 4.003539832754553,
+          "balls": 8,
+          "lift": 1.7489223055946943
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Bowlers",
+          "matchId": 30075,
+          "value": 8.419880052724196,
+          "balls": 6,
+          "lift": 6.457770201237898
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Bowlers",
+          "matchId": 31251,
+          "value": 1.1193987204138045,
+          "balls": 6,
+          "lift": -1.2042030413674139
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Bowlers",
+          "matchId": 40722,
+          "value": -2.490442411763813,
+          "balls": 5,
+          "lift": -4.562946551095314
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Bowlers",
+          "matchId": 40731,
+          "value": 4.066536437683958,
+          "balls": 6,
+          "lift": 1.6048311643690183
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Bowlers",
+          "matchId": 40734,
+          "value": -2.416892266435856,
+          "balls": 6,
+          "lift": -4.927892243309903
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Bowlers",
+          "matchId": 40738,
+          "value": 5.940833553483542,
+          "balls": 2,
+          "lift": 5.127610544994771
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Bowlers",
+          "matchId": 40743,
+          "value": 5.144041037508552,
+          "balls": 6,
+          "lift": 2.593575611103007
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Bowlers",
+          "matchId": 40759,
+          "value": 4.389047199717151,
+          "balls": 3,
+          "lift": 3.0668413145463203
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Bowlers",
+          "matchId": 40765,
+          "value": 13.32934833739139,
+          "balls": 9,
+          "lift": 9.204586785205242
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Bowlers",
+          "matchId": 40766,
+          "value": 6.662352914327697,
+          "balls": 18,
+          "lift": -1.398922660992374
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Bowlers",
+          "matchId": 41978,
+          "value": -6.879856526729522,
+          "balls": 6,
+          "lift": -9.168722590625446
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Bowlers",
+          "matchId": 42027,
+          "value": 12.051224175700609,
+          "balls": 6,
+          "lift": 9.74448080808037
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Bowlers",
+          "matchId": 42031,
+          "value": 17.308989301780773,
+          "balls": 10,
+          "lift": 13.769086154016739
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Bowlers",
+          "matchId": 48591,
+          "value": 0.16138918481424946,
+          "balls": 5,
+          "lift": -1.6140196641767743
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Bowlers",
+          "matchId": 48593,
+          "value": 1.4359072131622663,
+          "balls": 5,
+          "lift": -0.28200655755861115
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Bowlers",
+          "matchId": 50362,
+          "value": -6.889533611609689,
+          "balls": 4,
+          "lift": -8.056452168218275
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Bowlers",
+          "matchId": 50375,
+          "value": 2.0990676373443593,
+          "balls": 9,
+          "lift": -0.29831953598272687
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Bowlers",
+          "matchId": 54408,
+          "value": -2.158264184239559,
+          "balls": 6,
+          "lift": -3.716875131028514
+        },
+        {
+          "name": "Jofra Archer",
+          "role": "Bowlers",
+          "matchId": 32611,
+          "value": 15.355846362669425,
+          "balls": 18,
+          "lift": 15.576005974122351
+        },
+        {
+          "name": "Jofra Archer",
+          "role": "Bowlers",
+          "matchId": 37350,
+          "value": 4.261305763225306,
+          "balls": 6,
+          "lift": 4.583098050179663
+        },
+        {
+          "name": "Jofra Archer",
+          "role": "Bowlers",
+          "matchId": 37351,
+          "value": -1.890420278655383,
+          "balls": 7,
+          "lift": -1.4760976912136266
+        },
+        {
+          "name": "Jofra Archer",
+          "role": "Bowlers",
+          "matchId": 40037,
+          "value": -3.9479832626766704,
+          "balls": 2,
+          "lift": -4.002053786621401
+        },
+        {
+          "name": "Jofra Archer",
+          "role": "Bowlers",
+          "matchId": 40039,
+          "value": 1.4032101909171142,
+          "balls": 12,
+          "lift": 1.5994205352983375
+        },
+        {
+          "name": "Jofra Archer",
+          "role": "Bowlers",
+          "matchId": 45393,
+          "value": -1.2020375913486108,
+          "balls": 6,
+          "lift": -1.4626951009577827
+        },
+        {
+          "name": "Jofra Archer",
+          "role": "Bowlers",
+          "matchId": 50133,
+          "value": 1.417004592357912,
+          "balls": 10,
+          "lift": 1.300704420565792
+        },
+        {
+          "name": "Jofra Archer",
+          "role": "Bowlers",
+          "matchId": 50140,
+          "value": -0.41479084990053683,
+          "balls": 6,
+          "lift": -0.43772128131707577
+        },
+        {
+          "name": "Jofra Archer",
+          "role": "Bowlers",
+          "matchId": 50349,
+          "value": -3.758525399440689,
+          "balls": 12,
+          "lift": -3.9036896461771438
+        },
+        {
+          "name": "Jofra Archer",
+          "role": "Bowlers",
+          "matchId": 50353,
+          "value": 2.922084377183752,
+          "balls": 3,
+          "lift": 2.850665538032328
+        },
+        {
+          "name": "Jofra Archer",
+          "role": "Bowlers",
+          "matchId": 50364,
+          "value": 2.704452175211687,
+          "balls": 6,
+          "lift": 2.3714834212518014
+        },
+        {
+          "name": "Jofra Archer",
+          "role": "Bowlers",
+          "matchId": 50383,
+          "value": 7.937954979398972,
+          "balls": 9,
+          "lift": 7.734470126992154
+        },
+        {
+          "name": "Jofra Archer",
+          "role": "Bowlers",
+          "matchId": 50390,
+          "value": 8.90092690656216,
+          "balls": 6,
+          "lift": 8.758018196291447
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 16259,
+          "value": -0.1499946904534356,
+          "balls": 6,
+          "lift": -0.6007179737152478
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 16666,
+          "value": -0.9535290041723532,
+          "balls": 6,
+          "lift": -1.015859023103928
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 16667,
+          "value": -5.696993923928092,
+          "balls": 6,
+          "lift": -5.8978832910823655
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 16683,
+          "value": 1.9923561286515548,
+          "balls": 6,
+          "lift": 1.854937911879507
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 17740,
+          "value": -0.1570382966257966,
+          "balls": 5,
+          "lift": -0.869091729252449
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 19715,
+          "value": 12.339252096562184,
+          "balls": 12,
+          "lift": 10.424736128389759
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 20181,
+          "value": -0.17982110712495714,
+          "balls": 4,
+          "lift": -0.798265444906042
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 20186,
+          "value": 4.783945033308807,
+          "balls": 12,
+          "lift": 3.139902168105162
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 20192,
+          "value": 1.7464745282185152,
+          "balls": 10,
+          "lift": 0.21824469374036837
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 24792,
+          "value": 3.3393595557325284,
+          "balls": 6,
+          "lift": 2.41078479375518
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 24794,
+          "value": -3.292764982264094,
+          "balls": 6,
+          "lift": -4.256617131846246
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 25160,
+          "value": 11.27038623321053,
+          "balls": 6,
+          "lift": 10.461813045918595
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 28964,
+          "value": -14.356083194278547,
+          "balls": 12,
+          "lift": -16.33839700608408
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 28965,
+          "value": 1.459074142303748,
+          "balls": 2,
+          "lift": 1.1573045160808186
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 29982,
+          "value": 8.199089513764275,
+          "balls": 12,
+          "lift": 6.449409503997298
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 38633,
+          "value": 7.2097790000059225,
+          "balls": 5,
+          "lift": 6.386024233211645
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 40705,
+          "value": 1.7205795069110377,
+          "balls": 6,
+          "lift": 0.8499005685356833
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 40722,
+          "value": -3.969896969171236,
+          "balls": 6,
+          "lift": -4.653731508828143
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 40734,
+          "value": 2.313796283768932,
+          "balls": 6,
+          "lift": 1.5733714451528826
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 40759,
+          "value": 21.157661176045185,
+          "balls": 12,
+          "lift": 19.63575279702769
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 47965,
+          "value": -4.148319295385252,
+          "balls": 12,
+          "lift": -5.68285141731527
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 47966,
+          "value": 17.27686463263978,
+          "balls": 15,
+          "lift": 15.53322956374199
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 47967,
+          "value": -3.3711743688548736,
+          "balls": 18,
+          "lift": -5.263672478998048
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 47969,
+          "value": -0.8828444977917795,
+          "balls": 6,
+          "lift": -1.4932809646936394
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 48594,
+          "value": -5.268889130007058,
+          "balls": 6,
+          "lift": -5.715042528415429
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 49737,
+          "value": 6.339592970121252,
+          "balls": 6,
+          "lift": 5.794196873417985
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 49738,
+          "value": 7.957782497008695,
+          "balls": 6,
+          "lift": 7.392410790931982
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 50351,
+          "value": 0.8077183001336249,
+          "balls": 6,
+          "lift": 0.28096135316361776
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 50354,
+          "value": -9.074323533540287,
+          "balls": 6,
+          "lift": -9.657255259656022
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 54210,
+          "value": -6.7791814210734485,
+          "balls": 12,
+          "lift": -7.921577913982151
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 54211,
+          "value": 18.301586432710724,
+          "balls": 18,
+          "lift": 16.532040623981125
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "Bowlers",
+          "matchId": 54213,
+          "value": -8.752551010503469,
+          "balls": 6,
+          "lift": -9.439968231544398
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 14151,
+          "value": 14.011058094914276,
+          "balls": 2,
+          "lift": 13.699198435160067
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 14161,
+          "value": 8.080449742493261,
+          "balls": 2,
+          "lift": 7.735027645289756
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 15609,
+          "value": 4.165715459440427,
+          "balls": 5,
+          "lift": 3.0042755789740636
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 15610,
+          "value": -5.299510706523306,
+          "balls": 11,
+          "lift": -7.913505993243586
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 15611,
+          "value": 13.089617913018458,
+          "balls": 9,
+          "lift": 10.90008349186281
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 16653,
+          "value": -0.5248448661496643,
+          "balls": 6,
+          "lift": -1.7339385860983634
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 16655,
+          "value": 7.340770285346629,
+          "balls": 6,
+          "lift": 6.039133510742815
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 16659,
+          "value": -2.5001287486175547,
+          "balls": 4,
+          "lift": -3.399929789960056
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 16662,
+          "value": -4.107187716202952,
+          "balls": 3,
+          "lift": -4.7278676875800425
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 16750,
+          "value": 3.2286291875240662,
+          "balls": 6,
+          "lift": 1.7027721265468152
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 16752,
+          "value": -10.660726294100238,
+          "balls": 6,
+          "lift": -11.941882104224486
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 20181,
+          "value": 1.8618659700371147,
+          "balls": 8,
+          "lift": 0.10866400946638477
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 20193,
+          "value": 5.6032121093962175,
+          "balls": 18,
+          "lift": 1.2195201502372757
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 20198,
+          "value": -4.569272615289393,
+          "balls": 8,
+          "lift": -6.483184855880932
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 20203,
+          "value": -11.450536928412326,
+          "balls": 18,
+          "lift": -15.847422211018399
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 20224,
+          "value": -7.439833138671681,
+          "balls": 12,
+          "lift": -9.937015455874766
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 20228,
+          "value": 13.972528357730749,
+          "balls": 12,
+          "lift": 11.360107353112388
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 20231,
+          "value": 0.2858351493839783,
+          "balls": 6,
+          "lift": -1.0597044770013004
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 20242,
+          "value": -1.79400491942903,
+          "balls": 6,
+          "lift": -3.2113131181548003
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 20878,
+          "value": 8.20737571761353,
+          "balls": 12,
+          "lift": 5.702602604224751
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 20879,
+          "value": 0.5511552657321892,
+          "balls": 6,
+          "lift": -0.730612288207926
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 20880,
+          "value": -2.2036604816600023,
+          "balls": 3,
+          "lift": -2.867583362058908
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 21585,
+          "value": -0.04059562949563855,
+          "balls": 2,
+          "lift": -0.5031033385396056
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 30060,
+          "value": 4.13031174106463,
+          "balls": 6,
+          "lift": 2.522826777401001
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 30072,
+          "value": -8.543356768263806,
+          "balls": 12,
+          "lift": -11.582333398960188
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 30729,
+          "value": 13.089712389301082,
+          "balls": 6,
+          "lift": 11.575621183465204
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 30730,
+          "value": 6.850200392003398,
+          "balls": 7,
+          "lift": 4.993845798235634
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 31255,
+          "value": 4.104887186253645,
+          "balls": 7,
+          "lift": 2.2250867546935855
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 31258,
+          "value": -10.515858596694502,
+          "balls": 12,
+          "lift": -13.800305660050306
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 31277,
+          "value": -5.246481839912771,
+          "balls": 6,
+          "lift": -6.67189249028785
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 38626,
+          "value": 0.3227254183269832,
+          "balls": 1,
+          "lift": 0.08060245036725669
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 38627,
+          "value": 11.42755788775758,
+          "balls": 18,
+          "lift": 7.062992725152387
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 38628,
+          "value": -7.2944829633589645,
+          "balls": 6,
+          "lift": -8.74952119462027
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 40713,
+          "value": 1.672837827664914,
+          "balls": 6,
+          "lift": 0.34489822199343945
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 40716,
+          "value": -1.8152076669966697,
+          "balls": 12,
+          "lift": -4.425487543665728
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 40728,
+          "value": -0.9198564044756056,
+          "balls": 6,
+          "lift": -2.2360718097154
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 40744,
+          "value": -10.168478918103073,
+          "balls": 12,
+          "lift": -12.789273644256397
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 45505,
+          "value": -0.999066594081723,
+          "balls": 8,
+          "lift": -2.438080111913374
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 45851,
+          "value": 1.1663101653463674,
+          "balls": 6,
+          "lift": 0.08794907158224363
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 45853,
+          "value": 18.31704383939478,
+          "balls": 12,
+          "lift": 16.169748123962904
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 45854,
+          "value": 9.591511245222708,
+          "balls": 6,
+          "lift": 8.506461874481403
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 45857,
+          "value": -3.007354173429074,
+          "balls": 4,
+          "lift": -3.701876966861452
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 46754,
+          "value": 5.333381124892422,
+          "balls": 1,
+          "lift": 5.136984567547967
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 47260,
+          "value": -2.7366125947517217,
+          "balls": 6,
+          "lift": -3.912899716887602
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 47261,
+          "value": 1.9560827551460003,
+          "balls": 6,
+          "lift": 0.795699713189878
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 48596,
+          "value": -3.4296477698733967,
+          "balls": 12,
+          "lift": -5.8529554502733445
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 48597,
+          "value": -1.9998821875977888,
+          "balls": 8,
+          "lift": -3.690713008074898
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 50138,
+          "value": 7.916369210753124,
+          "balls": 6,
+          "lift": 6.608463293876384
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 50143,
+          "value": 5.987907931428796,
+          "balls": 12,
+          "lift": 3.2538629624836877
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 50346,
+          "value": -5.801740511459012,
+          "balls": 6,
+          "lift": -7.158340833972318
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 50351,
+          "value": 3.95848887223583,
+          "balls": 12,
+          "lift": 1.3343467583732278
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 50363,
+          "value": 9.503965153745272,
+          "balls": 6,
+          "lift": 8.286942562243283
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 50367,
+          "value": 0.9679050787981605,
+          "balls": 6,
+          "lift": -0.24961788239189286
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 50373,
+          "value": 1.724358329787592,
+          "balls": 12,
+          "lift": -0.6669846941893673
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 50387,
+          "value": 13.610777700178412,
+          "balls": 12,
+          "lift": 11.260578146554456
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 50942,
+          "value": 3.1654657514325977,
+          "balls": 6,
+          "lift": 1.99036597462062
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 55559,
+          "value": 2.2685121953030873,
+          "balls": 11,
+          "lift": 0.300869273607583
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 55560,
+          "value": -0.9040153838882585,
+          "balls": 6,
+          "lift": -2.009173754101927
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowlers",
+          "matchId": 55561,
+          "value": 1.2885153729946879,
+          "balls": 12,
+          "lift": -0.9103686929031185
+        },
+        {
+          "name": "Naveen ul Haq",
+          "role": "Bowlers",
+          "matchId": 20206,
+          "value": 1.8817345734097857,
+          "balls": 8,
+          "lift": 0.2534070713750798
+        },
+        {
+          "name": "Naveen ul Haq",
+          "role": "Bowlers",
+          "matchId": 20243,
+          "value": 1.8910393865630475,
+          "balls": 11,
+          "lift": -1.4949974603856857
+        },
+        {
+          "name": "Naveen ul Haq",
+          "role": "Bowlers",
+          "matchId": 20248,
+          "value": 6.615981817995155,
+          "balls": 11,
+          "lift": 3.5598633721486834
+        },
+        {
+          "name": "Naveen ul Haq",
+          "role": "Bowlers",
+          "matchId": 29924,
+          "value": -1.2066309077505355,
+          "balls": 2,
+          "lift": -1.5254632825958194
+        },
+        {
+          "name": "Naveen ul Haq",
+          "role": "Bowlers",
+          "matchId": 30070,
+          "value": -0.005734420934648599,
+          "balls": 6,
+          "lift": -0.5158905538019127
+        },
+        {
+          "name": "Naveen ul Haq",
+          "role": "Bowlers",
+          "matchId": 30076,
+          "value": -3.071399023996678,
+          "balls": 12,
+          "lift": -4.2625048756266475
+        },
+        {
+          "name": "Naveen ul Haq",
+          "role": "Bowlers",
+          "matchId": 30729,
+          "value": 4.485163665448113,
+          "balls": 7,
+          "lift": 3.970949645771935
+        },
+        {
+          "name": "Naveen ul Haq",
+          "role": "Bowlers",
+          "matchId": 31266,
+          "value": 11.766063181309029,
+          "balls": 11,
+          "lift": 10.758251410226043
+        },
+        {
+          "name": "Naveen ul Haq",
+          "role": "Bowlers",
+          "matchId": 38626,
+          "value": 0.3404789653709419,
+          "balls": 6,
+          "lift": 0.03482890507881975
+        },
+        {
+          "name": "Naveen ul Haq",
+          "role": "Bowlers",
+          "matchId": 38627,
+          "value": 7.536616204924703,
+          "balls": 9,
+          "lift": 6.965697894600632
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 14150,
+          "value": 3.8038242945273484,
+          "balls": 6,
+          "lift": 4.943624412582926
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 14155,
+          "value": 3.671279817783928,
+          "balls": 13,
+          "lift": 6.077311858912405
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 20216,
+          "value": 5.6643175026039625,
+          "balls": 7,
+          "lift": 5.897204607908507
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 20219,
+          "value": -14.749121271539547,
+          "balls": 8,
+          "lift": -14.744900141409648
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 20227,
+          "value": 17.17392784943432,
+          "balls": 13,
+          "lift": 17.215422034904424
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 20233,
+          "value": -3.078286523466005,
+          "balls": 9,
+          "lift": -3.010505547258574
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 30058,
+          "value": 1.9836326571050382,
+          "balls": 12,
+          "lift": 1.5693197791377314
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 31250,
+          "value": 9.012049606579582,
+          "balls": 17,
+          "lift": 8.80201295408117
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 31254,
+          "value": -0.6563527343188491,
+          "balls": 9,
+          "lift": -0.727680436574446
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 31260,
+          "value": -17.227098911066147,
+          "balls": 12,
+          "lift": -17.357013806311905
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 31265,
+          "value": -1.7161636780601184,
+          "balls": 6,
+          "lift": -1.7454683157638209
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 31269,
+          "value": -0.7236555636500452,
+          "balls": 6,
+          "lift": -0.9458961907443899
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 37276,
+          "value": 1.7787028646086747,
+          "balls": 8,
+          "lift": 0.9775573732093803
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 37940,
+          "value": 11.172393839556644,
+          "balls": 6,
+          "lift": 10.458118540578713
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 37942,
+          "value": -5.648823115170323,
+          "balls": 4,
+          "lift": -6.348530284381166
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 40036,
+          "value": 10.065741075814477,
+          "balls": 9,
+          "lift": 8.775245621106688
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 40037,
+          "value": -0.9321269305224291,
+          "balls": 9,
+          "lift": -2.268964477584391
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 40039,
+          "value": -3.3252348988216993,
+          "balls": 9,
+          "lift": -4.874586103110915
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 40699,
+          "value": 6.569552734332708,
+          "balls": 6,
+          "lift": 5.537678886990928
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 40708,
+          "value": 4.96764264512045,
+          "balls": 6,
+          "lift": 3.8232219140648898
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 40718,
+          "value": 0.34231094335855256,
+          "balls": 2,
+          "lift": -0.054891692118953506
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 40724,
+          "value": 9.136599312146565,
+          "balls": 7,
+          "lift": 7.690594958315365
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 40741,
+          "value": 1.6741657105301022,
+          "balls": 8,
+          "lift": 0.010572899315417494
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 40746,
+          "value": -3.3660376864894315,
+          "balls": 6,
+          "lift": -4.575017941201507
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 41977,
+          "value": 7.965461847210501,
+          "balls": 4,
+          "lift": 7.117819166112007
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 41978,
+          "value": 10.399525428064331,
+          "balls": 6,
+          "lift": 9.157833848021777
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 42029,
+          "value": 4.899010407882733,
+          "balls": 12,
+          "lift": 2.3033170461979893
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 42031,
+          "value": 1.0271554605264621,
+          "balls": 12,
+          "lift": -1.6848243037083868
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 45391,
+          "value": -0.6842395669834613,
+          "balls": 12,
+          "lift": -2.9234500720010637
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 45496,
+          "value": 3.581993129886552,
+          "balls": 6,
+          "lift": 2.3869957119804526
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 45500,
+          "value": 2.3773836601871703,
+          "balls": 6,
+          "lift": 1.1300145825332915
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 45510,
+          "value": 10.350094038830374,
+          "balls": 18,
+          "lift": 6.74309604664563
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 48591,
+          "value": 0.1947570581234191,
+          "balls": 3,
+          "lift": -0.46692593317956915
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 50126,
+          "value": -5.007494148601708,
+          "balls": 6,
+          "lift": -6.245859121606933
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 50359,
+          "value": 8.073621484631389,
+          "balls": 12,
+          "lift": 5.656582123555344
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 50381,
+          "value": -2.405502158394815,
+          "balls": 6,
+          "lift": -3.618237108631842
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 50386,
+          "value": 2.324587439412497,
+          "balls": 6,
+          "lift": 1.1664703983624154
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "role": "Bowlers",
+          "matchId": 54408,
+          "value": 7.535318145377074,
+          "balls": 12,
+          "lift": 5.478025379148326
+        }
+      ],
+      "source": {
+        "provider": "SupeRR Round 1 analysis",
+        "label": "Reviewed shortlist player-match contributions",
+        "files": [
+          "output/final_recheck/batters_match_evidence.csv",
+          "output/final_recheck/bowlers_match_evidence.csv",
+          "output/final_recheck/final_rankings.json",
+          "audit_match_reliability.py"
+        ],
+        "grain": "One qualifying player-match contribution, for the final ten batters and ten bowlers",
+        "metricDefinitions": [
+          {
+            "label": "Sensitivity rating",
+            "definition": "Minimum over match deletions of 100 times remaining adjusted value divided by remaining balls plus the selected shrinkage. At 60 added balls this reproduces the official final rating. Eligibility and contributions stay fixed. Other strengths are exploratory diagnostics, not a new submission order.",
+            "componentIds": [
+              "shrinkage-curves"
+            ],
+            "formula": "min_match(100 * (totalValue - matchValue) / (totalBalls - matchBalls + shrinkage))"
+          },
+          {
+            "label": "Match contribution",
+            "definition": "Adjusted runs contributed in one observed match. Values include zero-exposure extras-only bowling records; only positive-exposure records count as matches. Records are ordered by supplied match ID, not by date.",
+            "componentIds": [
+              "match-contributions"
+            ]
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "Reproduce analytics inputs",
+            "detail": "Run python supeRR-vercel/prepare-analytics.py. Select the official ten in each role from the existing reviewed shortlist, retain all their player-match aggregates, and assert ball totals, positive-exposure match counts, and every 60-ball deletion rating against the reviewed shortlist. No delivery-level data is added."
+          }
+        ]
+      },
+      "methods": [
+        {
+          "language": "text",
+          "code": "Source aggregates are prepared by supeRR-vercel/prepare-analytics.py. Interactive calculations are in src/content/dashboard/pressure-analytics.mjs. Preserve frozen eligibility and the official 60-ball ranking; a different shrinkage is a sensitivity scenario. Per-match bars show supplied adjusted value, ordered by match ID; they are not a chronological time series."
+        }
+      ]
+    },
+    "auctionPlan": {
+      "rows": [
+        {
+          "id": "finish",
+          "label": "Finishing depth",
+          "title": "Compare the market with a Hetmyer return",
+          "decision": "Ferreira is the internal option. If Hetmyer registers, use his RR role experience and price to benchmark alternatives for the overseas finishing slot. Keep Ferreira as cover if the pool offers no clear upgrade.",
+          "status": "RR released Hetmyer and retained Ferreira.",
+          "sourceHref": "https://www.rajasthanroyals.com/latest-news/ipl-2027-rr-players-retention-list-retained-released",
+          "sourceLabel": "RR retentions",
+          "candidate": "Shimron Hetmyer",
+          "rating": 5.854527479596505,
+          "iplBalls": 201
+        },
+        {
+          "id": "pace",
+          "label": "Death bowling",
+          "title": "Keep Archer as the lead death bowler",
+          "decision": "Archer bowled 102 death balls for RR in the screened 2026 matches. Shami adds new-ball cover. Check Ferguson’s availability if RR wants a reserve quick. His overall rating was positive, while his IPL pressure sample was small and his net adjusted contribution in it was negative.",
+          "status": "Punjab Kings released Ferguson. Registration and availability remain unverified.",
+          "sourceHref": "https://www.iplt20.com/cms/files/jot2qw8s50z1/3gFAJ4z1USxcXYhaZVl65L/2a463a9c02a5bb7fd12fa3fbe91cc299/TATA_IPL_2027-_Release_Player_List.pdf",
+          "sourceLabel": "IPL release list",
+          "candidate": "Lockie Ferguson",
+          "rating": 3.4364275049804505,
+          "iplBalls": 40
+        },
+        {
+          "id": "cover",
+          "label": "Curran’s role",
+          "title": "Assess seam and batting cover separately",
+          "decision": "Curran’s trade takes away lower-order batting and left-arm seam in one roster spot. Assess those roles separately before committing to an all-rounder. Siddharth provides Indian left-arm spin for the powerplay, so an overseas spin bid would need to fill a different role.",
+          "status": "RR received Shami and Siddharth in the trade with Lucknow.",
+          "sourceHref": "https://www.iplt20.com/news/article/mohd-shami-and-m-siddharth-traded-to-rajasthan-royals-sam-curran-traded-to-lucknow-super-giants",
+          "sourceLabel": "IPL trade advisory"
+        }
+      ],
+      "source": {
+        "provider": "SupeRR Round 1 analysis and IPL announcements",
+        "label": "Auction decisions after retentions",
+        "files": [
+          "https://www.iplt20.com/news/article/tata-ipl-2027-player-retentions-announced",
+          "https://www.iplt20.com/cms/files/jot2qw8s50z1/3gFAJ4z1USxcXYhaZVl65L/2a463a9c02a5bb7fd12fa3fbe91cc299/TATA_IPL_2027-_Release_Player_List.pdf",
+          "output/final_recheck/batters_audit.csv",
+          "output/final_recheck/bowlers_audit.csv",
+          "output/rr_2026_deployment.json"
+        ],
+        "grain": "One row per auction role",
+        "metricDefinitions": [],
+        "evidenceFlow": [
+          {
+            "title": "Evidence and decision",
+            "detail": "Verify retention and release status against the IPL’s 18 November announcement and release list. Historical ratings come from the full eligible audit. Phase deployment uses screened RR matches. Check registration and availability before bidding."
+          }
+        ]
+      },
+      "methods": [
+        {
+          "language": "text",
+          "code": "Verify retention and release status against the IPL’s 18 November announcement and release list. Historical ratings come from the full eligible audit. Phase deployment uses screened RR matches. Check registration and availability before bidding."
+        }
+      ]
+    },
+    "auctionSquad": {
+      "rows": [
+        {
+          "purseCrore": 27.05,
+          "openSlots": 6,
+          "squadSize": 19,
+          "overseasSlots": 3,
+          "auctionStartsAt": "2026-12-16T11:00:00+05:30",
+          "auctionVenue": "ITC Grand Goa",
+          "sourceHref": "https://www.iplt20.com/news/article/tata-ipl-2027-player-retentions-announced"
+        }
+      ],
+      "source": {
+        "provider": "Indian Premier League",
+        "label": "RR roster after retentions",
+        "files": [
+          "https://www.iplt20.com/news/article/tata-ipl-2027-player-retentions-announced"
+        ],
+        "grain": "One row for Rajasthan Royals",
+        "metricDefinitions": [],
+        "evidenceFlow": [
+          {
+            "title": "Evidence and decision",
+            "detail": "Use the RR row of the IPL’s 18 November 2026 retention bulletin for the purse, squad size and slots. Take the auction time and venue from the same bulletin."
+          }
+        ]
+      },
+      "methods": [
+        {
+          "language": "text",
+          "code": "Use the RR row of the IPL’s 18 November 2026 retention bulletin for the purse, squad size and slots. Take the auction time and venue from the same bulletin."
+        }
+      ]
+    }
+  },
+  "id": "dashboard:f4097156-4c89-4728-b5f8-a9eeeb7a2042",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  }
+}

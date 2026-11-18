@@ -1,7 +1,7 @@
 {
   "surface": "dashboard",
   "title": "SupeRR | Under Pressure",
-  "generatedAt": "2026-11-17T14:05:45Z",
+  "generatedAt": "2026-11-18T12:38:37Z",
   "status": "reviewed",
   "buildStatus": "complete",
   "filters": [],
@@ -30,7 +30,7 @@
           "min_matches_after_removal": 31,
           "role": "Batters",
           "fit": "Finishing benchmark",
-          "deployment": "Klaasen is reported retained by SRH. His strike rate of 198.0 across 393 death balls benchmarks the finishing role behind Jurel and Parag."
+          "deployment": "SRH retained Klaasen. His strike rate of 198.0 across 393 death balls benchmarks the finishing role behind Jurel and Parag."
         },
         {
           "name": "Reeza Hendricks",
@@ -174,7 +174,7 @@
           "min_matches_after_removal": 31,
           "role": "Batters",
           "fit": "Left-handed finishing benchmark",
-          "deployment": "Pooran is reported retained by LSG. His strike rate of 191.8 across 427 death balls and fourth-place chase ranking benchmark the left-handed finishing role."
+          "deployment": "LSG retained Pooran. His strike rate of 191.8 across 427 death balls and fourth-place chase ranking benchmark the left-handed finishing role."
         },
         {
           "name": "Namboori Tilak Varma",
@@ -270,7 +270,7 @@
           "min_matches_after_removal": 18,
           "role": "Bowlers",
           "fit": "Overseas new-ball spin alongside Siddharth",
-          "deployment": "Hosein is reported retained by CSK. His 744 legal powerplay balls show the new-ball role. Siddharth provides Indian cover for that phase at RR."
+          "deployment": "CSK retained Hosein. His 744 legal powerplay balls show the new-ball role. Siddharth provides Indian cover for that phase at RR."
         },
         {
           "name": "Jasprit Bumrah",
@@ -495,7 +495,7 @@
           "final_rankings.json",
           "Unstop_Submission_Order.csv",
           "SupeRR_Round_1_Scouting_Dossier.pdf",
-          "output/final_recheck/ipl_2027_availability.csv"
+          "https://www.iplt20.com/news/article/tata-ipl-2027-player-retentions-announced"
         ],
         "grain": "Player × role",
         "metricDefinitions": [
@@ -586,6 +586,7 @@
           "matches": 771,
           "events": 184476,
           "pressure": 25780,
+          "matchesThrough": "2026-11-01",
           "draws": 20000,
           "fixtures": 44,
           "bumrahAhead": 0.5313,
@@ -604,7 +605,7 @@
         "evidenceFlow": [
           {
             "title": "Snapshot assembly",
-            "detail": "Read regulation match/event counts and fixed-contribution Bumrah-versus-Hosein bootstrap statistics."
+            "detail": "Read the regulation match and event counts and the fixed-contribution Bumrah-versus-Hosein bootstrap. The match cutoff is the latest date among the screened matches."
           }
         ],
         "label": "Regulation screening and joint fixture bootstrap"
@@ -612,7 +613,7 @@
       "methods": [
         {
           "language": "text",
-          "code": "Read regulation match/event counts and fixed-contribution Bumrah-versus-Hosein bootstrap statistics."
+          "code": "Read the regulation match and event counts and the fixed-contribution Bumrah-versus-Hosein bootstrap. Use the latest match date from prepare_deliveries.py after screening."
         }
       ]
     },
@@ -4587,8 +4588,8 @@
           "title": "Keep Archer as the lead death bowler",
           "decision": "Archer bowled 102 death balls for RR in the screened 2026 matches. Shami adds new-ball cover. Check Ferguson’s availability if RR wants a reserve quick. His overall rating was positive, while his IPL pressure sample was small and his net adjusted contribution in it was negative.",
           "status": "Punjab Kings released Ferguson. Registration and availability remain unverified.",
-          "sourceHref": "https://www.punjabkingsipl.in/news/ipl-2027-meet-our-retained-shers",
-          "sourceLabel": "PBKS retentions",
+          "sourceHref": "https://www.iplt20.com/cms/files/jot2qw8s50z1/3gFAJ4z1USxcXYhaZVl65L/2a463a9c02a5bb7fd12fa3fbe91cc299/TATA_IPL_2027-_Release_Player_List.pdf",
+          "sourceLabel": "IPL release list",
           "candidate": "Lockie Ferguson",
           "rating": 3.4364275049804505,
           "iplBalls": 40
@@ -4604,10 +4605,11 @@
         }
       ],
       "source": {
-        "provider": "SupeRR Round 1 analysis and franchise announcements",
+        "provider": "SupeRR Round 1 analysis and IPL announcements",
         "label": "Auction decisions after retentions",
         "files": [
-          "output/final_recheck/ipl_2027_availability.csv",
+          "https://www.iplt20.com/news/article/tata-ipl-2027-player-retentions-announced",
+          "https://www.iplt20.com/cms/files/jot2qw8s50z1/3gFAJ4z1USxcXYhaZVl65L/2a463a9c02a5bb7fd12fa3fbe91cc299/TATA_IPL_2027-_Release_Player_List.pdf",
           "output/final_recheck/batters_audit.csv",
           "output/final_recheck/bowlers_audit.csv",
           "output/rr_2026_deployment.json"
@@ -4617,14 +4619,14 @@
         "evidenceFlow": [
           {
             "title": "Evidence and decision",
-            "detail": "Use 17 November franchise announcements for retention and release status. Historical ratings come from the full eligible audit. Phase deployment uses screened RR matches. Check registration and availability before bidding."
+            "detail": "Verify retention and release status against the IPL’s 18 November announcement and release list. Historical ratings come from the full eligible audit. Phase deployment uses screened RR matches. Check registration and availability before bidding."
           }
         ]
       },
       "methods": [
         {
           "language": "text",
-          "code": "Use 17 November franchise announcements for retention and release status. Historical ratings come from the full eligible audit. Phase deployment uses screened RR matches. Check registration and availability before bidding."
+          "code": "Verify retention and release status against the IPL’s 18 November announcement and release list. Historical ratings come from the full eligible audit. Phase deployment uses screened RR matches. Check registration and availability before bidding."
         }
       ]
     },
@@ -4634,28 +4636,31 @@
           "purseCrore": 27.05,
           "openSlots": 6,
           "squadSize": 19,
-          "sourceHref": "https://www.rajasthanroyals.com/latest-news/ipl-2027-rr-players-retention-list-retained-released"
+          "overseasSlots": 3,
+          "auctionStartsAt": "2026-12-16T11:00:00+05:30",
+          "auctionVenue": "ITC Grand Goa",
+          "sourceHref": "https://www.iplt20.com/news/article/tata-ipl-2027-player-retentions-announced"
         }
       ],
       "source": {
-        "provider": "Rajasthan Royals",
+        "provider": "Indian Premier League",
         "label": "RR roster after retentions",
         "files": [
-          "https://www.rajasthanroyals.com/latest-news/ipl-2027-rr-players-retention-list-retained-released"
+          "https://www.iplt20.com/news/article/tata-ipl-2027-player-retentions-announced"
         ],
         "grain": "One row for Rajasthan Royals",
         "metricDefinitions": [],
         "evidenceFlow": [
           {
             "title": "Evidence and decision",
-            "detail": "Take the purse in crore and roster counts from the Rajasthan Royals announcement dated 17 November 2026."
+            "detail": "Use the RR row of the IPL’s 18 November 2026 retention bulletin for the purse, squad size and slots. Take the auction time and venue from the same bulletin."
           }
         ]
       },
       "methods": [
         {
           "language": "text",
-          "code": "Take the purse in crore and roster counts from the Rajasthan Royals announcement dated 17 November 2026."
+          "code": "Use the RR row of the IPL’s 18 November 2026 retention bulletin for the purse, squad size and slots. Take the auction time and venue from the same bulletin."
         }
       ]
     }

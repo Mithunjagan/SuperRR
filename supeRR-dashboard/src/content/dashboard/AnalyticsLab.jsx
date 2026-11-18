@@ -82,7 +82,7 @@ function Contributions({ player, name }) {
   </DataComponent>;
 }
 
-export default function AnalyticsLab({ rows, matches }) {
+export default function AnalyticsLab({ rows, matches, matchesThrough }) {
   const [role, setRole] = useState("Bowlers");
   const [selected, setSelected] = useState("Akeal Hosein");
   const [comparison, setComparison] = useState("Jasprit Bumrah");
@@ -104,7 +104,7 @@ export default function AnalyticsLab({ rows, matches }) {
   const playerOptions = players.map(({ name }) => ({ value: name, label: name }));
   const display = [selected, comparison].map(name => ({name, addedBalls:strength, sensitivityRating:sensitivityRating(prepared[name], strength), officialRating:sensitivityRating(prepared[name],60)}));
   return <section id="analytics" className="rr-section rr-lab" aria-labelledby="rr-analytics-title">
-    <header className="rr-lab-header"><h2 id="rr-analytics-title">Analytics</h2><p>Reviewed 17 Nov 2026</p></header>
+    <header className="rr-lab-header"><h2 id="rr-analytics-title">Analytics</h2><p>{matchesThrough ? `Match data through ${matchesThrough}` : "Reviewed 17 Nov 2026"}</p></header>
     <div className="rr-lab-workspace">
       <aside className="rr-lab-controls" aria-label="Analytics controls">
         <div className="rr-field rr-lab-category">Role

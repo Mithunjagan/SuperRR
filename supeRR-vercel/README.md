@@ -30,5 +30,5 @@ The analytics lab recalculates the worst leave-one-match-out rating as the shrin
 
 `python supeRR-vercel/prepare-analytics.py` regenerates the match aggregates in the reviewed snapshot from `output/final_recheck/`, asserting ratings, qualifying balls, and match counts. It sets the authoring state to `updating`; set `buildStatus` to `complete` after finishing and verifying changes, then rebuild. Run `node --test supeRR-vercel/tests/*.test.mjs` for all analyst and analytics checks.
 
-Graphs update locally without an API round trip. The data remains the 17 November scouting snapshot. Scroll effects use one scheduled frame, authored-element style updates, and intersection observers; reduced-motion preferences disable animation. Content-addressed snapshot JSON is immutable-cacheable on Vercel. Browser rendering and deployed performance need verification on the actual destination; a successful build is not a frame-rate guarantee.
+Graphs recalculate locally from the fixed Round 1 snapshot, with screened matches through 1 November 2026. The auction panel uses the IPL retention bulletin dated 18 November 2026. Content-addressed snapshot JSON is immutable-cacheable on Vercel.
 

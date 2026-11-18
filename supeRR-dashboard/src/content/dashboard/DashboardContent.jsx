@@ -7,6 +7,8 @@ import AnalyticsLab from "./AnalyticsLab.jsx";
 import Picker from "./Picker.jsx";
 
 const number = new Intl.NumberFormat("en-IN");
+const date = new Intl.DateTimeFormat("en-GB", { dateStyle: "medium", timeZone: "Asia/Kolkata" });
+const auctionTime = new Intl.DateTimeFormat("en-GB", { dateStyle: "medium", timeStyle: "short", timeZone: "Asia/Kolkata" });
 const fmt = n => Number(n).toFixed(2);
 const signed = n => (n >= 0 ? "+" : "−") + fmt(Math.abs(n));
 const pct = n => (n * 100).toFixed(1) + "%";
@@ -207,7 +209,12 @@ function Auction({ comparators, plans, squad, scenario, setScenario }) {
   return <section id="auction" className="rr-section">
     <Heading title="RR auction plan" detail="Prioritise finishing depth. Keep Archer as the lead death bowler and assess seam cover after Curran’s trade."/>
     {squad && <Evidence id="auction-squad" query="auctionSquad" title="RR roster after retentions" rows={[squad]}
-      headerControls={<p className="rr-auction-squad" data-reviewed-rows><b>₹{fmt(squad.purseCrore)} crore</b> remaining · {squad.openSlots} open slots · {squad.squadSize} players in the squad · <a href={squad.sourceHref} target="_blank" rel="noreferrer">RR’s squad announcement</a></p>} />}
+      headerControls={<div className="rr-auction-squad" data-reviewed-rows>
+        <p><b>₹{fmt(squad.purseCrore)} crore</b> remaining · {squad.openSlots} open slots
+          {squad.overseasSlots != null && ` (${squad.overseasSlots} overseas)`} · {squad.squadSize} players in the squad</p>
+        {squad.auctionStartsAt && <p>Auction <time dateTime={squad.auctionStartsAt}>{auctionTime.format(new Date(squad.auctionStartsAt))} IST</time> · {squad.auctionVenue}</p>}
+        <a href={squad.sourceHref} target="_blank" rel="noreferrer">IPL retention and auction notice</a>
+      </div>} />}
     {plan ? <Evidence id="auction-plan" query="auctionPlan" title="Auction decisions after retentions" rows={[plan]}
       headerControls={<Choices options={plans.map(row => [row.id, row.label])} value={plan.id} onChange={setScenario} label="Auction scenario"/>}>
       <div className="rr-call" aria-live="polite">
@@ -339,7 +346,8 @@ export function DashboardContent() {
     <Evidence id="analysis-coverage" query="screening" title="Screened match coverage" rows={[totals]}
       headerControls={<div className="rr-coverage" data-reviewed-rows>{[[totals.matches,"matches screened"],[totals.events,"regulation events"],[totals.pressure,"pressure-window events"]].map(([n,label]) => <div key={label}><b>{number.format(n)}</b><span>{label}</span></div>)}</div>} />
     <RankExplorer rows={rows}/>
-    <AnalyticsLab rows={rows} matches={matchEvidence}/>
+    <AnalyticsLab rows={rows} matches={matchEvidence}
+      matchesThrough={totals.matchesThrough && date.format(new Date(totals.matchesThrough))}/>
     <Duel bowlers={bowlers} totals={totals}/>
     <Auction comparators={comparators} plans={auctionPlans} squad={squad} scenario={scenario} setScenario={setScenario}/>
     <Methodology robustness={robustness}/>
