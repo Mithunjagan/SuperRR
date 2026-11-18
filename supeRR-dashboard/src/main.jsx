@@ -17,6 +17,23 @@ import reviewedSnapshot from "./data.json";
 const hosted = globalThis.location?.hostname.endsWith(".chatgpt.site") ?? false;
 const splitViewer = import.meta.env.MODE === "viewer";
 
+function openOverviewOnReload() {
+  if (hosted || performance.getEntriesByType("navigation")[0]?.type !== "reload") return;
+
+  const { history, location } = window;
+  const previousRestoration = history.scrollRestoration;
+  history.scrollRestoration = "manual";
+  if (location.hash) {
+    const url = new URL(location.href);
+    url.hash = "";
+    history.replaceState(history.state, "", url);
+  }
+  window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+  window.addEventListener("pageshow", () => {
+    requestAnimationFrame(() => { history.scrollRestoration = previousRestoration; });
+  }, { once: true });
+}
+
 async function loadViewerSnapshot() {
   const url = document.querySelector('meta[name="data-app-local-snapshot"]')?.content;
   if (!url) throw new Error("The dashboard snapshot is missing.");
@@ -42,4 +59,7 @@ async function mount(element) {
 }
 
 const element = globalThis.document?.getElementById("root");
-if (element) void mount(element);
+if (element) {
+  openOverviewOnReload();
+  void mount(element);
+}

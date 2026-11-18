@@ -1,4 +1,4 @@
-import React, { useEffect, useId, useMemo, useState } from "react";
+import React, { useId, useMemo, useState } from "react";
 import { DataComponent } from "../../data-app-public.jsx";
 import Picker from "./Picker.jsx";
 import { chartDomain, preparePlayer, sensitivityCurve, sensitivityRating } from "./pressure-analytics.mjs";
@@ -87,10 +87,6 @@ export default function AnalyticsLab({ rows, matches }) {
   const [selected, setSelected] = useState("Akeal Hosein");
   const [comparison, setComparison] = useState("Jasprit Bumrah");
   const [strength, setStrength] = useState(60);
-  useEffect(() => {
-    // The static viewer mounts the lab after loading its data snapshot.
-    if (window.location.hash === "#analytics") document.getElementById("analytics")?.scrollIntoView({ behavior: "instant" });
-  }, []);
   const players = rows.filter(row => row.role === role);
   const prepared = useMemo(() => Object.fromEntries(rows.map(row => [row.name, preparePlayer(matches.filter(game => game.name === row.name && game.role === row.role))])), [rows, matches]);
   const primary = prepared[selected], peer = prepared[comparison];

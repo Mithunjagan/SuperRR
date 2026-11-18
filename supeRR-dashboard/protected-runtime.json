@@ -249,7 +249,7 @@
     "src/live-data.js": "858974f39fda727ac19b9d8211ecdff714f81530b88420e334c054acd6475160",
     "src/live-query-job.js": "60781d724af70d5cdfad6eb458011ba3ae6c95619ef36c9e18215258bae8dbe1",
     "src/live-refresh.js": "1df59963befe1a6b88452e2c9ceaf21e1db2b4ebff1b0eb98b7a9944ea1d7762",
-    "src/main.jsx": "375cbde139ca891c2f4247b21a60dc585238a5812624f1cead7cb7377bdb8002",
+    "src/main.jsx": "607cc24ba91d450b316173f5ace5de4a3a9d903a6258de31ef0edcd9a9f20f18",
     "src/object-snapshot-storage.js": "f4b2838453460b409ea080410d549d6f4fe5896fea94cd6be16ea235470dd734",
     "src/owner-email.js": "4bf602cf4a5fc05bebbadc0202366c8dec28fc3df621df29efa40a7dd43ac1d2",
     "src/prebuilt-runtime-entry.jsx": "238b8bdfb541ea53d0cd75ed34893d878097ca05c8e5aff46ea4270a559adf59",

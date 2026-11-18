@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { DataComponent, useDataApp } from "../../data-app-public.jsx";
 import "./pressure.css";
 import "./experience.css";
@@ -273,6 +273,12 @@ export function DashboardContent() {
   const squad = reviewedRows("auctionSquad")[0];
   const robustness = reviewedRows("robustness");
   const matchEvidence = reviewedRows("matchEvidence");
+
+  useLayoutEffect(() => {
+    if (performance.getEntriesByType("navigation")[0]?.type === "back_forward") return;
+    const section = nav.find(([id]) => window.location.hash === `#${id}`)?.[0];
+    if (section) root.current?.querySelector(`#${section}`)?.scrollIntoView({ behavior: "instant" });
+  }, []);
 
   useEffect(() => {
     const page = root.current;
