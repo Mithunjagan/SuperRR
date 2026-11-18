@@ -120,7 +120,7 @@ export default function AnalyticsLab({ rows, matches }) {
         <div className="rr-lab-adjustment">
           <div className="rr-strength"><label htmlFor="rr-shrinkage">Shrinkage <output>{strength} added balls</output></label>
             <input id="rr-shrinkage" type="range" min="0" max="240" step="5" value={strength} onChange={event=>setStrength(Number(event.target.value))}/>
-            <div><span>0 · rawer</span><span>240 · more conservative</span></div>
+            <div><span>0 · no shrinkage</span><span>240 · more shrinkage</span></div>
           </div>
           <button type="button" className="rr-reset" onClick={()=>setStrength(60)} disabled={strength===60}>Reset to 60</button>
         </div>

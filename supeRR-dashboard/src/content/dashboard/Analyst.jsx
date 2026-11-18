@@ -3,11 +3,11 @@ import React, { useState } from "react";
 const examples = [
   {
     label:"Why is Hosein #1?",
-    answer:"Hosein leads the official bowling ranking because his worst leave-one-match-out score is 22.10 versus Bumrah’s 21.66. He was positive in 15 of 19 matches, compared with Bumrah’s 16 of 24. The 0.44-point gap is small. Bumrah leads on bootstrap Q25, chase-only rank, and IPL exposure. See the dossier, page 6."
+    answer:"Hosein leads the final bowling ranking because his worst leave-one-match-out score is 22.10 versus Bumrah’s 21.66. He was positive in 15 of 19 matches, compared with Bumrah’s 16 of 24. The 0.44-point gap is small. Bumrah leads on bootstrap Q25, chase-only rank, and IPL exposure. See the dossier, page 6."
   },
   {
-    label:"Who is the pace bid?",
-    answer:"If Archer leaves and Bumrah enters the official auction pool, Bumrah is the first pace bid. He covers the new ball plus the death and has 113 qualifying IPL balls. Shami adds new-ball pace, so closing overs are the priority. See pages 1, 8 and 10."
+    label:"What is the auction priority?",
+    answer:"Prioritise finishing depth. RR released Hetmyer and retained Ferreira as cover. Compare available finishers with a Hetmyer return if he registers. Keep Archer as the lead death bowler. See the dossier, page 8."
   },
   {
     label:"Did it predict 2026?",
@@ -18,10 +18,9 @@ const examples = [
 export default function Analyst() {
   const [answer, setAnswer] = useState(null);
 
-  return <section id="analyst" className="rr-section rr-analyst" data-reveal>
+  return <section id="analyst" className="rr-section rr-analyst">
     <div className="rr-analyst-intro">
       <h2>Dossier Q&amp;A</h2>
-      <p>Answers on the bowling rankings, the pace bid, and the 2026 forecast check.</p>
     </div>
     <div className="rr-analyst-card">
       <div className="rr-analyst-examples" role="group" aria-label="Dossier answers">

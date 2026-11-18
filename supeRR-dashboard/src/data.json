@@ -29,8 +29,8 @@
           "min_balls_after_removal": 288,
           "min_matches_after_removal": 31,
           "role": "Batters",
-          "fit": "Hetmyer or Ferreira slot",
-          "deployment": "If a finishing slot opens, add a right-handed boundary hitter behind Jurel and Parag. He struck at 198.0 across 393 death balls."
+          "fit": "Finishing benchmark",
+          "deployment": "Klaasen is reported retained by SRH. His strike rate of 198.0 across 393 death balls benchmarks the finishing role behind Jurel and Parag."
         },
         {
           "name": "Reeza Hendricks",
@@ -173,8 +173,8 @@
           "min_balls_after_removal": 311,
           "min_matches_after_removal": 31,
           "role": "Batters",
-          "fit": "Hetmyer finishing slot",
-          "deployment": "Replace left-handed boundary hitting if Hetmyer leaves. He struck at 191.8 across 427 death balls and ranked fourth in chases."
+          "fit": "Left-handed finishing benchmark",
+          "deployment": "Pooran is reported retained by LSG. His strike rate of 191.8 across 427 death balls and fourth-place chase ranking benchmark the left-handed finishing role."
         },
         {
           "name": "Namboori Tilak Varma",
@@ -270,7 +270,7 @@
           "min_matches_after_removal": 18,
           "role": "Bowlers",
           "fit": "Overseas new-ball spin alongside Siddharth",
-          "deployment": "He bowled 744 legal powerplay balls. Siddharth adds Indian cover in that phase, so an overseas slot needs a clear role beyond duplicating that cover."
+          "deployment": "Hosein is reported retained by CSK. His 744 legal powerplay balls show the new-ball role. Siddharth provides Indian cover for that phase at RR."
         },
         {
           "name": "Jasprit Bumrah",
@@ -293,8 +293,8 @@
           "min_balls_after_removal": 147,
           "min_matches_after_removal": 23,
           "role": "Bowlers",
-          "fit": "Archer pace slot",
-          "deployment": "If Archer leaves, pair him with Shami and prioritise closing overs. Bumrah bowled 696 legal powerplay balls and 514 at the death and led the chase-only ranking."
+          "fit": "New-ball and death benchmark",
+          "deployment": "Mumbai retained Bumrah. He bowled 696 legal powerplay balls and 514 at the death and led the chase-only ranking."
         },
         {
           "name": "Sunil Narine",
@@ -365,8 +365,8 @@
           "min_balls_after_removal": 209,
           "min_matches_after_removal": 28,
           "role": "Bowlers",
-          "fit": "Curran seam cover",
-          "deployment": "Consider for the seam portion of Curran’s all-round role. Holder bowled 546 legal powerplay balls, 711 in the middle and 617 at the death. Assess batting separately."
+          "fit": "Seam all-rounder benchmark",
+          "deployment": "Gujarat retained Holder. His 546 legal powerplay balls, 711 in the middle and 617 at the death illustrate the seam coverage RR would need after Curran’s trade. Assess batting separately."
         },
         {
           "name": "Mohammad Nawaz",
@@ -486,7 +486,7 @@
           "min_matches_after_removal": 12,
           "role": "Bowlers",
           "fit": "Existing RR pace role",
-          "deployment": "Use his workload to size the role if he leaves. Across the 15 screened RR matches he bowled 198 powerplay balls and 102 at the death."
+          "deployment": "RR retained Archer. Keep him as the lead death bowler. Across 15 screened RR matches he bowled 198 powerplay balls and 102 at the death."
         }
       ],
       "source": {
@@ -494,7 +494,8 @@
         "files": [
           "final_rankings.json",
           "Unstop_Submission_Order.csv",
-          "SupeRR_Round_1_Scouting_Dossier.pdf"
+          "SupeRR_Round_1_Scouting_Dossier.pdf",
+          "output/final_recheck/ipl_2027_availability.csv"
         ],
         "grain": "Player × role",
         "metricDefinitions": [
@@ -514,7 +515,7 @@
         "evidenceFlow": [
           {
             "title": "Snapshot assembly",
-            "detail": "Take the final ten players of each role in the submission order. Keep published aggregate metrics and the dossier’s role notes."
+            "detail": "Take the final ten players of each role in the submission order. Use the dossier’s role evidence and the reviewed 2027 availability snapshot to distinguish retained players from potential auction targets."
           }
         ],
         "label": "Official Round 1 shortlists"
